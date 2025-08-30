@@ -78,22 +78,35 @@
         .content-area {
             background: white;
             border-radius: 15px;
-            padding: 30px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             display: none;
             max-height: 80vh;
-            overflow-y: auto;
+            position: relative;
+            overflow: hidden;
         }
 
         .content-area.active {
-            display: block;
+            display: flex;
+            flex-direction: column;
         }
 
         .chapter-nav {
             display: flex;
             gap: 10px;
-            margin-bottom: 25px;
             flex-wrap: wrap;
+            background: white;
+            padding: 20px 30px;
+            border-bottom: 2px solid #e0e0e0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            border-radius: 15px 15px 0 0;
+        }
+        
+        .chapter-content-wrapper {
+            overflow-y: auto;
+            flex: 1;
+            padding: 0;
         }
 
         .chapter-btn {
@@ -118,6 +131,7 @@
 
         .chapter-content {
             display: none;
+            padding: 30px;
         }
 
         .chapter-content.active {
@@ -339,6 +353,7 @@
             </div>
 
             <!-- I'll include your complete science content here but summarized for space -->
+            <div class="chapter-content-wrapper">
             <div id="science-chapter-1" class="chapter-content active">
                 <h2>🔬 Exploring Science</h2>
                 
@@ -3422,6 +3437,7 @@
                     </ul>
                 </div>
             </div>
+            </div>
         </div>
 
         <!-- Social Studies Content -->
@@ -3439,6 +3455,7 @@
                 <button class="chapter-btn" onclick="showChapter('social', 10)">Maps & Geography</button>
             </div>
 
+            <div class="chapter-content-wrapper">
             <div id="social-chapter-1" class="chapter-content active">
                 <h2>🇯🇲 Our Common Heritage</h2>
                 
@@ -6229,6 +6246,7 @@
                     </ul>
                 </div>
             </div>
+            </div>
         </div>
 
         <!-- Mathematics Content -->
@@ -6240,8 +6258,15 @@
                 <button class="chapter-btn" onclick="showChapter('math', 4)">Algebra & Patterns</button>
                 <button class="chapter-btn" onclick="showChapter('math', 5)">Statistics & Probability</button>
                 <button class="chapter-btn" onclick="showChapter('math', 6)">Money & Consumer Math</button>
+                <button class="chapter-btn" onclick="showChapter('math', 7)">Fractions</button>
+                <button class="chapter-btn" onclick="showChapter('math', 8)">Decimals</button>
+                <button class="chapter-btn" onclick="showChapter('math', 9)">Percentages</button>
+                <button class="chapter-btn" onclick="showChapter('math', 10)">Advanced Geometry</button>
+                <button class="chapter-btn" onclick="showChapter('math', 11)">Data & Graphs</button>
+                <button class="chapter-btn" onclick="showChapter('math', 12)">Problem Solving</button>
             </div>
 
+            <div class="chapter-content-wrapper">
             <div id="math-chapter-1" class="chapter-content active">
                 <h2>🔢 Number Operations</h2>
                 
@@ -8325,6 +8350,730 @@
                     </ul>
                 </div>
             </div>
+
+            <!-- Chapter 7: Fractions -->
+            <div id="math-chapter-7" class="chapter-content">
+                <h2>🍕 Fractions</h2>
+                
+                <h3>Understanding Fractions</h3>
+                <p>A fraction represents part of a whole. It has two parts: the numerator (top number) and denominator (bottom number).</p>
+                
+                <div class="example-box">
+                    <h4>Fraction Parts:</h4>
+                    <ul>
+                        <li><strong>Numerator:</strong> Shows how many parts we have</li>
+                        <li><strong>Denominator:</strong> Shows how many equal parts the whole is divided into</li>
+                        <li><strong>Example:</strong> In 3/4, we have 3 out of 4 equal parts</li>
+                    </ul>
+                </div>
+
+                <h3>Types of Fractions</h3>
+                
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Type</th>
+                            <th>Description</th>
+                            <th>Examples</th>
+                        </tr>
+                        <tr>
+                            <td>Proper Fraction</td>
+                            <td>Numerator is less than denominator</td>
+                            <td>1/2, 3/4, 5/8</td>
+                        </tr>
+                        <tr>
+                            <td>Improper Fraction</td>
+                            <td>Numerator is equal to or greater than denominator</td>
+                            <td>5/4, 7/3, 9/9</td>
+                        </tr>
+                        <tr>
+                            <td>Mixed Number</td>
+                            <td>Whole number and fraction combined</td>
+                            <td>1 1/2, 2 3/4, 5 2/3</td>
+                        </tr>
+                        <tr>
+                            <td>Unit Fraction</td>
+                            <td>Numerator is 1</td>
+                            <td>1/2, 1/3, 1/5</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Equivalent Fractions</h3>
+                <p>Different fractions that represent the same amount.</p>
+                
+                <div class="example-box">
+                    <h4>Finding Equivalent Fractions:</h4>
+                    <ul>
+                        <li>Multiply or divide both numerator and denominator by the same number</li>
+                        <li>1/2 = 2/4 = 3/6 = 4/8 (multiply by 2, 3, 4)</li>
+                        <li>6/8 = 3/4 (divide both by 2)</li>
+                    </ul>
+                </div>
+
+                <h3>Comparing Fractions</h3>
+                
+                <h4>Same Denominators:</h4>
+                <p>Compare numerators: 3/5 > 2/5</p>
+
+                <h4>Same Numerators:</h4>
+                <p>Smaller denominator is larger: 1/3 > 1/5</p>
+
+                <h4>Different Denominators:</h4>
+                <p>Find common denominators or cross multiply</p>
+
+                <h3>Adding and Subtracting Fractions</h3>
+                
+                <h4>Same Denominators:</h4>
+                <ul>
+                    <li>Add/subtract numerators, keep denominator</li>
+                    <li>3/7 + 2/7 = 5/7</li>
+                    <li>5/8 - 3/8 = 2/8 = 1/4</li>
+                </ul>
+
+                <h4>Different Denominators:</h4>
+                <ul>
+                    <li>Find common denominator first</li>
+                    <li>1/2 + 1/3 = 3/6 + 2/6 = 5/6</li>
+                </ul>
+
+                <h3>Fractions of Quantities</h3>
+                <p>To find a fraction of a number: multiply the number by the numerator, then divide by the denominator.</p>
+                
+                <div class="practice-problems">
+                    <h4>Examples:</h4>
+                    <ul>
+                        <li>1/2 of 12 = (12 × 1) ÷ 2 = 6</li>
+                        <li>3/4 of 20 = (20 × 3) ÷ 4 = 15</li>
+                        <li>2/3 of 18 = (18 × 2) ÷ 3 = 12</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Chapter 8: Decimals -->
+            <div id="math-chapter-8" class="chapter-content">
+                <h2>🔢 Decimals</h2>
+                
+                <h3>Understanding Decimal Numbers</h3>
+                <p>Decimals are another way to write fractions, especially fractions with denominators of 10, 100, or 1000.</p>
+
+                <h4>Place Value in Decimals</h4>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Hundreds</th>
+                            <th>Tens</th>
+                            <th>Ones</th>
+                            <th>.</th>
+                            <th>Tenths</th>
+                            <th>Hundredths</th>
+                            <th>Thousandths</th>
+                        </tr>
+                        <tr>
+                            <td>100</td>
+                            <td>10</td>
+                            <td>1</td>
+                            <td>.</td>
+                            <td>0.1</td>
+                            <td>0.01</td>
+                            <td>0.001</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>4</td>
+                            <td>7</td>
+                            <td>.</td>
+                            <td>3</td>
+                            <td>5</td>
+                            <td>6</td>
+                        </tr>
+                    </table>
+                </div>
+                <p>Example: 247.356 = two hundred forty-seven and three hundred fifty-six thousandths</p>
+
+                <h3>Decimal Currency</h3>
+                <p>Money is a common use of decimals. In Jamaica:</p>
+                <ul>
+                    <li>$1.00 = 1 dollar</li>
+                    <li>$0.50 = 50 cents</li>
+                    <li>$0.25 = 25 cents</li>
+                    <li>$0.10 = 10 cents</li>
+                    <li>$0.05 = 5 cents</li>
+                    <li>$0.01 = 1 cent</li>
+                </ul>
+
+                <h3>Converting Between Fractions and Decimals</h3>
+                
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Fraction</th>
+                            <th>Decimal</th>
+                            <th>Words</th>
+                        </tr>
+                        <tr>
+                            <td>1/10</td>
+                            <td>0.1</td>
+                            <td>one tenth</td>
+                        </tr>
+                        <tr>
+                            <td>1/4</td>
+                            <td>0.25</td>
+                            <td>twenty-five hundredths</td>
+                        </tr>
+                        <tr>
+                            <td>1/2</td>
+                            <td>0.5</td>
+                            <td>five tenths</td>
+                        </tr>
+                        <tr>
+                            <td>3/4</td>
+                            <td>0.75</td>
+                            <td>seventy-five hundredths</td>
+                        </tr>
+                        <tr>
+                            <td>1/100</td>
+                            <td>0.01</td>
+                            <td>one hundredth</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Adding and Subtracting Decimals</h3>
+                <p>Line up the decimal points and add or subtract as usual.</p>
+                
+                <div class="example-box">
+                    <h4>Examples:</h4>
+                    <pre>
+  12.45
++  3.78
+-------
+  16.23
+
+  15.60
+-  7.25
+-------
+   8.35
+                    </pre>
+                </div>
+
+                <h3>Multiplying Decimals</h3>
+                <ul>
+                    <li>Multiply as if they were whole numbers</li>
+                    <li>Count decimal places in both numbers</li>
+                    <li>Place decimal point in answer with same total decimal places</li>
+                </ul>
+
+                <div class="example-box">
+                    <h4>Example: 2.3 × 1.4</h4>
+                    <pre>
+   2.3  (1 decimal place)
+×  1.4  (1 decimal place)
+-------
+    92
+   230
+-------
+   3.22  (2 decimal places total)
+                    </pre>
+                </div>
+
+                <h3>Dividing Decimals</h3>
+                
+                <h4>Dividing by Powers of 10:</h4>
+                <ul>
+                    <li>÷ 10: Move decimal point 1 place left</li>
+                    <li>÷ 100: Move decimal point 2 places left</li>
+                    <li>÷ 1000: Move decimal point 3 places left</li>
+                </ul>
+
+                <h4>Dividing by Whole Numbers:</h4>
+                <p>Place decimal point in quotient directly above decimal point in dividend.</p>
+            </div>
+
+            <!-- Chapter 9: Percentages -->
+            <div id="math-chapter-9" class="chapter-content">
+                <h2>📊 Percentages</h2>
+                
+                <h3>Understanding Percentages</h3>
+                <p>Percent means "out of 100" or "per hundred." The symbol % means percent.</p>
+                
+                <div class="example-box">
+                    <h4>Common Percentages:</h4>
+                    <ul>
+                        <li>50% = 50/100 = 1/2 = 0.5</li>
+                        <li>25% = 25/100 = 1/4 = 0.25</li>
+                        <li>75% = 75/100 = 3/4 = 0.75</li>
+                        <li>10% = 10/100 = 1/10 = 0.1</li>
+                        <li>100% = 100/100 = 1 = 1.0</li>
+                    </ul>
+                </div>
+
+                <h3>Converting Between Percentages, Decimals, and Fractions</h3>
+                
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Percentage</th>
+                            <th>Decimal</th>
+                            <th>Fraction</th>
+                        </tr>
+                        <tr>
+                            <td>20%</td>
+                            <td>0.20</td>
+                            <td>1/5</td>
+                        </tr>
+                        <tr>
+                            <td>40%</td>
+                            <td>0.40</td>
+                            <td>2/5</td>
+                        </tr>
+                        <tr>
+                            <td>60%</td>
+                            <td>0.60</td>
+                            <td>3/5</td>
+                        </tr>
+                        <tr>
+                            <td>80%</td>
+                            <td>0.80</td>
+                            <td>4/5</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Finding Percentages of Quantities</h3>
+                <p>To find a percentage of a number, multiply the number by the decimal form of the percentage.</p>
+                
+                <div class="practice-problems">
+                    <h4>Examples:</h4>
+                    <ul>
+                        <li>25% of 80 = 0.25 × 80 = 20</li>
+                        <li>15% of 200 = 0.15 × 200 = 30</li>
+                        <li>75% of 120 = 0.75 × 120 = 90</li>
+                    </ul>
+                </div>
+
+                <h3>Percentage Profit and Loss</h3>
+                
+                <h4>Profit:</h4>
+                <p>Profit % = (Selling Price - Cost Price) ÷ Cost Price × 100</p>
+
+                <h4>Loss:</h4>
+                <p>Loss % = (Cost Price - Selling Price) ÷ Cost Price × 100</p>
+
+                <div class="example-box">
+                    <h4>Example:</h4>
+                    <p>A book costs $100 and sells for $120.</p>
+                    <p>Profit = $120 - $100 = $20</p>
+                    <p>Profit % = ($20 ÷ $100) × 100 = 20%</p>
+                </div>
+
+                <h3>Real-World Applications</h3>
+                <ul>
+                    <li><strong>Discounts:</strong> 20% off means pay 80%</li>
+                    <li><strong>Test scores:</strong> 18/20 = 90%</li>
+                    <li><strong>Interest:</strong> 5% annual interest rate</li>
+                    <li><strong>Growth:</strong> Population increased by 15%</li>
+                </ul>
+            </div>
+
+            <!-- Chapter 10: Advanced Geometry -->
+            <div id="math-chapter-10" class="chapter-content">
+                <h2>📐 Advanced Geometry</h2>
+                
+                <h3>Perimeter and Area</h3>
+                
+                <h4>Perimeter:</h4>
+                <p>The distance around the outside of a shape.</p>
+                
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Shape</th>
+                            <th>Perimeter Formula</th>
+                        </tr>
+                        <tr>
+                            <td>Square</td>
+                            <td>P = 4 × side</td>
+                        </tr>
+                        <tr>
+                            <td>Rectangle</td>
+                            <td>P = 2 × (length + width)</td>
+                        </tr>
+                        <tr>
+                            <td>Triangle</td>
+                            <td>P = side₁ + side₂ + side₃</td>
+                        </tr>
+                        <tr>
+                            <td>Circle</td>
+                            <td>P = 2πr or πd</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h4>Area:</h4>
+                <p>The amount of space inside a shape.</p>
+                
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Shape</th>
+                            <th>Area Formula</th>
+                        </tr>
+                        <tr>
+                            <td>Square</td>
+                            <td>A = side²</td>
+                        </tr>
+                        <tr>
+                            <td>Rectangle</td>
+                            <td>A = length × width</td>
+                        </tr>
+                        <tr>
+                            <td>Triangle</td>
+                            <td>A = ½ × base × height</td>
+                        </tr>
+                        <tr>
+                            <td>Circle</td>
+                            <td>A = πr²</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Polygons</h3>
+                
+                <h4>Types of Triangles:</h4>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Type</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>Equilateral</td>
+                            <td>All sides equal, all angles 60°</td>
+                        </tr>
+                        <tr>
+                            <td>Isosceles</td>
+                            <td>Two sides equal</td>
+                        </tr>
+                        <tr>
+                            <td>Scalene</td>
+                            <td>All sides different lengths</td>
+                        </tr>
+                        <tr>
+                            <td>Right</td>
+                            <td>Has one 90° angle</td>
+                        </tr>
+                        <tr>
+                            <td>Acute</td>
+                            <td>All angles less than 90°</td>
+                        </tr>
+                        <tr>
+                            <td>Obtuse</td>
+                            <td>Has one angle greater than 90°</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h4>Quadrilaterals:</h4>
+                <ul>
+                    <li><strong>Square:</strong> 4 equal sides, 4 right angles</li>
+                    <li><strong>Rectangle:</strong> 4 right angles, opposite sides equal</li>
+                    <li><strong>Parallelogram:</strong> Opposite sides parallel and equal</li>
+                    <li><strong>Rhombus:</strong> 4 equal sides, opposite sides parallel</li>
+                    <li><strong>Trapezoid:</strong> One pair of parallel sides</li>
+                </ul>
+
+                <h3>Symmetry and Congruent Shapes</h3>
+                
+                <h4>Line of Symmetry:</h4>
+                <p>A line that divides a shape into two identical halves.</p>
+
+                <h4>Congruent Shapes:</h4>
+                <p>Shapes that are exactly the same size and shape.</p>
+
+                <h3>Introduction to Angles</h3>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Angle Type</th>
+                            <th>Measurement</th>
+                        </tr>
+                        <tr>
+                            <td>Right Angle</td>
+                            <td>90°</td>
+                        </tr>
+                        <tr>
+                            <td>Acute Angle</td>
+                            <td>Less than 90°</td>
+                        </tr>
+                        <tr>
+                            <td>Obtuse Angle</td>
+                            <td>More than 90°, less than 180°</td>
+                        </tr>
+                        <tr>
+                            <td>Straight Angle</td>
+                            <td>180°</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>3D Shapes (Solid Figures)</h3>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Shape</th>
+                            <th>Faces</th>
+                            <th>Edges</th>
+                            <th>Vertices</th>
+                        </tr>
+                        <tr>
+                            <td>Cube</td>
+                            <td>6</td>
+                            <td>12</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>Rectangular Prism</td>
+                            <td>6</td>
+                            <td>12</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>Pyramid (square base)</td>
+                            <td>5</td>
+                            <td>8</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Cylinder</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Cone</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Sphere</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Chapter 11: Data & Graphs -->
+            <div id="math-chapter-11" class="chapter-content">
+                <h2>📊 Data and Graphs</h2>
+                
+                <h3>Interpreting Data</h3>
+                <p>Data is information collected about something. We can organize and display data in different ways.</p>
+
+                <h3>Types of Graphs</h3>
+                
+                <h4>Bar Graphs:</h4>
+                <p>Use bars to show quantities. Good for comparing different categories.</p>
+
+                <h4>Line Graphs:</h4>
+                <p>Use points connected by lines to show changes over time.</p>
+
+                <h4>Circle Graphs (Pie Charts):</h4>
+                <p>Use a circle divided into sectors to show parts of a whole.</p>
+
+                <h4>Pictographs:</h4>
+                <p>Use pictures or symbols to represent data.</p>
+
+                <h3>Statistics - Mathematical Averages</h3>
+                
+                <h4>Mean (Average):</h4>
+                <p>Add all numbers and divide by how many numbers there are.</p>
+                <div class="example-box">
+                    <p>Find the mean of: 5, 8, 3, 10, 4</p>
+                    <p>Mean = (5 + 8 + 3 + 10 + 4) ÷ 5 = 30 ÷ 5 = 6</p>
+                </div>
+
+                <h4>Median:</h4>
+                <p>The middle number when data is arranged in order.</p>
+                <div class="example-box">
+                    <p>Find the median of: 3, 5, 8, 10, 12</p>
+                    <p>Median = 8 (middle number)</p>
+                    
+                    <p>For even numbers of data: 3, 5, 8, 10</p>
+                    <p>Median = (5 + 8) ÷ 2 = 6.5</p>
+                </div>
+
+                <h4>Mode:</h4>
+                <p>The number that appears most often.</p>
+                <div class="example-box">
+                    <p>Find the mode of: 2, 5, 3, 5, 8, 5, 9</p>
+                    <p>Mode = 5 (appears 3 times)</p>
+                </div>
+
+                <h3>Creating Graphs</h3>
+                <ul>
+                    <li>Choose appropriate scale and intervals</li>
+                    <li>Label axes clearly</li>
+                    <li>Give graph a descriptive title</li>
+                    <li>Use consistent colors/patterns</li>
+                </ul>
+
+                <h3>Probability (Chance)</h3>
+                
+                <h4>Basic Probability:</h4>
+                <p>Probability = Number of favorable outcomes ÷ Total number of possible outcomes</p>
+
+                <h4>Expressing Probability:</h4>
+                <ul>
+                    <li><strong>Fraction:</strong> 3/6 = 1/2</li>
+                    <li><strong>Decimal:</strong> 0.5</li>
+                    <li><strong>Percentage:</strong> 50%</li>
+                    <li><strong>Words:</strong> equally likely, certain, impossible</li>
+                </ul>
+
+                <h4>Probability Scale:</h4>
+                <ul>
+                    <li>0 = Impossible (will never happen)</li>
+                    <li>0.5 = Equally likely (50-50 chance)</li>
+                    <li>1 = Certain (will always happen)</li>
+                </ul>
+
+                <div class="example-box">
+                    <h4>Example: Rolling a dice</h4>
+                    <p>Probability of rolling a 3 = 1/6</p>
+                    <p>Probability of rolling an even number = 3/6 = 1/2</p>
+                    <p>Probability of rolling a number less than 7 = 6/6 = 1 (certain)</p>
+                </div>
+            </div>
+
+            <!-- Chapter 12: Problem Solving -->
+            <div id="math-chapter-12" class="chapter-content">
+                <h2>🧠 Problem Solving and Reasoning</h2>
+                
+                <h3>Problem-Solving Strategies</h3>
+                
+                <h4>Step-by-Step Approach:</h4>
+                <ol>
+                    <li><strong>Understand:</strong> Read the problem carefully</li>
+                    <li><strong>Plan:</strong> Choose a strategy</li>
+                    <li><strong>Solve:</strong> Carry out the plan</li>
+                    <li><strong>Check:</strong> Review your answer</li>
+                </ol>
+
+                <h4>Problem-Solving Strategies:</h4>
+                <ul>
+                    <li>Draw a picture or diagram</li>
+                    <li>Make a table or chart</li>
+                    <li>Look for patterns</li>
+                    <li>Work backwards</li>
+                    <li>Guess and check</li>
+                    <li>Make it simpler</li>
+                    <li>Act it out</li>
+                    <li>Write an equation</li>
+                </ul>
+
+                <h3>Word Problems</h3>
+                
+                <h4>Key Words to Look For:</h4>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Operation</th>
+                            <th>Key Words</th>
+                        </tr>
+                        <tr>
+                            <td>Addition</td>
+                            <td>add, plus, sum, total, altogether, combine, increase</td>
+                        </tr>
+                        <tr>
+                            <td>Subtraction</td>
+                            <td>subtract, minus, difference, less, decrease, remove, take away</td>
+                        </tr>
+                        <tr>
+                            <td>Multiplication</td>
+                            <td>multiply, times, product, groups of, each, per, rate</td>
+                        </tr>
+                        <tr>
+                            <td>Division</td>
+                            <td>divide, quotient, share equally, split, per, average</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Multi-Step Problems</h3>
+                <p>Some problems require more than one operation to solve.</p>
+
+                <div class="example-box">
+                    <h4>Example:</h4>
+                    <p>Sarah bought 3 packs of stickers. Each pack has 8 stickers. She gave 5 stickers to her friend. How many stickers does she have left?</p>
+                    
+                    <p><strong>Solution:</strong></p>
+                    <ol>
+                        <li>Find total stickers: 3 × 8 = 24 stickers</li>
+                        <li>Subtract given away: 24 - 5 = 19 stickers</li>
+                    </ol>
+                    <p><strong>Answer:</strong> Sarah has 19 stickers left.</p>
+                </div>
+
+                <h3>Money Problems</h3>
+                <ul>
+                    <li>Making change</li>
+                    <li>Finding best buy (unit pricing)</li>
+                    <li>Simple budgeting</li>
+                    <li>Profit and loss</li>
+                </ul>
+
+                <h3>Time and Distance Problems</h3>
+                <ul>
+                    <li>Speed = Distance ÷ Time</li>
+                    <li>Distance = Speed × Time</li>
+                    <li>Time = Distance ÷ Speed</li>
+                </ul>
+
+                <h3>Pattern Recognition</h3>
+                
+                <h4>Number Patterns:</h4>
+                <ul>
+                    <li>2, 4, 6, 8, __ (even numbers: +2)</li>
+                    <li>1, 4, 9, 16, __ (perfect squares: 25)</li>
+                    <li>2, 6, 18, 54, __ (×3 pattern: 162)</li>
+                </ul>
+
+                <h4>Shape Patterns:</h4>
+                <p>Look for repeating sequences in size, color, or orientation.</p>
+
+                <h3>Logical Reasoning</h3>
+                <ul>
+                    <li>Using clues to solve puzzles</li>
+                    <li>Making organized lists</li>
+                    <li>Testing hypotheses</li>
+                    <li>Eliminating impossible answers</li>
+                </ul>
+
+                <h3>Introduction to Algebra</h3>
+                
+                <h4>Using Variables:</h4>
+                <p>A letter (like x or n) that represents an unknown number.</p>
+
+                <h4>Simple Equations:</h4>
+                <ul>
+                    <li>x + 5 = 12 (x = 7)</li>
+                    <li>3n = 21 (n = 7)</li>
+                    <li>y - 4 = 10 (y = 14)</li>
+                </ul>
+
+                <h4>Substitution:</h4>
+                <p>Replace variables with numbers to solve problems.</p>
+                <p>If n = 6, then 2n + 3 = 2(6) + 3 = 15</p>
+
+                <div class="fun-fact">
+                    <strong>Problem-Solving Tip:</strong> Don't give up! Try different strategies if the first one doesn't work. Every mistake is a learning opportunity!
+                </div>
+            </div>
+            </div>
         </div>
 
         <!-- Language Arts Content -->
@@ -8338,8 +9087,13 @@
                 <button class="chapter-btn" onclick="showChapter('language', 6)">Punctuation & Capitalization</button>
                 <button class="chapter-btn" onclick="showChapter('language', 7)">Literary Elements</button>
                 <button class="chapter-btn" onclick="showChapter('language', 8)">Standard English & Creole</button>
+                <button class="chapter-btn" onclick="showChapter('language', 9)">Nouns & Pronouns</button>
+                <button class="chapter-btn" onclick="showChapter('language', 10)">Verbs & Tenses</button>
+                <button class="chapter-btn" onclick="showChapter('language', 11)">Adjectives & Adverbs</button>
+                <button class="chapter-btn" onclick="showChapter('language', 12)">Word Study</button>
             </div>
 
+            <div class="chapter-content-wrapper">
             <div id="language-chapter-1" class="chapter-content active">
                 <h2>🗣️ Listening and Speaking Skills</h2>
                 
@@ -8729,6 +9483,92 @@
                     <li><strong>Abstract nouns:</strong> Ideas or feelings (happiness, freedom)</li>
                 </ul>
 
+                <h4>Collective Nouns</h4>
+                <p>Collective nouns name groups of people, animals, or things. They are singular but refer to multiple members.</p>
+                
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Category</th>
+                            <th>Collective Nouns</th>
+                        </tr>
+                        <tr>
+                            <td>People</td>
+                            <td>family, team, class, crowd, audience, committee, choir, crew, staff</td>
+                        </tr>
+                        <tr>
+                            <td>Animals</td>
+                            <td>flock (birds), herd (cattle), pack (wolves), swarm (bees), school (fish), pride (lions)</td>
+                        </tr>
+                        <tr>
+                            <td>Things</td>
+                            <td>bunch (grapes), bouquet (flowers), fleet (ships), library (books), deck (cards)</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h4>Categories of Nouns</h4>
+                <ul>
+                    <li><strong>Countable Nouns:</strong> Things you can count (one book, two books, three books)</li>
+                    <li><strong>Uncountable Nouns:</strong> Things you cannot count individually (water, sugar, rice, information)</li>
+                    <li><strong>Compound Nouns:</strong> Two or more words combined (basketball, toothbrush, mother-in-law)</li>
+                </ul>
+
+                <h4>Gender in Nouns</h4>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Masculine</th>
+                            <th>Feminine</th>
+                            <th>Common (Either)</th>
+                            <th>Neuter (Neither)</th>
+                        </tr>
+                        <tr>
+                            <td>boy</td>
+                            <td>girl</td>
+                            <td>child</td>
+                            <td>table</td>
+                        </tr>
+                        <tr>
+                            <td>uncle</td>
+                            <td>aunt</td>
+                            <td>cousin</td>
+                            <td>book</td>
+                        </tr>
+                        <tr>
+                            <td>rooster</td>
+                            <td>hen</td>
+                            <td>chicken</td>
+                            <td>nest</td>
+                        </tr>
+                        <tr>
+                            <td>actor</td>
+                            <td>actress</td>
+                            <td>performer</td>
+                            <td>stage</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h4>Possessive Nouns</h4>
+                <p>Possessive nouns show ownership or belonging.</p>
+                <ul>
+                    <li><strong>Singular possessive:</strong> Add apostrophe + s (The girl's book)</li>
+                    <li><strong>Plural ending in s:</strong> Add apostrophe only (The girls' books)</li>
+                    <li><strong>Plural not ending in s:</strong> Add apostrophe + s (The children's toys)</li>
+                    <li><strong>Names ending in s:</strong> Can add apostrophe + s OR just apostrophe (James's bike or James' bike)</li>
+                </ul>
+
+                <div class="example-box">
+                    <h4>Possessive Examples:</h4>
+                    <ul>
+                        <li>The <strong>cat's</strong> tail (one cat)</li>
+                        <li>The <strong>cats'</strong> tails (many cats)</li>
+                        <li>The <strong>women's</strong> meeting (plural not ending in s)</li>
+                        <li><strong>Marcus's</strong> pencil or <strong>Marcus'</strong> pencil (both correct)</li>
+                    </ul>
+                </div>
+
                 <h4>Forming Plural Nouns</h4>
                 <div class="table-responsive">
                     <table>
@@ -8966,6 +9806,68 @@
                     </table>
                 </div>
 
+                <h5>Verb Tenses</h5>
+                <p>Tenses tell us when an action happens - past, present, or future.</p>
+
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Tense</th>
+                            <th>When to Use</th>
+                            <th>Examples</th>
+                        </tr>
+                        <tr>
+                            <td><strong>Simple Present</strong></td>
+                            <td>Regular actions, facts, habits</td>
+                            <td>I walk to school. She reads books. The sun rises in the east.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Simple Past</strong></td>
+                            <td>Completed actions in the past</td>
+                            <td>I walked to school yesterday. She read a book last week.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Simple Future</strong></td>
+                            <td>Actions that will happen</td>
+                            <td>I will walk to school tomorrow. She will read later.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Present Continuous</strong></td>
+                            <td>Actions happening now</td>
+                            <td>I am walking. She is reading. They are playing.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Past Continuous</strong></td>
+                            <td>Actions that were happening</td>
+                            <td>I was walking when it rained. She was reading all afternoon.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Present Perfect</strong></td>
+                            <td>Past actions connected to present</td>
+                            <td>I have walked five miles. She has read that book.</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h5>Subject-Verb Agreement</h5>
+                <p>The verb must agree with its subject in number (singular or plural).</p>
+                <ul>
+                    <li><strong>Singular subjects</strong> take singular verbs: The boy <strong>runs</strong> fast.</li>
+                    <li><strong>Plural subjects</strong> take plural verbs: The boys <strong>run</strong> fast.</li>
+                    <li><strong>I</strong> and <strong>you</strong> take plural verbs: I run, You run</li>
+                    <li><strong>He/She/It</strong> takes singular verbs (add -s): He runs, She runs, It runs</li>
+                </ul>
+
+                <div class="example-box">
+                    <h4>Agreement Examples:</h4>
+                    <ul>
+                        <li>✓ The cat <strong>sits</strong> on the mat. (singular)</li>
+                        <li>✓ The cats <strong>sit</strong> on the mat. (plural)</li>
+                        <li>✗ The cat sit on the mat. (incorrect)</li>
+                        <li>✗ The cats sits on the mat. (incorrect)</li>
+                    </ul>
+                </div>
+
                 <h4>Adjectives</h4>
                 <p>Adjectives are describing words that modify nouns and pronouns. They make our writing more colorful and specific.</p>
                 
@@ -9012,6 +9914,53 @@
 
                 <h5>Order of Adjectives</h5>
                 <p>When using multiple adjectives, they follow a specific order:</p>
+                <ol>
+                    <li>Opinion (beautiful, ugly)</li>
+                    <li>Size (big, small)</li>
+                    <li>Age (old, new)</li>
+                    <li>Shape (round, square)</li>
+                    <li>Color (red, blue)</li>
+                    <li>Origin (Jamaican, American)</li>
+                    <li>Material (wooden, plastic)</li>
+                    <li>Purpose (sleeping bag, running shoes)</li>
+                </ol>
+                <p><strong>Example:</strong> A beautiful small old round red Jamaican wooden table</p>
+
+                <h5>Proper Adjectives</h5>
+                <p>Proper adjectives are formed from proper nouns and are always capitalized.</p>
+                
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Proper Noun</th>
+                            <th>Proper Adjective</th>
+                            <th>Example</th>
+                        </tr>
+                        <tr>
+                            <td>Jamaica</td>
+                            <td>Jamaican</td>
+                            <td>Jamaican food</td>
+                        </tr>
+                        <tr>
+                            <td>America</td>
+                            <td>American</td>
+                            <td>American culture</td>
+                        </tr>
+                        <tr>
+                            <td>China</td>
+                            <td>Chinese</td>
+                            <td>Chinese language</td>
+                        </tr>
+                        <tr>
+                            <td>Africa</td>
+                            <td>African</td>
+                            <td>African art</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h5>Order of Adjectives</h5>
+                <p>When using multiple adjectives, follow this order:</p>
                 <ol>
                     <li>Opinion (beautiful, ugly)</li>
                     <li>Size (big, small)</li>
@@ -11552,6 +12501,828 @@
                         <li>"Learning Jamaican Creole basics"</li>
                     </ul>
                 </div>
+            </div>
+
+            <!-- Chapter 9: Nouns & Pronouns (Detailed) -->
+            <div id="language-chapter-9" class="chapter-content">
+                <h2>📝 Nouns and Pronouns (Detailed Study)</h2>
+                
+                <h3>Making Nouns Plural</h3>
+                <p>Master the rules for changing singular nouns to plural forms.</p>
+                
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Rule</th>
+                            <th>Singular</th>
+                            <th>Plural</th>
+                        </tr>
+                        <tr>
+                            <td>Most nouns: add -s</td>
+                            <td>book, car, tree</td>
+                            <td>books, cars, trees</td>
+                        </tr>
+                        <tr>
+                            <td>Nouns ending in s, ss, x, z, ch, sh: add -es</td>
+                            <td>bus, glass, box, church, dish</td>
+                            <td>buses, glasses, boxes, churches, dishes</td>
+                        </tr>
+                        <tr>
+                            <td>Nouns ending in consonant + y: change y to ies</td>
+                            <td>baby, city, country</td>
+                            <td>babies, cities, countries</td>
+                        </tr>
+                        <tr>
+                            <td>Nouns ending in vowel + y: add -s</td>
+                            <td>boy, key, toy</td>
+                            <td>boys, keys, toys</td>
+                        </tr>
+                        <tr>
+                            <td>Nouns ending in f or fe: change to ves</td>
+                            <td>knife, leaf, wife</td>
+                            <td>knives, leaves, wives</td>
+                        </tr>
+                        <tr>
+                            <td>Nouns ending in consonant + o: add -es</td>
+                            <td>hero, potato, tomato</td>
+                            <td>heroes, potatoes, tomatoes</td>
+                        </tr>
+                        <tr>
+                            <td>Nouns ending in vowel + o: add -s</td>
+                            <td>radio, zoo, video</td>
+                            <td>radios, zoos, videos</td>
+                        </tr>
+                        <tr>
+                            <td>Irregular plurals</td>
+                            <td>child, man, woman, foot, tooth, mouse</td>
+                            <td>children, men, women, feet, teeth, mice</td>
+                        </tr>
+                        <tr>
+                            <td>Same singular and plural</td>
+                            <td>sheep, deer, fish, series</td>
+                            <td>sheep, deer, fish, series</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Forming Nouns from Other Words</h3>
+                
+                <h4>Nouns from Verbs</h4>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Verb</th>
+                            <th>Add Suffix</th>
+                            <th>Noun</th>
+                        </tr>
+                        <tr>
+                            <td>teach</td>
+                            <td>-er</td>
+                            <td>teacher</td>
+                        </tr>
+                        <tr>
+                            <td>create</td>
+                            <td>-ion</td>
+                            <td>creation</td>
+                        </tr>
+                        <tr>
+                            <td>manage</td>
+                            <td>-ment</td>
+                            <td>management</td>
+                        </tr>
+                        <tr>
+                            <td>arrive</td>
+                            <td>-al</td>
+                            <td>arrival</td>
+                        </tr>
+                        <tr>
+                            <td>happy</td>
+                            <td>-ness</td>
+                            <td>happiness</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h4>Nouns from Adjectives</h4>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Adjective</th>
+                            <th>Add Suffix</th>
+                            <th>Noun</th>
+                        </tr>
+                        <tr>
+                            <td>kind</td>
+                            <td>-ness</td>
+                            <td>kindness</td>
+                        </tr>
+                        <tr>
+                            <td>free</td>
+                            <td>-dom</td>
+                            <td>freedom</td>
+                        </tr>
+                        <tr>
+                            <td>brave</td>
+                            <td>-ry</td>
+                            <td>bravery</td>
+                        </tr>
+                        <tr>
+                            <td>honest</td>
+                            <td>-y</td>
+                            <td>honesty</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Pronoun Reference and Agreement</h3>
+                <p>Pronouns must agree with their antecedents (the nouns they replace) in number and gender.</p>
+                
+                <div class="example-box">
+                    <h4>Agreement Examples:</h4>
+                    <ul>
+                        <li>✓ Sarah lost <strong>her</strong> book. (singular, feminine)</li>
+                        <li>✓ The boys finished <strong>their</strong> homework. (plural)</li>
+                        <li>✗ Everyone should bring their lunch. (incorrect - everyone is singular)</li>
+                        <li>✓ Everyone should bring <strong>his or her</strong> lunch. (correct)</li>
+                    </ul>
+                </div>
+
+                <h3>Young Ones and Animal Homes</h3>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Animal</th>
+                            <th>Young One</th>
+                            <th>Home</th>
+                        </tr>
+                        <tr>
+                            <td>Dog</td>
+                            <td>Puppy</td>
+                            <td>Kennel</td>
+                        </tr>
+                        <tr>
+                            <td>Cat</td>
+                            <td>Kitten</td>
+                            <td>House</td>
+                        </tr>
+                        <tr>
+                            <td>Horse</td>
+                            <td>Foal/Colt/Filly</td>
+                            <td>Stable</td>
+                        </tr>
+                        <tr>
+                            <td>Cow</td>
+                            <td>Calf</td>
+                            <td>Barn/Shed</td>
+                        </tr>
+                        <tr>
+                            <td>Lion</td>
+                            <td>Cub</td>
+                            <td>Den</td>
+                        </tr>
+                        <tr>
+                            <td>Bird</td>
+                            <td>Chick/Fledgling</td>
+                            <td>Nest</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Chapter 10: Verbs & Tenses (Detailed) -->
+            <div id="language-chapter-10" class="chapter-content">
+                <h2>⚡ Verbs and Tenses (Detailed Study)</h2>
+                
+                <h3>Simple Present Tense</h3>
+                <p>Used for habits, facts, and regular actions.</p>
+                
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Verb Form</th>
+                            <th>Example</th>
+                        </tr>
+                        <tr>
+                            <td>I/You/We/They</td>
+                            <td>Base form</td>
+                            <td>I play cricket.</td>
+                        </tr>
+                        <tr>
+                            <td>He/She/It</td>
+                            <td>Base form + s/es</td>
+                            <td>She plays netball.</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Simple Past Tense</h3>
+                <p>Used for completed actions in the past.</p>
+                
+                <h4>Regular Verbs (add -ed)</h4>
+                <ul>
+                    <li>walk → walked</li>
+                    <li>play → played</li>
+                    <li>cook → cooked</li>
+                </ul>
+
+                <h4>Irregular Verbs (memorize forms)</h4>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Present</th>
+                            <th>Past</th>
+                            <th>Past Participle</th>
+                        </tr>
+                        <tr>
+                            <td>begin</td>
+                            <td>began</td>
+                            <td>begun</td>
+                        </tr>
+                        <tr>
+                            <td>break</td>
+                            <td>broke</td>
+                            <td>broken</td>
+                        </tr>
+                        <tr>
+                            <td>choose</td>
+                            <td>chose</td>
+                            <td>chosen</td>
+                        </tr>
+                        <tr>
+                            <td>do</td>
+                            <td>did</td>
+                            <td>done</td>
+                        </tr>
+                        <tr>
+                            <td>drink</td>
+                            <td>drank</td>
+                            <td>drunk</td>
+                        </tr>
+                        <tr>
+                            <td>drive</td>
+                            <td>drove</td>
+                            <td>driven</td>
+                        </tr>
+                        <tr>
+                            <td>fly</td>
+                            <td>flew</td>
+                            <td>flown</td>
+                        </tr>
+                        <tr>
+                            <td>forget</td>
+                            <td>forgot</td>
+                            <td>forgotten</td>
+                        </tr>
+                        <tr>
+                            <td>give</td>
+                            <td>gave</td>
+                            <td>given</td>
+                        </tr>
+                        <tr>
+                            <td>know</td>
+                            <td>knew</td>
+                            <td>known</td>
+                        </tr>
+                        <tr>
+                            <td>ride</td>
+                            <td>rode</td>
+                            <td>ridden</td>
+                        </tr>
+                        <tr>
+                            <td>see</td>
+                            <td>saw</td>
+                            <td>seen</td>
+                        </tr>
+                        <tr>
+                            <td>speak</td>
+                            <td>spoke</td>
+                            <td>spoken</td>
+                        </tr>
+                        <tr>
+                            <td>take</td>
+                            <td>took</td>
+                            <td>taken</td>
+                        </tr>
+                        <tr>
+                            <td>think</td>
+                            <td>thought</td>
+                            <td>thought</td>
+                        </tr>
+                        <tr>
+                            <td>throw</td>
+                            <td>threw</td>
+                            <td>thrown</td>
+                        </tr>
+                        <tr>
+                            <td>understand</td>
+                            <td>understood</td>
+                            <td>understood</td>
+                        </tr>
+                        <tr>
+                            <td>wake</td>
+                            <td>woke</td>
+                            <td>woken</td>
+                        </tr>
+                        <tr>
+                            <td>wear</td>
+                            <td>wore</td>
+                            <td>worn</td>
+                        </tr>
+                        <tr>
+                            <td>win</td>
+                            <td>won</td>
+                            <td>won</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Present and Past Participles</h3>
+                
+                <h4>Present Participle (verb + ing)</h4>
+                <p>Used with "be" verbs to form continuous tenses.</p>
+                <ul>
+                    <li>I am <strong>reading</strong> a book.</li>
+                    <li>They were <strong>playing</strong> cricket.</li>
+                    <li>She has been <strong>studying</strong> all day.</li>
+                </ul>
+
+                <h4>Past Participle</h4>
+                <p>Used with "have" verbs to form perfect tenses.</p>
+                <ul>
+                    <li>I have <strong>finished</strong> my homework.</li>
+                    <li>She had <strong>eaten</strong> before we arrived.</li>
+                    <li>They will have <strong>completed</strong> the project.</li>
+                </ul>
+
+                <h3>Present Continuous Tense</h3>
+                <p>Shows actions happening right now or temporary situations.</p>
+                
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Formula</th>
+                            <th>Example</th>
+                        </tr>
+                        <tr>
+                            <td>I</td>
+                            <td>am + verb-ing</td>
+                            <td>I am reading.</td>
+                        </tr>
+                        <tr>
+                            <td>You/We/They</td>
+                            <td>are + verb-ing</td>
+                            <td>They are playing.</td>
+                        </tr>
+                        <tr>
+                            <td>He/She/It</td>
+                            <td>is + verb-ing</td>
+                            <td>She is singing.</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Past Continuous Tense</h3>
+                <p>Shows actions that were happening at a specific time in the past.</p>
+                
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Formula</th>
+                            <th>Example</th>
+                        </tr>
+                        <tr>
+                            <td>I/He/She/It</td>
+                            <td>was + verb-ing</td>
+                            <td>I was sleeping.</td>
+                        </tr>
+                        <tr>
+                            <td>You/We/They</td>
+                            <td>were + verb-ing</td>
+                            <td>They were dancing.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Chapter 11: Adjectives & Adverbs (Detailed) -->
+            <div id="language-chapter-11" class="chapter-content">
+                <h2>🎨 Adjectives and Adverbs (Detailed Study)</h2>
+                
+                <h3>Forming Adjectives from Nouns</h3>
+                
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Noun</th>
+                            <th>Suffix</th>
+                            <th>Adjective</th>
+                        </tr>
+                        <tr>
+                            <td>beauty</td>
+                            <td>-ful</td>
+                            <td>beautiful</td>
+                        </tr>
+                        <tr>
+                            <td>care</td>
+                            <td>-less</td>
+                            <td>careless</td>
+                        </tr>
+                        <tr>
+                            <td>danger</td>
+                            <td>-ous</td>
+                            <td>dangerous</td>
+                        </tr>
+                        <tr>
+                            <td>friend</td>
+                            <td>-ly</td>
+                            <td>friendly</td>
+                        </tr>
+                        <tr>
+                            <td>child</td>
+                            <td>-ish</td>
+                            <td>childish</td>
+                        </tr>
+                        <tr>
+                            <td>nation</td>
+                            <td>-al</td>
+                            <td>national</td>
+                        </tr>
+                        <tr>
+                            <td>comfort</td>
+                            <td>-able</td>
+                            <td>comfortable</td>
+                        </tr>
+                        <tr>
+                            <td>wood</td>
+                            <td>-en</td>
+                            <td>wooden</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Comparing Adjectives (Complete Rules)</h3>
+                
+                <h4>One-Syllable Adjectives</h4>
+                <ul>
+                    <li>Add -er for comparative: tall → taller</li>
+                    <li>Add -est for superlative: tall → tallest</li>
+                    <li>Double final consonant if preceded by single vowel: big → bigger → biggest</li>
+                </ul>
+
+                <h4>Two-Syllable Adjectives</h4>
+                <ul>
+                    <li>Ending in -y: change y to i, add -er/-est: happy → happier → happiest</li>
+                    <li>Ending in -er, -le, -ow: add -er/-est: clever → cleverer → cleverest</li>
+                    <li>Others: use more/most: careful → more careful → most careful</li>
+                </ul>
+
+                <h4>Three or More Syllables</h4>
+                <ul>
+                    <li>Use more/most: beautiful → more beautiful → most beautiful</li>
+                </ul>
+
+                <h4>Irregular Comparisons</h4>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Positive</th>
+                            <th>Comparative</th>
+                            <th>Superlative</th>
+                        </tr>
+                        <tr>
+                            <td>good</td>
+                            <td>better</td>
+                            <td>best</td>
+                        </tr>
+                        <tr>
+                            <td>bad</td>
+                            <td>worse</td>
+                            <td>worst</td>
+                        </tr>
+                        <tr>
+                            <td>little</td>
+                            <td>less</td>
+                            <td>least</td>
+                        </tr>
+                        <tr>
+                            <td>many/much</td>
+                            <td>more</td>
+                            <td>most</td>
+                        </tr>
+                        <tr>
+                            <td>far</td>
+                            <td>farther/further</td>
+                            <td>farthest/furthest</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Adverbs in Detail</h3>
+                
+                <h4>Position of Adverbs</h4>
+                <ul>
+                    <li><strong>Beginning:</strong> <u>Yesterday</u>, I went to school.</li>
+                    <li><strong>Middle:</strong> I <u>always</u> eat breakfast.</li>
+                    <li><strong>End:</strong> She sang <u>beautifully</u>.</li>
+                </ul>
+
+                <h4>Comparing Adverbs</h4>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Positive</th>
+                            <th>Comparative</th>
+                            <th>Superlative</th>
+                        </tr>
+                        <tr>
+                            <td>fast</td>
+                            <td>faster</td>
+                            <td>fastest</td>
+                        </tr>
+                        <tr>
+                            <td>slowly</td>
+                            <td>more slowly</td>
+                            <td>most slowly</td>
+                        </tr>
+                        <tr>
+                            <td>well</td>
+                            <td>better</td>
+                            <td>best</td>
+                        </tr>
+                        <tr>
+                            <td>badly</td>
+                            <td>worse</td>
+                            <td>worst</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Chapter 12: Word Study -->
+            <div id="language-chapter-12" class="chapter-content">
+                <h2>📚 Word Study and Vocabulary Building</h2>
+                
+                <h3>Synonyms</h3>
+                <p>Words with similar meanings.</p>
+                
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Word</th>
+                            <th>Synonyms</th>
+                        </tr>
+                        <tr>
+                            <td>happy</td>
+                            <td>joyful, cheerful, glad, delighted</td>
+                        </tr>
+                        <tr>
+                            <td>sad</td>
+                            <td>unhappy, sorrowful, gloomy, miserable</td>
+                        </tr>
+                        <tr>
+                            <td>big</td>
+                            <td>large, huge, enormous, massive</td>
+                        </tr>
+                        <tr>
+                            <td>small</td>
+                            <td>tiny, little, minute, miniature</td>
+                        </tr>
+                        <tr>
+                            <td>good</td>
+                            <td>excellent, fine, great, wonderful</td>
+                        </tr>
+                        <tr>
+                            <td>bad</td>
+                            <td>poor, terrible, awful, horrible</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Antonyms</h3>
+                <p>Words with opposite meanings.</p>
+                
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Word</th>
+                            <th>Antonym</th>
+                        </tr>
+                        <tr>
+                            <td>hot</td>
+                            <td>cold</td>
+                        </tr>
+                        <tr>
+                            <td>light</td>
+                            <td>dark/heavy</td>
+                        </tr>
+                        <tr>
+                            <td>fast</td>
+                            <td>slow</td>
+                        </tr>
+                        <tr>
+                            <td>young</td>
+                            <td>old</td>
+                        </tr>
+                        <tr>
+                            <td>brave</td>
+                            <td>cowardly</td>
+                        </tr>
+                        <tr>
+                            <td>generous</td>
+                            <td>stingy</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Homophones</h3>
+                <p>Words that sound the same but have different meanings and spellings.</p>
+                
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Word 1</th>
+                            <th>Meaning</th>
+                            <th>Word 2</th>
+                            <th>Meaning</th>
+                        </tr>
+                        <tr>
+                            <td>there</td>
+                            <td>in that place</td>
+                            <td>their</td>
+                            <td>belonging to them</td>
+                        </tr>
+                        <tr>
+                            <td>to</td>
+                            <td>toward</td>
+                            <td>too</td>
+                            <td>also/excessive</td>
+                        </tr>
+                        <tr>
+                            <td>your</td>
+                            <td>belonging to you</td>
+                            <td>you're</td>
+                            <td>you are</td>
+                        </tr>
+                        <tr>
+                            <td>its</td>
+                            <td>belonging to it</td>
+                            <td>it's</td>
+                            <td>it is</td>
+                        </tr>
+                        <tr>
+                            <td>peace</td>
+                            <td>calm</td>
+                            <td>piece</td>
+                            <td>part</td>
+                        </tr>
+                        <tr>
+                            <td>break</td>
+                            <td>to split</td>
+                            <td>brake</td>
+                            <td>to stop</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Idioms</h3>
+                <p>Expressions whose meanings differ from their literal words.</p>
+                
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Idiom</th>
+                            <th>Meaning</th>
+                        </tr>
+                        <tr>
+                            <td>Break a leg</td>
+                            <td>Good luck</td>
+                        </tr>
+                        <tr>
+                            <td>Piece of cake</td>
+                            <td>Very easy</td>
+                        </tr>
+                        <tr>
+                            <td>Under the weather</td>
+                            <td>Feeling sick</td>
+                        </tr>
+                        <tr>
+                            <td>Hit the books</td>
+                            <td>Study hard</td>
+                        </tr>
+                        <tr>
+                            <td>Spill the beans</td>
+                            <td>Tell a secret</td>
+                        </tr>
+                        <tr>
+                            <td>Costs an arm and a leg</td>
+                            <td>Very expensive</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Proverbs</h3>
+                <p>Traditional sayings that give advice or wisdom.</p>
+                
+                <ul>
+                    <li><strong>"Actions speak louder than words"</strong> - What you do is more important than what you say</li>
+                    <li><strong>"A stitch in time saves nine"</strong> - Fix problems early before they get worse</li>
+                    <li><strong>"Don't cry over spilled milk"</strong> - Don't waste time being upset about things you can't change</li>
+                    <li><strong>"The early bird catches the worm"</strong> - Those who start early have an advantage</li>
+                    <li><strong>"Practice makes perfect"</strong> - Keep trying to improve your skills</li>
+                </ul>
+
+                <h3>Twin Words</h3>
+                <p>Words that often appear together.</p>
+                
+                <ul>
+                    <li>bread and butter</li>
+                    <li>salt and pepper</li>
+                    <li>up and down</li>
+                    <li>back and forth</li>
+                    <li>peace and quiet</li>
+                    <li>safe and sound</li>
+                    <li>neat and tidy</li>
+                    <li>now and then</li>
+                </ul>
+
+                <h3>Analogies</h3>
+                <p>Comparisons that show relationships between words.</p>
+                
+                <div class="example-box">
+                    <h4>Types of Analogies:</h4>
+                    <ul>
+                        <li><strong>Part to Whole:</strong> finger : hand :: toe : foot</li>
+                        <li><strong>Synonyms:</strong> happy : joyful :: sad : sorrowful</li>
+                        <li><strong>Antonyms:</strong> hot : cold :: light : dark</li>
+                        <li><strong>Function:</strong> pen : write :: knife : cut</li>
+                        <li><strong>Category:</strong> apple : fruit :: carrot : vegetable</li>
+                    </ul>
+                </div>
+
+                <h3>Common Abbreviations</h3>
+                
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Abbreviation</th>
+                            <th>Full Form</th>
+                        </tr>
+                        <tr>
+                            <td>Dr.</td>
+                            <td>Doctor</td>
+                        </tr>
+                        <tr>
+                            <td>Mr./Mrs./Ms.</td>
+                            <td>Mister/Missus/Miss</td>
+                        </tr>
+                        <tr>
+                            <td>St.</td>
+                            <td>Street/Saint</td>
+                        </tr>
+                        <tr>
+                            <td>Ave.</td>
+                            <td>Avenue</td>
+                        </tr>
+                        <tr>
+                            <td>Jan., Feb., etc.</td>
+                            <td>January, February, etc.</td>
+                        </tr>
+                        <tr>
+                            <td>Mon., Tue., etc.</td>
+                            <td>Monday, Tuesday, etc.</td>
+                        </tr>
+                        <tr>
+                            <td>a.m./p.m.</td>
+                            <td>ante meridiem/post meridiem</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Spelling Patterns</h3>
+                
+                <h4>Common Patterns to Remember:</h4>
+                <ul>
+                    <li><strong>i before e except after c:</strong> believe, receive</li>
+                    <li><strong>Silent letters:</strong> knife (k), island (s), write (w)</li>
+                    <li><strong>Double consonants:</strong> happen, running, stopped</li>
+                    <li><strong>-tion/-sion endings:</strong> action, decision</li>
+                    <li><strong>-ful/-fully:</strong> beautiful, beautifully</li>
+                </ul>
+
+                <h3>Words Within Words</h3>
+                <p>Finding smaller words inside larger ones helps with spelling.</p>
+                
+                <ul>
+                    <li><strong>together</strong> = to + get + her</li>
+                    <li><strong>separate</strong> = se + par + ate</li>
+                    <li><strong>understand</strong> = under + stand</li>
+                    <li><strong>breakfast</strong> = break + fast</li>
+                    <li><strong>sunshine</strong> = sun + shine</li>
+                </ul>
+            </div>
             </div>
         </div>
     </div>
