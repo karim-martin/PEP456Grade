@@ -1,0 +1,2293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamaica Grade 5 PEP Complete Interactive Study Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            color: #4a5568;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: #718096;
+            font-size: 1.2em;
+        }
+
+        .back-to-selection {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .back-to-selection a {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .back-to-selection a:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .subject-selector {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .subject-btn {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+            padding: 12px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .subject-btn:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .subject-btn.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .content-area {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            display: none;
+            max-height: 80vh;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .content-area.active {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chapter-nav {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            background: white;
+            padding: 20px 30px;
+            border-bottom: 2px solid #e0e0e0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .chapter-btn {
+            background: #f7fafc;
+            color: #4a5568;
+            border: 1px solid #e2e8f0;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.3s ease;
+        }
+
+        .chapter-btn:hover {
+            background: #edf2f7;
+            transform: translateY(-1px);
+        }
+
+        .chapter-btn.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+
+        .chapter-content-wrapper {
+            overflow-y: auto;
+            padding: 30px;
+            height: calc(80vh - 120px);
+        }
+
+        .chapter-content {
+            display: none;
+        }
+
+        .chapter-content.active {
+            display: block;
+        }
+
+        h2 {
+            color: #4a5568;
+            margin: 25px 0 15px 0;
+            font-size: 1.8em;
+            background: #f7fafc;
+            padding: 15px;
+            border-left: 4px solid #667eea;
+            border-radius: 8px;
+        }
+
+        h3 {
+            color: #4a5568;
+            margin: 25px 0 15px 0;
+            font-size: 1.3em;
+            background: #f7fafc;
+            padding: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        h4 {
+            color: #2d3748;
+            margin: 20px 0 10px 0;
+            font-size: 1.1em;
+        }
+
+        p {
+            line-height: 1.7;
+            margin-bottom: 15px;
+            color: #4a5568;
+        }
+
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 30px;
+            line-height: 1.7;
+            color: #4a5568;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .experiment-box {
+            background: linear-gradient(135deg, #fef5e7 0%, #fed7aa 100%);
+            border: 2px solid #f6ad55;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .experiment-box h4 {
+            color: #c53030;
+            margin-bottom: 10px;
+        }
+
+        .fun-fact {
+            background: linear-gradient(135deg, #e6fffa 0%, #b2f5ea 100%);
+            border-left: 4px solid #38b2ac;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .important-note {
+            background: linear-gradient(135deg, #fef5e7 0%, #fed7aa 100%);
+            border-left: 4px solid #ed8936;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .activity-box {
+            background: linear-gradient(135deg, #f0fff4 0%, #c6f6d5 100%);
+            border: 2px solid #68d391;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .activity-box h4 {
+            color: #2f855a;
+            margin-bottom: 10px;
+        }
+
+        .try-this {
+            background: linear-gradient(135deg, #ebf8ff 0%, #bee3f8 100%);
+            border: 2px solid #4299e1;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .try-this h4 {
+            color: #2b6cb0;
+            margin-bottom: 10px;
+        }
+
+        .video-search {
+            background: linear-gradient(135deg, #edf2f7 0%, #e2e8f0 100%);
+            border: 2px solid #cbd5e0;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .video-search h4 {
+            color: #4a5568;
+            margin-bottom: 10px;
+        }
+
+        .video-search ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .video-search li {
+            background: white;
+            padding: 8px 12px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border-left: 3px solid #4285f4;
+        }
+
+        .practice-problems {
+            background: #f7fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .practice-problems h4 {
+            color: #2d3748;
+            margin-bottom: 15px;
+        }
+
+        .example-box {
+            background: #edf2f7;
+            border-left: 4px solid #4a5568;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .back-btn {
+            background: #718096;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            font-size: 1em;
+        }
+
+        .back-btn:hover {
+            background: #4a5568;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .content-area.active {
+            animation: fadeIn 0.5s ease;
+        }
+
+        .topic-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .topic-card {
+            background: #f7fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 15px;
+            transition: transform 0.2s ease;
+        }
+
+        .topic-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #e2e8f0;
+        }
+
+        th {
+            background: #f7fafc;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Return to Grade Selection -->
+        <div class="back-to-selection">
+            <a href="index.html">← Return to Grade Selection</a>
+        </div>
+
+        <!-- Header -->
+        <div class="header">
+            <h1>📚 Jamaica Grade 5 PEP Complete Study Guide</h1>
+            <p>Advanced Interactive eBook for Science, Social Studies, Mathematics & Language Arts</p>
+        </div>
+
+        <!-- Subject Selector -->
+        <div class="subject-selector">
+            <button class="subject-btn active" onclick="showSubject('mathematics')">📐 Mathematics</button>
+            <button class="subject-btn" onclick="showSubject('science')">🔬 Science</button>
+            <button class="subject-btn" onclick="showSubject('language')">📝 Language Arts</button>
+            <button class="subject-btn" onclick="showSubject('social')">🌍 Social Studies</button>
+        </div>
+
+        <!-- Mathematics Content -->
+        <div id="mathematics" class="content-area active">
+            <div class="chapter-nav">
+                <button class="chapter-btn active" onclick="showChapter('mathematics', 1)">Fractions & Mixed Numbers</button>
+                <button class="chapter-btn" onclick="showChapter('mathematics', 2)">Decimals</button>
+                <button class="chapter-btn" onclick="showChapter('mathematics', 3)">Percentages</button>
+                <button class="chapter-btn" onclick="showChapter('mathematics', 4)">Geometry & Angles</button>
+                <button class="chapter-btn" onclick="showChapter('mathematics', 5)">Measurement</button>
+                <button class="chapter-btn" onclick="showChapter('mathematics', 6)">Data & Graphs</button>
+                <button class="chapter-btn" onclick="showChapter('mathematics', 7)">Problem Solving</button>
+                <button class="chapter-btn" onclick="showChapter('mathematics', 8)">Number Patterns</button>
+            </div>
+            
+            <div class="chapter-content-wrapper">
+                <!-- Chapter 1: Fractions and Mixed Numbers -->
+                <div id="mathematics-chapter-1" class="chapter-content active">
+                    <h2>📐 Fractions and Mixed Numbers</h2>
+                    
+                    <h3>Understanding Fractions</h3>
+                    <p>A fraction represents part of a whole. It has two parts: the numerator (top number) shows how many parts you have, and the denominator (bottom number) shows how many equal parts the whole is divided into.</p>
+                    
+                    <div class="example-box">
+                        <h4>Example: Pizza Fractions</h4>
+                        <p>If you cut a pizza into 8 equal slices and eat 3 slices, you ate 3/8 of the pizza.</p>
+                        <p>• Numerator = 3 (slices eaten)</p>
+                        <p>• Denominator = 8 (total slices)</p>
+                    </div>
+
+                    <h3>Types of Fractions</h3>
+                    <h4>Proper Fractions</h4>
+                    <p>The numerator is smaller than the denominator (less than 1 whole).</p>
+                    <p>Examples: 1/2, 3/4, 5/8, 7/10</p>
+
+                    <h4>Improper Fractions</h4>
+                    <p>The numerator is equal to or greater than the denominator (equal to or greater than 1 whole).</p>
+                    <p>Examples: 5/4, 8/3, 9/9, 15/7</p>
+
+                    <h4>Mixed Numbers</h4>
+                    <p>A whole number combined with a proper fraction.</p>
+                    <p>Examples: 2 1/3, 4 2/5, 1 3/4</p>
+
+                    <h3>Converting Between Improper Fractions and Mixed Numbers</h3>
+                    
+                    <h4>Converting Improper Fractions to Mixed Numbers</h4>
+                    <ol>
+                        <li>Divide the numerator by the denominator</li>
+                        <li>The quotient becomes the whole number</li>
+                        <li>The remainder becomes the new numerator</li>
+                        <li>Keep the same denominator</li>
+                    </ol>
+
+                    <div class="example-box">
+                        <h4>Example: Convert 17/5 to a Mixed Number</h4>
+                        <p>17 ÷ 5 = 3 remainder 2</p>
+                        <p>So 17/5 = 3 2/5</p>
+                    </div>
+
+                    <h4>Converting Mixed Numbers to Improper Fractions</h4>
+                    <ol>
+                        <li>Multiply the whole number by the denominator</li>
+                        <li>Add the numerator to this product</li>
+                        <li>Write the sum over the original denominator</li>
+                    </ol>
+
+                    <div class="example-box">
+                        <h4>Example: Convert 4 3/7 to an Improper Fraction</h4>
+                        <p>(4 × 7) + 3 = 28 + 3 = 31</p>
+                        <p>So 4 3/7 = 31/7</p>
+                    </div>
+
+                    <h3>Adding and Subtracting Fractions</h3>
+                    
+                    <h4>Same Denominators</h4>
+                    <p>When fractions have the same denominator, add or subtract the numerators and keep the same denominator.</p>
+                    
+                    <div class="example-box">
+                        <h4>Examples:</h4>
+                        <p>2/7 + 3/7 = 5/7</p>
+                        <p>5/9 - 2/9 = 3/9 = 1/3</p>
+                    </div>
+
+                    <h4>Different Denominators</h4>
+                    <p>When fractions have different denominators, you need to find a common denominator first.</p>
+                    
+                    <ol>
+                        <li>Find the Least Common Multiple (LCM) of the denominators</li>
+                        <li>Convert both fractions to equivalent fractions with the common denominator</li>
+                        <li>Add or subtract the numerators</li>
+                        <li>Simplify if possible</li>
+                    </ol>
+
+                    <div class="example-box">
+                        <h4>Example: 1/4 + 1/6</h4>
+                        <p>LCM of 4 and 6 = 12</p>
+                        <p>1/4 = 3/12 and 1/6 = 2/12</p>
+                        <p>3/12 + 2/12 = 5/12</p>
+                    </div>
+
+                    <h3>Multiplying Fractions</h3>
+                    <p>To multiply fractions, multiply the numerators together and multiply the denominators together.</p>
+                    
+                    <div class="example-box">
+                        <h4>Example: 2/3 × 4/5</h4>
+                        <p>(2 × 4)/(3 × 5) = 8/15</p>
+                    </div>
+
+                    <h3>Dividing Fractions</h3>
+                    <p>To divide fractions, multiply by the reciprocal (flip the second fraction).</p>
+                    
+                    <div class="example-box">
+                        <h4>Example: 3/4 ÷ 2/5</h4>
+                        <p>3/4 × 5/2 = 15/8 = 1 7/8</p>
+                    </div>
+
+                    <div class="activity-box">
+                        <h4>🎯 Try This! Fraction Pizza Party</h4>
+                        <p>Imagine you're planning a pizza party for your class:</p>
+                        <ol>
+                            <li>If each pizza is cut into 8 slices and you have 3 pizzas, how many slices total?</li>
+                            <li>If 5 students each eat 3 slices, what fraction of one pizza did they eat together?</li>
+                            <li>Convert your answer to a mixed number</li>
+                        </ol>
+                    </div>
+
+                    <div class="fun-fact">
+                        <strong>Did You Know?</strong> The word "fraction" comes from the Latin word "fractus," which means "broken." Ancient Egyptians were among the first to use fractions, but they only used unit fractions (fractions with 1 as the numerator) like 1/2, 1/3, 1/4!
+                    </div>
+                </div>
+
+                <!-- Chapter 2: Decimals -->
+                <div id="mathematics-chapter-2" class="chapter-content">
+                    <h2>📊 Decimals</h2>
+                    
+                    <h3>Understanding Decimal Place Value</h3>
+                    <p>Decimals are another way to represent parts of a whole. The decimal point separates whole numbers from parts smaller than one.</p>
+                    
+                    <div class="example-box">
+                        <h4>Place Value Chart</h4>
+                        <table>
+                            <tr>
+                                <th>Hundreds</th>
+                                <th>Tens</th>
+                                <th>Ones</th>
+                                <th>.</th>
+                                <th>Tenths</th>
+                                <th>Hundredths</th>
+                                <th>Thousandths</th>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>7</td>
+                                <td>.</td>
+                                <td>2</td>
+                                <td>8</td>
+                                <td>5</td>
+                            </tr>
+                        </table>
+                        <p>This number is read as: "Three hundred forty-seven and two hundred eighty-five thousandths"</p>
+                    </div>
+
+                    <h3>Converting Between Fractions and Decimals</h3>
+                    
+                    <h4>Fraction to Decimal</h4>
+                    <p>Divide the numerator by the denominator.</p>
+                    
+                    <div class="example-box">
+                        <h4>Examples:</h4>
+                        <p>3/4 = 3 ÷ 4 = 0.75</p>
+                        <p>1/8 = 1 ÷ 8 = 0.125</p>
+                        <p>2/5 = 2 ÷ 5 = 0.4</p>
+                    </div>
+
+                    <h4>Decimal to Fraction</h4>
+                    <p>Write the decimal as a fraction with the appropriate denominator based on the place value.</p>
+                    
+                    <div class="example-box">
+                        <h4>Examples:</h4>
+                        <p>0.7 = 7/10</p>
+                        <p>0.25 = 25/100 = 1/4</p>
+                        <p>0.375 = 375/1000 = 3/8</p>
+                    </div>
+
+                    <h3>Comparing and Ordering Decimals</h3>
+                    <p>To compare decimals, line up the decimal points and compare digit by digit from left to right.</p>
+                    
+                    <div class="example-box">
+                        <h4>Compare: 0.47 and 0.5</h4>
+                        <p>0.47 compared to 0.50</p>
+                        <p>In the tenths place: 4 < 5</p>
+                        <p>Therefore: 0.47 < 0.5</p>
+                    </div>
+
+                    <h3>Adding and Subtracting Decimals</h3>
+                    <ol>
+                        <li>Line up the decimal points</li>
+                        <li>Add zeros if needed to make the same number of decimal places</li>
+                        <li>Add or subtract as usual</li>
+                        <li>Bring down the decimal point</li>
+                    </ol>
+
+                    <div class="example-box">
+                        <h4>Example: 12.75 + 8.3</h4>
+                        <p>  12.75</p>
+                        <p>+  8.30</p>
+                        <p>-------</p>
+                        <p> 21.05</p>
+                    </div>
+
+                    <h3>Multiplying Decimals</h3>
+                    <ol>
+                        <li>Multiply as if they were whole numbers</li>
+                        <li>Count the total number of decimal places in both numbers</li>
+                        <li>Place the decimal point that many places from the right in your answer</li>
+                    </ol>
+
+                    <div class="example-box">
+                        <h4>Example: 3.2 × 1.5</h4>
+                        <p>32 × 15 = 480</p>
+                        <p>Total decimal places: 1 + 1 = 2</p>
+                        <p>Answer: 4.80 = 4.8</p>
+                    </div>
+
+                    <h3>Dividing Decimals</h3>
+                    <p>When dividing by a whole number, place the decimal point directly above in the quotient. When dividing by a decimal, make the divisor a whole number first.</p>
+
+                    <div class="example-box">
+                        <h4>Example: 8.4 ÷ 2.1</h4>
+                        <p>Move decimal point 1 place in both numbers:</p>
+                        <p>84 ÷ 21 = 4</p>
+                        <p>Answer: 4</p>
+                    </div>
+
+                    <div class="activity-box">
+                        <h4>🛒 Try This! Shopping with Decimals</h4>
+                        <p>You're shopping for school supplies:</p>
+                        <ul>
+                            <li>Notebook: $3.45</li>
+                            <li>Pen set: $7.25</li>
+                            <li>Ruler: $1.80</li>
+                        </ul>
+                        <p>Calculate:</p>
+                        <ol>
+                            <li>Total cost of all items</li>
+                            <li>Change from $15.00</li>
+                            <li>Cost of 3 notebooks</li>
+                        </ol>
+                    </div>
+
+                    <h3>Decimal Word Problems</h3>
+                    <p>When solving word problems with decimals, look for key words that tell you what operation to use:</p>
+                    <ul>
+                        <li><strong>Add:</strong> total, sum, altogether, combined</li>
+                        <li><strong>Subtract:</strong> difference, remaining, less than, change</li>
+                        <li><strong>Multiply:</strong> times, product, each, rate</li>
+                        <li><strong>Divide:</strong> each, per, average, shared equally</li>
+                    </ul>
+
+                    <div class="fun-fact">
+                        <strong>Did You Know?</strong> The decimal system was developed over many centuries. The decimal point was first used in Europe in the 1600s, but different countries used different symbols. Some used a comma, some used a dot, and some even used a vertical line!
+                    </div>
+                </div>
+
+                <!-- Chapter 3: Introduction to Percentages -->
+                <div id="mathematics-chapter-3" class="chapter-content">
+                    <h2>📈 Introduction to Percentages</h2>
+                    
+                    <h3>What is a Percentage?</h3>
+                    <p>A percentage is a way to express a fraction with a denominator of 100. The word "percent" means "per hundred" or "out of 100."</p>
+                    
+                    <div class="example-box">
+                        <h4>Understanding Percent</h4>
+                        <p>25% means 25 out of 100, or 25/100, or 0.25</p>
+                        <p>If 25% of students in your class wear glasses, that means 25 out of every 100 students wear glasses.</p>
+                    </div>
+
+                    <h3>Converting Between Fractions, Decimals, and Percentages</h3>
+                    
+                    <h4>Decimal to Percentage</h4>
+                    <p>Move the decimal point two places to the right and add the % symbol.</p>
+                    
+                    <div class="example-box">
+                        <h4>Examples:</h4>
+                        <p>0.75 = 75%</p>
+                        <p>0.4 = 40%</p>
+                        <p>0.08 = 8%</p>
+                    </div>
+
+                    <h4>Percentage to Decimal</h4>
+                    <p>Move the decimal point two places to the left and remove the % symbol.</p>
+                    
+                    <div class="example-box">
+                        <h4>Examples:</h4>
+                        <p>60% = 0.60 = 0.6</p>
+                        <p>15% = 0.15</p>
+                        <p>3% = 0.03</p>
+                    </div>
+
+                    <h4>Fraction to Percentage</h4>
+                    <p>Convert the fraction to a decimal first, then to a percentage.</p>
+                    
+                    <div class="example-box">
+                        <h4>Examples:</h4>
+                        <p>1/4 = 0.25 = 25%</p>
+                        <p>3/5 = 0.6 = 60%</p>
+                        <p>7/10 = 0.7 = 70%</p>
+                    </div>
+
+                    <h3>Common Percentage Equivalents</h3>
+                    <p>It's helpful to memorize these common conversions:</p>
+                    
+                    <div class="example-box">
+                        <h4>Common Conversions</h4>
+                        <ul>
+                            <li>1/2 = 0.5 = 50%</li>
+                            <li>1/4 = 0.25 = 25%</li>
+                            <li>3/4 = 0.75 = 75%</li>
+                            <li>1/5 = 0.2 = 20%</li>
+                            <li>1/10 = 0.1 = 10%</li>
+                            <li>1/3 ≈ 0.33 ≈ 33%</li>
+                            <li>2/3 ≈ 0.67 ≈ 67%</li>
+                        </ul>
+                    </div>
+
+                    <h3>Finding Percentages of Numbers</h3>
+                    <p>To find a percentage of a number, convert the percentage to a decimal and multiply.</p>
+                    
+                    <div class="example-box">
+                        <h4>Example: Find 30% of 80</h4>
+                        <p>30% = 0.30</p>
+                        <p>0.30 × 80 = 24</p>
+                        <p>So 30% of 80 is 24</p>
+                    </div>
+
+                    <h3>Using Percentages in Real Life</h3>
+                    
+                    <h4>Test Scores</h4>
+                    <p>If you got 18 out of 20 questions correct on a test:</p>
+                    <p>18/20 = 0.9 = 90%</p>
+                    
+                    <h4>Sales and Discounts</h4>
+                    <p>If a shirt costs $40 and is 25% off:</p>
+                    <p>Discount = 25% of $40 = 0.25 × $40 = $10</p>
+                    <p>Sale price = $40 - $10 = $30</p>
+
+                    <div class="activity-box">
+                        <h4>🏫 Try This! School Survey</h4>
+                        <p>In a class of 25 students:</p>
+                        <ul>
+                            <li>15 students like pizza</li>
+                            <li>10 students like ice cream</li>
+                            <li>20 students like chicken</li>
+                        </ul>
+                        <p>Calculate what percentage of students like each food. Express as both fractions and percentages.</p>
+                    </div>
+
+                    <h3>Percentage Problems</h3>
+                    <p>There are three types of percentage problems:</p>
+                    
+                    <h4>Type 1: Finding the Percentage</h4>
+                    <p>What percent of 50 is 15?</p>
+                    <p>15/50 = 0.3 = 30%</p>
+                    
+                    <h4>Type 2: Finding the Part</h4>
+                    <p>What is 40% of 75?</p>
+                    <p>0.40 × 75 = 30</p>
+                    
+                    <h4>Type 3: Finding the Whole</h4>
+                    <p>15 is 25% of what number?</p>
+                    <p>15 ÷ 0.25 = 60</p>
+
+                    <div class="fun-fact">
+                        <strong>Did You Know?</strong> The percentage symbol (%) is relatively modern! It evolved from an abbreviation of "per cento" (Italian for "per hundred"). Early mathematicians wrote "pc" or "p. cento" before developing the symbol we use today.
+                    </div>
+                </div>
+
+                <!-- Chapter 4: Geometry: Angles, Polygons, and Symmetry -->
+                <div id="mathematics-chapter-4" class="chapter-content">
+                    <h2>📐 Geometry: Angles, Polygons, and Symmetry</h2>
+                    
+                    <h3>Understanding Angles</h3>
+                    <p>An angle is formed when two lines or rays meet at a point called the vertex. Angles are measured in degrees (°).</p>
+                    
+                    <h4>Types of Angles</h4>
+                    <ul>
+                        <li><strong>Acute Angle:</strong> Less than 90° (sharp angle)</li>
+                        <li><strong>Right Angle:</strong> Exactly 90° (corner of a square)</li>
+                        <li><strong>Obtuse Angle:</strong> Greater than 90° but less than 180° (wide angle)</li>
+                        <li><strong>Straight Angle:</strong> Exactly 180° (straight line)</li>
+                        <li><strong>Reflex Angle:</strong> Greater than 180° but less than 360°</li>
+                    </ul>
+
+                    <div class="example-box">
+                        <h4>Angle Examples in Real Life</h4>
+                        <ul>
+                            <li>Right angle: Corner of a book, intersection of floor and wall</li>
+                            <li>Acute angle: Slice of pizza, letter 'V'</li>
+                            <li>Obtuse angle: Opening of a book, letter 'L' turned sideways</li>
+                        </ul>
+                    </div>
+
+                    <h3>Measuring Angles</h3>
+                    <p>We use a protractor to measure angles. Place the center point on the vertex and align one ray with the zero line.</p>
+
+                    <div class="activity-box">
+                        <h4>🔍 Try This! Angle Hunt</h4>
+                        <p>Look around your classroom and find examples of:</p>
+                        <ol>
+                            <li>3 right angles</li>
+                            <li>2 acute angles</li>
+                            <li>2 obtuse angles</li>
+                        </ol>
+                        <p>Draw and label what you find!</p>
+                    </div>
+
+                    <h3>Polygons</h3>
+                    <p>A polygon is a closed shape made up of straight lines. The lines are called sides, and where they meet are called vertices.</p>
+                    
+                    <h4>Types of Polygons</h4>
+                    <ul>
+                        <li><strong>Triangle:</strong> 3 sides</li>
+                        <li><strong>Quadrilateral:</strong> 4 sides</li>
+                        <li><strong>Pentagon:</strong> 5 sides</li>
+                        <li><strong>Hexagon:</strong> 6 sides</li>
+                        <li><strong>Octagon:</strong> 8 sides</li>
+                        <li><strong>Decagon:</strong> 10 sides</li>
+                    </ul>
+
+                    <h3>Special Triangles</h3>
+                    
+                    <h4>By Side Length</h4>
+                    <ul>
+                        <li><strong>Equilateral Triangle:</strong> All three sides equal</li>
+                        <li><strong>Isosceles Triangle:</strong> Two sides equal</li>
+                        <li><strong>Scalene Triangle:</strong> All sides different lengths</li>
+                    </ul>
+
+                    <h4>By Angles</h4>
+                    <ul>
+                        <li><strong>Right Triangle:</strong> Has one 90° angle</li>
+                        <li><strong>Acute Triangle:</strong> All angles less than 90°</li>
+                        <li><strong>Obtuse Triangle:</strong> One angle greater than 90°</li>
+                    </ul>
+
+                    <div class="fun-fact">
+                        <strong>Triangle Fact:</strong> The angles in any triangle always add up to 180°! If you know two angles, you can always find the third by subtracting from 180°.
+                    </div>
+
+                    <h3>Special Quadrilaterals</h3>
+                    
+                    <h4>Rectangle</h4>
+                    <ul>
+                        <li>4 right angles</li>
+                        <li>Opposite sides equal and parallel</li>
+                    </ul>
+
+                    <h4>Square</h4>
+                    <ul>
+                        <li>4 right angles</li>
+                        <li>All sides equal</li>
+                        <li>Special type of rectangle</li>
+                    </ul>
+
+                    <h4>Parallelogram</h4>
+                    <ul>
+                        <li>Opposite sides parallel and equal</li>
+                        <li>Opposite angles equal</li>
+                    </ul>
+
+                    <h4>Rhombus</h4>
+                    <ul>
+                        <li>All sides equal</li>
+                        <li>Opposite sides parallel</li>
+                        <li>Special type of parallelogram</li>
+                    </ul>
+
+                    <h4>Trapezoid</h4>
+                    <ul>
+                        <li>Exactly one pair of parallel sides</li>
+                    </ul>
+
+                    <h3>Symmetry</h3>
+                    <p>A shape has symmetry if it looks exactly the same after being flipped, turned, or moved in a certain way.</p>
+                    
+                    <h4>Line Symmetry (Reflection Symmetry)</h4>
+                    <p>A shape has line symmetry if it can be folded along a line so that both halves match exactly.</p>
+                    
+                    <div class="example-box">
+                        <h4>Examples of Line Symmetry</h4>
+                        <ul>
+                            <li>Butterfly - 1 line of symmetry (vertical)</li>
+                            <li>Square - 4 lines of symmetry</li>
+                            <li>Circle - infinite lines of symmetry</li>
+                            <li>Rectangle - 2 lines of symmetry</li>
+                        </ul>
+                    </div>
+
+                    <h4>Rotational Symmetry</h4>
+                    <p>A shape has rotational symmetry if it looks the same after being turned (rotated) by less than a full turn around its center.</p>
+                    
+                    <div class="example-box">
+                        <h4>Examples of Rotational Symmetry</h4>
+                        <ul>
+                            <li>Square - looks the same every 90° turn</li>
+                            <li>Equilateral triangle - looks the same every 120° turn</li>
+                            <li>Regular hexagon - looks the same every 60° turn</li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-box">
+                        <h4>🎨 Try This! Symmetry Art</h4>
+                        <p>Create symmetrical designs:</p>
+                        <ol>
+                            <li>Draw half of a butterfly, then complete it using line symmetry</li>
+                            <li>Design a pattern that has rotational symmetry</li>
+                            <li>Find 5 objects in your home that have line symmetry</li>
+                        </ol>
+                    </div>
+
+                    <h3>Congruent and Similar Shapes</h3>
+                    
+                    <h4>Congruent Shapes</h4>
+                    <p>Shapes that are exactly the same size and shape. They can be flipped, turned, or moved, but they must match perfectly when placed on top of each other.</p>
+
+                    <h4>Similar Shapes</h4>
+                    <p>Shapes that have the same shape but different sizes. All corresponding angles are equal, and all corresponding sides are proportional.</p>
+
+                    <div class="example-box">
+                        <h4>Example</h4>
+                        <p>All squares are similar to each other (same shape), but only squares with the same side length are congruent (same size).</p>
+                    </div>
+
+                    <div class="fun-fact">
+                        <strong>Did You Know?</strong> The study of geometry is over 4,000 years old! Ancient Egyptians used geometric principles to build the pyramids, and ancient Greeks like Euclid wrote the first geometry textbooks that we still study today.
+                    </div>
+                </div>
+
+                <!-- Chapter 5: Measurement: Area, Perimeter, Volume -->
+                <div id="mathematics-chapter-5" class="chapter-content">
+                    <h2>📏 Measurement: Area, Perimeter, Volume</h2>
+                    
+                    <h3>Understanding Perimeter</h3>
+                    <p>Perimeter is the distance around the outside of a shape. To find perimeter, add up all the side lengths.</p>
+                    
+                    <h4>Perimeter Formulas</h4>
+                    <ul>
+                        <li><strong>Rectangle:</strong> P = 2 × length + 2 × width or P = 2(l + w)</li>
+                        <li><strong>Square:</strong> P = 4 × side length or P = 4s</li>
+                        <li><strong>Triangle:</strong> P = side₁ + side₂ + side₃</li>
+                    </ul>
+
+                    <div class="example-box">
+                        <h4>Example: Find the perimeter of a rectangle</h4>
+                        <p>Length = 8 cm, Width = 5 cm</p>
+                        <p>P = 2(8) + 2(5) = 16 + 10 = 26 cm</p>
+                    </div>
+
+                    <div class="activity-box">
+                        <h4>🏃 Try This! Perimeter Walk</h4>
+                        <p>Measure the perimeter of:</p>
+                        <ol>
+                            <li>Your desk or table</li>
+                            <li>A book</li>
+                            <li>The classroom floor</li>
+                        </ol>
+                        <p>Use a ruler or measuring tape and record your measurements!</p>
+                    </div>
+
+                    <h3>Understanding Area</h3>
+                    <p>Area is the amount of space inside a shape. Area is measured in square units (cm², m², etc.).</p>
+                    
+                    <h4>Area Formulas</h4>
+                    <ul>
+                        <li><strong>Rectangle:</strong> A = length × width or A = l × w</li>
+                        <li><strong>Square:</strong> A = side × side or A = s²</li>
+                        <li><strong>Triangle:</strong> A = ½ × base × height or A = ½bh</li>
+                        <li><strong>Parallelogram:</strong> A = base × height or A = bh</li>
+                    </ul>
+
+                    <div class="example-box">
+                        <h4>Example: Find the area of a rectangle</h4>
+                        <p>Length = 12 m, Width = 8 m</p>
+                        <p>A = 12 × 8 = 96 m²</p>
+                    </div>
+
+                    <h4>Understanding Square Units</h4>
+                    <p>When we measure area, we count how many unit squares fit inside the shape. A unit square is a square with sides of 1 unit.</p>
+
+                    <div class="example-box">
+                        <h4>Visualizing Area</h4>
+                        <p>If you have a rectangle that is 4 units long and 3 units wide, you can fit 12 unit squares inside it (4 × 3 = 12). So the area is 12 square units.</p>
+                    </div>
+
+                    <h3>Comparing Perimeter and Area</h3>
+                    <p>Two shapes can have the same perimeter but different areas, or the same area but different perimeters.</p>
+
+                    <div class="example-box">
+                        <h4>Example: Same Perimeter, Different Areas</h4>
+                        <p><strong>Rectangle A:</strong> 6 cm × 2 cm</p>
+                        <p>Perimeter = 2(6 + 2) = 16 cm, Area = 6 × 2 = 12 cm²</p>
+                        <p><strong>Rectangle B:</strong> 5 cm × 3 cm</p>
+                        <p>Perimeter = 2(5 + 3) = 16 cm, Area = 5 × 3 = 15 cm²</p>
+                    </div>
+
+                    <h3>Introduction to Volume</h3>
+                    <p>Volume is the amount of space inside a 3D shape. Volume is measured in cubic units (cm³, m³, etc.).</p>
+                    
+                    <h4>Volume of Rectangular Prisms</h4>
+                    <p>A rectangular prism (like a box) has volume = length × width × height</p>
+                    <p>V = l × w × h</p>
+
+                    <div class="example-box">
+                        <h4>Example: Volume of a box</h4>
+                        <p>Length = 10 cm, Width = 6 cm, Height = 4 cm</p>
+                        <p>V = 10 × 6 × 4 = 240 cm³</p>
+                    </div>
+
+                    <h4>Understanding Cubic Units</h4>
+                    <p>Volume measures how many unit cubes fit inside a 3D shape. A unit cube is a cube with sides of 1 unit.</p>
+
+                    <h3>Converting Units</h3>
+                    
+                    <h4>Length Units</h4>
+                    <ul>
+                        <li>1 m = 100 cm = 1,000 mm</li>
+                        <li>1 km = 1,000 m</li>
+                    </ul>
+
+                    <h4>Area Units</h4>
+                    <ul>
+                        <li>1 m² = 10,000 cm²</li>
+                        <li>1 cm² = 100 mm²</li>
+                    </ul>
+
+                    <h4>Volume Units</h4>
+                    <ul>
+                        <li>1 m³ = 1,000,000 cm³</li>
+                        <li>1 cm³ = 1,000 mm³</li>
+                        <li>1 liter = 1,000 cm³</li>
+                    </ul>
+
+                    <div class="activity-box">
+                        <h4>📦 Try This! Box Investigation</h4>
+                        <p>Find a small box (like a cereal box) and:</p>
+                        <ol>
+                            <li>Measure its length, width, and height</li>
+                            <li>Calculate its volume</li>
+                            <li>Calculate the area of each face</li>
+                            <li>Find the total surface area (sum of all face areas)</li>
+                        </ol>
+                    </div>
+
+                    <h3>Real-World Applications</h3>
+                    
+                    <h4>When Do We Use Perimeter?</h4>
+                    <ul>
+                        <li>Fencing around a yard</li>
+                        <li>Framing a picture</li>
+                        <li>Putting trim around a room</li>
+                        <li>Finding how far you walk around a track</li>
+                    </ul>
+
+                    <h4>When Do We Use Area?</h4>
+                    <ul>
+                        <li>Carpeting a room</li>
+                        <li>Painting a wall</li>
+                        <li>Planting grass in a yard</li>
+                        <li>Determining how much wrapping paper you need</li>
+                    </ul>
+
+                    <h4>When Do We Use Volume?</h4>
+                    <ul>
+                        <li>Filling a swimming pool</li>
+                        <li>Packing boxes for moving</li>
+                        <li>Cooking (measuring ingredients)</li>
+                        <li>Determining storage capacity</li>
+                    </ul>
+
+                    <div class="fun-fact">
+                        <strong>Did You Know?</strong> The largest swimming pool in the world by area is in Chile and covers over 20 acres! That's about 80,000 square meters. It holds 66 million gallons of water - that's about 250 million liters!
+                    </div>
+                </div>
+
+                <!-- Chapter 6: Data Handling and Graphs -->
+                <div id="mathematics-chapter-6" class="chapter-content">
+                    <h2>📊 Data Handling and Graphs</h2>
+                    
+                    <h3>What is Data?</h3>
+                    <p>Data is information that we collect about people, places, things, or events. We collect data to answer questions, make decisions, or understand patterns.</p>
+                    
+                    <div class="example-box">
+                        <h4>Types of Data</h4>
+                        <ul>
+                            <li><strong>Qualitative Data:</strong> Describes qualities (favorite color, type of pet)</li>
+                            <li><strong>Quantitative Data:</strong> Shows amounts or quantities (height, age, number of books)</li>
+                        </ul>
+                    </div>
+
+                    <h3>Collecting Data</h3>
+                    
+                    <h4>Methods of Data Collection</h4>
+                    <ul>
+                        <li><strong>Surveys:</strong> Asking people questions</li>
+                        <li><strong>Observations:</strong> Watching and recording what happens</li>
+                        <li><strong>Experiments:</strong> Testing to find results</li>
+                        <li><strong>Research:</strong> Using existing information</li>
+                    </ul>
+
+                    <div class="activity-box">
+                        <h4>📋 Try This! Class Survey</h4>
+                        <p>Survey your classmates about their favorite school subject:</p>
+                        <ol>
+                            <li>Ask each student to choose: Math, Science, Language Arts, or Social Studies</li>
+                            <li>Use tally marks to record responses</li>
+                            <li>Count the totals for each subject</li>
+                            <li>What can you conclude from your data?</li>
+                        </ol>
+                    </div>
+
+                    <h3>Organizing Data</h3>
+                    
+                    <h4>Frequency Tables</h4>
+                    <p>A frequency table shows how often each item appears in a data set.</p>
+                    
+                    <div class="example-box">
+                        <h4>Example: Favorite Pets Survey</h4>
+                        <table>
+                            <tr>
+                                <th>Pet Type</th>
+                                <th>Tally</th>
+                                <th>Frequency</th>
+                            </tr>
+                            <tr>
+                                <td>Dog</td>
+                                <td>||||  |||</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>Cat</td>
+                                <td>||||  |</td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <td>Bird</td>
+                                <td>|||</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>Fish</td>
+                                <td>||</td>
+                                <td>2</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <h3>Types of Graphs</h3>
+                    
+                    <h4>Bar Graphs</h4>
+                    <p>Bar graphs use bars of different lengths to show data. The length of each bar represents the frequency or amount.</p>
+                    
+                    <div class="example-box">
+                        <h4>When to Use Bar Graphs</h4>
+                        <ul>
+                            <li>Comparing different categories</li>
+                            <li>Showing data that doesn't change over time</li>
+                            <li>Examples: favorite foods, types of transportation, survey results</li>
+                        </ul>
+                    </div>
+
+                    <h4>Pictographs</h4>
+                    <p>Pictographs use pictures or symbols to represent data. Each picture represents a certain number of items.</p>
+                    
+                    <div class="example-box">
+                        <h4>Example: Books Read This Month</h4>
+                        <p>Sarah: 📚📚📚📚 (each book = 2 books read)</p>
+                        <p>Mike: 📚📚📚 (6 books)</p>
+                        <p>Lisa: 📚📚📚📚📚 (10 books)</p>
+                        <p>Key: 📚 = 2 books</p>
+                    </div>
+
+                    <h4>Line Graphs</h4>
+                    <p>Line graphs show how data changes over time by connecting points with lines.</p>
+                    
+                    <div class="example-box">
+                        <h4>When to Use Line Graphs</h4>
+                        <ul>
+                            <li>Showing changes over time</li>
+                            <li>Tracking trends or patterns</li>
+                            <li>Examples: temperature over a week, plant growth, test scores over a semester</li>
+                        </ul>
+                    </div>
+
+                    <h3>Reading and Interpreting Graphs</h3>
+                    
+                    <h4>Key Questions to Ask</h4>
+                    <ul>
+                        <li>What does the title tell us?</li>
+                        <li>What do the axes represent?</li>
+                        <li>What is the scale (what does each unit represent)?</li>
+                        <li>Which category has the highest/lowest value?</li>
+                        <li>What patterns or trends do you see?</li>
+                    </ul>
+
+                    <div class="try-this">
+                        <h4>🔍 Try This! Graph Detective</h4>
+                        <p>Look at any graph in a newspaper, magazine, or online and answer:</p>
+                        <ol>
+                            <li>What type of graph is it?</li>
+                            <li>What is it measuring?</li>
+                            <li>What is the most interesting thing you notice?</li>
+                            <li>What question does this graph help answer?</li>
+                        </ol>
+                    </div>
+
+                    <h3>Creating Effective Graphs</h3>
+                    
+                    <h4>Steps to Make a Good Graph</h4>
+                    <ol>
+                        <li>Choose the right type of graph for your data</li>
+                        <li>Give your graph a clear, descriptive title</li>
+                        <li>Label both axes clearly</li>
+                        <li>Choose an appropriate scale</li>
+                        <li>Use colors or patterns to make it easy to read</li>
+                        <li>Include a key or legend if needed</li>
+                    </ol>
+
+                    <h3>Analyzing Data</h3>
+                    
+                    <h4>Finding the Mode</h4>
+                    <p>The mode is the value that appears most often in a data set.</p>
+                    
+                    <div class="example-box">
+                        <h4>Example</h4>
+                        <p>Test scores: 85, 90, 85, 92, 88, 85, 90</p>
+                        <p>Mode = 85 (appears 3 times)</p>
+                    </div>
+
+                    <h4>Finding the Range</h4>
+                    <p>The range is the difference between the highest and lowest values.</p>
+                    
+                    <div class="example-box">
+                        <h4>Example</h4>
+                        <p>Ages: 8, 10, 12, 15, 9, 11</p>
+                        <p>Range = 15 - 8 = 7</p>
+                    </div>
+
+                    <h4>Finding the Mean (Average)</h4>
+                    <p>The mean is found by adding all values and dividing by the number of values.</p>
+                    
+                    <div class="example-box">
+                        <h4>Example</h4>
+                        <p>Heights (cm): 140, 145, 138, 142, 150</p>
+                        <p>Mean = (140 + 145 + 138 + 142 + 150) ÷ 5 = 715 ÷ 5 = 143 cm</p>
+                    </div>
+
+                    <div class="activity-box">
+                        <h4>🌡️ Try This! Weather Data Project</h4>
+                        <p>For one week, record the daily temperature:</p>
+                        <ol>
+                            <li>Create a frequency table with your data</li>
+                            <li>Make a line graph showing temperature changes</li>
+                            <li>Find the mean, mode, and range</li>
+                            <li>Write 3 conclusions about the weather patterns</li>
+                        </ol>
+                    </div>
+
+                    <div class="fun-fact">
+                        <strong>Did You Know?</strong> The first known statistical graph was created in 1786 by William Playfair, who invented the bar chart, line graph, and pie chart! Before that, people only used tables of numbers to show data.
+                    </div>
+                </div>
+
+                <!-- Chapter 7: Problem Solving with Multiple Operations -->
+                <div id="mathematics-chapter-7" class="chapter-content">
+                    <h2>🧩 Problem Solving with Multiple Operations</h2>
+                    
+                    <h3>Understanding Multi-Step Problems</h3>
+                    <p>Many real-life math problems require more than one operation to solve. These are called multi-step problems because you need to do several calculations in the right order.</p>
+                    
+                    <div class="example-box">
+                        <h4>Example: School Fundraiser</h4>
+                        <p>Your class sells 45 boxes of cookies for $8 each and 30 boxes of chocolates for $12 each. How much money did your class raise in total?</p>
+                        <p><strong>Step 1:</strong> Cookie money = 45 × $8 = $360</p>
+                        <p><strong>Step 2:</strong> Chocolate money = 30 × $12 = $360</p>
+                        <p><strong>Step 3:</strong> Total money = $360 + $360 = $720</p>
+                    </div>
+
+                    <h3>Order of Operations (PEMDAS)</h3>
+                    <p>When solving problems with multiple operations, we must follow the correct order:</p>
+                    
+                    <h4>PEMDAS Rules</h4>
+                    <ol>
+                        <li><strong>P</strong>arentheses first</li>
+                        <li><strong>E</strong>xponents (powers)</li>
+                        <li><strong>M</strong>ultiplication and <strong>D</strong>ivision (left to right)</li>
+                        <li><strong>A</strong>ddition and <strong>S</strong>ubtraction (left to right)</li>
+                    </ol>
+
+                    <div class="example-box">
+                        <h4>Example: 6 + 3 × 4 - 2</h4>
+                        <p><strong>Step 1:</strong> Multiply first → 3 × 4 = 12</p>
+                        <p><strong>Step 2:</strong> Now we have 6 + 12 - 2</p>
+                        <p><strong>Step 3:</strong> Add and subtract left to right → 6 + 12 = 18</p>
+                        <p><strong>Step 4:</strong> 18 - 2 = 16</p>
+                    </div>
+
+                    <h3>Problem-Solving Strategies</h3>
+                    
+                    <h4>The Four-Step Process</h4>
+                    <ol>
+                        <li><strong>Understand:</strong> What is the problem asking? What do I know?</li>
+                        <li><strong>Plan:</strong> What operations do I need? In what order?</li>
+                        <li><strong>Solve:</strong> Do the calculations step by step</li>
+                        <li><strong>Check:</strong> Does my answer make sense?</li>
+                    </ol>
+
+                    <div class="try-this">
+                        <h4>🧠 Try This! Problem-Solving Practice</h4>
+                        <p>Maria has $50. She buys 3 books for $12 each and 2 notebooks for $4 each. How much money does she have left?</p>
+                        <p>Use the four-step process:</p>
+                        <ol>
+                            <li>What do you understand?</li>
+                            <li>What's your plan?</li>
+                            <li>Solve step by step</li>
+                            <li>Check your answer</li>
+                        </ol>
+                    </div>
+
+                    <h3>Identifying Key Words</h3>
+                    <p>Certain words in problems tell us which operations to use:</p>
+                    
+                    <h4>Addition Words</h4>
+                    <p>total, sum, altogether, combined, plus, more than, increased by</p>
+                    
+                    <h4>Subtraction Words</h4>
+                    <p>difference, less than, minus, take away, decreased by, remaining, left over</p>
+                    
+                    <h4>Multiplication Words</h4>
+                    <p>times, product, of, each, per, rate, groups of</p>
+                    
+                    <h4>Division Words</h4>
+                    <p>divided by, per, average, each, shared equally, quotient</p>
+
+                    <h3>Working with Money Problems</h3>
+                    <p>Money problems often involve multiple steps and different operations.</p>
+                    
+                    <div class="example-box">
+                        <h4>Example: Shopping Trip</h4>
+                        <p>Jake buys 4 pens at $2.50 each and 3 notebooks at $3.75 each. He pays with a $20 bill. How much change should he receive?</p>
+                        <p><strong>Step 1:</strong> Cost of pens = 4 × $2.50 = $10.00</p>
+                        <p><strong>Step 2:</strong> Cost of notebooks = 3 × $3.75 = $11.25</p>
+                        <p><strong>Step 3:</strong> Total cost = $10.00 + $11.25 = $21.25</p>
+                        <p><strong>Step 4:</strong> Change = $20.00 - $21.25 = -$1.25</p>
+                        <p><strong>Conclusion:</strong> Jake needs $1.25 more!</p>
+                    </div>
+
+                    <h3>Time and Distance Problems</h3>
+                    <p>These problems often use the relationship: Distance = Speed × Time</p>
+                    
+                    <div class="example-box">
+                        <h4>Example: Travel Problem</h4>
+                        <p>A car travels at 60 km/h for 2 hours, then at 80 km/h for 1.5 hours. What is the total distance traveled?</p>
+                        <p><strong>Step 1:</strong> First distance = 60 × 2 = 120 km</p>
+                        <p><strong>Step 2:</strong> Second distance = 80 × 1.5 = 120 km</p>
+                        <p><strong>Step 3:</strong> Total distance = 120 + 120 = 240 km</p>
+                    </div>
+
+                    <h3>Percentage Problems</h3>
+                    <p>Multi-step percentage problems are common in real life.</p>
+                    
+                    <div class="example-box">
+                        <h4>Example: Sales Tax Problem</h4>
+                        <p>A jacket costs $80. There's a 15% discount, then 10% sales tax is added. What's the final price?</p>
+                        <p><strong>Step 1:</strong> Discount = 15% of $80 = 0.15 × $80 = $12</p>
+                        <p><strong>Step 2:</strong> Price after discount = $80 - $12 = $68</p>
+                        <p><strong>Step 3:</strong> Sales tax = 10% of $68 = 0.10 × $68 = $6.80</p>
+                        <p><strong>Step 4:</strong> Final price = $68 + $6.80 = $74.80</p>
+                    </div>
+
+                    <div class="activity-box">
+                        <h4>🍕 Try This! Pizza Party Planning</h4>
+                        <p>You're planning a pizza party for 24 students. Each pizza has 8 slices and costs $15. Each student will eat 3 slices on average. Drinks cost $2 per person.</p>
+                        <p>Calculate:</p>
+                        <ol>
+                            <li>How many pizzas do you need?</li>
+                            <li>What will the pizzas cost?</li>
+                            <li>What will the drinks cost?</li>
+                            <li>What's the total cost?</li>
+                            <li>How much should each student contribute if costs are shared equally?</li>
+                        </ol>
+                    </div>
+
+                    <h3>Estimation and Reasonableness</h3>
+                    <p>Always check if your answer makes sense!</p>
+                    
+                    <h4>Estimation Strategies</h4>
+                    <ul>
+                        <li>Round numbers to make calculations easier</li>
+                        <li>Use benchmark numbers (like 10, 100, 1000)</li>
+                        <li>Think about what size answer you expect</li>
+                    </ul>
+
+                    <div class="example-box">
+                        <h4>Example: Estimation Check</h4>
+                        <p>Problem: 23 × $4.85</p>
+                        <p>Estimate: 20 × $5 = $100</p>
+                        <p>Actual: $111.55 ✓ (close to our estimate)</p>
+                    </div>
+
+                    <h3>Creating Your Own Problems</h3>
+                    <p>Practice by making up your own multi-step problems!</p>
+                    
+                    <div class="try-this">
+                        <h4>✏️ Try This! Problem Writer</h4>
+                        <p>Create a multi-step problem about:</p>
+                        <ol>
+                            <li>Planning a school event</li>
+                            <li>Calculating sports statistics</li>
+                            <li>Managing a budget</li>
+                        </ol>
+                        <p>Exchange problems with a classmate and solve each other's!</p>
+                    </div>
+
+                    <div class="fun-fact">
+                        <strong>Did You Know?</strong> The ancient Babylonians were solving complex multi-step math problems over 4,000 years ago! They used math to calculate taxes, plan construction projects, and even predict astronomical events.
+                    </div>
+                </div>
+
+                <!-- Chapter 8: Number Patterns and Sequences -->
+                <div id="mathematics-chapter-8" class="chapter-content">
+                    <h2>🔢 Number Patterns and Sequences</h2>
+                    
+                    <h3>What are Number Patterns?</h3>
+                    <p>A number pattern is a sequence of numbers that follows a specific rule. Understanding patterns helps us predict what comes next and solve problems more efficiently.</p>
+                    
+                    <div class="example-box">
+                        <h4>Simple Pattern Example</h4>
+                        <p>2, 4, 6, 8, 10, 12, ...</p>
+                        <p><strong>Pattern Rule:</strong> Add 2 to each number</p>
+                        <p><strong>Next numbers:</strong> 14, 16, 18</p>
+                    </div>
+
+                    <h3>Types of Number Patterns</h3>
+                    
+                    <h4>Arithmetic Sequences</h4>
+                    <p>In arithmetic sequences, the same number is added (or subtracted) each time.</p>
+                    
+                    <div class="example-box">
+                        <h4>Examples of Arithmetic Sequences</h4>
+                        <ul>
+                            <li>5, 10, 15, 20, 25... (add 5)</li>
+                            <li>100, 90, 80, 70, 60... (subtract 10)</li>
+                            <li>3, 7, 11, 15, 19... (add 4)</li>
+                        </ul>
+                    </div>
+
+                    <h4>Geometric Sequences</h4>
+                    <p>In geometric sequences, each number is multiplied (or divided) by the same amount.</p>
+                    
+                    <div class="example-box">
+                        <h4>Examples of Geometric Sequences</h4>
+                        <ul>
+                            <li>2, 6, 18, 54, 162... (multiply by 3)</li>
+                            <li>80, 40, 20, 10, 5... (divide by 2)</li>
+                            <li>1, 4, 16, 64, 256... (multiply by 4)</li>
+                        </ul>
+                    </div>
+
+                    <h4>Special Number Patterns</h4>
+                    
+                    <h5>Square Numbers</h5>
+                    <p>Numbers formed by multiplying a number by itself.</p>
+                    <p>1, 4, 9, 16, 25, 36, 49...</p>
+                    <p>(1², 2², 3², 4², 5², 6², 7²...)</p>
+
+                    <h5>Triangular Numbers</h5>
+                    <p>Numbers that can form triangles when arranged as dots.</p>
+                    <p>1, 3, 6, 10, 15, 21...</p>
+                    
+                    <div class="example-box">
+                        <h4>Visualizing Triangular Numbers</h4>
+                        <p>1st: • (1)</p>
+                        <p>2nd: •<br>&nbsp;&nbsp;&nbsp;&nbsp;• • (3)</p>
+                        <p>3rd: •<br>&nbsp;&nbsp;&nbsp;&nbsp;• •<br>&nbsp;&nbsp;&nbsp;&nbsp;• • • (6)</p>
+                    </div>
+
+                    <h5>Fibonacci Sequence</h5>
+                    <p>Each number is the sum of the two previous numbers.</p>
+                    <p>1, 1, 2, 3, 5, 8, 13, 21, 34...</p>
+                    <p>(1+1=2, 1+2=3, 2+3=5, 3+5=8...)</p>
+
+                    <div class="activity-box">
+                        <h4>🔍 Try This! Pattern Detective</h4>
+                        <p>Find the rule and next three numbers for each pattern:</p>
+                        <ol>
+                            <li>4, 9, 14, 19, 24, __, __, __</li>
+                            <li>2, 6, 18, 54, __, __, __</li>
+                            <li>50, 45, 40, 35, __, __, __</li>
+                            <li>1, 3, 7, 15, 31, __, __, __</li>
+                        </ol>
+                    </div>
+
+                    <h3>Finding Pattern Rules</h3>
+                    
+                    <h4>Steps to Find a Pattern Rule</h4>
+                    <ol>
+                        <li>Look at the differences between consecutive numbers</li>
+                        <li>Check if the differences are the same (arithmetic)</li>
+                        <li>If not, check if there's a multiplication rule (geometric)</li>
+                        <li>Look for other relationships (squares, adding previous terms, etc.)</li>
+                    </ol>
+
+                    <div class="example-box">
+                        <h4>Example: Finding the Rule</h4>
+                        <p>Pattern: 5, 12, 19, 26, 33...</p>
+                        <p>Differences: 12-5=7, 19-12=7, 26-19=7, 33-26=7</p>
+                        <p><strong>Rule:</strong> Start with 5, add 7 each time</p>
+                        <p><strong>Next numbers:</strong> 40, 47, 54</p>
+                    </div>
+
+                    <h3>Using Patterns to Solve Problems</h3>
+                    
+                    <h4>Finding the nth Term</h4>
+                    <p>Sometimes we need to find a specific term in a pattern without listing all the terms.</p>
+                    
+                    <div class="example-box">
+                        <h4>Example: Arithmetic Sequence Formula</h4>
+                        <p>Pattern: 3, 7, 11, 15, 19... (add 4 each time)</p>
+                        <p>First term (a₁) = 3, Common difference (d) = 4</p>
+                        <p><strong>Formula:</strong> aₙ = a₁ + (n-1)d</p>
+                        <p><strong>10th term:</strong> a₁₀ = 3 + (10-1)4 = 3 + 36 = 39</p>
+                    </div>
+
+                    <h3>Patterns in Tables</h3>
+                    <p>Patterns can be shown in tables, making relationships easier to see.</p>
+                    
+                    <div class="example-box">
+                        <h4>Example: Growing Pattern</h4>
+                        <table>
+                            <tr>
+                                <th>Step Number</th>
+                                <th>Number of Squares</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>7</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>13</td>
+                            </tr>
+                        </table>
+                        <p><strong>Pattern:</strong> Starts with 4, adds 3 each step</p>
+                        <p><strong>Rule:</strong> Number of squares = 3 × step number + 1</p>
+                    </div>
+
+                    <h3>Visual Patterns</h3>
+                    <p>Patterns can also be visual, using shapes, colors, or arrangements.</p>
+
+                    <div class="activity-box">
+                        <h4>🎨 Try This! Visual Pattern Creation</h4>
+                        <p>Create a visual pattern using:</p>
+                        <ol>
+                            <li>Colored squares that follow a number pattern</li>
+                            <li>Geometric shapes that grow by a rule</li>
+                            <li>A border design that repeats every 4 units</li>
+                        </ol>
+                        <p>Challenge a friend to find your pattern rule!</p>
+                    </div>
+
+                    <h3>Real-World Patterns</h3>
+                    <p>Number patterns appear everywhere in real life!</p>
+                    
+                    <h4>Examples in Nature</h4>
+                    <ul>
+                        <li>Fibonacci numbers in flower petals, pinecones, and shells</li>
+                        <li>Honeycomb hexagon patterns</li>
+                        <li>Tree branching patterns</li>
+                    </ul>
+
+                    <h4>Examples in Daily Life</h4>
+                    <ul>
+                        <li>Bus schedules (every 15 minutes)</li>
+                        <li>Seating arrangements in theaters</li>
+                        <li>Brick patterns in walls</li>
+                        <li>Calendar dates</li>
+                    </ul>
+
+                    <h3>Creating and Extending Patterns</h3>
+                    
+                    <div class="try-this">
+                        <h4>🧮 Try This! Pattern Maker</h4>
+                        <p>Create your own patterns starting with these rules:</p>
+                        <ol>
+                            <li>Start with 7, multiply by 2 each time</li>
+                            <li>Start with 100, subtract 7 each time</li>
+                            <li>Start with 2 and 5, add the two previous numbers</li>
+                        </ol>
+                        <p>Write the first 8 terms of each pattern.</p>
+                    </div>
+
+                    <h3>Problem-Solving with Patterns</h3>
+                    <p>Recognizing patterns can make solving problems much easier!</p>
+                    
+                    <div class="example-box">
+                        <h4>Example: Stadium Seating</h4>
+                        <p>A stadium has rows with these seat counts:</p>
+                        <p>Row 1: 20 seats</p>
+                        <p>Row 2: 24 seats</p>
+                        <p>Row 3: 28 seats</p>
+                        <p>Row 4: 32 seats</p>
+                        <p><strong>Question:</strong> How many seats in Row 10?</p>
+                        <p><strong>Pattern:</strong> Starts with 20, adds 4 each row</p>
+                        <p><strong>Answer:</strong> Row 10 = 20 + (10-1)4 = 20 + 36 = 56 seats</p>
+                    </div>
+
+                    <div class="fun-fact">
+                        <strong>Did You Know?</strong> The Fibonacci sequence appears amazingly often in nature! Sunflower seed spirals, nautilus shells, and even galaxy formations follow Fibonacci patterns. Leonardo Fibonacci discovered this sequence in 1202 while studying rabbit populations!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showSubject(subject) {
+            // Hide all content areas
+            document.querySelectorAll('.content-area').forEach(area => {
+                area.classList.remove('active');
+            });
+            
+            // Show selected content area
+            document.getElementById(subject).classList.add('active');
+            
+            // Update button states
+            document.querySelectorAll('.subject-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Show first chapter of selected subject
+            showChapter(subject, 1);
+        }
+
+        function showChapter(subject, chapterNum) {
+            // Hide all chapters in this subject
+            document.querySelectorAll(`#${subject} .chapter-content`).forEach(chapter => {
+                chapter.classList.remove('active');
+            });
+            
+            // Show selected chapter
+            const targetChapter = document.getElementById(`${subject}-chapter-${chapterNum}`);
+            if (targetChapter) {
+                targetChapter.classList.add('active');
+            }
+            
+            // Update chapter button states
+            document.querySelectorAll(`#${subject} .chapter-btn`).forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Find and activate the correct chapter button
+            const chapterButtons = document.querySelectorAll(`#${subject} .chapter-btn`);
+            if (chapterButtons[chapterNum - 1]) {
+                chapterButtons[chapterNum - 1].classList.add('active');
+            }
+        }
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set default active states
+            showSubject('mathematics');
+        });
+
+        // Add smooth scrolling for better user experience
+        document.querySelectorAll('.chapter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const wrapper = this.closest('.content-area').querySelector('.chapter-content-wrapper');
+                wrapper.scrollTop = 0;
+            });
+        });
+
+        // Add keyboard navigation support
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey) {
+                switch(e.key) {
+                    case '1':
+                        e.preventDefault();
+                        showSubject('mathematics');
+                        break;
+                    case '2':
+                        e.preventDefault();
+                        showSubject('science');
+                        break;
+                    case '3':
+                        e.preventDefault();
+                        showSubject('language');
+                        break;
+                    case '4':
+                        e.preventDefault();
+                        showSubject('social');
+                        break;
+                }
+            }
+        });
+    </script>
+</body>
+</html>
+
+        <!-- Science Content -->
+        <div id="science" class="content-area">
+            <div class="chapter-nav">
+                <button class="chapter-btn active" onclick="showChapter('science', 1)">Life Processes & Classification</button>
+                <button class="chapter-btn" onclick="showChapter('science', 2)">Plant & Animal Adaptations</button>
+                <button class="chapter-btn" onclick="showChapter('science', 3)">Food Chains & Ecosystems</button>
+                <button class="chapter-btn" onclick="showChapter('science', 4)">Matter: States & Changes</button>
+                <button class="chapter-btn" onclick="showChapter('science', 5)">Energy & Transformations</button>
+                <button class="chapter-btn" onclick="showChapter('science', 6)">Simple Machines & Forces</button>
+                <button class="chapter-btn" onclick="showChapter('science', 7)">Weather & Climate</button>
+                <button class="chapter-btn" onclick="showChapter('science', 8)">Environmental Conservation</button>
+                <button class="chapter-btn" onclick="showChapter('science', 9)">Human Body Systems</button>
+            </div>
+            
+            <div class="chapter-content-wrapper">
+                <!-- Chapter 1: Advanced Life Processes and Classification -->
+                <div id="science-chapter-1" class="chapter-content active">
+                    <h2>🔬 Advanced Life Processes and Classification</h2>
+                    
+                    <h3>Characteristics of Living Things</h3>
+                    <p>All living things share certain characteristics that make them different from non-living things. Scientists use these characteristics to identify and classify life on Earth.</p>
+                    
+                    <h4>The Seven Life Processes</h4>
+                    <ol>
+                        <li><strong>Movement:</strong> All living things can move in some way</li>
+                        <li><strong>Respiration:</strong> Using oxygen to release energy from food</li>
+                        <li><strong>Sensitivity:</strong> Responding to changes in the environment</li>
+                        <li><strong>Growth:</strong> Increasing in size and complexity</li>
+                        <li><strong>Reproduction:</strong> Creating new individuals of the same species</li>
+                        <li><strong>Excretion:</strong> Removing waste products from the body</li>
+                        <li><strong>Nutrition:</strong> Taking in and using food for energy and growth</li>
+                    </ol>
+
+                    <div class="example-box">
+                        <h4>Remember with MRS GREN!</h4>
+                        <p><strong>M</strong>ovement, <strong>R</strong>espiration, <strong>S</strong>ensitivity, <strong>G</strong>rowth, <strong>R</strong>eproduction, <strong>E</strong>xcretion, <strong>N</strong>utrition</p>
+                    </div>
+
+                    <div class="activity-box">
+                        <h4>🔍 Try This! Living vs Non-Living</h4>
+                        <p>Test your understanding:</p>
+                        <ol>
+                            <li>Make a list of 10 things in your classroom</li>
+                            <li>For each item, check which life processes it shows</li>
+                            <li>Classify each as living or non-living</li>
+                            <li>Can you find anything that seems tricky to classify?</li>
+                        </ol>
+                    </div>
+
+                    <div class="fun-fact">
+                        <strong>Did You Know?</strong> Scientists have discovered and named over 1.5 million different species, but they estimate there could be 8-10 million species on Earth! New species are discovered every day, especially in tropical rainforests and deep oceans.
+                    </div>
+                </div>
+
+                <!-- Chapter 2: Plant and Animal Adaptations -->
+                <div id="science-chapter-2" class="chapter-content">
+                    <h2>🌿 Plant and Animal Adaptations</h2>
+                    
+                    <h3>What are Adaptations?</h3>
+                    <p>Adaptations are special features that help plants and animals survive in their environments. These features develop over many generations and help organisms find food, avoid danger, and reproduce successfully.</p>
+                    
+                    <div class="example-box">
+                        <h4>Types of Adaptations</h4>
+                        <ul>
+                            <li><strong>Structural:</strong> Body parts and features (sharp teeth, thick fur)</li>
+                            <li><strong>Behavioral:</strong> Actions and habits (migration, hibernation)</li>
+                            <li><strong>Physiological:</strong> Internal body processes (producing venom, regulating temperature)</li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-box">
+                        <h4>🦅 Try This! Amazing Adaptations</h4>
+                        <p>Research a Jamaican animal and discover its adaptations:</p>
+                        <ol>
+                            <li>Choose: Jamaican iguana, crocodile, or hummingbird</li>
+                            <li>Find out where it lives and what challenges it faces</li>
+                            <li>List 3 adaptations that help it survive</li>
+                            <li>Draw your animal showing its special features</li>
+                        </ol>
+                    </div>
+
+                    <div class="fun-fact">
+                        <strong>Amazing Adaptation!</strong> The Arctic fox changes the color of its fur with the seasons! In winter, it has white fur for camouflage in the snow. In summer, it grows brown fur to blend with rocks and plants.
+                    </div>
+                </div>
+
+                <!-- Additional chapters would continue here -->
+                <!-- For brevity, including key chapters -->
+
+                <!-- Chapter 9: Human Body Systems -->
+                <div id="science-chapter-9" class="chapter-content">
+                    <h2>🫁 Basic Human Body Systems</h2>
+                    
+                    <h3>Introduction to Body Systems</h3>
+                    <p>Your body is like a complex machine with different systems working together to keep you alive and healthy. Each system has a special job, but they all cooperate with each other.</p>
+                    
+                    <div class="example-box">
+                        <h4>Major Body Systems</h4>
+                        <ul>
+                            <li><strong>Circulatory System:</strong> Moves blood around your body</li>
+                            <li><strong>Respiratory System:</strong> Helps you breathe</li>
+                            <li><strong>Digestive System:</strong> Breaks down food for energy</li>
+                            <li><strong>Skeletal System:</strong> Provides structure and support</li>
+                            <li><strong>Muscular System:</strong> Helps you move</li>
+                            <li><strong>Nervous System:</strong> Controls everything in your body</li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-box">
+                        <h4>💓 Try This! Heart Rate Investigation</h4>
+                        <p>Measure your pulse in different situations:</p>
+                        <ol>
+                            <li>Find your pulse on your wrist or neck</li>
+                            <li>Count beats for 15 seconds, multiply by 4</li>
+                            <li>Measure: resting, after walking, after running</li>
+                            <li>Record and compare your results</li>
+                        </ol>
+                        <p>Why does your heart rate change with activity?</p>
+                    </div>
+
+                    <div class="fun-fact">
+                        <strong>Amazing Body Fact!</strong> Your heart beats about 100,000 times per day and pumps about 2,000 gallons of blood! That's enough to fill a small swimming pool every month.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showSubject(subject) {
+            // Hide all content areas
+            document.querySelectorAll('.content-area').forEach(area => {
+                area.classList.remove('active');
+            });
+            
+            // Show selected content area
+            document.getElementById(subject).classList.add('active');
+            
+            // Update button states
+            document.querySelectorAll('.subject-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Show first chapter of selected subject
+            showChapter(subject, 1);
+        }
+
+        function showChapter(subject, chapterNum) {
+            // Hide all chapters in this subject
+            document.querySelectorAll(`#${subject} .chapter-content`).forEach(chapter => {
+                chapter.classList.remove('active');
+            });
+            
+            // Show selected chapter
+            const targetChapter = document.getElementById(`${subject}-chapter-${chapterNum}`);
+            if (targetChapter) {
+                targetChapter.classList.add('active');
+            }
+            
+            // Update chapter button states
+            document.querySelectorAll(`#${subject} .chapter-btn`).forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Find and activate the correct chapter button
+            const chapterButtons = document.querySelectorAll(`#${subject} .chapter-btn`);
+            if (chapterButtons[chapterNum - 1]) {
+                chapterButtons[chapterNum - 1].classList.add('active');
+            }
+        }
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set default active states
+            showSubject('mathematics');
+        });
+
+        // Add smooth scrolling for better user experience
+        document.querySelectorAll('.chapter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const wrapper = this.closest('.content-area').querySelector('.chapter-content-wrapper');
+                wrapper.scrollTop = 0;
+            });
+        });
+
+        // Add keyboard navigation support
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey) {
+                switch(e.key) {
+                    case '1':
+                        e.preventDefault();
+                        showSubject('mathematics');
+                        break;
+                    case '2':
+                        e.preventDefault();
+                        showSubject('science');
+                        break;
+                    case '3':
+                        e.preventDefault();
+                        showSubject('language');
+                        break;
+                    case '4':
+                        e.preventDefault();
+                        showSubject('social');
+                        break;
+                }
+            }
+        });
+    </script>
+</body>
+</html>
+
+        <!-- Language Arts Content -->
+        <div id="language" class="content-area">
+            <div class="chapter-nav">
+                <button class="chapter-btn active" onclick="showChapter('language', 1)">Advanced Reading Comprehension</button>
+                <button class="chapter-btn" onclick="showChapter('language', 2)">Writing from Sources</button>
+                <button class="chapter-btn" onclick="showChapter('language', 3)">Narrative & Expository Writing</button>
+                <button class="chapter-btn" onclick="showChapter('language', 4)">Complex Grammar & Punctuation</button>
+                <button class="chapter-btn" onclick="showChapter('language', 5)">Vocabulary Development</button>
+                <button class="chapter-btn" onclick="showChapter('language', 6)">Research & Study Skills</button>
+                <button class="chapter-btn" onclick="showChapter('language', 7)">Oral Presentations</button>
+                <button class="chapter-btn" onclick="showChapter('language', 8)">Poetry & Literature Analysis</button>
+            </div>
+            
+            <div class="chapter-content-wrapper">
+                <!-- Chapter 1: Advanced Reading Comprehension Strategies -->
+                <div id="language-chapter-1" class="chapter-content active">
+                    <h2>📖 Advanced Reading Comprehension Strategies</h2>
+                    
+                    <h3>What is Reading Comprehension?</h3>
+                    <p>Reading comprehension is understanding what you read. It's not just knowing the words, but understanding the meaning, making connections, and thinking critically about the text.</p>
+                    
+                    <div class="example-box">
+                        <h4>Levels of Reading Comprehension</h4>
+                        <ul>
+                            <li><strong>Literal:</strong> Understanding what the text directly says</li>
+                            <li><strong>Inferential:</strong> Reading between the lines, making educated guesses</li>
+                            <li><strong>Critical:</strong> Analyzing and evaluating the text</li>
+                            <li><strong>Creative:</strong> Going beyond the text to form new ideas</li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-box">
+                        <h4>🔍 Try This! Comprehension Strategy Practice</h4>
+                        <p>Choose any story or article and practice these strategies:</p>
+                        <ol>
+                            <li>Preview the text before reading</li>
+                            <li>Make predictions about what will happen</li>
+                            <li>Ask questions while reading</li>
+                            <li>Make connections to your own life</li>
+                            <li>Summarize what you learned</li>
+                        </ol>
+                    </div>
+
+                    <div class="fun-fact">
+                        <strong>Reading Brain Fact!</strong> When you read, your brain creates connections between ideas, which is why reading makes you smarter! The more you read, the more neural pathways your brain develops.
+                    </div>
+                </div>
+
+                <!-- Chapter 2: Writing from Sources -->
+                <div id="language-chapter-2" class="chapter-content">
+                    <h2>✍️ Writing from Sources</h2>
+                    
+                    <h3>What is Writing from Sources?</h3>
+                    <p>Writing from sources means using information from books, articles, websites, or other materials to create your own written work. This is an important skill for research projects, reports, and essays.</p>
+                    
+                    <div class="example-box">
+                        <h4>Types of Source-Based Writing</h4>
+                        <ul>
+                            <li><strong>Research reports:</strong> Gathering information on a topic</li>
+                            <li><strong>Compare and contrast essays:</strong> Using sources to show similarities and differences</li>
+                            <li><strong>Argumentative writing:</strong> Using evidence to support a position</li>
+                            <li><strong>Informative articles:</strong> Combining information from multiple sources</li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-box">
+                        <h4>🗂️ Try This! Research Practice</h4>
+                        <p>Choose a topic about Jamaica and practice research skills:</p>
+                        <ol>
+                            <li>Find 3 reliable sources about your topic</li>
+                            <li>Take notes using different methods</li>
+                            <li>Create an outline organizing your information</li>
+                            <li>Write one paragraph using your research</li>
+                            <li>Include proper citations</li>
+                        </ol>
+                    </div>
+
+                    <div class="fun-fact">
+                        <strong>Did You Know?</strong> The word "plagiarism" comes from the Latin word "plagium," which means "kidnapping." Ancient Romans thought stealing someone's words was like kidnapping their ideas!
+                    </div>
+                </div>
+
+                <!-- Chapter 8: Poetry and Literature Analysis -->
+                <div id="language-chapter-8" class="chapter-content">
+                    <h2>🎭 Poetry and Literature Analysis</h2>
+                    
+                    <h3>Understanding Poetry</h3>
+                    <p>Poetry is a special form of writing that uses rhythm, sound, and imagery to express feelings, ideas, or tell stories in a concentrated, artistic way.</p>
+                    
+                    <div class="example-box">
+                        <h4>Jamaican Haiku Example</h4>
+                        <p>Blue Mountain coffee (5 syllables)<br>
+                        Steam rises in morning light (7 syllables)<br>
+                        Rich aroma blooms (5 syllables)</p>
+                    </div>
+
+                    <div class="activity-box">
+                        <h4>✍️ Try This! Write Your Own Poem</h4>
+                        <p>Create a poem about Jamaica:</p>
+                        <ol>
+                            <li>Choose a Jamaican topic (beaches, mountains, food, music)</li>
+                            <li>List sensory details (what you see, hear, smell, taste, feel)</li>
+                            <li>Include at least one simile or metaphor</li>
+                            <li>Try different forms: free verse, rhyming, or haiku</li>
+                            <li>Read your poem aloud to hear how it sounds</li>
+                        </ol>
+                    </div>
+
+                    <div class="fun-fact">
+                        <strong>Poetry Power!</strong> Research shows that reading and writing poetry helps develop emotional intelligence, creativity, and language skills. Many successful people credit poetry with helping them think more creatively!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showSubject(subject) {
+            // Hide all content areas
+            document.querySelectorAll('.content-area').forEach(area => {
+                area.classList.remove('active');
+            });
+            
+            // Show selected content area
+            document.getElementById(subject).classList.add('active');
+            
+            // Update button states
+            document.querySelectorAll('.subject-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Show first chapter of selected subject
+            showChapter(subject, 1);
+        }
+
+        function showChapter(subject, chapterNum) {
+            // Hide all chapters in this subject
+            document.querySelectorAll(`#${subject} .chapter-content`).forEach(chapter => {
+                chapter.classList.remove('active');
+            });
+            
+            // Show selected chapter
+            const targetChapter = document.getElementById(`${subject}-chapter-${chapterNum}`);
+            if (targetChapter) {
+                targetChapter.classList.add('active');
+            }
+            
+            // Update chapter button states
+            document.querySelectorAll(`#${subject} .chapter-btn`).forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Find and activate the correct chapter button
+            const chapterButtons = document.querySelectorAll(`#${subject} .chapter-btn`);
+            if (chapterButtons[chapterNum - 1]) {
+                chapterButtons[chapterNum - 1].classList.add('active');
+            }
+        }
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set default active states
+            showSubject('mathematics');
+        });
+
+        // Add smooth scrolling for better user experience
+        document.querySelectorAll('.chapter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const wrapper = this.closest('.content-area').querySelector('.chapter-content-wrapper');
+                wrapper.scrollTop = 0;
+            });
+        });
+
+        // Add keyboard navigation support
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey) {
+                switch(e.key) {
+                    case '1':
+                        e.preventDefault();
+                        showSubject('mathematics');
+                        break;
+                    case '2':
+                        e.preventDefault();
+                        showSubject('science');
+                        break;
+                    case '3':
+                        e.preventDefault();
+                        showSubject('language');
+                        break;
+                    case '4':
+                        e.preventDefault();
+                        showSubject('social');
+                        break;
+                }
+            }
+        });
+    </script>
+</body>
+</html>
+
+        <!-- Social Studies Content -->
+        <div id="social" class="content-area">
+            <div class="chapter-nav">
+                <button class="chapter-btn active" onclick="showChapter('social', 1)">Jamaica's Geography</button>
+                <button class="chapter-btn" onclick="showChapter('social', 2)">Rivers & Water Bodies</button>
+                <button class="chapter-btn" onclick="showChapter('social', 3)">Counties & Parishes</button>
+                <button class="chapter-btn" onclick="showChapter('social', 4)">Jamaica's History</button>
+                <button class="chapter-btn" onclick="showChapter('social', 5)">National Heroes</button>
+                <button class="chapter-btn" onclick="showChapter('social', 6)">Government & Democracy</button>
+                <button class="chapter-btn" onclick="showChapter('social', 7)">Cultural Heritage</button>
+                <button class="chapter-btn" onclick="showChapter('social', 8)">Economic Activities</button>
+            </div>
+            
+            <div class="chapter-content-wrapper">
+                <!-- Chapter 1: Jamaica's Geography: Highlands and Lowlands -->
+                <div id="social-chapter-1" class="chapter-content active">
+                    <h2>🏔️ Jamaica's Geography: Highlands and Lowlands</h2>
+                    
+                    <h3>Jamaica's Physical Features</h3>
+                    <p>Jamaica is the third-largest island in the Caribbean Sea. Its diverse landscape includes mountains, plains, plateaus, and coastal areas, each with unique characteristics that influence how people live and work.</p>
+                    
+                    <div class="example-box">
+                        <h4>Jamaica's Size and Location</h4>
+                        <ul>
+                            <li><strong>Area:</strong> 10,991 square kilometers (4,244 square miles)</li>
+                            <li><strong>Length:</strong> 235 kilometers (146 miles) east to west</li>
+                            <li><strong>Width:</strong> 82 kilometers (51 miles) at widest point</li>
+                            <li><strong>Location:</strong> 18°N latitude, 77°W longitude</li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-box">
+                        <h4>🗺️ Try This! Mountain Explorer</h4>
+                        <p>Create a comparison chart of Jamaica's mountain ranges:</p>
+                        <ol>
+                            <li>Research each mountain range mentioned</li>
+                            <li>Compare: location, highest peak, climate, main activities</li>
+                            <li>Draw a simple map showing where each range is located</li>
+                            <li>Choose one range you'd like to visit and explain why</li>
+                        </ol>
+                    </div>
+
+                    <div class="fun-fact">
+                        <strong>Geography Fact!</strong> Jamaica's Blue Mountain Peak is so high that on clear days, you can sometimes see the island of Cuba, which is about 140 kilometers (87 miles) away! The mountains are also home to the world's second-largest butterfly, the Giant Swallowtail.
+                    </div>
+                </div>
+
+                <!-- Chapter 8: Economic Activities in Jamaica -->
+                <div id="social-chapter-8" class="chapter-content">
+                    <h2>💼 Economic Activities in Jamaica</h2>
+                    
+                    <h3>Understanding Jamaica's Economy</h3>
+                    <p>Jamaica's economy is diverse, with people working in many different industries. Understanding these economic activities helps us see how Jamaicans earn money and contribute to the country's development.</p>
+                    
+                    <div class="example-box">
+                        <h4>Main Economic Sectors</h4>
+                        <ul>
+                            <li><strong>Primary:</strong> Agriculture, mining, fishing, forestry</li>
+                            <li><strong>Secondary:</strong> Manufacturing, construction, processing</li>
+                            <li><strong>Tertiary:</strong> Services, tourism, banking, education</li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-box">
+                        <h4>🏖️ Try This! Tourism Impact Study</h4>
+                        <p>Investigate tourism in your community:</p>
+                        <ol>
+                            <li>List tourist attractions near your home</li>
+                            <li>Identify businesses that serve tourists</li>
+                            <li>Interview someone who works in tourism</li>
+                            <li>Discuss: How does tourism affect your community?</li>
+                            <li>Suggest ways to improve tourism in your area</li>
+                        </ol>
+                    </div>
+
+                    <div class="fun-fact">
+                        <strong>Economic Fact!</strong> Jamaica is the world's fourth-largest producer of bauxite! This red-colored ore is found mainly in Manchester, St. Ann, St. Catherine, and Clarendon parishes. When processed, it becomes aluminum used in everything from planes to soda cans!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showSubject(subject) {
+            // Hide all content areas
+            document.querySelectorAll('.content-area').forEach(area => {
+                area.classList.remove('active');
+            });
+            
+            // Show selected content area
+            document.getElementById(subject).classList.add('active');
+            
+            // Update button states
+            document.querySelectorAll('.subject-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Show first chapter of selected subject
+            showChapter(subject, 1);
+        }
+
+        function showChapter(subject, chapterNum) {
+            // Hide all chapters in this subject
+            document.querySelectorAll(`#${subject} .chapter-content`).forEach(chapter => {
+                chapter.classList.remove('active');
+            });
+            
+            // Show selected chapter
+            const targetChapter = document.getElementById(`${subject}-chapter-${chapterNum}`);
+            if (targetChapter) {
+                targetChapter.classList.add('active');
+            }
+            
+            // Update chapter button states
+            document.querySelectorAll(`#${subject} .chapter-btn`).forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Find and activate the correct chapter button
+            const chapterButtons = document.querySelectorAll(`#${subject} .chapter-btn`);
+            if (chapterButtons[chapterNum - 1]) {
+                chapterButtons[chapterNum - 1].classList.add('active');
+            }
+        }
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set default active states
+            showSubject('mathematics');
+        });
+
+        // Add smooth scrolling for better user experience
+        document.querySelectorAll('.chapter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const wrapper = this.closest('.content-area').querySelector('.chapter-content-wrapper');
+                wrapper.scrollTop = 0;
+            });
+        });
+
+        // Add keyboard navigation support
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey) {
+                switch(e.key) {
+                    case '1':
+                        e.preventDefault();
+                        showSubject('mathematics');
+                        break;
+                    case '2':
+                        e.preventDefault();
+                        showSubject('science');
+                        break;
+                    case '3':
+                        e.preventDefault();
+                        showSubject('language');
+                        break;
+                    case '4':
+                        e.preventDefault();
+                        showSubject('social');
+                        break;
+                }
+            }
+        });
+    </script>
+</body>
+</html>
