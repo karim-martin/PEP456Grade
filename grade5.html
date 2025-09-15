@@ -362,19 +362,19 @@
         <!-- Mathematics Content -->
         <div id="math" class="content-area active">
             <div class="chapter-nav">
-                <button class="chapter-btn active" onclick="showChapter('mathematics', 1)">Fractions & Mixed Numbers</button>
-                <button class="chapter-btn" onclick="showChapter('mathematics', 2)">Decimals</button>
-                <button class="chapter-btn" onclick="showChapter('mathematics', 3)">Percentages</button>
-                <button class="chapter-btn" onclick="showChapter('mathematics', 4)">Geometry & Angles</button>
-                <button class="chapter-btn" onclick="showChapter('mathematics', 5)">Measurement</button>
-                <button class="chapter-btn" onclick="showChapter('mathematics', 6)">Data & Graphs</button>
-                <button class="chapter-btn" onclick="showChapter('mathematics', 7)">Problem Solving</button>
-                <button class="chapter-btn" onclick="showChapter('mathematics', 8)">Number Patterns</button>
+                <button class="chapter-btn active" onclick="showChapter('math', 1)">Fractions & Mixed Numbers</button>
+                <button class="chapter-btn" onclick="showChapter('math', 2)">Decimals</button>
+                <button class="chapter-btn" onclick="showChapter('math', 3)">Percentages</button>
+                <button class="chapter-btn" onclick="showChapter('math', 4)">Geometry & Angles</button>
+                <button class="chapter-btn" onclick="showChapter('math', 5)">Measurement</button>
+                <button class="chapter-btn" onclick="showChapter('math', 6)">Data & Graphs</button>
+                <button class="chapter-btn" onclick="showChapter('math', 7)">Problem Solving</button>
+                <button class="chapter-btn" onclick="showChapter('math', 8)">Number Patterns</button>
             </div>
             
             <div class="chapter-content-wrapper">
                 <!-- Chapter 1: Fractions and Mixed Numbers -->
-                <div id="mathematics-chapter-1" class="chapter-content active">
+                <div id="math-chapter-1" class="chapter-content active">
                     <h2>📐 Fractions and Mixed Numbers</h2>
                     
                     <h3>Understanding Fractions</h3>
@@ -489,7 +489,7 @@
                 </div>
 
                 <!-- Chapter 2: Decimals -->
-                <div id="mathematics-chapter-2" class="chapter-content">
+                <div id="math-chapter-2" class="chapter-content">
                     <h2>📊 Decimals</h2>
                     
                     <h3>Understanding Decimal Place Value</h3>
@@ -623,7 +623,7 @@
                 </div>
 
                 <!-- Chapter 3: Introduction to Percentages -->
-                <div id="mathematics-chapter-3" class="chapter-content">
+                <div id="math-chapter-3" class="chapter-content">
                     <h2>📈 Introduction to Percentages</h2>
                     
                     <h3>What is a Percentage?</h3>
@@ -736,7 +736,7 @@
                 </div>
 
                 <!-- Chapter 4: Geometry: Angles, Polygons, and Symmetry -->
-                <div id="mathematics-chapter-4" class="chapter-content">
+                <div id="math-chapter-4" class="chapter-content">
                     <h2>📐 Geometry: Angles, Polygons, and Symmetry</h2>
                     
                     <h3>Understanding Angles</h3>
@@ -897,7 +897,7 @@
                 </div>
 
                 <!-- Chapter 5: Measurement: Area, Perimeter, Volume -->
-                <div id="mathematics-chapter-5" class="chapter-content">
+                <div id="math-chapter-5" class="chapter-content">
                     <h2>📏 Measurement: Area, Perimeter, Volume</h2>
                     
                     <h3>Understanding Perimeter</h3>
@@ -1043,7 +1043,7 @@
                 </div>
 
                 <!-- Chapter 6: Data Handling and Graphs -->
-                <div id="mathematics-chapter-6" class="chapter-content">
+                <div id="math-chapter-6" class="chapter-content">
                     <h2>📊 Data Handling and Graphs</h2>
                     
                     <h3>What is Data?</h3>
@@ -1231,7 +1231,7 @@
                 </div>
 
                 <!-- Chapter 7: Problem Solving with Multiple Operations -->
-                <div id="mathematics-chapter-7" class="chapter-content">
+                <div id="math-chapter-7" class="chapter-content">
                     <h2>🧩 Problem Solving with Multiple Operations</h2>
                     
                     <h3>Understanding Multi-Step Problems</h3>
@@ -1387,7 +1387,7 @@
                 </div>
 
                 <!-- Chapter 8: Number Patterns and Sequences -->
-                <div id="mathematics-chapter-8" class="chapter-content">
+                <div id="math-chapter-8" class="chapter-content">
                     <h2>🔢 Number Patterns and Sequences</h2>
                     
                     <h3>What are Number Patterns?</h3>
@@ -3685,7 +3685,7 @@
         // Initialize the page
         document.addEventListener('DOMContentLoaded', function() {
             // Set default active states
-            showSubject('mathematics');
+            showSubject('math');
         });
 
         // Add smooth scrolling for better user experience
@@ -3702,7 +3702,7 @@
                 switch(e.key) {
                     case '1':
                         e.preventDefault();
-                        showSubject('mathematics');
+                        showSubject('math');
                         break;
                     case '2':
                         e.preventDefault();
