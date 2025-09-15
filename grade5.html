@@ -119,38 +119,38 @@
             position: sticky;
             top: 0;
             z-index: 10;
+            border-radius: 15px 15px 0 0;
         }
 
         .chapter-btn {
-            background: #f7fafc;
-            color: #4a5568;
-            border: 1px solid #e2e8f0;
-            padding: 8px 15px;
-            border-radius: 20px;
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 8px;
             cursor: pointer;
             font-size: 0.9em;
-            transition: all 0.3s ease;
+            flex: 1;
+            min-width: 150px;
         }
 
         .chapter-btn:hover {
-            background: #edf2f7;
-            transform: translateY(-1px);
+            background: #5a67d8;
         }
 
         .chapter-btn.active {
-            background: #667eea;
-            color: white;
-            border-color: #667eea;
+            background: #48bb78;
         }
 
         .chapter-content-wrapper {
             overflow-y: auto;
-            padding: 30px;
-            height: calc(80vh - 120px);
+            flex: 1;
+            padding: 0;
         }
 
         .chapter-content {
             display: none;
+            padding: 30px;
         }
 
         .chapter-content.active {
@@ -158,13 +158,11 @@
         }
 
         h2 {
-            color: #4a5568;
-            margin: 25px 0 15px 0;
+            color: #2d3748;
+            margin-bottom: 25px;
             font-size: 1.8em;
-            background: #f7fafc;
-            padding: 15px;
-            border-left: 4px solid #667eea;
-            border-radius: 8px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
         }
 
         h3 {
