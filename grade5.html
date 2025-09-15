@@ -1622,16 +1622,21 @@
             document.querySelectorAll('.content-area').forEach(area => {
                 area.classList.remove('active');
             });
-            
+
             // Show selected content area
             document.getElementById(subject).classList.add('active');
-            
+
             // Update button states
             document.querySelectorAll('.subject-btn').forEach(btn => {
                 btn.classList.remove('active');
             });
-            event.target.classList.add('active');
-            
+
+            // Activate the corresponding subject button
+            const subjectBtn = document.querySelector(`[onclick="showSubject('${subject}')"]`);
+            if (subjectBtn) {
+                subjectBtn.classList.add('active');
+            }
+
             // Show first chapter of selected subject
             showChapter(subject, 1);
         }
