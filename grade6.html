@@ -226,17 +226,30 @@
             border-radius: 0 8px 8px 0;
         }
 
-        .pep-tip {
-            background: linear-gradient(135deg, #e6fffa 0%, #b2f5ea 100%);
-            border: 2px solid #38b2ac;
+        .video-search {
+            background: linear-gradient(135deg, #edf2f7 0%, #e2e8f0 100%);
+            border: 2px solid #cbd5e0;
             border-radius: 10px;
             padding: 15px;
             margin: 20px 0;
         }
 
-        .pep-tip h4 {
-            color: #2c7a7b;
+        .video-search h4 {
+            color: #4a5568;
             margin-bottom: 10px;
+        }
+
+        .video-search ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .video-search li {
+            background: white;
+            padding: 8px 12px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border-left: 3px solid #4285f4;
         }
 
         .practice-problems {
@@ -258,6 +271,30 @@
             padding: 15px;
             margin: 15px 0;
             border-radius: 0 8px 8px 0;
+        }
+
+        .back-btn {
+            background: #718096;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            font-size: 1em;
+        }
+
+        .back-btn:hover {
+            background: #4a5568;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .content-area.active {
+            animation: fadeIn 0.5s ease;
         }
 
         .topic-grid {
@@ -300,15 +337,6 @@
         th {
             background: #f7fafc;
             font-weight: bold;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .content-area.active {
-            animation: fadeIn 0.5s ease;
         }
     </style>
 </head>

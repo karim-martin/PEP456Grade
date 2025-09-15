@@ -24,6 +24,25 @@
             padding: 20px;
         }
 
+        .back-button {
+            display: inline-block;
+            margin-bottom: 20px;
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+
         .header {
             text-align: center;
             background: white;
@@ -42,25 +61,6 @@
         .header p {
             color: #718096;
             font-size: 1.2em;
-        }
-
-        .back-button {
-            display: inline-block;
-            margin-bottom: 20px;
-            background: white;
-            color: #667eea;
-            border: 2px solid #667eea;
-            padding: 12px 25px;
-            border-radius: 25px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: all 0.3s ease;
-        }
-
-        .back-button:hover {
-            background: #667eea;
-            color: white;
-            transform: translateY(-2px);
         }
 
         .subject-selector {
@@ -121,6 +121,12 @@
             z-index: 10;
             border-radius: 15px 15px 0 0;
         }
+        
+        .chapter-content-wrapper {
+            overflow-y: auto;
+            flex: 1;
+            padding: 0;
+        }
 
         .chapter-btn {
             background: #667eea;
@@ -140,12 +146,6 @@
 
         .chapter-btn.active {
             background: #48bb78;
-        }
-
-        .chapter-content-wrapper {
-            overflow-y: auto;
-            flex: 1;
-            padding: 0;
         }
 
         .chapter-content {
@@ -224,32 +224,6 @@
             padding: 15px;
             margin: 15px 0;
             border-radius: 0 8px 8px 0;
-        }
-
-        .activity-box {
-            background: linear-gradient(135deg, #f0fff4 0%, #c6f6d5 100%);
-            border: 2px solid #68d391;
-            border-radius: 10px;
-            padding: 20px;
-            margin: 20px 0;
-        }
-
-        .activity-box h4 {
-            color: #2f855a;
-            margin-bottom: 10px;
-        }
-
-        .try-this {
-            background: linear-gradient(135deg, #ebf8ff 0%, #bee3f8 100%);
-            border: 2px solid #4299e1;
-            border-radius: 10px;
-            padding: 20px;
-            margin: 20px 0;
-        }
-
-        .try-this h4 {
-            color: #2b6cb0;
-            margin-bottom: 10px;
         }
 
         .video-search {
