@@ -24,23 +24,22 @@
             padding: 20px;
         }
 
-        .return-btn {
-            background: #4a5568;
-            color: white;
-            border: none;
+        .back-button {
+            display: inline-block;
+            margin-bottom: 20px;
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
             padding: 12px 25px;
             border-radius: 25px;
-            cursor: pointer;
-            font-size: 1em;
-            font-weight: bold;
-            margin-bottom: 20px;
-            transition: all 0.3s ease;
             text-decoration: none;
-            display: inline-block;
+            font-weight: bold;
+            transition: all 0.3s ease;
         }
 
-        .return-btn:hover {
-            background: #2d3748;
+        .back-button:hover {
+            background: #667eea;
+            color: white;
             transform: translateY(-2px);
         }
 
@@ -316,9 +315,7 @@
 <body>
     <div class="container">
         <!-- Return to Grade Selection Button -->
-        <button class="return-btn" onclick="window.location.href='index.html'">
-            ← Return to Grade Selection
-        </button>
+        <a href="index.html" class="back-button">← Return to Grade Selection</a>
 
         <!-- Header -->
         <div class="header">

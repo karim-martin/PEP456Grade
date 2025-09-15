@@ -44,25 +44,20 @@
             font-size: 1.2em;
         }
 
-        .back-to-selection {
-            text-align: center;
+        .back-button {
+            display: inline-block;
             margin-bottom: 20px;
-        }
-
-        .back-to-selection a {
             background: white;
             color: #667eea;
             border: 2px solid #667eea;
             padding: 12px 25px;
             border-radius: 25px;
             text-decoration: none;
-            font-size: 1.1em;
             font-weight: bold;
             transition: all 0.3s ease;
-            display: inline-block;
         }
 
-        .back-to-selection a:hover {
+        .back-button:hover {
             background: #667eea;
             color: white;
             transform: translateY(-2px);
@@ -376,9 +371,7 @@
 <body>
     <div class="container">
         <!-- Return to Grade Selection -->
-        <div class="back-to-selection">
-            <a href="index.html">← Return to Grade Selection</a>
-        </div>
+        <a href="index.html" class="back-button">← Return to Grade Selection</a>
 
         <!-- Header -->
         <div class="header">
