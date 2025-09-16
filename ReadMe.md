@@ -870,7 +870,6 @@ Simple & Complex Machines:
 ## Science - Grade 6
 **Total Objectives: 84 | Major Objectives: 70**
 
-### Living Things, Life Processes and the Environment (40 objectives, 36 major)
 The Environment:
 - Formulate a definition of environment
 - Justify the importance of conserving the natural environment
@@ -913,7 +912,6 @@ Diet and Drugs:
 - Describe the effects of drugs on the body
 - Show responsible behaviour in the use of drugs
 
-### Energy, Forces and Matter (44 objectives, 34 major)
 Light and Sound:
 - Distinguish between luminous and non-luminous objects/organisms
 - Investigate the properties of light
