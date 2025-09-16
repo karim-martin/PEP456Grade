@@ -3651,23 +3651,15 @@
             document.querySelectorAll('.content-area').forEach(area => {
                 area.classList.remove('active');
             });
-
+            
             // Show selected content area
             document.getElementById(subject).classList.add('active');
-
+            
             // Update button states
             document.querySelectorAll('.subject-btn').forEach(btn => {
                 btn.classList.remove('active');
             });
-
-            // Activate the corresponding subject button
-            const subjectBtn = document.querySelector(`[onclick="showSubject('${subject}')"]`);
-            if (subjectBtn) {
-                subjectBtn.classList.add('active');
-            }
-
-            // Show first chapter of selected subject
-            showChapter(subject, 1);
+            event.target.classList.add('active');
         }
 
         function showChapter(subject, chapterNum) {
@@ -3677,60 +3669,14 @@
             });
             
             // Show selected chapter
-            const targetChapter = document.getElementById(`${subject}-chapter-${chapterNum}`);
-            if (targetChapter) {
-                targetChapter.classList.add('active');
-            }
+            document.getElementById(`${subject}-chapter-${chapterNum}`).classList.add('active');
             
-            // Update chapter button states
+            // Update button states
             document.querySelectorAll(`#${subject} .chapter-btn`).forEach(btn => {
                 btn.classList.remove('active');
             });
-            
-            // Find and activate the correct chapter button
-            const chapterButtons = document.querySelectorAll(`#${subject} .chapter-btn`);
-            if (chapterButtons[chapterNum - 1]) {
-                chapterButtons[chapterNum - 1].classList.add('active');
-            }
+            document.querySelectorAll(`#${subject} .chapter-btn`)[chapterNum - 1].classList.add('active');
         }
-
-        // Initialize the page
-        document.addEventListener('DOMContentLoaded', function() {
-            // Set default active states
-            showSubject('math');
-        });
-
-        // Add smooth scrolling for better user experience
-        document.querySelectorAll('.chapter-btn').forEach(btn => {
-            btn.addEventListener('click', function() {
-                const wrapper = this.closest('.content-area').querySelector('.chapter-content-wrapper');
-                wrapper.scrollTop = 0;
-            });
-        });
-
-        // Add keyboard navigation support
-        document.addEventListener('keydown', function(e) {
-            if (e.ctrlKey) {
-                switch(e.key) {
-                    case '1':
-                        e.preventDefault();
-                        showSubject('math');
-                        break;
-                    case '2':
-                        e.preventDefault();
-                        showSubject('science');
-                        break;
-                    case '3':
-                        e.preventDefault();
-                        showSubject('language');
-                        break;
-                    case '4':
-                        e.preventDefault();
-                        showSubject('social');
-                        break;
-                }
-            }
-        });
     </script>
 </body>
 </html>
