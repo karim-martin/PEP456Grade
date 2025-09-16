@@ -1,7 +1,4 @@
 # Jamaica NSC Learning Objectives for Grades 4-6
-## Complete Subject Guide for Educational Software Development
-
----
 
 # GRADE 4
 
