@@ -1,6 +1,4 @@
-# Jamaica NSC Learning Objectives for Grades 4-6
-
-# GRADE 4
+# Jamaica NSC Learning Objectives for GRADE 4
 
 ## Mathematics - Grade 4
 **Total Objectives: 124 | Major Objectives: 49**
@@ -289,7 +287,7 @@ Materials Introduction:
 
 ---
 
-# GRADE 5
+# Jamaica NSC Learning Objectives for GRADE 5
 
 ## Mathematics - Grade 5
 **Total Objectives: 113 | Major Objectives: 54**
@@ -619,7 +617,7 @@ Simple & Complex Machines:
 - Operationally define lever, effort, load, and fulcrum
 
 
-# GRADE 6
+# Jamaica NSC Learning Objectives for GRADE 6
 
 ## Mathematics - Grade 6
 
