@@ -950,7 +950,19 @@ Mixtures:
 - Demonstrate the separation of selected types of mixtures using various techniques
 - Use appropriate scientific vocabulary to describe mixtures
 
-## Prompt
+# 
+I have a Grade 6 .html file that needs improvement. The content is currently lacking in richness and completeness.
 
-Please Improve and add missing information. Ensure the material is accurate, detailed and clear enough for the student at that level to understand like grade4.html file. Please note that I want you to organize by themes rather than strand like grade6.html file. Compare that section with the reference content provided below. 
- 
+Please improve it using the following instructions:
+
+Make the content rich in information – Add relevant facts, definitions, explanations, and examples that are clear and appropriate for a Grade 6 student.
+
+Ensure each topic has a YouTube terms 
+
+Organize the content by themes, not strands – Follow the structure used in grade6.html, but improve it to match the clarity and layout of the grade4.html reference.
+
+Ensure accuracy, clarity, and age-appropriateness – The final content should be well-structured, easy to follow, and suitable for Grade 6 students.
+
+Compare each section with grade4.html – Use it as a benchmark for detail, structure, formatting, and educational depth.
+
+Please rewrite or enhance the Grade 6 content accordingly. Ensure the output is in clean and well-formatted HTML, preserving the educational layout.
