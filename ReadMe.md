@@ -952,5 +952,5 @@ Mixtures:
 
 ## Prompt
 
-Please review, clean, merge and update code in the grade6.html file. Ensure the material is accurate, detailed and clear enough for the student at that level to understand like grade4.html file. Please note that I want you to organize by themes rather than strand like grade4.html file. Compare that section with the reference content provided below. 
+Please Improve and add missing information. Ensure the material is accurate, detailed and clear enough for the student at that level to understand like grade4.html file. Please note that I want you to organize by themes rather than strand like grade6.html file. Compare that section with the reference content provided below. 
  
