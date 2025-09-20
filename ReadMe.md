@@ -951,18 +951,18 @@ Mixtures:
 - Use appropriate scientific vocabulary to describe mixtures
 
 # 
-I have a Grade 6 .html file that needs improvement. The content is currently lacking in richness and completeness.
+I have a Grade 5 .html file that needs improvement. The content is currently lacking in richness and completeness.
 
 Please improve it using the following instructions:
 
-Make the content rich in information – Add relevant facts, definitions, explanations, and examples that are clear and appropriate for a Grade 6 student.
+Make the content rich in information – Add relevant facts, definitions, explanations, and examples that are clear and appropriate for a Grade 5 student.
 
-Ensure each topic has a YouTube terms 
+Ensure each topic has a YouTube topic 
 
-Organize the content by themes, not strands – Follow the structure used in grade6.html, but improve it to match the clarity and layout of the grade4.html reference.
+Organize the content by themes, not strands – Follow the structure used in grade5.html, but improve it to match the clarity and layout of the grade4.html reference.
 
 Ensure accuracy, clarity, and age-appropriateness – The final content should be well-structured, easy to follow, and suitable for Grade 6 students.
 
 Compare each section with grade4.html – Use it as a benchmark for detail, structure, formatting, and educational depth.
 
-Please rewrite or enhance the Grade 6 content accordingly. Ensure the output is in clean and well-formatted HTML, preserving the educational layout.
+Please rewrite or enhance the Grade 5 content accordingly. Ensure the output is in clean and well-formatted HTML, preserving the educational layout.
