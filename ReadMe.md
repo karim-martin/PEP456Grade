@@ -957,11 +957,11 @@ Please improve it using the following instructions:
 
 Make the content rich in information – Add relevant facts, definitions, explanations, and examples that are clear and appropriate for a Grade 5 student.
 
-Ensure each topic has a YouTube topic 
+Ensure each topic has a YouTube terms 
 
 Organize the content by themes, not strands – Follow the structure used in grade5.html, but improve it to match the clarity and layout of the grade4.html reference.
 
-Ensure accuracy, clarity, and age-appropriateness – The final content should be well-structured, easy to follow, and suitable for Grade 6 students.
+Ensure accuracy, clarity, and age-appropriateness – The final content should be well-structured, easy to follow, and suitable for Grade 5 students.
 
 Compare each section with grade4.html – Use it as a benchmark for detail, structure, formatting, and educational depth.
 
