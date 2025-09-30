@@ -412,7 +412,7 @@ th {
     }
 
     .chapter-buttons-wrapper {
-        display: none;
+        display: flex;
         position: fixed;
         top: 0;
         left: 0;
@@ -420,18 +420,19 @@ th {
         max-width: 250px;
         height: 100vh;
         background: white;
-        z-index: 100;
+        z-index: 101;
         overflow-y: auto;
         padding: 15px;
         box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
         transform: translateX(-100%);
         transition: transform 0.3s ease;
         flex-direction: column;
+        pointer-events: none;
     }
 
     .chapter-buttons-wrapper.active {
-        display: flex;
         transform: translateX(0);
+        pointer-events: auto;
     }
 
     .chapter-btn {
@@ -441,6 +442,8 @@ th {
         text-align: left;
         padding: 8px 12px;
         font-size: 0.85em;
+        position: relative;
+        z-index: 102;
     }
 
     .subject-selector {
