@@ -18,19 +18,30 @@ function showSubject(subject) {
 }
 
 function showChapter(subject, chapterNum) {
+    console.log('showChapter called:', subject, chapterNum);
+
     // Hide all chapters in this subject
     document.querySelectorAll(`#${subject} .chapter-content`).forEach(chapter => {
         chapter.classList.remove('active');
     });
 
     // Show selected chapter
-    document.getElementById(`${subject}-chapter-${chapterNum}`).classList.add('active');
+    const targetChapter = document.getElementById(`${subject}-chapter-${chapterNum}`);
+    console.log('Target chapter element:', targetChapter);
+
+    if (targetChapter) {
+        targetChapter.classList.add('active');
+    }
 
     // Update button states
-    document.querySelectorAll(`#${subject} .chapter-btn`).forEach(btn => {
+    const buttons = document.querySelectorAll(`#${subject} .chapter-btn`);
+    buttons.forEach(btn => {
         btn.classList.remove('active');
     });
-    document.querySelectorAll(`#${subject} .chapter-btn`)[chapterNum - 1].classList.add('active');
+
+    if (buttons[chapterNum - 1]) {
+        buttons[chapterNum - 1].classList.add('active');
+    }
 
     // Close hamburger menu after selection (mobile)
     closeAllMenus();
