@@ -444,12 +444,13 @@ th {
     }
 
     .subject-selector {
-        gap: 8px;
+        gap: 6px;
+        margin-bottom: 8px;
     }
 
     .subject-btn {
-        font-size: 0.95em;
-        padding: 10px 15px;
+        font-size: 0.9em;
+        padding: 6px 12px;
     }
 
     .header {
