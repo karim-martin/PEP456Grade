@@ -340,3 +340,113 @@ th {
     background: #f7fafc;
     font-weight: bold;
 }
+
+/* Hamburger Menu Styles */
+.hamburger-btn {
+    display: none;
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2em;
+    align-items: center;
+    gap: 8px;
+}
+
+.hamburger-btn:hover {
+    background: #5a67d8;
+}
+
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.hamburger-icon span {
+    width: 20px;
+    height: 2px;
+    background: white;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.chapter-buttons-wrapper {
+    display: contents;
+}
+
+.menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+}
+
+.menu-overlay.active {
+    display: block;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    .hamburger-btn {
+        display: flex;
+    }
+
+    .chapter-nav {
+        position: relative;
+        padding: 15px 20px;
+    }
+
+    .chapter-buttons-wrapper {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 80%;
+        max-width: 300px;
+        height: 100vh;
+        background: white;
+        z-index: 100;
+        overflow-y: auto;
+        padding: 20px;
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        flex-direction: column;
+    }
+
+    .chapter-buttons-wrapper.active {
+        display: flex;
+        transform: translateX(0);
+    }
+
+    .chapter-btn {
+        width: 100%;
+        min-width: auto;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .subject-selector {
+        gap: 8px;
+    }
+
+    .subject-btn {
+        font-size: 0.95em;
+        padding: 10px 15px;
+    }
+
+    .header h1 {
+        font-size: 1.8em;
+    }
+
+    .header p {
+        font-size: 1em;
+    }
+}

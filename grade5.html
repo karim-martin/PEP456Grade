@@ -8,6 +8,7 @@
     <script src="Resource/script.js" defer></script>
 </head>
 <body>
+    <div id="menu-overlay" class="menu-overlay"></div>
     <div class="container">
         <a href="index.html" class="back-button">← Return to Grade Selection</a>
         <!-- Header -->
@@ -27,18 +28,28 @@
         <!-- Mathematics Content -->
         <div id="math" class="content-area">
             <div class="chapter-nav">
-                <button class="chapter-btn active" onclick="showChapter('math', 1)">Number Explorers</button>
-                <button class="chapter-btn" onclick="showChapter('math', 2)">Sets &amp; Classification</button>
-                <button class="chapter-btn" onclick="showChapter('math', 3)">Factors &amp; Multiples</button>
-                <button class="chapter-btn" onclick="showChapter('math', 4)">Fraction Champions</button>
-                <button class="chapter-btn" onclick="showChapter('math', 5)">Decimal Adventures</button>
-                <button class="chapter-btn" onclick="showChapter('math', 6)">Rounding Experts</button>
-                <button class="chapter-btn" onclick="showChapter('math', 7)">Division Challenges</button>
-                <button class="chapter-btn" onclick="showChapter('math', 8)">Time Travelers</button>
-                <button class="chapter-btn" onclick="showChapter('math', 9)">Measurement Masters</button>
-                <button class="chapter-btn" onclick="showChapter('math', 10)">Area &amp; Perimeter</button>
-                <button class="chapter-btn" onclick="showChapter('math', 11)">Geometry World</button>
-                <button class="chapter-btn" onclick="showChapter('math', 12)">Data Detectives</button>
+                <button class="hamburger-btn" onclick="toggleChapterMenu('math')">
+                    <div class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    Chapters
+                </button>
+                <div class="chapter-buttons-wrapper">
+                    <button class="chapter-btn active" onclick="showChapter('math', 1)">Number Explorers</button>
+                    <button class="chapter-btn" onclick="showChapter('math', 2)">Sets &amp; Classification</button>
+                    <button class="chapter-btn" onclick="showChapter('math', 3)">Factors &amp; Multiples</button>
+                    <button class="chapter-btn" onclick="showChapter('math', 4)">Fraction Champions</button>
+                    <button class="chapter-btn" onclick="showChapter('math', 5)">Decimal Adventures</button>
+                    <button class="chapter-btn" onclick="showChapter('math', 6)">Rounding Experts</button>
+                    <button class="chapter-btn" onclick="showChapter('math', 7)">Division Challenges</button>
+                    <button class="chapter-btn" onclick="showChapter('math', 8)">Time Travelers</button>
+                    <button class="chapter-btn" onclick="showChapter('math', 9)">Measurement Masters</button>
+                    <button class="chapter-btn" onclick="showChapter('math', 10)">Area &amp; Perimeter</button>
+                    <button class="chapter-btn" onclick="showChapter('math', 11)">Geometry World</button>
+                    <button class="chapter-btn" onclick="showChapter('math', 12)">Data Detectives</button>
+                </div>
             </div>
             
             <div class="chapter-content-wrapper">
@@ -2162,14 +2173,24 @@
         <!-- Science Content -->
         <div id="science" class="content-area active">
             <div class="chapter-nav">
-                <button class="chapter-btn active" onclick="showChapter('science', 1)">Nutrition &amp; Health</button>
-                <button class="chapter-btn" onclick="showChapter('science', 2)">Food Chains &amp; Webs</button>
-                <button class="chapter-btn" onclick="showChapter('science', 3)">Growing Our Food</button>
-                <button class="chapter-btn" onclick="showChapter('science', 4)">Weather Station</button>
-                <button class="chapter-btn" onclick="showChapter('science', 5)">Forces in Action</button>
-                <button class="chapter-btn" onclick="showChapter('science', 6)">Energy Everywhere</button>
-                <button class="chapter-btn" onclick="showChapter('science', 7)">Amazing Machines</button>
-                <button class="chapter-btn" onclick="showChapter('science', 8)">Body as Machine</button>
+                <button class="hamburger-btn" onclick="toggleChapterMenu('science')">
+                    <div class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    Chapters
+                </button>
+                <div class="chapter-buttons-wrapper">
+                    <button class="chapter-btn active" onclick="showChapter('science', 1)">Nutrition &amp; Health</button>
+                    <button class="chapter-btn" onclick="showChapter('science', 2)">Food Chains &amp; Webs</button>
+                    <button class="chapter-btn" onclick="showChapter('science', 3)">Growing Our Food</button>
+                    <button class="chapter-btn" onclick="showChapter('science', 4)">Weather Station</button>
+                    <button class="chapter-btn" onclick="showChapter('science', 5)">Forces in Action</button>
+                    <button class="chapter-btn" onclick="showChapter('science', 6)">Energy Everywhere</button>
+                    <button class="chapter-btn" onclick="showChapter('science', 7)">Amazing Machines</button>
+                    <button class="chapter-btn" onclick="showChapter('science', 8)">Body as Machine</button>
+                </div>
             </div>
             
             <div class="chapter-content-wrapper">
@@ -3187,16 +3208,26 @@
         <!-- Language Arts Content -->
         <div id="language" class="content-area">
             <div class="chapter-nav">
-                <button class="chapter-btn active" onclick="showChapter('language', 1)">Speaking Champions</button>
-                <button class="chapter-btn" onclick="showChapter('language', 2)">Active Listeners</button>
-                <button class="chapter-btn" onclick="showChapter('language', 3)">Word Wizards</button>
-                <button class="chapter-btn" onclick="showChapter('language', 4)">Reading Detectives</button>
-                <button class="chapter-btn" onclick="showChapter('language', 5)">Information Hunters</button>
-                <button class="chapter-btn" onclick="showChapter('language', 6)">Grammar Masters</button>
-                <button class="chapter-btn" onclick="showChapter('language', 7)">Writing Workshop</button>
-                <button class="chapter-btn" onclick="showChapter('language', 8)">Creative Expression</button>
-                <button class="chapter-btn" onclick="showChapter('language', 9)">Communication Skills</button>
-                <button class="chapter-btn" onclick="showChapter('language', 10)">Language &amp; Culture</button>
+                <button class="hamburger-btn" onclick="toggleChapterMenu('language')">
+                    <div class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    Chapters
+                </button>
+                <div class="chapter-buttons-wrapper">
+                    <button class="chapter-btn active" onclick="showChapter('language', 1)">Speaking Champions</button>
+                    <button class="chapter-btn" onclick="showChapter('language', 2)">Active Listeners</button>
+                    <button class="chapter-btn" onclick="showChapter('language', 3)">Word Wizards</button>
+                    <button class="chapter-btn" onclick="showChapter('language', 4)">Reading Detectives</button>
+                    <button class="chapter-btn" onclick="showChapter('language', 5)">Information Hunters</button>
+                    <button class="chapter-btn" onclick="showChapter('language', 6)">Grammar Masters</button>
+                    <button class="chapter-btn" onclick="showChapter('language', 7)">Writing Workshop</button>
+                    <button class="chapter-btn" onclick="showChapter('language', 8)">Creative Expression</button>
+                    <button class="chapter-btn" onclick="showChapter('language', 9)">Communication Skills</button>
+                    <button class="chapter-btn" onclick="showChapter('language', 10)">Language &amp; Culture</button>
+                </div>
             </div>
 
             <div class="chapter-content-wrapper">
@@ -4322,18 +4353,28 @@
         <!-- Social Studies Content -->
         <div id="social" class="content-area">
             <div class="chapter-nav">
-                <button class="chapter-btn active" onclick="showChapter('social', 1)">European Arrival</button>
-                <button class="chapter-btn" onclick="showChapter('social', 2)">Slavery &amp; Plantation</button>
-                <button class="chapter-btn" onclick="showChapter('social', 3)">Fight for Freedom</button>
-                <button class="chapter-btn" onclick="showChapter('social', 4)">National Heroes</button>
-                <button class="chapter-btn" onclick="showChapter('social', 5)">Parish Government</button>
-                <button class="chapter-btn" onclick="showChapter('social', 6)">Caribbean Culture</button>
-                <button class="chapter-btn" onclick="showChapter('social', 7)">Maps &amp; Navigation</button>
-                <button class="chapter-btn" onclick="showChapter('social', 8)">Landforms &amp; Changes</button>
-                <button class="chapter-btn" onclick="showChapter('social', 9)">Weather &amp; Climate</button>
-                <button class="chapter-btn" onclick="showChapter('social', 10)">Earth &amp; Conservation</button>
-                <button class="chapter-btn" onclick="showChapter('social', 11)">Caribbean Environment</button>
-                <button class="chapter-btn" onclick="showChapter('social', 12)">Our Common Heritage</button>
+                <button class="hamburger-btn" onclick="toggleChapterMenu('social')">
+                    <div class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    Chapters
+                </button>
+                <div class="chapter-buttons-wrapper">
+                    <button class="chapter-btn active" onclick="showChapter('social', 1)">European Arrival</button>
+                    <button class="chapter-btn" onclick="showChapter('social', 2)">Slavery &amp; Plantation</button>
+                    <button class="chapter-btn" onclick="showChapter('social', 3)">Fight for Freedom</button>
+                    <button class="chapter-btn" onclick="showChapter('social', 4)">National Heroes</button>
+                    <button class="chapter-btn" onclick="showChapter('social', 5)">Parish Government</button>
+                    <button class="chapter-btn" onclick="showChapter('social', 6)">Caribbean Culture</button>
+                    <button class="chapter-btn" onclick="showChapter('social', 7)">Maps &amp; Navigation</button>
+                    <button class="chapter-btn" onclick="showChapter('social', 8)">Landforms &amp; Changes</button>
+                    <button class="chapter-btn" onclick="showChapter('social', 9)">Weather &amp; Climate</button>
+                    <button class="chapter-btn" onclick="showChapter('social', 10)">Earth &amp; Conservation</button>
+                    <button class="chapter-btn" onclick="showChapter('social', 11)">Caribbean Environment</button>
+                    <button class="chapter-btn" onclick="showChapter('social', 12)">Our Common Heritage</button>
+                </div>
             </div>
 
             <div class="chapter-content-wrapper">
