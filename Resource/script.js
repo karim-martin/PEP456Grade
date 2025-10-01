@@ -48,7 +48,7 @@ function showChapter(subject, chapterNum) {
 }
 
 function toggleChapterMenu(subject) {
-    const wrapper = document.querySelector(`#${subject} .chapter-buttons-wrapper`);
+    const wrapper = document.getElementById(`${subject}-menu`);
     const overlay = document.getElementById('menu-overlay');
 
     if (wrapper && overlay) {
@@ -73,30 +73,4 @@ document.addEventListener('DOMContentLoaded', function() {
     if (overlay) {
         overlay.addEventListener('click', closeAllMenus);
     }
-
-    // Add event delegation for chapter buttons in mobile menu
-    document.body.addEventListener('click', function(e) {
-        const chapterBtn = e.target.closest('.chapter-btn');
-        if (chapterBtn && chapterBtn.classList.contains('chapter-btn')) {
-            const onclickAttr = chapterBtn.getAttribute('onclick');
-            console.log('Chapter button clicked:', onclickAttr);
-
-            if (onclickAttr) {
-                // Parse the showChapter function call
-                const match = onclickAttr.match(/showChapter\('([^']+)',\s*(\d+)\)/);
-                if (match) {
-                    const subject = match[1];
-                    const chapterNum = parseInt(match[2]);
-                    console.log('Executing showChapter:', subject, chapterNum);
-
-                    // Call the function directly
-                    showChapter(subject, chapterNum);
-
-                    // Prevent the default onclick from firing (avoid double execution)
-                    e.preventDefault();
-                    e.stopImmediatePropagation();
-                }
-            }
-        }
-    }, true); // Use capture phase
 });

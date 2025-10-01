@@ -393,7 +393,7 @@ th {
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
-    z-index: 99;
+    z-index: 999;
 }
 
 .menu-overlay.active {
@@ -420,19 +420,20 @@ th {
         max-width: 250px;
         height: 100vh;
         background: white;
-        z-index: 101;
+        z-index: 1000;
         overflow-y: auto;
         padding: 15px;
         box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
         transform: translateX(-100%);
-        transition: transform 0.3s ease;
+        transition: transform 0.3s ease, visibility 0s 0.3s;
         flex-direction: column;
-        pointer-events: none;
+        visibility: hidden;
     }
 
     .chapter-buttons-wrapper.active {
         transform: translateX(0);
-        pointer-events: auto;
+        visibility: visible;
+        transition: transform 0.3s ease;
     }
 
     .chapter-btn {
@@ -442,8 +443,6 @@ th {
         text-align: left;
         padding: 8px 12px;
         font-size: 0.85em;
-        position: relative;
-        z-index: 102;
     }
 
     .subject-selector {
