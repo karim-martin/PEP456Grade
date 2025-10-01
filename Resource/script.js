@@ -18,8 +18,6 @@ function showSubject(subject) {
 }
 
 function showChapter(subject, chapterNum) {
-    console.log('showChapter called:', subject, chapterNum);
-
     // Hide all chapters in this subject
     document.querySelectorAll(`#${subject} .chapter-content`).forEach(chapter => {
         chapter.classList.remove('active');
@@ -27,7 +25,6 @@ function showChapter(subject, chapterNum) {
 
     // Show selected chapter
     const targetChapter = document.getElementById(`${subject}-chapter-${chapterNum}`);
-    console.log('Target chapter element:', targetChapter);
 
     if (targetChapter) {
         targetChapter.classList.add('active');
