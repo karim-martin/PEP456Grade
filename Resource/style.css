@@ -113,9 +113,8 @@ body {
 .chapter-nav {
     display: flex;
     gap: 10px;
-    flex-wrap: wrap;
     background: white;
-    padding: 20px 30px;
+    padding: 15px 20px;
     border-bottom: 2px solid #e0e0e0;
     position: sticky;
     top: 0;
@@ -133,12 +132,13 @@ body {
     background: #667eea;
     color: white;
     border: none;
-    padding: 10px 15px;
+    padding: 8px 12px;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 0.9em;
-    flex: 1;
-    min-width: 150px;
+    font-size: 0.85em;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 8px;
 }
 
 .chapter-btn:hover {
@@ -351,7 +351,7 @@ th {
 
 /* Hamburger Menu Styles */
 .hamburger-btn {
-    display: none;
+    display: flex;
     background: #667eea;
     color: white;
     border: none;
@@ -382,7 +382,28 @@ th {
 }
 
 .chapter-buttons-wrapper {
-    display: contents;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60%;
+    max-width: 250px;
+    height: 100vh;
+    background: white;
+    z-index: 1000;
+    overflow-y: auto;
+    padding: 15px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease, visibility 0s 0.3s;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+.chapter-buttons-wrapper.active {
+    transform: translateX(0);
+    visibility: visible;
+    transition: transform 0.3s ease;
 }
 
 .menu-overlay {
@@ -402,49 +423,6 @@ th {
 
 /* Mobile Responsive Styles */
 @media screen and (max-width: 1024px) {
-    .hamburger-btn {
-        display: flex;
-    }
-
-    .chapter-nav {
-        position: relative;
-        padding: 15px 20px;
-    }
-
-    .chapter-buttons-wrapper {
-        display: flex;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 60%;
-        max-width: 250px;
-        height: 100vh;
-        background: white;
-        z-index: 1000;
-        overflow-y: auto;
-        padding: 15px;
-        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
-        transform: translateX(-100%);
-        transition: transform 0.3s ease, visibility 0s 0.3s;
-        flex-direction: column;
-        visibility: hidden;
-    }
-
-    .chapter-buttons-wrapper.active {
-        transform: translateX(0);
-        visibility: visible;
-        transition: transform 0.3s ease;
-    }
-
-    .chapter-btn {
-        width: 100%;
-        min-width: auto;
-        margin-bottom: 8px;
-        text-align: left;
-        padding: 8px 12px;
-        font-size: 0.85em;
-    }
-
     .subject-selector {
         gap: 6px;
         margin-bottom: 8px;
