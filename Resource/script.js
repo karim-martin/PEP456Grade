@@ -70,4 +70,16 @@ document.addEventListener('DOMContentLoaded', function() {
     if (overlay) {
         overlay.addEventListener('click', closeAllMenus);
     }
+
+    // Make YouTube Video Search Terms clickable
+    document.querySelectorAll('.video-search ul li').forEach(li => {
+        let text = li.textContent.trim();
+        // Strip surrounding quotes if present
+        if ((text.startsWith('"') && text.endsWith('"')) || (text.startsWith("'") && text.endsWith("'"))) {
+            text = text.slice(1, -1).trim();
+        }
+        // Create YouTube search link
+        const url = `https://www.youtube.com/results?search_query=${encodeURIComponent(text)}`;
+        li.innerHTML = `<a href="${url}" target="_blank" rel="noopener noreferrer">${text}</a>`;
+    });
 });
