@@ -1,0 +1,7836 @@
+{
+  "g5-mat-1": {
+    "title": "Number Explorers",
+    "mcq": [
+      {
+        "q": "What is the place value of the 7 in 374,562?",
+        "choices": [
+          "Thousands",
+          "Ten thousands",
+          "Hundreds",
+          "Millions"
+        ],
+        "correct": 1,
+        "explain": "The 7 is in the ten thousands place — 70,000."
+      },
+      {
+        "q": "Which number is the largest?",
+        "choices": [
+          "409,812",
+          "419,002",
+          "418,999",
+          "409,999"
+        ],
+        "correct": 1,
+        "explain": "419,002 has 419 thousands — more than the others."
+      },
+      {
+        "q": "Five million, two hundred thousand in digits is…",
+        "choices": [
+          "5,002,000",
+          "5,200,000",
+          "520,000",
+          "50,200,000"
+        ],
+        "correct": 1,
+        "explain": "5 millions + 200 thousands = 5,200,000."
+      },
+      {
+        "q": "What does the expanded form 600,000 + 40,000 + 800 + 3 equal?",
+        "choices": [
+          "640,803",
+          "640,083",
+          "604,803",
+          "640,830"
+        ],
+        "correct": 0,
+        "explain": "600,000 + 40,000 + 800 + 3 = 640,803."
+      },
+      {
+        "q": "Which number comes just after 199,999?",
+        "choices": [
+          "200,000",
+          "199,998",
+          "299,999",
+          "200,001"
+        ],
+        "correct": 0,
+        "explain": "Adding 1 to 199,999 gives 200,000."
+      },
+      {
+        "q": "Round 46,782 to the nearest thousand.",
+        "choices": [
+          "46,000",
+          "47,000",
+          "46,800",
+          "50,000"
+        ],
+        "correct": 1,
+        "explain": "The hundreds digit is 7, so round up to 47,000."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Place Value",
+        "back": "The value of a digit depending on its position"
+      },
+      {
+        "front": "Standard Form",
+        "back": "A number written with digits, e.g., 3,452"
+      },
+      {
+        "front": "Expanded Form",
+        "back": "Showing each digit's place value, e.g., 3,000 + 400 + 50 + 2"
+      },
+      {
+        "front": "Word Form",
+        "back": "Writing a number in words, e.g., three thousand"
+      },
+      {
+        "front": "Million",
+        "back": "1,000,000 — one thousand thousands"
+      },
+      {
+        "front": "Billion",
+        "back": "1,000,000,000 — one thousand millions"
+      },
+      {
+        "front": "Compare",
+        "back": "Decide if a number is greater than, less than, or equal to another"
+      },
+      {
+        "front": "Round",
+        "back": "Replace a number with one close by that is easier to work with"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "7 in 7,234",
+          "Thousands"
+        ],
+        [
+          "5 in 456",
+          "Tens"
+        ],
+        [
+          "8 in 80,000",
+          "Ten thousands"
+        ],
+        [
+          "2 in 2,000,000",
+          "Millions"
+        ],
+        [
+          "9 in 934",
+          "Hundreds"
+        ],
+        [
+          "1 in 12",
+          "Tens"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Number Explorers"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Number Explorers",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "place-value",
+            "number": 374562
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "place-value-slot",
+        "data": {
+          "digits": "374562"
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-mat-2": {
+    "title": "Sets & Classification",
+    "mcq": [
+      {
+        "q": "A set is…",
+        "choices": [
+          "A messy pile",
+          "A group of objects that share something",
+          "Only numbers",
+          "One item"
+        ],
+        "correct": 1,
+        "explain": "A set is a well-defined collection of objects that share a property."
+      },
+      {
+        "q": "Which of these items belongs to the set of Jamaican fruits?",
+        "choices": [
+          "Apple",
+          "Ackee",
+          "Blueberry",
+          "Kiwi"
+        ],
+        "correct": 1,
+        "explain": "Ackee is Jamaica's national fruit."
+      },
+      {
+        "q": "How do we show a set in writing?",
+        "choices": [
+          "Inside curly brackets { }",
+          "Inside square brackets [ ]",
+          "Between full stops",
+          "With a dash"
+        ],
+        "correct": 0,
+        "explain": "We use curly braces, e.g., {1, 2, 3}."
+      },
+      {
+        "q": "Which set has no members?",
+        "choices": [
+          "Universal set",
+          "Empty set",
+          "Finite set",
+          "Infinite set"
+        ],
+        "correct": 1,
+        "explain": "An empty set (or null set) has zero elements — written { } or Ø."
+      },
+      {
+        "q": "Set A = {2, 4, 6}. Set B = {4, 6, 8}. What is A ∩ B (what's in BOTH)?",
+        "choices": [
+          "{2, 4, 6, 8}",
+          "{4, 6}",
+          "{2, 8}",
+          "{ }"
+        ],
+        "correct": 1,
+        "explain": "Intersection: elements that appear in both sets — 4 and 6."
+      },
+      {
+        "q": "Classifying means…",
+        "choices": [
+          "Throwing away",
+          "Grouping by similar features",
+          "Counting only",
+          "Writing a story"
+        ],
+        "correct": 1,
+        "explain": "Classifying is sorting items into groups based on shared properties."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Set",
+        "back": "A group of objects sharing a property"
+      },
+      {
+        "front": "Element / Member",
+        "back": "An object inside a set"
+      },
+      {
+        "front": "Empty Set",
+        "back": "A set with no members { } or Ø"
+      },
+      {
+        "front": "Union (∪)",
+        "back": "All elements from both sets combined"
+      },
+      {
+        "front": "Intersection (∩)",
+        "back": "Only elements that are in both sets"
+      },
+      {
+        "front": "Subset",
+        "back": "A set whose members are all inside another set"
+      },
+      {
+        "front": "Venn Diagram",
+        "back": "Overlapping circles that show how sets relate"
+      },
+      {
+        "front": "Universal Set",
+        "back": "The set of all possible elements being considered"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "{ }",
+          "Empty set"
+        ],
+        [
+          "∪",
+          "Union"
+        ],
+        [
+          "∩",
+          "Intersection"
+        ],
+        [
+          "⊂",
+          "Subset"
+        ],
+        [
+          "{1,2,3}",
+          "Finite set"
+        ],
+        [
+          "Odd numbers",
+          "Infinite set"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Sets & Classification"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Sets & Classification",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "place-value",
+            "number": 374562
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "place-value-slot",
+        "data": {
+          "digits": "374562"
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-mat-3": {
+    "title": "Factors & Multiples",
+    "mcq": [
+      {
+        "q": "A factor of a number is…",
+        "choices": [
+          "A number it divides into evenly",
+          "Always smaller than 10",
+          "Always prime",
+          "A number that ends in 0"
+        ],
+        "correct": 0,
+        "explain": "A factor divides a number with no remainder. E.g., 3 is a factor of 12."
+      },
+      {
+        "q": "Which is a multiple of 6?",
+        "choices": [
+          "13",
+          "16",
+          "18",
+          "25"
+        ],
+        "correct": 2,
+        "explain": "18 = 6 × 3, so 18 is a multiple of 6."
+      },
+      {
+        "q": "What are the factors of 12?",
+        "choices": [
+          "1, 2, 3, 4, 6, 12",
+          "1, 3, 5, 12",
+          "2, 4, 6",
+          "Only 1 and 12"
+        ],
+        "correct": 0,
+        "explain": "12 = 1×12 = 2×6 = 3×4. All factors: 1, 2, 3, 4, 6, 12."
+      },
+      {
+        "q": "A prime number has exactly…",
+        "choices": [
+          "2 factors",
+          "1 factor",
+          "3 factors",
+          "0 factors"
+        ],
+        "correct": 0,
+        "explain": "A prime has exactly 2 factors: 1 and itself. E.g., 7 = 1 × 7."
+      },
+      {
+        "q": "Which of these is a prime number?",
+        "choices": [
+          "9",
+          "15",
+          "17",
+          "21"
+        ],
+        "correct": 2,
+        "explain": "17 only has factors 1 and 17."
+      },
+      {
+        "q": "What is the LCM (Lowest Common Multiple) of 4 and 6?",
+        "choices": [
+          "10",
+          "12",
+          "24",
+          "2"
+        ],
+        "correct": 1,
+        "explain": "Multiples of 4: 4, 8, 12, 16... Multiples of 6: 6, 12, 18... The lowest in common is 12."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Factor",
+        "back": "A number that divides another evenly"
+      },
+      {
+        "front": "Multiple",
+        "back": "The result of multiplying a number by any whole number"
+      },
+      {
+        "front": "Prime Number",
+        "back": "A number with exactly 2 factors: 1 and itself"
+      },
+      {
+        "front": "Composite Number",
+        "back": "A number with more than 2 factors"
+      },
+      {
+        "front": "HCF",
+        "back": "Highest Common Factor — biggest factor two numbers share"
+      },
+      {
+        "front": "LCM",
+        "back": "Lowest Common Multiple — smallest multiple two numbers share"
+      },
+      {
+        "front": "Prime Factorisation",
+        "back": "Writing a number as a product of primes"
+      },
+      {
+        "front": "Divisibility",
+        "back": "Whether one number divides another with no remainder"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Factors of 10",
+          "1, 2, 5, 10"
+        ],
+        [
+          "Multiples of 3",
+          "3, 6, 9, 12"
+        ],
+        [
+          "Prime number",
+          "7"
+        ],
+        [
+          "Composite number",
+          "9"
+        ],
+        [
+          "LCM(2,3)",
+          "6"
+        ],
+        [
+          "HCF(12,18)",
+          "6"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Factors & Multiples"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Factors & Multiples",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "multiplication-area",
+            "w": 6,
+            "h": 7
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "area-grid-builder",
+        "data": {
+          "target": "product",
+          "w": 6,
+          "h": 7
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-mat-4": {
+    "title": "Fraction Champions",
+    "mcq": [
+      {
+        "q": "In the fraction 3/5, which number is the denominator?",
+        "choices": [
+          "3",
+          "5",
+          "Both",
+          "Neither"
+        ],
+        "correct": 1,
+        "explain": "The bottom number (5) is the denominator — the total number of equal parts."
+      },
+      {
+        "q": "Which fraction is equivalent to 1/2?",
+        "choices": [
+          "2/3",
+          "3/6",
+          "1/3",
+          "4/5"
+        ],
+        "correct": 1,
+        "explain": "3/6 simplifies to 1/2."
+      },
+      {
+        "q": "Which is larger: 3/4 or 2/3?",
+        "choices": [
+          "3/4",
+          "2/3",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "correct": 0,
+        "explain": "3/4 = 9/12, 2/3 = 8/12, so 3/4 is larger."
+      },
+      {
+        "q": "What is 1/4 + 2/4?",
+        "choices": [
+          "3/4",
+          "3/8",
+          "2/8",
+          "1/8"
+        ],
+        "correct": 0,
+        "explain": "Same denominator — add the numerators: 1 + 2 = 3, giving 3/4."
+      },
+      {
+        "q": "If Kemar ate 3/8 of a bulla cake and Keisha ate 2/8, how much was eaten?",
+        "choices": [
+          "5/16",
+          "1/8",
+          "5/8",
+          "6/8"
+        ],
+        "correct": 2,
+        "explain": "3/8 + 2/8 = 5/8 of the bulla cake."
+      },
+      {
+        "q": "A mixed number looks like…",
+        "choices": [
+          "3 1/2",
+          "0.5",
+          "50%",
+          "1/2"
+        ],
+        "correct": 0,
+        "explain": "A mixed number has a whole part and a fraction part, e.g., 3 1/2."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Numerator",
+        "back": "Top number — parts you have"
+      },
+      {
+        "front": "Denominator",
+        "back": "Bottom number — total equal parts"
+      },
+      {
+        "front": "Proper Fraction",
+        "back": "Numerator smaller than denominator (e.g., 2/5)"
+      },
+      {
+        "front": "Improper Fraction",
+        "back": "Numerator ≥ denominator (e.g., 7/4)"
+      },
+      {
+        "front": "Mixed Number",
+        "back": "Whole number + fraction (e.g., 1 3/4)"
+      },
+      {
+        "front": "Equivalent Fractions",
+        "back": "Different fractions that equal the same value"
+      },
+      {
+        "front": "Simplify",
+        "back": "Divide top and bottom by the same number until smallest form"
+      },
+      {
+        "front": "Common Denominator",
+        "back": "The same bottom number — needed to add/subtract fractions"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "1/2",
+          "Half"
+        ],
+        [
+          "1/4",
+          "Quarter"
+        ],
+        [
+          "3/4",
+          "Three quarters"
+        ],
+        [
+          "2/3",
+          "Two thirds"
+        ],
+        [
+          "4/4",
+          "One whole"
+        ],
+        [
+          "5/2",
+          "Improper fraction"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Fraction Champions"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Fraction Champions",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "fraction-add",
+            "a": [
+              1,
+              3
+            ],
+            "b": [
+              1,
+              4
+            ]
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "fraction-builder",
+        "data": {
+          "target": "3/4",
+          "maxDen": 8
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-mat-5": {
+    "title": "Decimal Adventures",
+    "mcq": [
+      {
+        "q": "The decimal 0.5 is the same as…",
+        "choices": [
+          "1/2",
+          "1/5",
+          "5",
+          "50"
+        ],
+        "correct": 0,
+        "explain": "0.5 means 5 tenths, which equals 1/2."
+      },
+      {
+        "q": "Which decimal is largest?",
+        "choices": [
+          "0.7",
+          "0.07",
+          "0.77",
+          "0.707"
+        ],
+        "correct": 2,
+        "explain": "0.77 is larger than 0.707, 0.7, and 0.07."
+      },
+      {
+        "q": "In 34.56, what does the 6 represent?",
+        "choices": [
+          "6 ones",
+          "6 tenths",
+          "6 hundredths",
+          "6 thousandths"
+        ],
+        "correct": 2,
+        "explain": "The 6 is two places after the decimal, so it's 6 hundredths."
+      },
+      {
+        "q": "0.2 + 0.3 = ?",
+        "choices": [
+          "0.5",
+          "0.05",
+          "0.23",
+          "5"
+        ],
+        "correct": 0,
+        "explain": "Two tenths plus three tenths = five tenths = 0.5."
+      },
+      {
+        "q": "Which is J$75.50 written differently?",
+        "choices": [
+          "J$75 and 5 cents",
+          "J$75 and 50 cents",
+          "J$7,550",
+          "J$0.7550"
+        ],
+        "correct": 1,
+        "explain": "0.50 after the dollar = 50 cents."
+      },
+      {
+        "q": "Round 3.67 to the nearest tenth.",
+        "choices": [
+          "3.6",
+          "3.7",
+          "4.0",
+          "3"
+        ],
+        "correct": 1,
+        "explain": "Hundredths digit (7) rounds the tenths up, giving 3.7."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Decimal Point",
+        "back": "Separates whole numbers from parts smaller than 1"
+      },
+      {
+        "front": "Tenths",
+        "back": "First place after decimal point (0.1)"
+      },
+      {
+        "front": "Hundredths",
+        "back": "Second place after decimal point (0.01)"
+      },
+      {
+        "front": "Thousandths",
+        "back": "Third place after decimal point (0.001)"
+      },
+      {
+        "front": "0.5 = ?",
+        "back": "1/2 or 50%"
+      },
+      {
+        "front": "0.25 = ?",
+        "back": "1/4 or 25%"
+      },
+      {
+        "front": "Place Value",
+        "back": "Each digit's value by position"
+      },
+      {
+        "front": "Rounding Decimals",
+        "back": "Look at next digit — 5 or more rounds up"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "0.1",
+          "One tenth"
+        ],
+        [
+          "0.01",
+          "One hundredth"
+        ],
+        [
+          "0.5",
+          "1/2"
+        ],
+        [
+          "0.25",
+          "1/4"
+        ],
+        [
+          "0.75",
+          "3/4"
+        ],
+        [
+          "1.00",
+          "One whole"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Decimal Adventures"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Decimal Adventures",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "decimal-place",
+            "n": 3.45
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "place-value-slot",
+        "data": {
+          "digits": "3450"
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-mat-6": {
+    "title": "Rounding Experts",
+    "mcq": [
+      {
+        "q": "Round 58 to the nearest ten.",
+        "choices": [
+          "50",
+          "60",
+          "58",
+          "70"
+        ],
+        "correct": 1,
+        "explain": "Ones digit is 8 (≥5), so round up to 60."
+      },
+      {
+        "q": "Round 342 to the nearest hundred.",
+        "choices": [
+          "300",
+          "340",
+          "350",
+          "400"
+        ],
+        "correct": 0,
+        "explain": "Tens digit is 4 (<5), so round down to 300."
+      },
+      {
+        "q": "Round 4,567 to the nearest thousand.",
+        "choices": [
+          "4,000",
+          "4,500",
+          "5,000",
+          "4,600"
+        ],
+        "correct": 2,
+        "explain": "Hundreds digit is 5, so round up to 5,000."
+      },
+      {
+        "q": "Round 12.34 to the nearest whole number.",
+        "choices": [
+          "12",
+          "13",
+          "12.3",
+          "11"
+        ],
+        "correct": 0,
+        "explain": "Tenths digit is 3 (<5), so round down to 12."
+      },
+      {
+        "q": "Why do we round numbers?",
+        "choices": [
+          "To make them harder",
+          "To estimate and work faster",
+          "It's the law",
+          "So they look prettier"
+        ],
+        "correct": 1,
+        "explain": "Rounding helps us estimate quickly when exact numbers aren't needed."
+      },
+      {
+        "q": "Which is the rule for rounding?",
+        "choices": [
+          "Always round up",
+          "Always round down",
+          "5 or more → round up; 4 or less → round down",
+          "Round up on Mondays"
+        ],
+        "correct": 2,
+        "explain": "5-or-more rule: look at the digit to the right; if ≥5 round up, if <5 round down."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Round Up",
+        "back": "Increase the rounding digit by 1 when next digit is 5 or more"
+      },
+      {
+        "front": "Round Down",
+        "back": "Keep the rounding digit the same when next digit is 4 or less"
+      },
+      {
+        "front": "Estimate",
+        "back": "A careful guess using rounded numbers"
+      },
+      {
+        "front": "Nearest Ten",
+        "back": "Round to 0, 10, 20, 30, …"
+      },
+      {
+        "front": "Nearest Hundred",
+        "back": "Round to 0, 100, 200, 300, …"
+      },
+      {
+        "front": "Nearest Thousand",
+        "back": "Round to 0, 1000, 2000, …"
+      },
+      {
+        "front": "Rounding Digit",
+        "back": "The digit you are rounding to"
+      },
+      {
+        "front": "Check Digit",
+        "back": "The digit just to the right of the rounding digit"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "47 → nearest 10",
+          "50"
+        ],
+        [
+          "23 → nearest 10",
+          "20"
+        ],
+        [
+          "368 → nearest 100",
+          "400"
+        ],
+        [
+          "812 → nearest 100",
+          "800"
+        ],
+        [
+          "2,499 → nearest 1000",
+          "2,000"
+        ],
+        [
+          "6,501 → nearest 1000",
+          "7,000"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Rounding Experts"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Rounding Experts",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "rounding-line",
+            "n": 67,
+            "place": "tens"
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "place-value-slot",
+        "data": {
+          "mode": "round",
+          "number": 67,
+          "to": "tens"
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-mat-7": {
+    "title": "Division Challenges",
+    "mcq": [
+      {
+        "q": "What is 48 ÷ 6?",
+        "choices": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "correct": 2,
+        "explain": "6 × 8 = 48."
+      },
+      {
+        "q": "In 24 ÷ 4 = 6, what is the dividend?",
+        "choices": [
+          "24",
+          "4",
+          "6",
+          "None"
+        ],
+        "correct": 0,
+        "explain": "The dividend is the number being divided (24)."
+      },
+      {
+        "q": "72 ÷ 9 = ?",
+        "choices": [
+          "7",
+          "8",
+          "9",
+          "6"
+        ],
+        "correct": 1,
+        "explain": "9 × 8 = 72."
+      },
+      {
+        "q": "A teacher has 56 pencils to share among 8 students equally. Each gets…",
+        "choices": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "correct": 1,
+        "explain": "56 ÷ 8 = 7 pencils each."
+      },
+      {
+        "q": "What is 100 ÷ 4?",
+        "choices": [
+          "25",
+          "40",
+          "20",
+          "50"
+        ],
+        "correct": 0,
+        "explain": "4 × 25 = 100."
+      },
+      {
+        "q": "23 ÷ 4 = ?",
+        "choices": [
+          "5 remainder 3",
+          "6 remainder 1",
+          "4 remainder 7",
+          "5"
+        ],
+        "correct": 0,
+        "explain": "4 × 5 = 20; 23 − 20 = 3 remainder."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Dividend",
+        "back": "The number being divided"
+      },
+      {
+        "front": "Divisor",
+        "back": "The number you divide by"
+      },
+      {
+        "front": "Quotient",
+        "back": "The answer in a division"
+      },
+      {
+        "front": "Remainder",
+        "back": "What's left over after division"
+      },
+      {
+        "front": "Long Division",
+        "back": "A method: divide, multiply, subtract, bring down"
+      },
+      {
+        "front": "Fair Share",
+        "back": "Division means splitting into equal groups"
+      },
+      {
+        "front": "÷",
+        "back": "The division sign"
+      },
+      {
+        "front": "Inverse of Division",
+        "back": "Multiplication"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "36 ÷ 4",
+          "9"
+        ],
+        [
+          "81 ÷ 9",
+          "9"
+        ],
+        [
+          "64 ÷ 8",
+          "8"
+        ],
+        [
+          "120 ÷ 10",
+          "12"
+        ],
+        [
+          "55 ÷ 5",
+          "11"
+        ],
+        [
+          "144 ÷ 12",
+          "12"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Division Challenges"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Division Challenges",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "long-division",
+            "dividend": 84,
+            "divisor": 7
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "long-division-walker",
+        "data": {
+          "dividend": 84,
+          "divisor": 7
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-mat-8": {
+    "title": "Time Travelers",
+    "mcq": [
+      {
+        "q": "How many minutes in an hour?",
+        "choices": [
+          "30",
+          "60",
+          "100",
+          "24"
+        ],
+        "correct": 1,
+        "explain": "60 minutes make 1 hour."
+      },
+      {
+        "q": "2:30 pm in 24-hour time is…",
+        "choices": [
+          "02:30",
+          "12:30",
+          "14:30",
+          "22:30"
+        ],
+        "correct": 2,
+        "explain": "Add 12 to any pm time: 2 + 12 = 14, so 14:30."
+      },
+      {
+        "q": "From 9:15 am to 11:45 am is…",
+        "choices": [
+          "1 hr 30 min",
+          "2 hr 15 min",
+          "2 hr 30 min",
+          "3 hours"
+        ],
+        "correct": 2,
+        "explain": "9:15 → 11:15 is 2 hours; plus 30 minutes = 2 hours 30 minutes."
+      },
+      {
+        "q": "How many seconds in 5 minutes?",
+        "choices": [
+          "50",
+          "60",
+          "300",
+          "500"
+        ],
+        "correct": 2,
+        "explain": "5 × 60 = 300 seconds."
+      },
+      {
+        "q": "School starts at 8:00 am and ends at 2:30 pm. How long is the school day?",
+        "choices": [
+          "5 hrs",
+          "6 hrs",
+          "6 hrs 30 min",
+          "7 hrs"
+        ],
+        "correct": 2,
+        "explain": "8:00 to 2:30 = 6 hours 30 minutes."
+      },
+      {
+        "q": "What does 'quarter to 4' mean?",
+        "choices": [
+          "3:45",
+          "4:15",
+          "4:30",
+          "3:15"
+        ],
+        "correct": 0,
+        "explain": "Quarter to 4 = 15 minutes before 4 = 3:45."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "1 Hour",
+        "back": "60 minutes"
+      },
+      {
+        "front": "1 Minute",
+        "back": "60 seconds"
+      },
+      {
+        "front": "1 Day",
+        "back": "24 hours"
+      },
+      {
+        "front": "1 Week",
+        "back": "7 days"
+      },
+      {
+        "front": "1 Year",
+        "back": "365 days (366 in leap year)"
+      },
+      {
+        "front": "am",
+        "back": "Ante meridiem — before noon"
+      },
+      {
+        "front": "pm",
+        "back": "Post meridiem — after noon"
+      },
+      {
+        "front": "24-hour clock",
+        "back": "Counts hours 00 to 23"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "1 minute",
+          "60 seconds"
+        ],
+        [
+          "1 hour",
+          "60 minutes"
+        ],
+        [
+          "1 day",
+          "24 hours"
+        ],
+        [
+          "1 week",
+          "7 days"
+        ],
+        [
+          "15:00 (24-hr)",
+          "3:00 pm"
+        ],
+        [
+          "Quarter past 5",
+          "5:15"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Time Travelers"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Time Travelers",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "place-value",
+            "number": 374562
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "place-value-slot",
+        "data": {
+          "digits": "374562"
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-mat-9": {
+    "title": "Measurement Masters",
+    "mcq": [
+      {
+        "q": "How many centimetres in a metre?",
+        "choices": [
+          "10",
+          "100",
+          "1000",
+          "1"
+        ],
+        "correct": 1,
+        "explain": "1 metre = 100 centimetres."
+      },
+      {
+        "q": "How many grams in a kilogram?",
+        "choices": [
+          "10",
+          "100",
+          "1000",
+          "10000"
+        ],
+        "correct": 2,
+        "explain": "1 kg = 1,000 g."
+      },
+      {
+        "q": "A 2-litre bottle of Jamaican ginger beer holds… millilitres.",
+        "choices": [
+          "20",
+          "200",
+          "2000",
+          "20000"
+        ],
+        "correct": 2,
+        "explain": "1 L = 1000 mL, so 2 L = 2000 mL."
+      },
+      {
+        "q": "Which is the best unit to measure a person's height?",
+        "choices": [
+          "mm",
+          "cm",
+          "km",
+          "g"
+        ],
+        "correct": 1,
+        "explain": "Centimetres (or metres) are best for height."
+      },
+      {
+        "q": "How many kilometres in 3,000 metres?",
+        "choices": [
+          "3",
+          "30",
+          "300",
+          "3000"
+        ],
+        "correct": 0,
+        "explain": "1 km = 1000 m, so 3000 m = 3 km."
+      },
+      {
+        "q": "A bag of rice weighs 5 kg. In grams that is…",
+        "choices": [
+          "50",
+          "500",
+          "5000",
+          "50000"
+        ],
+        "correct": 2,
+        "explain": "5 × 1000 = 5,000 g."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "1 m",
+        "back": "100 centimetres (cm)"
+      },
+      {
+        "front": "1 km",
+        "back": "1000 metres (m)"
+      },
+      {
+        "front": "1 kg",
+        "back": "1000 grams (g)"
+      },
+      {
+        "front": "1 L",
+        "back": "1000 millilitres (mL)"
+      },
+      {
+        "front": "Length units",
+        "back": "mm, cm, m, km"
+      },
+      {
+        "front": "Mass units",
+        "back": "g, kg, tonne"
+      },
+      {
+        "front": "Volume units",
+        "back": "mL, L"
+      },
+      {
+        "front": "Metric system",
+        "back": "Measurement based on 10s and 1000s"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "1 m",
+          "100 cm"
+        ],
+        [
+          "1 km",
+          "1000 m"
+        ],
+        [
+          "1 kg",
+          "1000 g"
+        ],
+        [
+          "1 L",
+          "1000 mL"
+        ],
+        [
+          "500 g",
+          "Half a kilogram"
+        ],
+        [
+          "250 mL",
+          "Quarter of a litre"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Measurement Masters"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Measurement Masters",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "place-value",
+            "number": 374562
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "place-value-slot",
+        "data": {
+          "digits": "374562"
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-mat-10": {
+    "title": "Area & Perimeter",
+    "mcq": [
+      {
+        "q": "Perimeter of a rectangle 5 cm by 3 cm is…",
+        "choices": [
+          "8 cm",
+          "15 cm",
+          "16 cm",
+          "20 cm"
+        ],
+        "correct": 2,
+        "explain": "Perimeter = 2(5 + 3) = 16 cm."
+      },
+      {
+        "q": "Area of the same rectangle (5 cm × 3 cm) is…",
+        "choices": [
+          "8 cm²",
+          "15 cm²",
+          "16 cm²",
+          "20 cm²"
+        ],
+        "correct": 1,
+        "explain": "Area = length × width = 5 × 3 = 15 square cm."
+      },
+      {
+        "q": "A square has sides of 7 cm. What is its perimeter?",
+        "choices": [
+          "14 cm",
+          "21 cm",
+          "28 cm",
+          "49 cm"
+        ],
+        "correct": 2,
+        "explain": "4 × 7 = 28 cm."
+      },
+      {
+        "q": "A square has sides of 7 cm. What is its area?",
+        "choices": [
+          "14 cm²",
+          "28 cm²",
+          "49 cm²",
+          "56 cm²"
+        ],
+        "correct": 2,
+        "explain": "Side × side = 7 × 7 = 49 cm²."
+      },
+      {
+        "q": "What is the unit for area?",
+        "choices": [
+          "cm",
+          "cm²",
+          "cm³",
+          "kg"
+        ],
+        "correct": 1,
+        "explain": "Area is always in square units (cm², m², etc.)."
+      },
+      {
+        "q": "A rectangular garden is 8 m long and 4 m wide. What area needs grass seed?",
+        "choices": [
+          "12 m²",
+          "24 m²",
+          "32 m²",
+          "48 m²"
+        ],
+        "correct": 2,
+        "explain": "8 × 4 = 32 m²."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Perimeter",
+        "back": "Total distance around a shape"
+      },
+      {
+        "front": "Area",
+        "back": "Amount of surface a shape covers"
+      },
+      {
+        "front": "Rectangle Perimeter",
+        "back": "2 × (length + width)"
+      },
+      {
+        "front": "Rectangle Area",
+        "back": "length × width"
+      },
+      {
+        "front": "Square Perimeter",
+        "back": "4 × side"
+      },
+      {
+        "front": "Square Area",
+        "back": "side × side"
+      },
+      {
+        "front": "Square Unit",
+        "back": "cm², m², km² — used for area"
+      },
+      {
+        "front": "Linear Unit",
+        "back": "cm, m, km — used for perimeter"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Rectangle area",
+          "L × W"
+        ],
+        [
+          "Square area",
+          "S × S"
+        ],
+        [
+          "Rectangle perimeter",
+          "2(L + W)"
+        ],
+        [
+          "Square perimeter",
+          "4 × S"
+        ],
+        [
+          "Area unit",
+          "cm²"
+        ],
+        [
+          "Perimeter unit",
+          "cm"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Area & Perimeter"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Area & Perimeter",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "perimeter-walk",
+            "w": 4,
+            "h": 3
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "area-grid-builder",
+        "data": {
+          "target": "perimeter",
+          "goal": 14
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-mat-11": {
+    "title": "Geometry World",
+    "mcq": [
+      {
+        "q": "A triangle has how many sides?",
+        "choices": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correct": 1,
+        "explain": "Tri- means three. A triangle has 3 sides and 3 angles."
+      },
+      {
+        "q": "A shape with 8 sides is a…",
+        "choices": [
+          "Hexagon",
+          "Heptagon",
+          "Octagon",
+          "Pentagon"
+        ],
+        "correct": 2,
+        "explain": "Octo- means 8. Octagons have 8 sides — like a stop sign."
+      },
+      {
+        "q": "An angle that is exactly 90° is called…",
+        "choices": [
+          "Acute",
+          "Right",
+          "Obtuse",
+          "Reflex"
+        ],
+        "correct": 1,
+        "explain": "A right angle is 90° — like the corner of a book."
+      },
+      {
+        "q": "An angle less than 90° is…",
+        "choices": [
+          "Acute",
+          "Right",
+          "Obtuse",
+          "Straight"
+        ],
+        "correct": 0,
+        "explain": "Acute angles are small and sharp — less than 90°."
+      },
+      {
+        "q": "A 3D shape with 6 square faces is a…",
+        "choices": [
+          "Sphere",
+          "Cube",
+          "Cylinder",
+          "Cone"
+        ],
+        "correct": 1,
+        "explain": "A cube has 6 equal square faces — like a die."
+      },
+      {
+        "q": "How many edges does a rectangular prism have?",
+        "choices": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "correct": 3,
+        "explain": "A rectangular prism (box) has 12 edges — 4 on top, 4 on bottom, 4 vertical."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Polygon",
+        "back": "A closed shape with straight sides"
+      },
+      {
+        "front": "Triangle",
+        "back": "3 sides"
+      },
+      {
+        "front": "Quadrilateral",
+        "back": "4 sides (square, rectangle, rhombus…)"
+      },
+      {
+        "front": "Pentagon",
+        "back": "5 sides"
+      },
+      {
+        "front": "Hexagon",
+        "back": "6 sides"
+      },
+      {
+        "front": "Right Angle",
+        "back": "Exactly 90°"
+      },
+      {
+        "front": "Acute Angle",
+        "back": "Less than 90°"
+      },
+      {
+        "front": "Obtuse Angle",
+        "back": "Between 90° and 180°"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Triangle",
+          "3 sides"
+        ],
+        [
+          "Quadrilateral",
+          "4 sides"
+        ],
+        [
+          "Pentagon",
+          "5 sides"
+        ],
+        [
+          "Hexagon",
+          "6 sides"
+        ],
+        [
+          "Octagon",
+          "8 sides"
+        ],
+        [
+          "Circle",
+          "No straight sides"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Geometry World"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Geometry World",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "perimeter-walk",
+            "w": 4,
+            "h": 3
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "click-the-region",
+        "data": {
+          "diagram": "fraction-pie",
+          "target": "1/4"
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-mat-12": {
+    "title": "Data Detectives",
+    "mcq": [
+      {
+        "q": "A chart that uses bars to show data is called a…",
+        "choices": [
+          "Pie chart",
+          "Bar graph",
+          "Line graph",
+          "Pictograph"
+        ],
+        "correct": 1,
+        "explain": "Bar graphs use rectangular bars of different lengths."
+      },
+      {
+        "q": "A pictograph uses…",
+        "choices": [
+          "Words only",
+          "Pictures or symbols",
+          "Only colours",
+          "Lines"
+        ],
+        "correct": 1,
+        "explain": "Pictographs use pictures/icons to represent data amounts."
+      },
+      {
+        "q": "The most common value in a data set is the…",
+        "choices": [
+          "Mean",
+          "Median",
+          "Mode",
+          "Range"
+        ],
+        "correct": 2,
+        "explain": "Mode = the value that appears most often."
+      },
+      {
+        "q": "What is the mean of 2, 4, 6, 8?",
+        "choices": [
+          "4",
+          "5",
+          "6",
+          "20"
+        ],
+        "correct": 1,
+        "explain": "(2+4+6+8) ÷ 4 = 20 ÷ 4 = 5."
+      },
+      {
+        "q": "The difference between the highest and lowest values is the…",
+        "choices": [
+          "Range",
+          "Mode",
+          "Mean",
+          "Median"
+        ],
+        "correct": 0,
+        "explain": "Range = highest − lowest."
+      },
+      {
+        "q": "Probability of rolling a 6 on a regular die is…",
+        "choices": [
+          "1/6",
+          "1/3",
+          "1/2",
+          "6/1"
+        ],
+        "correct": 0,
+        "explain": "One favourable outcome (6) out of 6 possible outcomes = 1/6."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Data",
+        "back": "Information collected, usually numbers"
+      },
+      {
+        "front": "Bar Graph",
+        "back": "Chart using bars to compare data"
+      },
+      {
+        "front": "Pictograph",
+        "back": "Chart using pictures to show data"
+      },
+      {
+        "front": "Line Graph",
+        "back": "Chart using a line to show change over time"
+      },
+      {
+        "front": "Pie Chart",
+        "back": "Circular chart divided into slices (fractions)"
+      },
+      {
+        "front": "Mean",
+        "back": "Average — sum ÷ count"
+      },
+      {
+        "front": "Mode",
+        "back": "Most common value"
+      },
+      {
+        "front": "Median",
+        "back": "Middle value when ordered"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Mean",
+          "Average"
+        ],
+        [
+          "Mode",
+          "Most often"
+        ],
+        [
+          "Median",
+          "Middle"
+        ],
+        [
+          "Range",
+          "Highest − lowest"
+        ],
+        [
+          "Bar graph",
+          "Uses rectangular bars"
+        ],
+        [
+          "Pie chart",
+          "Circle divided into parts"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Data Detectives"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Data Detectives",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "place-value",
+            "number": 374562
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "place-value-slot",
+        "data": {
+          "digits": "374562"
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-sci-1": {
+    "title": "Nutrition & Health",
+    "mcq": [
+      {
+        "q": "Which food group gives us energy quickly?",
+        "choices": [
+          "Protein",
+          "Carbohydrates",
+          "Vitamins",
+          "Water"
+        ],
+        "correct": 1,
+        "explain": "Carbohydrates (rice, bread, yam) provide quick energy."
+      },
+      {
+        "q": "Which is a good Jamaican source of protein?",
+        "choices": [
+          "White rice",
+          "Ackee & saltfish",
+          "Soda",
+          "Sugar"
+        ],
+        "correct": 1,
+        "explain": "Ackee and saltfish contain protein — saltfish is especially rich."
+      },
+      {
+        "q": "Vitamins are found in…",
+        "choices": [
+          "Fruits and vegetables",
+          "Only meat",
+          "Only butter",
+          "Only sugar"
+        ],
+        "correct": 0,
+        "explain": "Fruits and vegetables like callaloo and mango are rich in vitamins."
+      },
+      {
+        "q": "Which nutrient helps build strong bones and teeth?",
+        "choices": [
+          "Calcium",
+          "Sugar",
+          "Fat",
+          "Iron"
+        ],
+        "correct": 0,
+        "explain": "Calcium, found in milk and cheese, builds strong bones and teeth."
+      },
+      {
+        "q": "Too much of which can cause tooth decay?",
+        "choices": [
+          "Water",
+          "Sugar",
+          "Fibre",
+          "Vegetables"
+        ],
+        "correct": 1,
+        "explain": "Sugar feeds bacteria in the mouth, which damages teeth."
+      },
+      {
+        "q": "How many glasses of water should a child drink daily?",
+        "choices": [
+          "1",
+          "2–3",
+          "6–8",
+          "20"
+        ],
+        "correct": 2,
+        "explain": "Around 6–8 glasses keeps the body hydrated."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Carbohydrate",
+        "back": "Energy food (rice, yam, bread)"
+      },
+      {
+        "front": "Protein",
+        "back": "Builds muscles (fish, ackee, beans)"
+      },
+      {
+        "front": "Fat",
+        "back": "Stores energy (oil, butter) — needed in small amounts"
+      },
+      {
+        "front": "Vitamin",
+        "back": "Keeps body systems working (from fruits & veg)"
+      },
+      {
+        "front": "Mineral",
+        "back": "Builds bones and blood (calcium, iron)"
+      },
+      {
+        "front": "Fibre",
+        "back": "Helps digestion (whole grain, fruit skins)"
+      },
+      {
+        "front": "Balanced Diet",
+        "back": "Eating the right amounts from all food groups"
+      },
+      {
+        "front": "Hygiene",
+        "back": "Keeping clean to prevent disease"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Carbohydrate",
+          "Rice"
+        ],
+        [
+          "Protein",
+          "Saltfish"
+        ],
+        [
+          "Vitamin C",
+          "Orange"
+        ],
+        [
+          "Calcium",
+          "Milk"
+        ],
+        [
+          "Iron",
+          "Callaloo"
+        ],
+        [
+          "Fibre",
+          "Wholewheat bread"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔬",
+      "mascot": "🦜",
+      "hook": "Let's explore: Nutrition & Health"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Let's explore: Nutrition & Health",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Carbohydrate",
+              "Rice"
+            ],
+            [
+              "Protein",
+              "Saltfish"
+            ],
+            [
+              "Vitamin C",
+              "Orange"
+            ],
+            [
+              "Calcium",
+              "Milk"
+            ],
+            [
+              "Iron",
+              "Callaloo"
+            ],
+            [
+              "Fibre",
+              "Wholewheat bread"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-sci-2": {
+    "title": "Food Chains & Webs",
+    "mcq": [
+      {
+        "q": "What is at the start of every food chain?",
+        "choices": [
+          "Carnivores",
+          "Producers (plants)",
+          "Decomposers",
+          "The sun"
+        ],
+        "correct": 3,
+        "explain": "The sun provides energy that plants use to make food. Energy flow begins there."
+      },
+      {
+        "q": "An animal that eats only plants is a…",
+        "choices": [
+          "Carnivore",
+          "Herbivore",
+          "Omnivore",
+          "Producer"
+        ],
+        "correct": 1,
+        "explain": "Herbivores eat only plants — like cows and goats."
+      },
+      {
+        "q": "In a food web, arrows point from…",
+        "choices": [
+          "The eater to the eaten",
+          "The eaten to the eater",
+          "Top to bottom",
+          "Big to small"
+        ],
+        "correct": 1,
+        "explain": "Arrows show energy flow — from prey to predator."
+      },
+      {
+        "q": "Which is a decomposer?",
+        "choices": [
+          "Bat",
+          "Fungus",
+          "Eagle",
+          "Cow"
+        ],
+        "correct": 1,
+        "explain": "Fungi and bacteria break down dead matter."
+      },
+      {
+        "q": "Grass → Goat → Mongoose. The mongoose is a…",
+        "choices": [
+          "Producer",
+          "Primary consumer",
+          "Secondary consumer",
+          "Decomposer"
+        ],
+        "correct": 2,
+        "explain": "Goat eats grass (primary); mongoose eats goat (secondary consumer)."
+      },
+      {
+        "q": "If all plants were removed, what would happen?",
+        "choices": [
+          "Nothing",
+          "All consumers would starve",
+          "Only decomposers would suffer",
+          "Sun would stop"
+        ],
+        "correct": 1,
+        "explain": "Plants are the base of the food chain — without them, everything collapses."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Producer",
+        "back": "Makes its own food (plants)"
+      },
+      {
+        "front": "Consumer",
+        "back": "Eats other living things"
+      },
+      {
+        "front": "Decomposer",
+        "back": "Breaks down dead matter (fungi, bacteria)"
+      },
+      {
+        "front": "Herbivore",
+        "back": "Eats only plants"
+      },
+      {
+        "front": "Carnivore",
+        "back": "Eats only meat"
+      },
+      {
+        "front": "Omnivore",
+        "back": "Eats plants AND meat"
+      },
+      {
+        "front": "Food Chain",
+        "back": "Single path of energy flow"
+      },
+      {
+        "front": "Food Web",
+        "back": "Many food chains connected together"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Producer",
+          "Banana tree"
+        ],
+        [
+          "Herbivore",
+          "Cow"
+        ],
+        [
+          "Carnivore",
+          "Crocodile"
+        ],
+        [
+          "Omnivore",
+          "Pig"
+        ],
+        [
+          "Decomposer",
+          "Mushroom"
+        ],
+        [
+          "Top predator",
+          "Hawk"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔬",
+      "mascot": "🦜",
+      "hook": "Let's explore: Food Chains & Webs"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Let's explore: Food Chains & Webs",
+        "xp": 5
+      },
+      {
+        "type": "diagram",
+        "name": "food-web",
+        "props": {},
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Producer",
+              "Banana tree"
+            ],
+            [
+              "Herbivore",
+              "Cow"
+            ],
+            [
+              "Carnivore",
+              "Crocodile"
+            ],
+            [
+              "Omnivore",
+              "Pig"
+            ],
+            [
+              "Decomposer",
+              "Mushroom"
+            ],
+            [
+              "Top predator",
+              "Hawk"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-sci-3": {
+    "title": "Growing Our Food",
+    "mcq": [
+      {
+        "q": "Which is a major staple food grown in Jamaica?",
+        "choices": [
+          "Yam",
+          "Kiwi",
+          "Mango alone",
+          "Coffee only"
+        ],
+        "correct": 0,
+        "explain": "Yam is a major staple grown across Jamaica — Trelawny is famous for it."
+      },
+      {
+        "q": "Farmers need what to grow good crops?",
+        "choices": [
+          "Rich soil, water, sunlight",
+          "Only rocks",
+          "Only shade",
+          "Salt water"
+        ],
+        "correct": 0,
+        "explain": "Good soil, water, and sunlight are basic needs for crops."
+      },
+      {
+        "q": "Jamaica's Blue Mountain region is famous for growing…",
+        "choices": [
+          "Coffee",
+          "Tomatoes",
+          "Wheat",
+          "Rice"
+        ],
+        "correct": 0,
+        "explain": "Blue Mountain Coffee is world-famous, grown at high altitude."
+      },
+      {
+        "q": "Crop rotation helps by…",
+        "choices": [
+          "Tiring the soil",
+          "Keeping the soil healthy",
+          "Killing farmers",
+          "Being expensive"
+        ],
+        "correct": 1,
+        "explain": "Rotating crops replenishes different nutrients in the soil."
+      },
+      {
+        "q": "A disease that affected Jamaican banana crops is…",
+        "choices": [
+          "Black sigatoka",
+          "Snow plague",
+          "Metal rust",
+          "None"
+        ],
+        "correct": 0,
+        "explain": "Black sigatoka is a fungal disease that damages banana leaves."
+      },
+      {
+        "q": "Organic farming does NOT use…",
+        "choices": [
+          "Compost",
+          "Natural pest control",
+          "Synthetic chemicals",
+          "Crop rotation"
+        ],
+        "correct": 2,
+        "explain": "Organic farming avoids synthetic pesticides and fertilisers."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Agriculture",
+        "back": "Growing crops and raising livestock"
+      },
+      {
+        "front": "Staple crop",
+        "back": "Main food of a people (yam, rice, bread)"
+      },
+      {
+        "front": "Cash crop",
+        "back": "Crop grown mainly to be sold (coffee, sugar)"
+      },
+      {
+        "front": "Irrigation",
+        "back": "Supplying water to crops artificially"
+      },
+      {
+        "front": "Fertiliser",
+        "back": "Food for plants added to soil"
+      },
+      {
+        "front": "Compost",
+        "back": "Natural fertiliser made from rotted plant matter"
+      },
+      {
+        "front": "Crop rotation",
+        "back": "Changing which crop grows in a field each season"
+      },
+      {
+        "front": "Pest",
+        "back": "Animal or insect that damages crops"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Blue Mountains",
+          "Coffee"
+        ],
+        [
+          "Trelawny",
+          "Yam"
+        ],
+        [
+          "St. Ann",
+          "Dairy & citrus"
+        ],
+        [
+          "St. Elizabeth",
+          "Breadbasket parish"
+        ],
+        [
+          "Westmoreland",
+          "Sugar cane"
+        ],
+        [
+          "Portland",
+          "Bananas"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔬",
+      "mascot": "🦜",
+      "hook": "Let's explore: Growing Our Food"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Let's explore: Growing Our Food",
+        "xp": 5
+      },
+      {
+        "type": "diagram",
+        "name": "food-web",
+        "props": {},
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Blue Mountains",
+              "Coffee"
+            ],
+            [
+              "Trelawny",
+              "Yam"
+            ],
+            [
+              "St. Ann",
+              "Dairy & citrus"
+            ],
+            [
+              "St. Elizabeth",
+              "Breadbasket parish"
+            ],
+            [
+              "Westmoreland",
+              "Sugar cane"
+            ],
+            [
+              "Portland",
+              "Bananas"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-sci-4": {
+    "title": "Weather Station",
+    "mcq": [
+      {
+        "q": "Which instrument measures wind direction?",
+        "choices": [
+          "Thermometer",
+          "Wind vane",
+          "Rain gauge",
+          "Barometer"
+        ],
+        "correct": 1,
+        "explain": "A wind vane points into the wind to show direction."
+      },
+      {
+        "q": "A rain gauge measures…",
+        "choices": [
+          "Wind speed",
+          "Rainfall",
+          "Temperature",
+          "Humidity"
+        ],
+        "correct": 1,
+        "explain": "A rain gauge collects rain to measure how much falls."
+      },
+      {
+        "q": "Jamaica's hurricane season is roughly…",
+        "choices": [
+          "January to March",
+          "June to November",
+          "December only",
+          "All year"
+        ],
+        "correct": 1,
+        "explain": "Atlantic hurricane season runs June 1 to November 30."
+      },
+      {
+        "q": "Humidity means…",
+        "choices": [
+          "Heat",
+          "Moisture in the air",
+          "Pressure",
+          "Wind"
+        ],
+        "correct": 1,
+        "explain": "Humidity is the amount of water vapour in the air — high in Jamaica."
+      },
+      {
+        "q": "Cumulus clouds look like…",
+        "choices": [
+          "Wispy hair",
+          "Cotton balls",
+          "Thin veils",
+          "A flat sheet"
+        ],
+        "correct": 1,
+        "explain": "Cumulus = puffy, cotton-ball clouds in fair weather."
+      },
+      {
+        "q": "A barometer measures…",
+        "choices": [
+          "Time",
+          "Rainfall",
+          "Air pressure",
+          "Temperature"
+        ],
+        "correct": 2,
+        "explain": "Air pressure changes signal weather changes."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Thermometer",
+        "back": "Measures temperature"
+      },
+      {
+        "front": "Rain Gauge",
+        "back": "Measures rainfall"
+      },
+      {
+        "front": "Wind Vane",
+        "back": "Shows wind direction"
+      },
+      {
+        "front": "Anemometer",
+        "back": "Measures wind speed"
+      },
+      {
+        "front": "Barometer",
+        "back": "Measures air pressure"
+      },
+      {
+        "front": "Hygrometer",
+        "back": "Measures humidity"
+      },
+      {
+        "front": "Hurricane",
+        "back": "Powerful spinning tropical storm"
+      },
+      {
+        "front": "Climate",
+        "back": "Long-term weather pattern of a place"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Thermometer",
+          "Temperature"
+        ],
+        [
+          "Rain gauge",
+          "Rainfall"
+        ],
+        [
+          "Wind vane",
+          "Wind direction"
+        ],
+        [
+          "Anemometer",
+          "Wind speed"
+        ],
+        [
+          "Barometer",
+          "Air pressure"
+        ],
+        [
+          "Hygrometer",
+          "Humidity"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔬",
+      "mascot": "🦜",
+      "hook": "Let's explore: Weather Station"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Let's explore: Weather Station",
+        "xp": 5
+      },
+      {
+        "type": "diagram",
+        "name": "water-cycle",
+        "props": {},
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Thermometer",
+              "Temperature"
+            ],
+            [
+              "Rain gauge",
+              "Rainfall"
+            ],
+            [
+              "Wind vane",
+              "Wind direction"
+            ],
+            [
+              "Anemometer",
+              "Wind speed"
+            ],
+            [
+              "Barometer",
+              "Air pressure"
+            ],
+            [
+              "Hygrometer",
+              "Humidity"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-sci-5": {
+    "title": "Forces in Action",
+    "mcq": [
+      {
+        "q": "A force is…",
+        "choices": [
+          "A push or pull",
+          "Only a pull",
+          "Only magnetic",
+          "A colour"
+        ],
+        "correct": 0,
+        "explain": "Forces are pushes or pulls that can change motion or shape."
+      },
+      {
+        "q": "Friction slows things down because…",
+        "choices": [
+          "It adds energy",
+          "It is colourful",
+          "Surfaces rub against each other",
+          "It makes objects float"
+        ],
+        "correct": 2,
+        "explain": "Friction happens when two surfaces rub together."
+      },
+      {
+        "q": "Gravity pulls objects…",
+        "choices": [
+          "Up",
+          "Down toward Earth",
+          "Sideways",
+          "In random directions"
+        ],
+        "correct": 1,
+        "explain": "Gravity pulls everything toward Earth's centre."
+      },
+      {
+        "q": "Which surface has the LEAST friction?",
+        "choices": [
+          "Sandpaper",
+          "Rubber mat",
+          "Wet ice",
+          "Carpet"
+        ],
+        "correct": 2,
+        "explain": "Wet ice is slippery — very low friction."
+      },
+      {
+        "q": "When you push a shopping cart and it moves, force has caused…",
+        "choices": [
+          "Sound",
+          "A colour change",
+          "Motion",
+          "Heat only"
+        ],
+        "correct": 2,
+        "explain": "Force can change an object's motion."
+      },
+      {
+        "q": "A magnet attracts…",
+        "choices": [
+          "Paper",
+          "Glass",
+          "Iron",
+          "Plastic"
+        ],
+        "correct": 2,
+        "explain": "Magnets attract magnetic materials like iron, steel, and nickel."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Force",
+        "back": "A push or a pull"
+      },
+      {
+        "front": "Friction",
+        "back": "Force that opposes motion between surfaces"
+      },
+      {
+        "front": "Gravity",
+        "back": "Force that pulls objects toward Earth"
+      },
+      {
+        "front": "Magnetism",
+        "back": "Force between magnets or magnetic materials"
+      },
+      {
+        "front": "Air Resistance",
+        "back": "Friction from air pushing against a moving object"
+      },
+      {
+        "front": "Balanced Forces",
+        "back": "Equal forces that don't change motion"
+      },
+      {
+        "front": "Unbalanced Forces",
+        "back": "Forces that cause motion to change"
+      },
+      {
+        "front": "Newton (N)",
+        "back": "Unit of force"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Push",
+          "Force"
+        ],
+        [
+          "Pull",
+          "Force"
+        ],
+        [
+          "Downward pull",
+          "Gravity"
+        ],
+        [
+          "Surface rub",
+          "Friction"
+        ],
+        [
+          "Iron attraction",
+          "Magnetism"
+        ],
+        [
+          "Measures force",
+          "Newton"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔬",
+      "mascot": "🦜",
+      "hook": "Let's explore: Forces in Action"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Let's explore: Forces in Action",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Push",
+              "Force"
+            ],
+            [
+              "Pull",
+              "Force"
+            ],
+            [
+              "Downward pull",
+              "Gravity"
+            ],
+            [
+              "Surface rub",
+              "Friction"
+            ],
+            [
+              "Iron attraction",
+              "Magnetism"
+            ],
+            [
+              "Measures force",
+              "Newton"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-sci-6": {
+    "title": "Energy Everywhere",
+    "mcq": [
+      {
+        "q": "Energy from the sun is called…",
+        "choices": [
+          "Solar energy",
+          "Wind energy",
+          "Chemical energy",
+          "Electrical energy"
+        ],
+        "correct": 0,
+        "explain": "Solar = from the sun. Jamaica gets lots of sunshine — good for solar panels."
+      },
+      {
+        "q": "A flashlight changes chemical energy (battery) into…",
+        "choices": [
+          "Sound only",
+          "Light and some heat",
+          "Magnetic energy",
+          "Wind"
+        ],
+        "correct": 1,
+        "explain": "Batteries produce electrical energy → light energy (and a little heat)."
+      },
+      {
+        "q": "Which is a renewable energy source?",
+        "choices": [
+          "Coal",
+          "Oil",
+          "Wind",
+          "Petrol"
+        ],
+        "correct": 2,
+        "explain": "Wind is renewable — it never runs out."
+      },
+      {
+        "q": "A moving object has what type of energy?",
+        "choices": [
+          "Stored",
+          "Potential",
+          "Kinetic",
+          "None"
+        ],
+        "correct": 2,
+        "explain": "Kinetic energy = energy of motion."
+      },
+      {
+        "q": "When we turn on a lamp, electrical energy becomes…",
+        "choices": [
+          "Chemical",
+          "Light and heat",
+          "Wind",
+          "Nothing"
+        ],
+        "correct": 1,
+        "explain": "Electrical → light (and heat from the bulb)."
+      },
+      {
+        "q": "Jamaica's major non-renewable fuel is…",
+        "choices": [
+          "Solar",
+          "Wind",
+          "Imported oil",
+          "Water"
+        ],
+        "correct": 2,
+        "explain": "Jamaica imports oil for most electricity generation."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Energy",
+        "back": "The ability to do work"
+      },
+      {
+        "front": "Kinetic Energy",
+        "back": "Energy of motion"
+      },
+      {
+        "front": "Potential Energy",
+        "back": "Stored energy"
+      },
+      {
+        "front": "Solar Energy",
+        "back": "Energy from the sun"
+      },
+      {
+        "front": "Wind Energy",
+        "back": "Energy from moving air"
+      },
+      {
+        "front": "Hydro Energy",
+        "back": "Energy from moving water"
+      },
+      {
+        "front": "Renewable",
+        "back": "Can be replaced naturally (sun, wind, water)"
+      },
+      {
+        "front": "Non-renewable",
+        "back": "Will run out (oil, coal, gas)"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Sun",
+          "Solar energy"
+        ],
+        [
+          "Moving air",
+          "Wind energy"
+        ],
+        [
+          "Moving water",
+          "Hydro energy"
+        ],
+        [
+          "Burning coal",
+          "Non-renewable"
+        ],
+        [
+          "Battery",
+          "Chemical energy"
+        ],
+        [
+          "Moving car",
+          "Kinetic energy"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔬",
+      "mascot": "🦜",
+      "hook": "Let's explore: Energy Everywhere"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Let's explore: Energy Everywhere",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Sun",
+              "Solar energy"
+            ],
+            [
+              "Moving air",
+              "Wind energy"
+            ],
+            [
+              "Moving water",
+              "Hydro energy"
+            ],
+            [
+              "Burning coal",
+              "Non-renewable"
+            ],
+            [
+              "Battery",
+              "Chemical energy"
+            ],
+            [
+              "Moving car",
+              "Kinetic energy"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-sci-7": {
+    "title": "Amazing Machines",
+    "mcq": [
+      {
+        "q": "A simple machine that lifts loads using a rope and wheel is a…",
+        "choices": [
+          "Lever",
+          "Pulley",
+          "Ramp",
+          "Screw"
+        ],
+        "correct": 1,
+        "explain": "A pulley uses a wheel and rope to change the direction of force."
+      },
+      {
+        "q": "A seesaw is an example of a…",
+        "choices": [
+          "Wheel",
+          "Inclined plane",
+          "Lever",
+          "Screw"
+        ],
+        "correct": 2,
+        "explain": "A seesaw is a first-class lever with the pivot in the middle."
+      },
+      {
+        "q": "A ramp or slope used to lift things is an…",
+        "choices": [
+          "Inclined plane",
+          "Wedge",
+          "Axle",
+          "Gear"
+        ],
+        "correct": 0,
+        "explain": "An inclined plane reduces the force needed by spreading it over a longer distance."
+      },
+      {
+        "q": "Scissors combine which two simple machines?",
+        "choices": [
+          "Levers and wedges",
+          "Pulleys and gears",
+          "Wheels and screws",
+          "Ramps and ropes"
+        ],
+        "correct": 0,
+        "explain": "Scissors are two levers joined, each blade being a wedge."
+      },
+      {
+        "q": "Simple machines make work…",
+        "choices": [
+          "Harder",
+          "Easier",
+          "Wetter",
+          "Colder"
+        ],
+        "correct": 1,
+        "explain": "They reduce the effort needed or change the direction of the force."
+      },
+      {
+        "q": "A screw is like a long…",
+        "choices": [
+          "Rope",
+          "Inclined plane wrapped around a rod",
+          "Flat wall",
+          "Hammer"
+        ],
+        "correct": 1,
+        "explain": "A screw is an inclined plane spiralling around a cylinder."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Simple Machine",
+        "back": "Tool with few parts that makes work easier"
+      },
+      {
+        "front": "Lever",
+        "back": "A rigid bar that pivots on a fulcrum"
+      },
+      {
+        "front": "Pulley",
+        "back": "Wheel with a rope used to lift loads"
+      },
+      {
+        "front": "Wheel and Axle",
+        "back": "Round wheel attached to a rod"
+      },
+      {
+        "front": "Inclined Plane",
+        "back": "A slanted surface (ramp)"
+      },
+      {
+        "front": "Wedge",
+        "back": "Two inclined planes back-to-back"
+      },
+      {
+        "front": "Screw",
+        "back": "Inclined plane wrapped around a rod"
+      },
+      {
+        "front": "Compound Machine",
+        "back": "Two or more simple machines together"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Seesaw",
+          "Lever"
+        ],
+        [
+          "Flagpole rope",
+          "Pulley"
+        ],
+        [
+          "Doorknob",
+          "Wheel & axle"
+        ],
+        [
+          "Ramp",
+          "Inclined plane"
+        ],
+        [
+          "Axe",
+          "Wedge"
+        ],
+        [
+          "Bolt",
+          "Screw"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔬",
+      "mascot": "🦜",
+      "hook": "Let's explore: Amazing Machines"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Let's explore: Amazing Machines",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Seesaw",
+              "Lever"
+            ],
+            [
+              "Flagpole rope",
+              "Pulley"
+            ],
+            [
+              "Doorknob",
+              "Wheel & axle"
+            ],
+            [
+              "Ramp",
+              "Inclined plane"
+            ],
+            [
+              "Axe",
+              "Wedge"
+            ],
+            [
+              "Bolt",
+              "Screw"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-sci-8": {
+    "title": "Body as Machine",
+    "mcq": [
+      {
+        "q": "The pump that moves blood around the body is the…",
+        "choices": [
+          "Brain",
+          "Heart",
+          "Liver",
+          "Kidney"
+        ],
+        "correct": 1,
+        "explain": "The heart pumps blood continuously through the circulatory system."
+      },
+      {
+        "q": "Lungs are mainly used to…",
+        "choices": [
+          "Digest food",
+          "Breathe",
+          "Pump blood",
+          "Think"
+        ],
+        "correct": 1,
+        "explain": "Lungs take in oxygen and release carbon dioxide."
+      },
+      {
+        "q": "The digestive system starts in the…",
+        "choices": [
+          "Stomach",
+          "Mouth",
+          "Small intestine",
+          "Liver"
+        ],
+        "correct": 1,
+        "explain": "Chewing and saliva in the mouth begin digestion."
+      },
+      {
+        "q": "Bones that protect the brain form the…",
+        "choices": [
+          "Ribs",
+          "Skull",
+          "Spine",
+          "Pelvis"
+        ],
+        "correct": 1,
+        "explain": "The skull is a hard bony case that protects the brain."
+      },
+      {
+        "q": "Muscles connect to bones by…",
+        "choices": [
+          "Glue",
+          "Tendons",
+          "Skin",
+          "Blood"
+        ],
+        "correct": 1,
+        "explain": "Tendons attach muscles to bones so we can move."
+      },
+      {
+        "q": "The body's control centre is the…",
+        "choices": [
+          "Heart",
+          "Brain",
+          "Lungs",
+          "Liver"
+        ],
+        "correct": 1,
+        "explain": "The brain sends and receives signals that control the whole body."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Circulatory System",
+        "back": "Heart + blood vessels — moves blood"
+      },
+      {
+        "front": "Respiratory System",
+        "back": "Lungs + airways — breathing"
+      },
+      {
+        "front": "Digestive System",
+        "back": "Mouth → stomach → intestines — breaks down food"
+      },
+      {
+        "front": "Skeletal System",
+        "back": "Bones — support & protect"
+      },
+      {
+        "front": "Muscular System",
+        "back": "Muscles — movement"
+      },
+      {
+        "front": "Nervous System",
+        "back": "Brain + nerves — control & senses"
+      },
+      {
+        "front": "Excretory System",
+        "back": "Kidneys & bladder — removes waste"
+      },
+      {
+        "front": "Joint",
+        "back": "Place where two bones meet"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Heart",
+          "Circulatory"
+        ],
+        [
+          "Lungs",
+          "Respiratory"
+        ],
+        [
+          "Stomach",
+          "Digestive"
+        ],
+        [
+          "Skull",
+          "Skeletal"
+        ],
+        [
+          "Biceps",
+          "Muscular"
+        ],
+        [
+          "Brain",
+          "Nervous"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔬",
+      "mascot": "🦜",
+      "hook": "Let's explore: Body as Machine"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Let's explore: Body as Machine",
+        "xp": 5
+      },
+      {
+        "type": "diagram",
+        "name": "body-system",
+        "props": {},
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Heart",
+              "Circulatory"
+            ],
+            [
+              "Lungs",
+              "Respiratory"
+            ],
+            [
+              "Stomach",
+              "Digestive"
+            ],
+            [
+              "Skull",
+              "Skeletal"
+            ],
+            [
+              "Biceps",
+              "Muscular"
+            ],
+            [
+              "Brain",
+              "Nervous"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-lan-1": {
+    "title": "Speaking Champions",
+    "mcq": [
+      {
+        "q": "Good public speakers…",
+        "choices": [
+          "Mumble",
+          "Speak loud and clear",
+          "Whisper",
+          "Look at the floor"
+        ],
+        "correct": 1,
+        "explain": "Clear volume and good eye contact help the audience understand."
+      },
+      {
+        "q": "Before you speak, you should…",
+        "choices": [
+          "Stay silent forever",
+          "Plan what to say",
+          "Shout",
+          "Run away"
+        ],
+        "correct": 1,
+        "explain": "Planning makes your message organised and confident."
+      },
+      {
+        "q": "Eye contact with your audience is…",
+        "choices": [
+          "Rude",
+          "Helpful",
+          "Scary",
+          "Unnecessary"
+        ],
+        "correct": 1,
+        "explain": "It connects you to listeners and keeps them engaged."
+      },
+      {
+        "q": "'Um' and 'ah' are called…",
+        "choices": [
+          "Fillers",
+          "Facts",
+          "Poems",
+          "Commands"
+        ],
+        "correct": 0,
+        "explain": "Filler words distract the audience — pause instead."
+      },
+      {
+        "q": "A good speaker's tone should be…",
+        "choices": [
+          "Monotone",
+          "Varied to match meaning",
+          "Always angry",
+          "Always silent"
+        ],
+        "correct": 1,
+        "explain": "Varying tone keeps listeners interested and shows emotion."
+      },
+      {
+        "q": "When giving a speech in Jamaica about your home parish, you should…",
+        "choices": [
+          "Speak too fast",
+          "Use facts and examples",
+          "Just sing a song",
+          "Yell"
+        ],
+        "correct": 1,
+        "explain": "Facts and stories make a speech convincing."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Volume",
+        "back": "How loud or soft you speak"
+      },
+      {
+        "front": "Pace",
+        "back": "How fast or slow you speak"
+      },
+      {
+        "front": "Tone",
+        "back": "The emotion in your voice"
+      },
+      {
+        "front": "Diction",
+        "back": "How clearly you say each word"
+      },
+      {
+        "front": "Eye Contact",
+        "back": "Looking at your audience"
+      },
+      {
+        "front": "Gestures",
+        "back": "Hand and body movements that support speech"
+      },
+      {
+        "front": "Filler Words",
+        "back": "'um', 'ah' — reduce these"
+      },
+      {
+        "front": "Audience",
+        "back": "The people listening to you"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Loudness",
+          "Volume"
+        ],
+        [
+          "Speed",
+          "Pace"
+        ],
+        [
+          "Emotion in voice",
+          "Tone"
+        ],
+        [
+          "Clear speech",
+          "Diction"
+        ],
+        [
+          "Listeners",
+          "Audience"
+        ],
+        [
+          "'um'",
+          "Filler word"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Speaking Champions"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Speaking Champions",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Loudness",
+              "Volume"
+            ],
+            [
+              "Speed",
+              "Pace"
+            ],
+            [
+              "Emotion in voice",
+              "Tone"
+            ],
+            [
+              "Clear speech",
+              "Diction"
+            ],
+            [
+              "Listeners",
+              "Audience"
+            ],
+            [
+              "'um'",
+              "Filler word"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-lan-2": {
+    "title": "Active Listeners",
+    "mcq": [
+      {
+        "q": "Active listening means…",
+        "choices": [
+          "Hearing and understanding",
+          "Just sitting there",
+          "Talking over people",
+          "Ignoring the speaker"
+        ],
+        "correct": 0,
+        "explain": "It is full attention with the aim of understanding."
+      },
+      {
+        "q": "A good listener uses…",
+        "choices": [
+          "Their eyes only",
+          "Ears, eyes and mind",
+          "Only their hands",
+          "The phone"
+        ],
+        "correct": 1,
+        "explain": "Looking, hearing and thinking together = active listening."
+      },
+      {
+        "q": "You should NOT do what while listening?",
+        "choices": [
+          "Make eye contact",
+          "Ask questions after",
+          "Talk on your phone",
+          "Nod sometimes"
+        ],
+        "correct": 2,
+        "explain": "Using the phone distracts you and disrespects the speaker."
+      },
+      {
+        "q": "Reasons we listen include…",
+        "choices": [
+          "For information",
+          "For enjoyment",
+          "To follow instructions",
+          "All of these"
+        ],
+        "correct": 3,
+        "explain": "We listen for many purposes — information, enjoyment, learning, directions."
+      },
+      {
+        "q": "A summary of a speaker's main idea is a…",
+        "choices": [
+          "Copy",
+          "Paraphrase",
+          "Argument",
+          "Question"
+        ],
+        "correct": 1,
+        "explain": "Paraphrasing uses your own words to repeat the key idea."
+      },
+      {
+        "q": "When teacher Miss Brown gives multi-step directions, you should…",
+        "choices": [
+          "Forget them",
+          "Write them down",
+          "Ignore step 2",
+          "Run"
+        ],
+        "correct": 1,
+        "explain": "Writing notes helps you remember complex instructions."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Active Listening",
+        "back": "Paying full attention to understand"
+      },
+      {
+        "front": "Passive Listening",
+        "back": "Hearing without focus"
+      },
+      {
+        "front": "Main Idea",
+        "back": "The most important point"
+      },
+      {
+        "front": "Supporting Details",
+        "back": "Facts that back up the main idea"
+      },
+      {
+        "front": "Paraphrase",
+        "back": "Repeat in your own words"
+      },
+      {
+        "front": "Summary",
+        "back": "Short version of key points"
+      },
+      {
+        "front": "Inference",
+        "back": "A guess based on what is said and not said"
+      },
+      {
+        "front": "Feedback",
+        "back": "Showing the speaker you understand"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Full attention",
+          "Active listening"
+        ],
+        [
+          "Own words",
+          "Paraphrase"
+        ],
+        [
+          "Short version",
+          "Summary"
+        ],
+        [
+          "Main point",
+          "Main idea"
+        ],
+        [
+          "Reading between the lines",
+          "Inference"
+        ],
+        [
+          "Nodding, 'mm-hm'",
+          "Feedback"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Active Listeners"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Active Listeners",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Full attention",
+              "Active listening"
+            ],
+            [
+              "Own words",
+              "Paraphrase"
+            ],
+            [
+              "Short version",
+              "Summary"
+            ],
+            [
+              "Main point",
+              "Main idea"
+            ],
+            [
+              "Reading between the lines",
+              "Inference"
+            ],
+            [
+              "Nodding, 'mm-hm'",
+              "Feedback"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-lan-3": {
+    "title": "Word Wizards",
+    "mcq": [
+      {
+        "q": "A synonym is a word that…",
+        "choices": [
+          "Means the opposite",
+          "Means the same / similar",
+          "Is spelled wrong",
+          "Means nothing"
+        ],
+        "correct": 1,
+        "explain": "Synonyms share meaning: big/large, happy/joyful."
+      },
+      {
+        "q": "An antonym for 'hot' is…",
+        "choices": [
+          "Warm",
+          "Cold",
+          "Spicy",
+          "Very hot"
+        ],
+        "correct": 1,
+        "explain": "Antonyms mean the opposite — hot/cold."
+      },
+      {
+        "q": "A prefix goes…",
+        "choices": [
+          "At the end of a word",
+          "At the start of a word",
+          "In the middle",
+          "Anywhere"
+        ],
+        "correct": 1,
+        "explain": "Prefix = front: un-happy, re-do, pre-view."
+      },
+      {
+        "q": "What does the suffix '-ful' mean in 'beautiful'?",
+        "choices": [
+          "Full of",
+          "Without",
+          "Before",
+          "Again"
+        ],
+        "correct": 0,
+        "explain": "-ful = 'full of'. Beautiful = full of beauty."
+      },
+      {
+        "q": "Homophones are words that…",
+        "choices": [
+          "Sound alike but mean different",
+          "Always spelled the same",
+          "Are opposites",
+          "Are numbers"
+        ],
+        "correct": 0,
+        "explain": "Like 'their/there/they're' — same sound, different meaning."
+      },
+      {
+        "q": "'Patois' in Jamaica is a…",
+        "choices": [
+          "Food",
+          "Language / dialect",
+          "Fruit",
+          "Tool"
+        ],
+        "correct": 1,
+        "explain": "Patois is Jamaica's everyday creole language."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Synonym",
+        "back": "Word meaning the same"
+      },
+      {
+        "front": "Antonym",
+        "back": "Word meaning the opposite"
+      },
+      {
+        "front": "Prefix",
+        "back": "Letters added to the start of a word"
+      },
+      {
+        "front": "Suffix",
+        "back": "Letters added to the end of a word"
+      },
+      {
+        "front": "Root Word",
+        "back": "The base part of a word"
+      },
+      {
+        "front": "Homophone",
+        "back": "Same sound, different meaning/spelling"
+      },
+      {
+        "front": "Homograph",
+        "back": "Same spelling, different meaning"
+      },
+      {
+        "front": "Dictionary",
+        "back": "Book with word meanings and spellings"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Happy",
+          "Joyful (synonym)"
+        ],
+        [
+          "Hot",
+          "Cold (antonym)"
+        ],
+        [
+          "Un-",
+          "Prefix"
+        ],
+        [
+          "-less",
+          "Suffix"
+        ],
+        [
+          "There / Their",
+          "Homophones"
+        ],
+        [
+          "Bat (animal) / Bat (cricket)",
+          "Homograph"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Word Wizards"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Word Wizards",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "hangman",
+        "data": {
+          "word": "Synonym",
+          "hint": "Word meaning the same"
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-lan-4": {
+    "title": "Reading Detectives",
+    "mcq": [
+      {
+        "q": "The main idea of a text is…",
+        "choices": [
+          "A tiny detail",
+          "What it is mostly about",
+          "The last word",
+          "Only the title"
+        ],
+        "correct": 1,
+        "explain": "Main idea = the most important point the text makes."
+      },
+      {
+        "q": "Inferences are made from…",
+        "choices": [
+          "Only what is stated",
+          "Clues plus what you already know",
+          "Guessing wildly",
+          "Pictures only"
+        ],
+        "correct": 1,
+        "explain": "Inference = reading between the lines using evidence and prior knowledge."
+      },
+      {
+        "q": "A 'conclusion' is…",
+        "choices": [
+          "The first page",
+          "A decision after reading clues",
+          "A question",
+          "A picture"
+        ],
+        "correct": 1,
+        "explain": "A conclusion is what you decide based on the information given."
+      },
+      {
+        "q": "The 'who, what, where, when, why' questions help you find…",
+        "choices": [
+          "Nothing",
+          "Key details",
+          "Only fiction",
+          "Just vocabulary"
+        ],
+        "correct": 1,
+        "explain": "5Ws help locate key facts in any text."
+      },
+      {
+        "q": "If a paragraph says 'Dunn's River Falls is in St. Ann' and the next says it is 55m tall, what is the main idea?",
+        "choices": [
+          "The falls are in St. Ann and 55m tall",
+          "St. Ann is a parish",
+          "Rivers flow downhill",
+          "Water is wet"
+        ],
+        "correct": 0,
+        "explain": "The main idea combines the key facts stated."
+      },
+      {
+        "q": "Skimming means…",
+        "choices": [
+          "Reading every word",
+          "Glancing quickly for main ideas",
+          "Reading aloud",
+          "Reading sideways"
+        ],
+        "correct": 1,
+        "explain": "Skimming is fast reading to catch the gist."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Main Idea",
+        "back": "What the text is mostly about"
+      },
+      {
+        "front": "Supporting Detail",
+        "back": "A fact that supports the main idea"
+      },
+      {
+        "front": "Infer",
+        "back": "Use clues + knowledge to figure out meaning"
+      },
+      {
+        "front": "Conclude",
+        "back": "Decide based on what you read"
+      },
+      {
+        "front": "Skim",
+        "back": "Read quickly to get the gist"
+      },
+      {
+        "front": "Scan",
+        "back": "Search for specific info"
+      },
+      {
+        "front": "Context Clue",
+        "back": "Nearby words that hint at meaning"
+      },
+      {
+        "front": "Predict",
+        "back": "Guess what comes next"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Most important point",
+          "Main idea"
+        ],
+        [
+          "Fact that backs it up",
+          "Supporting detail"
+        ],
+        [
+          "Read-between-lines",
+          "Infer"
+        ],
+        [
+          "Quick read",
+          "Skim"
+        ],
+        [
+          "Search for keyword",
+          "Scan"
+        ],
+        [
+          "Guess what's next",
+          "Predict"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Reading Detectives"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Reading Detectives",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Most important point",
+              "Main idea"
+            ],
+            [
+              "Fact that backs it up",
+              "Supporting detail"
+            ],
+            [
+              "Read-between-lines",
+              "Infer"
+            ],
+            [
+              "Quick read",
+              "Skim"
+            ],
+            [
+              "Search for keyword",
+              "Scan"
+            ],
+            [
+              "Guess what's next",
+              "Predict"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-lan-5": {
+    "title": "Information Hunters",
+    "mcq": [
+      {
+        "q": "A dictionary gives you…",
+        "choices": [
+          "Movie reviews",
+          "Word meanings",
+          "Phone numbers",
+          "Songs"
+        ],
+        "correct": 1,
+        "explain": "Dictionaries list words with meanings, pronunciations, and parts of speech."
+      },
+      {
+        "q": "To find information on the internet, you use a…",
+        "choices": [
+          "Spoon",
+          "Search engine",
+          "Bicycle",
+          "Hat"
+        ],
+        "correct": 1,
+        "explain": "Search engines like Google help you find websites."
+      },
+      {
+        "q": "A book with maps is called a(n)…",
+        "choices": [
+          "Dictionary",
+          "Thesaurus",
+          "Atlas",
+          "Novel"
+        ],
+        "correct": 2,
+        "explain": "An atlas is a collection of maps."
+      },
+      {
+        "q": "A thesaurus helps you find…",
+        "choices": [
+          "Dinosaurs",
+          "Synonyms and antonyms",
+          "Recipes",
+          "Numbers"
+        ],
+        "correct": 1,
+        "explain": "A thesaurus lists words with similar/opposite meanings."
+      },
+      {
+        "q": "Which is a reliable source for a school project?",
+        "choices": [
+          "A random blog post",
+          "A library book or .gov site",
+          "Social media rumour",
+          "A meme"
+        ],
+        "correct": 1,
+        "explain": "Library books and government sites are checked for accuracy."
+      },
+      {
+        "q": "What is the Table of Contents?",
+        "choices": [
+          "The back cover",
+          "A list at the start showing chapters and pages",
+          "The author",
+          "A summary"
+        ],
+        "correct": 1,
+        "explain": "The Table of Contents tells you what's in the book and where."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Dictionary",
+        "back": "Word meanings and spellings"
+      },
+      {
+        "front": "Thesaurus",
+        "back": "Synonyms and antonyms"
+      },
+      {
+        "front": "Encyclopedia",
+        "back": "Detailed info on many topics"
+      },
+      {
+        "front": "Atlas",
+        "back": "Collection of maps"
+      },
+      {
+        "front": "Search Engine",
+        "back": "Tool that finds websites (Google, Bing)"
+      },
+      {
+        "front": "Table of Contents",
+        "back": "List of chapters and pages"
+      },
+      {
+        "front": "Index",
+        "back": "Alphabetical list at the back of a book"
+      },
+      {
+        "front": "Source",
+        "back": "Where information comes from"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Word meanings",
+          "Dictionary"
+        ],
+        [
+          "Synonyms",
+          "Thesaurus"
+        ],
+        [
+          "Maps",
+          "Atlas"
+        ],
+        [
+          "Topic articles",
+          "Encyclopedia"
+        ],
+        [
+          "Chapters list",
+          "Table of contents"
+        ],
+        [
+          "Find websites",
+          "Search engine"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Information Hunters"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Information Hunters",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Word meanings",
+              "Dictionary"
+            ],
+            [
+              "Synonyms",
+              "Thesaurus"
+            ],
+            [
+              "Maps",
+              "Atlas"
+            ],
+            [
+              "Topic articles",
+              "Encyclopedia"
+            ],
+            [
+              "Chapters list",
+              "Table of contents"
+            ],
+            [
+              "Find websites",
+              "Search engine"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-lan-6": {
+    "title": "Grammar Masters",
+    "mcq": [
+      {
+        "q": "A noun is…",
+        "choices": [
+          "An action",
+          "A person, place, thing or idea",
+          "A describing word",
+          "A linking word"
+        ],
+        "correct": 1,
+        "explain": "Kingston, ackee, school, friendship — all nouns."
+      },
+      {
+        "q": "A verb shows…",
+        "choices": [
+          "What something looks like",
+          "Action or state",
+          "A name",
+          "A count"
+        ],
+        "correct": 1,
+        "explain": "Verbs show action (run) or state (is, seems)."
+      },
+      {
+        "q": "An adjective describes a…",
+        "choices": [
+          "Verb",
+          "Noun",
+          "Preposition",
+          "Conjunction"
+        ],
+        "correct": 1,
+        "explain": "Adjectives tell us more about nouns: a TALL tree."
+      },
+      {
+        "q": "Choose the pronoun: 'Maya gave ___ a gift.'",
+        "choices": [
+          "Maya",
+          "her",
+          "school",
+          "red"
+        ],
+        "correct": 1,
+        "explain": "Pronouns replace nouns — 'her' takes the place of a name."
+      },
+      {
+        "q": "An adverb often ends in…",
+        "choices": [
+          "-ness",
+          "-ful",
+          "-ly",
+          "-tion"
+        ],
+        "correct": 2,
+        "explain": "Quickly, happily, silently — adverbs often end in -ly."
+      },
+      {
+        "q": "Which sentence is correct?",
+        "choices": [
+          "She go home.",
+          "She goes home.",
+          "She goeing home.",
+          "She gone home."
+        ],
+        "correct": 1,
+        "explain": "Third-person singular 'she' takes the verb form 'goes'."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Noun",
+        "back": "Person, place, thing, idea"
+      },
+      {
+        "front": "Pronoun",
+        "back": "Replaces a noun (he, she, it, they)"
+      },
+      {
+        "front": "Verb",
+        "back": "Action or state word"
+      },
+      {
+        "front": "Adjective",
+        "back": "Describes a noun"
+      },
+      {
+        "front": "Adverb",
+        "back": "Describes a verb (often ends -ly)"
+      },
+      {
+        "front": "Preposition",
+        "back": "Shows relationship (in, on, under, with)"
+      },
+      {
+        "front": "Conjunction",
+        "back": "Joins words or clauses (and, but, or)"
+      },
+      {
+        "front": "Interjection",
+        "back": "Short expression of feeling (Wow!)"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Kingston",
+          "Noun"
+        ],
+        [
+          "Run",
+          "Verb"
+        ],
+        [
+          "Beautiful",
+          "Adjective"
+        ],
+        [
+          "Quickly",
+          "Adverb"
+        ],
+        [
+          "She",
+          "Pronoun"
+        ],
+        [
+          "And",
+          "Conjunction"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Grammar Masters"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Grammar Masters",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "syntax-builder",
+        "data": {
+          "template": "[NOUN] [VERB] [NOUN]",
+          "words": {
+            "NOUN": [
+              "cat",
+              "dog",
+              "child"
+            ],
+            "VERB": [
+              "runs",
+              "jumps",
+              "sees"
+            ]
+          }
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-lan-7": {
+    "title": "Writing Workshop",
+    "mcq": [
+      {
+        "q": "The first step in writing is to…",
+        "choices": [
+          "Publish",
+          "Plan / brainstorm",
+          "Decorate",
+          "Throw it away"
+        ],
+        "correct": 1,
+        "explain": "Planning your ideas first leads to clearer writing."
+      },
+      {
+        "q": "A topic sentence is…",
+        "choices": [
+          "The last line",
+          "The main idea of a paragraph",
+          "A question",
+          "A heading"
+        ],
+        "correct": 1,
+        "explain": "It tells the reader what the paragraph is about."
+      },
+      {
+        "q": "A story usually has…",
+        "choices": [
+          "Beginning, middle, end",
+          "Only an end",
+          "Random parts",
+          "Only characters"
+        ],
+        "correct": 0,
+        "explain": "Stories follow a clear structure: beginning, middle, end."
+      },
+      {
+        "q": "'Editing' means…",
+        "choices": [
+          "Deleting everything",
+          "Checking grammar, spelling, punctuation",
+          "Adding pictures",
+          "Handing it in immediately"
+        ],
+        "correct": 1,
+        "explain": "Editing fixes errors to polish the writing."
+      },
+      {
+        "q": "A paragraph usually has how many sentences?",
+        "choices": [
+          "1",
+          "Several",
+          "100",
+          "None"
+        ],
+        "correct": 1,
+        "explain": "Paragraphs usually have 3–5 or more related sentences."
+      },
+      {
+        "q": "When writing about Jamaica's Independence Day, a good opening could be…",
+        "choices": [
+          "'Jamaica is small.'",
+          "'On August 6, 1962, Jamaica celebrated its birth as a free nation.'",
+          "'I am tired.'",
+          "'Birds fly.'"
+        ],
+        "correct": 1,
+        "explain": "Opens with a specific, interesting fact tied to the topic."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Planning",
+        "back": "Thinking and jotting ideas before writing"
+      },
+      {
+        "front": "Draft",
+        "back": "A rough first version"
+      },
+      {
+        "front": "Revising",
+        "back": "Improving content and flow"
+      },
+      {
+        "front": "Editing",
+        "back": "Fixing grammar, spelling, punctuation"
+      },
+      {
+        "front": "Publishing",
+        "back": "Sharing the finished piece"
+      },
+      {
+        "front": "Topic Sentence",
+        "back": "Main idea of a paragraph"
+      },
+      {
+        "front": "Supporting Sentences",
+        "back": "Give details or examples"
+      },
+      {
+        "front": "Conclusion",
+        "back": "Wraps up and summarises"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Brainstorm",
+          "Planning"
+        ],
+        [
+          "First try",
+          "Draft"
+        ],
+        [
+          "Polish grammar",
+          "Editing"
+        ],
+        [
+          "Improve ideas",
+          "Revising"
+        ],
+        [
+          "Share the work",
+          "Publishing"
+        ],
+        [
+          "Wrap up",
+          "Conclusion"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Writing Workshop"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Writing Workshop",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Brainstorm",
+              "Planning"
+            ],
+            [
+              "First try",
+              "Draft"
+            ],
+            [
+              "Polish grammar",
+              "Editing"
+            ],
+            [
+              "Improve ideas",
+              "Revising"
+            ],
+            [
+              "Share the work",
+              "Publishing"
+            ],
+            [
+              "Wrap up",
+              "Conclusion"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-lan-8": {
+    "title": "Creative Expression",
+    "mcq": [
+      {
+        "q": "A poem that does not rhyme is called…",
+        "choices": [
+          "Limerick",
+          "Free verse",
+          "Haiku",
+          "Sonnet"
+        ],
+        "correct": 1,
+        "explain": "Free verse has no strict rhyme or metre."
+      },
+      {
+        "q": "A simile uses the word…",
+        "choices": [
+          "is",
+          "like or as",
+          "not",
+          "the"
+        ],
+        "correct": 1,
+        "explain": "Similes compare using 'like' or 'as' (brave as a lion)."
+      },
+      {
+        "q": "A metaphor says something IS something else. Example:",
+        "choices": [
+          "The sea is a blue blanket",
+          "The sea is like glass",
+          "Waves move fast",
+          "Water wet"
+        ],
+        "correct": 0,
+        "explain": "A metaphor makes a direct comparison without 'like/as'."
+      },
+      {
+        "q": "Personification gives…",
+        "choices": [
+          "Human qualities to non-humans",
+          "Names to things",
+          "Colours to animals",
+          "Numbers to people"
+        ],
+        "correct": 0,
+        "explain": "E.g., 'The wind whispered' — wind doesn't really whisper."
+      },
+      {
+        "q": "'Buzz' and 'boom' are examples of…",
+        "choices": [
+          "Alliteration",
+          "Onomatopoeia",
+          "Rhyme",
+          "Metaphor"
+        ],
+        "correct": 1,
+        "explain": "Onomatopoeia — words that sound like what they mean."
+      },
+      {
+        "q": "'Peter Piper picked a peck of pickled peppers' is…",
+        "choices": [
+          "Alliteration",
+          "Simile",
+          "Metaphor",
+          "Rhyme"
+        ],
+        "correct": 0,
+        "explain": "Repeated P sounds — alliteration."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Simile",
+        "back": "Compare using 'like' or 'as'"
+      },
+      {
+        "front": "Metaphor",
+        "back": "Direct comparison (A is B)"
+      },
+      {
+        "front": "Personification",
+        "back": "Human traits to non-humans"
+      },
+      {
+        "front": "Alliteration",
+        "back": "Repeated starting sounds"
+      },
+      {
+        "front": "Onomatopoeia",
+        "back": "Words that sound like their meaning"
+      },
+      {
+        "front": "Rhyme",
+        "back": "Matching end sounds"
+      },
+      {
+        "front": "Rhythm",
+        "back": "Beat or pattern of sounds"
+      },
+      {
+        "front": "Free Verse",
+        "back": "Poem without strict rhyme"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "'Like or as' comparison",
+          "Simile"
+        ],
+        [
+          "'A is B' comparison",
+          "Metaphor"
+        ],
+        [
+          "'Wind whispers'",
+          "Personification"
+        ],
+        [
+          "Same starting sounds",
+          "Alliteration"
+        ],
+        [
+          "'Buzz', 'bang'",
+          "Onomatopoeia"
+        ],
+        [
+          "Cat / hat",
+          "Rhyme"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Creative Expression"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Creative Expression",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "'Like or as' comparison",
+              "Simile"
+            ],
+            [
+              "'A is B' comparison",
+              "Metaphor"
+            ],
+            [
+              "'Wind whispers'",
+              "Personification"
+            ],
+            [
+              "Same starting sounds",
+              "Alliteration"
+            ],
+            [
+              "'Buzz', 'bang'",
+              "Onomatopoeia"
+            ],
+            [
+              "Cat / hat",
+              "Rhyme"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-lan-9": {
+    "title": "Communication Skills",
+    "mcq": [
+      {
+        "q": "Which is a way to communicate?",
+        "choices": [
+          "Speaking",
+          "Writing",
+          "Body language",
+          "All of these"
+        ],
+        "correct": 3,
+        "explain": "Speech, writing, and body language all communicate."
+      },
+      {
+        "q": "Polite greeting in Jamaica includes…",
+        "choices": [
+          "'Yuh ugly'",
+          "'Good morning'",
+          "Silence",
+          "Shouting"
+        ],
+        "correct": 1,
+        "explain": "A polite greeting is respectful and starts communication well."
+      },
+      {
+        "q": "When you disagree respectfully, you should…",
+        "choices": [
+          "Shout",
+          "Say 'I see it differently because…'",
+          "Ignore the other person",
+          "Laugh"
+        ],
+        "correct": 1,
+        "explain": "Share your view politely with a reason."
+      },
+      {
+        "q": "A formal letter to a principal begins with…",
+        "choices": [
+          "Hi buddy",
+          "Dear Sir/Madam",
+          "Yo!",
+          "Wassup"
+        ],
+        "correct": 1,
+        "explain": "Formal letters use respectful salutations."
+      },
+      {
+        "q": "Which is non-verbal communication?",
+        "choices": [
+          "Words on paper",
+          "Facial expression",
+          "A speech",
+          "A song"
+        ],
+        "correct": 1,
+        "explain": "Non-verbal = without words (face, gestures, body language)."
+      },
+      {
+        "q": "Sending a text message is an example of…",
+        "choices": [
+          "Written communication",
+          "Spoken communication",
+          "Gestures",
+          "Silence"
+        ],
+        "correct": 0,
+        "explain": "Text = written communication."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Communication",
+        "back": "Sending and receiving messages"
+      },
+      {
+        "front": "Verbal",
+        "back": "Using words (spoken or written)"
+      },
+      {
+        "front": "Non-verbal",
+        "back": "Without words — face, gestures, body"
+      },
+      {
+        "front": "Formal",
+        "back": "Serious, polite, respectful tone"
+      },
+      {
+        "front": "Informal",
+        "back": "Casual, friendly tone"
+      },
+      {
+        "front": "Sender",
+        "back": "The one who sends the message"
+      },
+      {
+        "front": "Receiver",
+        "back": "The one who gets the message"
+      },
+      {
+        "front": "Feedback",
+        "back": "Response from the receiver"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Letter to principal",
+          "Formal"
+        ],
+        [
+          "Text to friend",
+          "Informal"
+        ],
+        [
+          "Smile, frown",
+          "Non-verbal"
+        ],
+        [
+          "Speaking in class",
+          "Verbal"
+        ],
+        [
+          "Message giver",
+          "Sender"
+        ],
+        [
+          "Message receiver",
+          "Receiver"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Communication Skills"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Communication Skills",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Letter to principal",
+              "Formal"
+            ],
+            [
+              "Text to friend",
+              "Informal"
+            ],
+            [
+              "Smile, frown",
+              "Non-verbal"
+            ],
+            [
+              "Speaking in class",
+              "Verbal"
+            ],
+            [
+              "Message giver",
+              "Sender"
+            ],
+            [
+              "Message receiver",
+              "Receiver"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-lan-10": {
+    "title": "Language & Culture",
+    "mcq": [
+      {
+        "q": "Jamaican Patois is a…",
+        "choices": [
+          "Dance",
+          "Creole language",
+          "Type of food",
+          "A planet"
+        ],
+        "correct": 1,
+        "explain": "Patois (Jamaican Creole) blends English with African languages."
+      },
+      {
+        "q": "'Mi deh yah' in Patois means…",
+        "choices": [
+          "I am here",
+          "Goodbye",
+          "I am tired",
+          "Hello friend"
+        ],
+        "correct": 0,
+        "explain": "A common Patois greeting answer — 'I am here / I'm good.'"
+      },
+      {
+        "q": "Standard English is mostly used in…",
+        "choices": [
+          "School and formal settings",
+          "Never",
+          "Only on the moon",
+          "Only in games"
+        ],
+        "correct": 0,
+        "explain": "Standard English is used in school, work, news, and formal writing."
+      },
+      {
+        "q": "Folk stories with Anancy teach us about…",
+        "choices": [
+          "Math only",
+          "Cleverness and values",
+          "Cooking",
+          "Football"
+        ],
+        "correct": 1,
+        "explain": "Anancy stories are West African-rooted tales that teach lessons through a clever spider."
+      },
+      {
+        "q": "Being bilingual in Jamaica means you speak…",
+        "choices": [
+          "Only one language",
+          "Patois and English",
+          "French only",
+          "No languages"
+        ],
+        "correct": 1,
+        "explain": "Many Jamaicans switch between Patois and Standard English."
+      },
+      {
+        "q": "What's one benefit of speaking two languages?",
+        "choices": [
+          "None",
+          "Easier to connect with more people",
+          "Gets harder over time",
+          "Forgetting both"
+        ],
+        "correct": 1,
+        "explain": "Bilingualism widens communication and culture."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Patois",
+        "back": "Jamaican Creole language"
+      },
+      {
+        "front": "Standard English",
+        "back": "The formal/written form of English"
+      },
+      {
+        "front": "Bilingual",
+        "back": "Able to use two languages"
+      },
+      {
+        "front": "Dialect",
+        "back": "Regional variety of a language"
+      },
+      {
+        "front": "Creole",
+        "back": "A blended language of two or more"
+      },
+      {
+        "front": "Folk Tale",
+        "back": "Traditional story passed down"
+      },
+      {
+        "front": "Proverb",
+        "back": "Short wise saying"
+      },
+      {
+        "front": "Code-switching",
+        "back": "Changing between languages / styles"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "'Mi deh yah'",
+          "I am here"
+        ],
+        [
+          "'Wah gwaan'",
+          "What's going on"
+        ],
+        [
+          "Anancy",
+          "Clever spider"
+        ],
+        [
+          "Bilingual",
+          "Two languages"
+        ],
+        [
+          "Proverb",
+          "Wise saying"
+        ],
+        [
+          "Dialect",
+          "Regional form"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Language & Culture"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Language & Culture",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "'Mi deh yah'",
+              "I am here"
+            ],
+            [
+              "'Wah gwaan'",
+              "What's going on"
+            ],
+            [
+              "Anancy",
+              "Clever spider"
+            ],
+            [
+              "Bilingual",
+              "Two languages"
+            ],
+            [
+              "Proverb",
+              "Wise saying"
+            ],
+            [
+              "Dialect",
+              "Regional form"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-soc-1": {
+    "title": "European Arrival",
+    "mcq": [
+      {
+        "q": "Who were the first people of Jamaica?",
+        "choices": [
+          "Spanish",
+          "Tainos",
+          "British",
+          "Portuguese"
+        ],
+        "correct": 1,
+        "explain": "The Tainos (Arawaks) were the indigenous people when Columbus arrived in 1494."
+      },
+      {
+        "q": "Christopher Columbus reached Jamaica in…",
+        "choices": [
+          "1492",
+          "1494",
+          "1655",
+          "1962"
+        ],
+        "correct": 1,
+        "explain": "Columbus landed in Jamaica on his second voyage in 1494."
+      },
+      {
+        "q": "Who ruled Jamaica BEFORE the British?",
+        "choices": [
+          "French",
+          "Spanish",
+          "Dutch",
+          "Portuguese"
+        ],
+        "correct": 1,
+        "explain": "Spain controlled Jamaica from 1494 to 1655."
+      },
+      {
+        "q": "The British captured Jamaica from Spain in…",
+        "choices": [
+          "1492",
+          "1655",
+          "1865",
+          "1962"
+        ],
+        "correct": 1,
+        "explain": "Britain took Jamaica in 1655 and held it until independence."
+      },
+      {
+        "q": "Tainos lived mainly by…",
+        "choices": [
+          "Farming, fishing, hunting",
+          "Running factories",
+          "Oil drilling",
+          "Building cities"
+        ],
+        "correct": 0,
+        "explain": "Tainos farmed cassava, fished, and hunted small animals."
+      },
+      {
+        "q": "Disease brought by Europeans devastated the Tainos because…",
+        "choices": [
+          "They already had cures",
+          "They had no immunity",
+          "They stayed inside",
+          "Nothing happened"
+        ],
+        "correct": 1,
+        "explain": "Smallpox and other diseases wiped out most of the Taino population."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Taino",
+        "back": "The indigenous people of Jamaica"
+      },
+      {
+        "front": "1494",
+        "back": "Columbus arrived in Jamaica"
+      },
+      {
+        "front": "1655",
+        "back": "British captured Jamaica from Spain"
+      },
+      {
+        "front": "Spanish Town",
+        "back": "Former Spanish capital of Jamaica"
+      },
+      {
+        "front": "Xaymaca",
+        "back": "Taino name for Jamaica — 'land of wood and water'"
+      },
+      {
+        "front": "Cassava",
+        "back": "Taino staple food crop"
+      },
+      {
+        "front": "Caribs",
+        "back": "Another Caribbean indigenous group"
+      },
+      {
+        "front": "Encomienda",
+        "back": "Spanish system forcing Tainos to work"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "1494",
+          "Columbus arrives"
+        ],
+        [
+          "1655",
+          "British conquer Jamaica"
+        ],
+        [
+          "Taino",
+          "Indigenous people"
+        ],
+        [
+          "Spanish Town",
+          "Old capital"
+        ],
+        [
+          "Xaymaca",
+          "Land of wood and water"
+        ],
+        [
+          "Cassava",
+          "Taino staple"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🗺️",
+      "mascot": "🦜",
+      "hook": "A story from our world: European Arrival"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "A story from our world: European Arrival",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "1494",
+              "Columbus arrives"
+            ],
+            [
+              "1655",
+              "British conquer Jamaica"
+            ],
+            [
+              "Taino",
+              "Indigenous people"
+            ],
+            [
+              "Spanish Town",
+              "Old capital"
+            ],
+            [
+              "Xaymaca",
+              "Land of wood and water"
+            ],
+            [
+              "Cassava",
+              "Taino staple"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-soc-2": {
+    "title": "Slavery & Plantation",
+    "mcq": [
+      {
+        "q": "Enslaved Africans were brought to Jamaica to work on…",
+        "choices": [
+          "Schools",
+          "Sugar plantations",
+          "Banks",
+          "Ships"
+        ],
+        "correct": 1,
+        "explain": "Sugar was Jamaica's main crop; enslaved Africans were forced to grow and process it."
+      },
+      {
+        "q": "The journey across the Atlantic was called the…",
+        "choices": [
+          "Great Sail",
+          "Middle Passage",
+          "Black Road",
+          "Long Walk"
+        ],
+        "correct": 1,
+        "explain": "The Middle Passage was the brutal sea journey from Africa to the Americas."
+      },
+      {
+        "q": "Enslaved people who escaped and formed free communities were called…",
+        "choices": [
+          "Pirates",
+          "Maroons",
+          "Sailors",
+          "Merchants"
+        ],
+        "correct": 1,
+        "explain": "Maroons lived free in the mountains and defended their freedom fiercely."
+      },
+      {
+        "q": "Nanny of the Maroons is remembered as…",
+        "choices": [
+          "A singer",
+          "A warrior queen and National Hero",
+          "A farmer",
+          "A merchant"
+        ],
+        "correct": 1,
+        "explain": "Queen Nanny led Windward Maroons against the British."
+      },
+      {
+        "q": "Slavery in the British Empire ended in…",
+        "choices": [
+          "1655",
+          "1834",
+          "1865",
+          "1962"
+        ],
+        "correct": 1,
+        "explain": "The Emancipation Act freed enslaved people on August 1, 1834."
+      },
+      {
+        "q": "Plantations grew mainly…",
+        "choices": [
+          "Apples",
+          "Sugar cane",
+          "Wheat",
+          "Corn"
+        ],
+        "correct": 1,
+        "explain": "Sugar cane was Jamaica's main export crop during slavery."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Plantation",
+        "back": "Large estate growing a cash crop (sugar)"
+      },
+      {
+        "front": "Middle Passage",
+        "back": "Atlantic slave-trade journey"
+      },
+      {
+        "front": "Emancipation",
+        "back": "Freedom from slavery"
+      },
+      {
+        "front": "August 1, 1834",
+        "back": "Emancipation Day"
+      },
+      {
+        "front": "Maroon",
+        "back": "Escaped enslaved person in free community"
+      },
+      {
+        "front": "Nanny",
+        "back": "Maroon leader and National Hero"
+      },
+      {
+        "front": "Apprenticeship",
+        "back": "Period of forced labour after 1834"
+      },
+      {
+        "front": "Sam Sharpe",
+        "back": "Led 1831 Christmas Rebellion"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Middle Passage",
+          "Atlantic journey"
+        ],
+        [
+          "Nanny",
+          "Maroon leader"
+        ],
+        [
+          "Sam Sharpe",
+          "Christmas Rebellion"
+        ],
+        [
+          "1834",
+          "Emancipation"
+        ],
+        [
+          "Plantation",
+          "Sugar estate"
+        ],
+        [
+          "Maroon",
+          "Free community"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🗺️",
+      "mascot": "🦜",
+      "hook": "A story from our world: Slavery & Plantation"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "A story from our world: Slavery & Plantation",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Middle Passage",
+              "Atlantic journey"
+            ],
+            [
+              "Nanny",
+              "Maroon leader"
+            ],
+            [
+              "Sam Sharpe",
+              "Christmas Rebellion"
+            ],
+            [
+              "1834",
+              "Emancipation"
+            ],
+            [
+              "Plantation",
+              "Sugar estate"
+            ],
+            [
+              "Maroon",
+              "Free community"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-soc-3": {
+    "title": "Fight for Freedom",
+    "mcq": [
+      {
+        "q": "Sam Sharpe led the…",
+        "choices": [
+          "Morant Bay Rebellion",
+          "Christmas Rebellion of 1831",
+          "Maroon Wars",
+          "Taino uprising"
+        ],
+        "correct": 1,
+        "explain": "Sam Sharpe led the 1831 Baptist War, which sped up emancipation."
+      },
+      {
+        "q": "Paul Bogle led the…",
+        "choices": [
+          "1831 Christmas Rebellion",
+          "1865 Morant Bay Rebellion",
+          "Maroon War",
+          "Jamaica Labour Party"
+        ],
+        "correct": 1,
+        "explain": "Paul Bogle led the 1865 Morant Bay Rebellion demanding justice."
+      },
+      {
+        "q": "Apprenticeship ended in…",
+        "choices": [
+          "1834",
+          "1838",
+          "1865",
+          "1962"
+        ],
+        "correct": 1,
+        "explain": "Full emancipation came in 1838 when apprenticeship ended."
+      },
+      {
+        "q": "The Morant Bay Rebellion was sparked by…",
+        "choices": [
+          "Too much food",
+          "Injustice, poverty, and harsh courts",
+          "Music ban",
+          "Weather"
+        ],
+        "correct": 1,
+        "explain": "Former slaves demanded land, fair wages, and justice."
+      },
+      {
+        "q": "George William Gordon is honoured for…",
+        "choices": [
+          "Inventing cricket",
+          "Fighting for the poor and supporting Bogle",
+          "Sailing the seas",
+          "Building roads"
+        ],
+        "correct": 1,
+        "explain": "Gordon was a preacher/politician executed for supporting Bogle's cause."
+      },
+      {
+        "q": "Jamaica became independent on…",
+        "choices": [
+          "January 1, 1900",
+          "July 4, 1776",
+          "August 6, 1962",
+          "October 20, 1944"
+        ],
+        "correct": 2,
+        "explain": "Jamaica gained independence from Britain on August 6, 1962."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Christmas Rebellion",
+        "back": "1831 revolt led by Sam Sharpe"
+      },
+      {
+        "front": "Morant Bay Rebellion",
+        "back": "1865 uprising led by Paul Bogle"
+      },
+      {
+        "front": "Paul Bogle",
+        "back": "Leader of Morant Bay Rebellion"
+      },
+      {
+        "front": "George William Gordon",
+        "back": "Politician who supported Bogle"
+      },
+      {
+        "front": "1838",
+        "back": "Full emancipation in Jamaica"
+      },
+      {
+        "front": "1962",
+        "back": "Jamaican independence"
+      },
+      {
+        "front": "Sir Alexander Bustamante",
+        "back": "First Prime Minister of Jamaica"
+      },
+      {
+        "front": "Norman Manley",
+        "back": "National hero, founded PNP"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Sam Sharpe",
+          "1831 rebellion"
+        ],
+        [
+          "Paul Bogle",
+          "1865 Morant Bay"
+        ],
+        [
+          "1838",
+          "Full freedom"
+        ],
+        [
+          "1962",
+          "Independence"
+        ],
+        [
+          "Bustamante",
+          "First PM"
+        ],
+        [
+          "Norman Manley",
+          "Founded PNP"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🗺️",
+      "mascot": "🦜",
+      "hook": "A story from our world: Fight for Freedom"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "A story from our world: Fight for Freedom",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Sam Sharpe",
+              "1831 rebellion"
+            ],
+            [
+              "Paul Bogle",
+              "1865 Morant Bay"
+            ],
+            [
+              "1838",
+              "Full freedom"
+            ],
+            [
+              "1962",
+              "Independence"
+            ],
+            [
+              "Bustamante",
+              "First PM"
+            ],
+            [
+              "Norman Manley",
+              "Founded PNP"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-soc-4": {
+    "title": "National Heroes",
+    "mcq": [
+      {
+        "q": "Jamaica has how many National Heroes?",
+        "choices": [
+          "3",
+          "5",
+          "7",
+          "10"
+        ],
+        "correct": 2,
+        "explain": "Seven: Nanny, Sharpe, Bogle, Gordon, Garvey, Bustamante, Manley."
+      },
+      {
+        "q": "Marcus Garvey taught 'Up you mighty race!' to…",
+        "choices": [
+          "Oppress others",
+          "Uplift Africans and people of African descent",
+          "Build weapons",
+          "Hide"
+        ],
+        "correct": 1,
+        "explain": "Garvey promoted Black pride, self-reliance, and pan-Africanism."
+      },
+      {
+        "q": "National Heroes Day is celebrated on…",
+        "choices": [
+          "January 1",
+          "August 6",
+          "Third Monday in October",
+          "December 25"
+        ],
+        "correct": 2,
+        "explain": "Jamaica honours its heroes on the third Monday in October."
+      },
+      {
+        "q": "Norman Manley founded which party?",
+        "choices": [
+          "JLP",
+          "PNP",
+          "UNP",
+          "JCP"
+        ],
+        "correct": 1,
+        "explain": "Norman Manley co-founded the People's National Party (PNP)."
+      },
+      {
+        "q": "Alexander Bustamante founded…",
+        "choices": [
+          "PNP",
+          "JLP and BITU",
+          "KFC",
+          "UCASE"
+        ],
+        "correct": 1,
+        "explain": "Bustamante founded the Jamaica Labour Party and the Bustamante Industrial Trade Union."
+      },
+      {
+        "q": "Queen Nanny is the only…",
+        "choices": [
+          "Male hero",
+          "Female National Hero",
+          "Foreigner",
+          "Sportsperson"
+        ],
+        "correct": 1,
+        "explain": "Queen Nanny is the only female among Jamaica's seven National Heroes."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Queen Nanny",
+        "back": "Maroon warrior queen"
+      },
+      {
+        "front": "Sam Sharpe",
+        "back": "Led Christmas Rebellion, 1831"
+      },
+      {
+        "front": "Paul Bogle",
+        "back": "Led Morant Bay Rebellion, 1865"
+      },
+      {
+        "front": "G. W. Gordon",
+        "back": "Supporter of Bogle; politician"
+      },
+      {
+        "front": "Marcus Garvey",
+        "back": "Pan-African leader, UNIA founder"
+      },
+      {
+        "front": "Alexander Bustamante",
+        "back": "First PM; founded JLP"
+      },
+      {
+        "front": "Norman Manley",
+        "back": "Founded PNP; national statesman"
+      },
+      {
+        "front": "National Heroes Day",
+        "back": "Third Monday in October"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Nanny",
+          "Maroon queen"
+        ],
+        [
+          "Sharpe",
+          "Baptist War"
+        ],
+        [
+          "Bogle",
+          "Morant Bay"
+        ],
+        [
+          "Gordon",
+          "Justice advocate"
+        ],
+        [
+          "Garvey",
+          "Pan-Africanism"
+        ],
+        [
+          "Bustamante",
+          "First PM"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🗺️",
+      "mascot": "🦜",
+      "hook": "A story from our world: National Heroes"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "A story from our world: National Heroes",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "timeline-builder",
+        "data": {
+          "events": [
+            {
+              "date": "1494",
+              "label": "Columbus arrives in Jamaica"
+            },
+            {
+              "date": "1655",
+              "label": "British capture Jamaica"
+            },
+            {
+              "date": "1834",
+              "label": "Slavery abolished"
+            },
+            {
+              "date": "1838",
+              "label": "Full emancipation"
+            },
+            {
+              "date": "1962",
+              "label": "Jamaica independence"
+            }
+          ]
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-soc-5": {
+    "title": "Parish Government",
+    "mcq": [
+      {
+        "q": "Jamaica is divided into how many parishes?",
+        "choices": [
+          "10",
+          "12",
+          "14",
+          "16"
+        ],
+        "correct": 2,
+        "explain": "Jamaica has 14 parishes."
+      },
+      {
+        "q": "Kingston is the…",
+        "choices": [
+          "Smallest parish",
+          "Capital city of Jamaica",
+          "Largest farm",
+          "Name of a tree"
+        ],
+        "correct": 1,
+        "explain": "Kingston is Jamaica's capital and main port city."
+      },
+      {
+        "q": "The head of local parish government is called the…",
+        "choices": [
+          "Prime Minister",
+          "Mayor",
+          "Judge",
+          "Governor-General"
+        ],
+        "correct": 1,
+        "explain": "The mayor leads the Municipal Corporation (parish council)."
+      },
+      {
+        "q": "The head of Jamaica's government is the…",
+        "choices": [
+          "Governor-General",
+          "Prime Minister",
+          "Queen/King",
+          "Mayor"
+        ],
+        "correct": 1,
+        "explain": "The Prime Minister leads Jamaica's government."
+      },
+      {
+        "q": "The Queen/King is represented in Jamaica by the…",
+        "choices": [
+          "Mayor",
+          "Governor-General",
+          "Judge",
+          "Speaker"
+        ],
+        "correct": 1,
+        "explain": "The Governor-General represents the British monarch as Head of State."
+      },
+      {
+        "q": "Parish councillors are chosen by…",
+        "choices": [
+          "Election",
+          "Drawing names from a hat",
+          "Inheritance",
+          "Luck"
+        ],
+        "correct": 0,
+        "explain": "Voters elect councillors every few years."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Parish",
+        "back": "An administrative region of Jamaica"
+      },
+      {
+        "front": "14",
+        "back": "Number of parishes in Jamaica"
+      },
+      {
+        "front": "Kingston",
+        "back": "Capital city"
+      },
+      {
+        "front": "Prime Minister",
+        "back": "Head of Jamaica's government"
+      },
+      {
+        "front": "Governor-General",
+        "back": "Represents the Monarch"
+      },
+      {
+        "front": "Mayor",
+        "back": "Head of a Municipal Corporation"
+      },
+      {
+        "front": "Municipal Corporation",
+        "back": "Parish council (local government)"
+      },
+      {
+        "front": "Democracy",
+        "back": "Government by the people, through voting"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Kingston & St. Andrew",
+          "Corporate Area"
+        ],
+        [
+          "St. James",
+          "Montego Bay"
+        ],
+        [
+          "Trelawny",
+          "Falmouth / Yam"
+        ],
+        [
+          "St. Ann",
+          "Ocho Rios / Dunn's River"
+        ],
+        [
+          "Portland",
+          "Port Antonio / Blue Lagoon"
+        ],
+        [
+          "Manchester",
+          "Mandeville"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🗺️",
+      "mascot": "🦜",
+      "hook": "A story from our world: Parish Government"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "A story from our world: Parish Government",
+        "xp": 5
+      },
+      {
+        "type": "diagram",
+        "name": "jamaica-parishes",
+        "props": {},
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "click-the-region",
+        "data": {
+          "diagram": "jamaica-parishes",
+          "target": "Saint Catherine"
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-soc-6": {
+    "title": "Caribbean Culture",
+    "mcq": [
+      {
+        "q": "CARICOM is a group of…",
+        "choices": [
+          "Caribbean countries working together",
+          "Sports clubs",
+          "Schools",
+          "Trees"
+        ],
+        "correct": 0,
+        "explain": "The Caribbean Community (CARICOM) promotes economic and political cooperation."
+      },
+      {
+        "q": "Reggae music originated in…",
+        "choices": [
+          "USA",
+          "Jamaica",
+          "UK",
+          "Brazil"
+        ],
+        "correct": 1,
+        "explain": "Reggae grew out of ska and rocksteady in late-1960s Jamaica."
+      },
+      {
+        "q": "Which is a Caribbean Carnival dance?",
+        "choices": [
+          "Samba",
+          "Soca",
+          "Waltz",
+          "Tango"
+        ],
+        "correct": 1,
+        "explain": "Soca is Trinidad's Carnival music/dance."
+      },
+      {
+        "q": "Bob Marley is famous as a…",
+        "choices": [
+          "Reggae singer and world icon",
+          "Chef",
+          "Footballer",
+          "Pilot"
+        ],
+        "correct": 0,
+        "explain": "Bob Marley brought reggae to the world with messages of unity and peace."
+      },
+      {
+        "q": "Jonkanoo is a Jamaican…",
+        "choices": [
+          "Food",
+          "Traditional masked parade",
+          "Mountain",
+          "Boat"
+        ],
+        "correct": 1,
+        "explain": "Jonkanoo is a Christmas-time masquerade of African origin."
+      },
+      {
+        "q": "The Jamaican national motto is…",
+        "choices": [
+          "Out of Many, One People",
+          "Unity in Music",
+          "One Love",
+          "Ackee and Saltfish"
+        ],
+        "correct": 0,
+        "explain": "'Out of Many, One People' reflects Jamaica's diverse roots."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "CARICOM",
+        "back": "Caribbean Community — regional cooperation"
+      },
+      {
+        "front": "Reggae",
+        "back": "Music genre from Jamaica"
+      },
+      {
+        "front": "Soca",
+        "back": "Music from Trinidad & Tobago"
+      },
+      {
+        "front": "Calypso",
+        "back": "Older Trinidadian music"
+      },
+      {
+        "front": "Jonkanoo",
+        "back": "Jamaican masked Christmas parade"
+      },
+      {
+        "front": "National Motto",
+        "back": "Out of Many, One People"
+      },
+      {
+        "front": "Bob Marley",
+        "back": "World-famous reggae singer"
+      },
+      {
+        "front": "Mento",
+        "back": "Traditional Jamaican folk music"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Jamaica",
+          "Reggae"
+        ],
+        [
+          "Trinidad",
+          "Soca / Calypso"
+        ],
+        [
+          "Cuba",
+          "Salsa"
+        ],
+        [
+          "Dominican Republic",
+          "Merengue"
+        ],
+        [
+          "Jonkanoo",
+          "Masked parade"
+        ],
+        [
+          "National Motto",
+          "Out of Many, One People"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🗺️",
+      "mascot": "🦜",
+      "hook": "A story from our world: Caribbean Culture"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "A story from our world: Caribbean Culture",
+        "xp": 5
+      },
+      {
+        "type": "diagram",
+        "name": "caribbean-map",
+        "props": {},
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Jamaica",
+              "Reggae"
+            ],
+            [
+              "Trinidad",
+              "Soca / Calypso"
+            ],
+            [
+              "Cuba",
+              "Salsa"
+            ],
+            [
+              "Dominican Republic",
+              "Merengue"
+            ],
+            [
+              "Jonkanoo",
+              "Masked parade"
+            ],
+            [
+              "National Motto",
+              "Out of Many, One People"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-soc-7": {
+    "title": "Maps & Navigation",
+    "mcq": [
+      {
+        "q": "A map shows…",
+        "choices": [
+          "A small part of Earth from above",
+          "The weather",
+          "A song",
+          "A story"
+        ],
+        "correct": 0,
+        "explain": "Maps show areas from above, showing features like roads and rivers."
+      },
+      {
+        "q": "North is usually at the… of a map.",
+        "choices": [
+          "Bottom",
+          "Top",
+          "Left",
+          "Right"
+        ],
+        "correct": 1,
+        "explain": "By convention, north points to the top of a map."
+      },
+      {
+        "q": "A map's key explains…",
+        "choices": [
+          "Songs",
+          "Symbols used on the map",
+          "The author",
+          "The price"
+        ],
+        "correct": 1,
+        "explain": "The key (legend) tells you what each symbol means."
+      },
+      {
+        "q": "A compass shows…",
+        "choices": [
+          "Time",
+          "Direction",
+          "Temperature",
+          "Weight"
+        ],
+        "correct": 1,
+        "explain": "A compass needle points north, helping find direction."
+      },
+      {
+        "q": "Between N and E lies…",
+        "choices": [
+          "NW",
+          "SE",
+          "NE",
+          "SW"
+        ],
+        "correct": 2,
+        "explain": "NE (north-east) is halfway between N and E."
+      },
+      {
+        "q": "The scale of a map shows…",
+        "choices": [
+          "Distance on the ground vs. on the map",
+          "How old the map is",
+          "Who made it",
+          "The weather"
+        ],
+        "correct": 0,
+        "explain": "E.g., 1cm on the map may = 1km on the ground."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Map",
+        "back": "A drawing of an area seen from above"
+      },
+      {
+        "front": "Compass",
+        "back": "Tool showing direction"
+      },
+      {
+        "front": "Key / Legend",
+        "back": "Explains symbols on a map"
+      },
+      {
+        "front": "Scale",
+        "back": "Ratio of map distance to real distance"
+      },
+      {
+        "front": "Cardinal Directions",
+        "back": "N, S, E, W"
+      },
+      {
+        "front": "Intermediate Directions",
+        "back": "NE, NW, SE, SW"
+      },
+      {
+        "front": "Globe",
+        "back": "A round model of the Earth"
+      },
+      {
+        "front": "Atlas",
+        "back": "Book of maps"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "N",
+          "North"
+        ],
+        [
+          "S",
+          "South"
+        ],
+        [
+          "E",
+          "East"
+        ],
+        [
+          "W",
+          "West"
+        ],
+        [
+          "Symbols explained",
+          "Key / Legend"
+        ],
+        [
+          "Distance ratio",
+          "Scale"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🗺️",
+      "mascot": "🦜",
+      "hook": "A story from our world: Maps & Navigation"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "A story from our world: Maps & Navigation",
+        "xp": 5
+      },
+      {
+        "type": "diagram",
+        "name": "jamaica-parishes",
+        "props": {},
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "N",
+              "North"
+            ],
+            [
+              "S",
+              "South"
+            ],
+            [
+              "E",
+              "East"
+            ],
+            [
+              "W",
+              "West"
+            ],
+            [
+              "Symbols explained",
+              "Key / Legend"
+            ],
+            [
+              "Distance ratio",
+              "Scale"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-soc-8": {
+    "title": "Landforms & Changes",
+    "mcq": [
+      {
+        "q": "A mountain is…",
+        "choices": [
+          "A deep hole",
+          "A very high landform",
+          "Flat ground",
+          "A river"
+        ],
+        "correct": 1,
+        "explain": "Mountains are tall, steep landforms — Jamaica's highest is Blue Mountain Peak."
+      },
+      {
+        "q": "A valley is a…",
+        "choices": [
+          "Low area between hills/mountains",
+          "Peak of a mountain",
+          "A flat desert",
+          "A river"
+        ],
+        "correct": 0,
+        "explain": "Rivers often flow through valleys."
+      },
+      {
+        "q": "Blue Mountain Peak is Jamaica's highest point at about…",
+        "choices": [
+          "500m",
+          "1,000m",
+          "2,256m",
+          "5,000m"
+        ],
+        "correct": 2,
+        "explain": "Blue Mountain Peak rises to 2,256 metres above sea level."
+      },
+      {
+        "q": "Weathering is when…",
+        "choices": [
+          "Rocks break down from weather",
+          "The sky changes colour",
+          "Water boils",
+          "Wind stops"
+        ],
+        "correct": 0,
+        "explain": "Rain, wind, and temperature break down rocks over time."
+      },
+      {
+        "q": "A river's mouth is where it…",
+        "choices": [
+          "Starts in the mountains",
+          "Meets the sea or a lake",
+          "Turns red",
+          "Dries up"
+        ],
+        "correct": 1,
+        "explain": "The mouth is where the river ends, often at the ocean."
+      },
+      {
+        "q": "A coral reef is made of…",
+        "choices": [
+          "Rocks only",
+          "Tiny living animals and their skeletons",
+          "Plastic",
+          "Sand alone"
+        ],
+        "correct": 1,
+        "explain": "Coral polyps build reefs that protect coasts and host fish."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Mountain",
+        "back": "Very high landform"
+      },
+      {
+        "front": "Valley",
+        "back": "Low land between hills"
+      },
+      {
+        "front": "Plain",
+        "back": "Large flat area"
+      },
+      {
+        "front": "Plateau",
+        "back": "Flat elevated area"
+      },
+      {
+        "front": "River",
+        "back": "Moving freshwater to the sea"
+      },
+      {
+        "front": "Delta",
+        "back": "Triangular land at a river mouth"
+      },
+      {
+        "front": "Weathering",
+        "back": "Breaking down of rocks"
+      },
+      {
+        "front": "Erosion",
+        "back": "Moving of broken rock by wind/water"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Blue Mountains",
+          "Highest in Jamaica"
+        ],
+        [
+          "Rio Grande",
+          "River in Portland"
+        ],
+        [
+          "Cockpit Country",
+          "Limestone landscape"
+        ],
+        [
+          "Dunn's River",
+          "Famous waterfall"
+        ],
+        [
+          "Caribbean Sea",
+          "Ocean around Jamaica"
+        ],
+        [
+          "Black River",
+          "Longest river in Jamaica"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🗺️",
+      "mascot": "🦜",
+      "hook": "A story from our world: Landforms & Changes"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "A story from our world: Landforms & Changes",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Blue Mountains",
+              "Highest in Jamaica"
+            ],
+            [
+              "Rio Grande",
+              "River in Portland"
+            ],
+            [
+              "Cockpit Country",
+              "Limestone landscape"
+            ],
+            [
+              "Dunn's River",
+              "Famous waterfall"
+            ],
+            [
+              "Caribbean Sea",
+              "Ocean around Jamaica"
+            ],
+            [
+              "Black River",
+              "Longest river in Jamaica"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-soc-9": {
+    "title": "Weather & Climate",
+    "mcq": [
+      {
+        "q": "Weather is…",
+        "choices": [
+          "Today's conditions",
+          "Long-term average",
+          "A planet",
+          "A song"
+        ],
+        "correct": 0,
+        "explain": "Weather = short-term. Climate = long-term pattern."
+      },
+      {
+        "q": "Jamaica has a… climate.",
+        "choices": [
+          "Polar",
+          "Tropical",
+          "Desert",
+          "Tundra"
+        ],
+        "correct": 1,
+        "explain": "Tropical means warm year-round, with wet and dry seasons."
+      },
+      {
+        "q": "Hurricane Gilbert hit Jamaica in…",
+        "choices": [
+          "1978",
+          "1988",
+          "2007",
+          "2020"
+        ],
+        "correct": 1,
+        "explain": "Gilbert, one of the strongest Atlantic hurricanes, struck Jamaica in 1988."
+      },
+      {
+        "q": "How can we prepare for a hurricane?",
+        "choices": [
+          "Stock water, flashlights, food",
+          "Open all windows",
+          "Go to the beach",
+          "Do nothing"
+        ],
+        "correct": 0,
+        "explain": "Stock supplies and secure the home before landfall."
+      },
+      {
+        "q": "Drought is…",
+        "choices": [
+          "Too much water",
+          "A long period with little rain",
+          "Fog",
+          "A volcano"
+        ],
+        "correct": 1,
+        "explain": "Droughts stress crops and water supply."
+      },
+      {
+        "q": "Trade winds in Jamaica come mainly from the…",
+        "choices": [
+          "North",
+          "East",
+          "South",
+          "West"
+        ],
+        "correct": 1,
+        "explain": "North-easterly trade winds keep Jamaica cool and bring moisture."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Weather",
+        "back": "Short-term atmospheric conditions"
+      },
+      {
+        "front": "Climate",
+        "back": "Long-term weather pattern of a place"
+      },
+      {
+        "front": "Tropical",
+        "back": "Warm year-round climate"
+      },
+      {
+        "front": "Hurricane",
+        "back": "Powerful spinning tropical storm"
+      },
+      {
+        "front": "Drought",
+        "back": "Long dry period"
+      },
+      {
+        "front": "Flood",
+        "back": "Overflow of water onto dry land"
+      },
+      {
+        "front": "Trade Winds",
+        "back": "Steady winds from the NE (in tropics)"
+      },
+      {
+        "front": "Rainy Season",
+        "back": "Months with heavier rainfall"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Today's sky",
+          "Weather"
+        ],
+        [
+          "Long-term pattern",
+          "Climate"
+        ],
+        [
+          "Powerful storm",
+          "Hurricane"
+        ],
+        [
+          "No rain for long",
+          "Drought"
+        ],
+        [
+          "Too much water",
+          "Flood"
+        ],
+        [
+          "NE steady wind",
+          "Trade wind"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🗺️",
+      "mascot": "🦜",
+      "hook": "A story from our world: Weather & Climate"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "A story from our world: Weather & Climate",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Today's sky",
+              "Weather"
+            ],
+            [
+              "Long-term pattern",
+              "Climate"
+            ],
+            [
+              "Powerful storm",
+              "Hurricane"
+            ],
+            [
+              "No rain for long",
+              "Drought"
+            ],
+            [
+              "Too much water",
+              "Flood"
+            ],
+            [
+              "NE steady wind",
+              "Trade wind"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-soc-10": {
+    "title": "Earth & Conservation",
+    "mcq": [
+      {
+        "q": "Conservation means…",
+        "choices": [
+          "Wasting",
+          "Protecting and using wisely",
+          "Burning",
+          "Buying more"
+        ],
+        "correct": 1,
+        "explain": "Conservation keeps resources for the future."
+      },
+      {
+        "q": "The 3 R's are…",
+        "choices": [
+          "Reduce, Reuse, Recycle",
+          "Run, Read, Relax",
+          "Red, Rain, River",
+          "Rush, Rule, Rise"
+        ],
+        "correct": 0,
+        "explain": "Reduce, reuse, recycle — reduce waste and protect Earth."
+      },
+      {
+        "q": "Deforestation means…",
+        "choices": [
+          "Planting trees",
+          "Cutting down forests",
+          "Washing leaves",
+          "Harvesting fruit"
+        ],
+        "correct": 1,
+        "explain": "Deforestation removes forests, harming habitats and climate."
+      },
+      {
+        "q": "Water pollution can come from…",
+        "choices": [
+          "Rain only",
+          "Waste dumping and oil spills",
+          "Fish",
+          "Sun"
+        ],
+        "correct": 1,
+        "explain": "Chemicals, sewage, and garbage contaminate water."
+      },
+      {
+        "q": "Jamaica's national tree is the…",
+        "choices": [
+          "Mango",
+          "Blue Mahoe",
+          "Ackee",
+          "Guinep"
+        ],
+        "correct": 1,
+        "explain": "The Blue Mahoe is Jamaica's national tree."
+      },
+      {
+        "q": "Endangered species are…",
+        "choices": [
+          "Plentiful",
+          "At risk of extinction",
+          "Extinct",
+          "Just born"
+        ],
+        "correct": 1,
+        "explain": "Endangered means very few left, in danger of disappearing."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Conservation",
+        "back": "Protect & use resources wisely"
+      },
+      {
+        "front": "Reduce",
+        "back": "Use less"
+      },
+      {
+        "front": "Reuse",
+        "back": "Use again"
+      },
+      {
+        "front": "Recycle",
+        "back": "Make into something new"
+      },
+      {
+        "front": "Deforestation",
+        "back": "Cutting down forests"
+      },
+      {
+        "front": "Pollution",
+        "back": "Harmful substances in the environment"
+      },
+      {
+        "front": "Endangered",
+        "back": "At risk of dying out"
+      },
+      {
+        "front": "Blue Mahoe",
+        "back": "Jamaica's national tree"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "National tree",
+          "Blue Mahoe"
+        ],
+        [
+          "National bird",
+          "Doctor Bird"
+        ],
+        [
+          "National flower",
+          "Lignum Vitae"
+        ],
+        [
+          "National fruit",
+          "Ackee"
+        ],
+        [
+          "National dish",
+          "Ackee & saltfish"
+        ],
+        [
+          "National motto",
+          "Out of Many, One People"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🗺️",
+      "mascot": "🦜",
+      "hook": "A story from our world: Earth & Conservation"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "A story from our world: Earth & Conservation",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "National tree",
+              "Blue Mahoe"
+            ],
+            [
+              "National bird",
+              "Doctor Bird"
+            ],
+            [
+              "National flower",
+              "Lignum Vitae"
+            ],
+            [
+              "National fruit",
+              "Ackee"
+            ],
+            [
+              "National dish",
+              "Ackee & saltfish"
+            ],
+            [
+              "National motto",
+              "Out of Many, One People"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-soc-11": {
+    "title": "Caribbean Environment",
+    "mcq": [
+      {
+        "q": "The Caribbean Sea is part of the…",
+        "choices": [
+          "Pacific Ocean",
+          "Atlantic Ocean",
+          "Indian Ocean",
+          "Arctic Ocean"
+        ],
+        "correct": 1,
+        "explain": "The Caribbean is a sea within the Atlantic Ocean."
+      },
+      {
+        "q": "Most Caribbean islands were formed by…",
+        "choices": [
+          "Volcanic activity",
+          "Ice glaciers",
+          "Giant animals",
+          "Wind blowing sand"
+        ],
+        "correct": 0,
+        "explain": "Many Caribbean islands are volcanic in origin."
+      },
+      {
+        "q": "Coral reefs protect the coast from…",
+        "choices": [
+          "Planets",
+          "Wave damage",
+          "Fish",
+          "Clouds"
+        ],
+        "correct": 1,
+        "explain": "Reefs break waves, reducing erosion and flooding."
+      },
+      {
+        "q": "A renewable resource of the Caribbean is…",
+        "choices": [
+          "Oil",
+          "Sunshine",
+          "Coal",
+          "Gold"
+        ],
+        "correct": 1,
+        "explain": "Sun (and wind) is renewable — great for solar power."
+      },
+      {
+        "q": "Which is NOT a Caribbean island country?",
+        "choices": [
+          "Cuba",
+          "Haiti",
+          "Brazil",
+          "Barbados"
+        ],
+        "correct": 2,
+        "explain": "Brazil is in South America, not the Caribbean."
+      },
+      {
+        "q": "Climate change can cause…",
+        "choices": [
+          "No effects",
+          "Sea-level rise and stronger storms",
+          "More snow in Jamaica",
+          "Cooler summers only"
+        ],
+        "correct": 1,
+        "explain": "Warmer seas energise hurricanes and raise sea levels."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Caribbean Sea",
+        "back": "Part of the Atlantic, surrounds many islands"
+      },
+      {
+        "front": "Volcanic Islands",
+        "back": "Formed from underwater eruptions"
+      },
+      {
+        "front": "Coral Reef",
+        "back": "Undersea ridge built by tiny coral animals"
+      },
+      {
+        "front": "Renewable Resource",
+        "back": "Naturally replaces itself"
+      },
+      {
+        "front": "Non-renewable",
+        "back": "Will run out (oil, coal)"
+      },
+      {
+        "front": "Climate Change",
+        "back": "Long-term global warming and its effects"
+      },
+      {
+        "front": "Biodiversity",
+        "back": "Variety of living things in an area"
+      },
+      {
+        "front": "Ecosystem",
+        "back": "Living and non-living things working together"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Cuba",
+          "Caribbean island"
+        ],
+        [
+          "Haiti",
+          "Shares island with Dominican Rep."
+        ],
+        [
+          "Barbados",
+          "Caribbean island"
+        ],
+        [
+          "Jamaica",
+          "Caribbean island"
+        ],
+        [
+          "Caribbean Sea",
+          "Atlantic sub-region"
+        ],
+        [
+          "Coral reef",
+          "Coastal protection"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🗺️",
+      "mascot": "🦜",
+      "hook": "A story from our world: Caribbean Environment"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "A story from our world: Caribbean Environment",
+        "xp": 5
+      },
+      {
+        "type": "diagram",
+        "name": "caribbean-map",
+        "props": {},
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Cuba",
+              "Caribbean island"
+            ],
+            [
+              "Haiti",
+              "Shares island with Dominican Rep."
+            ],
+            [
+              "Barbados",
+              "Caribbean island"
+            ],
+            [
+              "Jamaica",
+              "Caribbean island"
+            ],
+            [
+              "Caribbean Sea",
+              "Atlantic sub-region"
+            ],
+            [
+              "Coral reef",
+              "Coastal protection"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-soc-12": {
+    "title": "Our Common Heritage",
+    "mcq": [
+      {
+        "q": "Heritage means…",
+        "choices": [
+          "Things passed down from the past",
+          "A new invention",
+          "Modern fashion",
+          "Tomorrow's plan"
+        ],
+        "correct": 0,
+        "explain": "Heritage is the traditions, culture, and history we inherit."
+      },
+      {
+        "q": "Jamaica's heritage includes roots from…",
+        "choices": [
+          "Only one place",
+          "Africa, Europe, Asia, indigenous Taino",
+          "Only Europe",
+          "Only Asia"
+        ],
+        "correct": 1,
+        "explain": "Jamaica's 'Out of Many, One People' reflects mixed heritage."
+      },
+      {
+        "q": "Devon House in Kingston is a…",
+        "choices": [
+          "Church",
+          "Historic great house / landmark",
+          "Airport",
+          "Mountain"
+        ],
+        "correct": 1,
+        "explain": "Devon House is a restored 19th-century mansion and popular heritage site."
+      },
+      {
+        "q": "The National Hero with 'Up you mighty race' is…",
+        "choices": [
+          "Bustamante",
+          "Marcus Garvey",
+          "Paul Bogle",
+          "Nanny"
+        ],
+        "correct": 1,
+        "explain": "Marcus Garvey inspired Pan-African pride worldwide."
+      },
+      {
+        "q": "A UNESCO World Heritage Site in Jamaica is…",
+        "choices": [
+          "Blue Mountains & John Crow Mountains",
+          "Tivoli Gardens",
+          "Hope Road",
+          "Half Way Tree"
+        ],
+        "correct": 0,
+        "explain": "Declared in 2015 for its biodiversity and Maroon history."
+      },
+      {
+        "q": "The best way to keep heritage alive is to…",
+        "choices": [
+          "Forget it",
+          "Learn, share, and celebrate it",
+          "Hide it",
+          "Ignore elders"
+        ],
+        "correct": 1,
+        "explain": "Teaching and celebrating heritage keeps it strong."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Heritage",
+        "back": "What is passed down — culture, history"
+      },
+      {
+        "front": "Tradition",
+        "back": "Long-practised custom"
+      },
+      {
+        "front": "UNESCO",
+        "back": "UN agency for culture and heritage"
+      },
+      {
+        "front": "Devon House",
+        "back": "Kingston heritage mansion"
+      },
+      {
+        "front": "Blue & John Crow Mts.",
+        "back": "Jamaica's UNESCO site (2015)"
+      },
+      {
+        "front": "Port Royal",
+        "back": "Historic 17th-century pirate city"
+      },
+      {
+        "front": "Jamaican Patois",
+        "back": "Part of language heritage"
+      },
+      {
+        "front": "National Anthem",
+        "back": "'Jamaica, Land We Love'"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Devon House",
+          "Kingston great house"
+        ],
+        [
+          "Port Royal",
+          "Pirate city"
+        ],
+        [
+          "Blue & John Crow",
+          "UNESCO World Heritage"
+        ],
+        [
+          "Jamaica, Land We Love",
+          "National Anthem"
+        ],
+        [
+          "Patois",
+          "Language heritage"
+        ],
+        [
+          "Jonkanoo",
+          "Traditional parade"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🗺️",
+      "mascot": "🦜",
+      "hook": "A story from our world: Our Common Heritage"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "A story from our world: Our Common Heritage",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Devon House",
+              "Kingston great house"
+            ],
+            [
+              "Port Royal",
+              "Pirate city"
+            ],
+            [
+              "Blue & John Crow",
+              "UNESCO World Heritage"
+            ],
+            [
+              "Jamaica, Land We Love",
+              "National Anthem"
+            ],
+            [
+              "Patois",
+              "Language heritage"
+            ],
+            [
+              "Jonkanoo",
+              "Traditional parade"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g5-mat-13": {
+    "title": "Patterns & Algebraic Thinking",
+    "mcq": [
+      {
+        "q": "If Maria is x years old and her brother is 3 years younger, how old is her brother?",
+        "choices": [
+          "x + 3",
+          "x - 3",
+          "3x",
+          "x ÷ 3"
+        ],
+        "correct": 1,
+        "explain": "\"3 years younger\" means subtract 3 from x."
+      },
+      {
+        "q": "Which symbol means \"not equal to\"?",
+        "choices": [
+          "=",
+          "≠",
+          "<",
+          ">"
+        ],
+        "correct": 1,
+        "explain": "The ≠ symbol means two values are different."
+      },
+      {
+        "q": "In the pattern 3, 7, 11, 15, ... what is the rule?",
+        "choices": [
+          "Add 3",
+          "Add 4",
+          "Multiply by 2",
+          "Subtract 3"
+        ],
+        "correct": 1,
+        "explain": "Each term increases by 4: 3→7→11→15."
+      },
+      {
+        "q": "Solve: n + 8 = 15. What is n?",
+        "choices": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "correct": 2,
+        "explain": "15 − 8 = 7, so n = 7."
+      },
+      {
+        "q": "If a patty costs J and you buy 5, what is the total cost?",
+        "choices": [
+          "p + 5",
+          "p − 5",
+          "5p",
+          "p ÷ 5"
+        ],
+        "correct": 2,
+        "explain": "5 patties at J each means 5 × p = 5p."
+      },
+      {
+        "q": "Which is true?",
+        "choices": [
+          "9 > 4",
+          "9 < 4",
+          "9 = 4",
+          "9 ≠ 9"
+        ],
+        "correct": 0,
+        "explain": "9 is greater than 4."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is a variable?",
+        "back": "A letter (like x, y, n) that stands for an unknown number."
+      },
+      {
+        "front": "What does = mean?",
+        "back": "Both sides have the same value."
+      },
+      {
+        "front": "What does ≠ mean?",
+        "back": "The two sides are not equal."
+      },
+      {
+        "front": "What does < mean?",
+        "back": "Less than — the left side is smaller."
+      },
+      {
+        "front": "What does > mean?",
+        "back": "Greater than — the left side is bigger."
+      },
+      {
+        "front": "What is a pattern rule?",
+        "back": "The operation or change repeated to get from one term to the next."
+      },
+      {
+        "front": "Solve n − 4 = 10",
+        "back": "n = 14 (add 4 to both sides)."
+      },
+      {
+        "front": "If a bus has s seats and there are 3 buses, how many seats altogether?",
+        "back": "3s seats."
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Variable",
+          "A letter that stands for a number"
+        ],
+        [
+          "=",
+          "Equal to"
+        ],
+        [
+          "≠",
+          "Not equal to"
+        ],
+        [
+          "<",
+          "Less than"
+        ],
+        [
+          ">",
+          "Greater than"
+        ],
+        [
+          "Pattern",
+          "A sequence that follows a rule"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Patterns & Algebraic Thinking"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Patterns & Algebraic Thinking",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "equation-balance",
+            "a": 5,
+            "b": 12
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "equation-balancer",
+        "data": {
+          "left": "x + 5",
+          "right": 12
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  }
+}

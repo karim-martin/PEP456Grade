@@ -1,0 +1,5432 @@
+{
+  "g6-sci-1": {
+    "title": "Environment & Climate",
+    "mcq": [
+      {
+        "q": "The layer of gases around Earth is called the…",
+        "choices": [
+          "Biosphere",
+          "Atmosphere",
+          "Hydrosphere",
+          "Lithosphere"
+        ],
+        "correct": 1,
+        "explain": "The atmosphere contains the air we breathe and protects Earth."
+      },
+      {
+        "q": "Climate change is caused mainly by…",
+        "choices": [
+          "Volcanoes only",
+          "Greenhouse gases from human activity",
+          "Ocean tides",
+          "The moon"
+        ],
+        "correct": 1,
+        "explain": "Burning fossil fuels releases CO₂, trapping heat."
+      },
+      {
+        "q": "The greenhouse effect traps…",
+        "choices": [
+          "Light from the moon",
+          "Heat from the sun near Earth",
+          "Stars",
+          "Sound"
+        ],
+        "correct": 1,
+        "explain": "Greenhouse gases let sunlight in but trap heat going out."
+      },
+      {
+        "q": "Which gas is a major greenhouse gas?",
+        "choices": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Helium"
+        ],
+        "correct": 2,
+        "explain": "CO₂ is released when fossil fuels burn."
+      },
+      {
+        "q": "A way YOU can reduce your carbon footprint is…",
+        "choices": [
+          "Leave lights on",
+          "Ride a bike or carpool",
+          "Burn tires",
+          "Use more plastic"
+        ],
+        "correct": 1,
+        "explain": "Less fuel use = less CO₂."
+      },
+      {
+        "q": "Jamaica's climate will likely experience…",
+        "choices": [
+          "More snow",
+          "Stronger hurricanes and sea-level rise",
+          "Permanent drought globally",
+          "Nothing"
+        ],
+        "correct": 1,
+        "explain": "Warmer oceans strengthen hurricanes; melting ice raises sea levels."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Atmosphere",
+        "back": "Gases surrounding Earth"
+      },
+      {
+        "front": "Biosphere",
+        "back": "All living things on Earth"
+      },
+      {
+        "front": "Hydrosphere",
+        "back": "All water on Earth"
+      },
+      {
+        "front": "Lithosphere",
+        "back": "Solid outer layer of Earth"
+      },
+      {
+        "front": "Greenhouse Effect",
+        "back": "Heat-trapping by certain gases"
+      },
+      {
+        "front": "Climate Change",
+        "back": "Long-term shifts in weather patterns"
+      },
+      {
+        "front": "Carbon Footprint",
+        "back": "Total greenhouse gas a person causes"
+      },
+      {
+        "front": "Sustainability",
+        "back": "Meeting needs without harming future"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Atmosphere",
+          "Air"
+        ],
+        [
+          "Hydrosphere",
+          "Water"
+        ],
+        [
+          "Lithosphere",
+          "Land"
+        ],
+        [
+          "Biosphere",
+          "Life"
+        ],
+        [
+          "CO₂",
+          "Greenhouse gas"
+        ],
+        [
+          "Solar power",
+          "Renewable"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔬",
+      "mascot": "🦜",
+      "hook": "Let's explore: Environment & Climate"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Let's explore: Environment & Climate",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Atmosphere",
+              "Air"
+            ],
+            [
+              "Hydrosphere",
+              "Water"
+            ],
+            [
+              "Lithosphere",
+              "Land"
+            ],
+            [
+              "Biosphere",
+              "Life"
+            ],
+            [
+              "CO₂",
+              "Greenhouse gas"
+            ],
+            [
+              "Solar power",
+              "Renewable"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-sci-2": {
+    "title": "Human Body, Diet & Health",
+    "mcq": [
+      {
+        "q": "The circulatory system transports…",
+        "choices": [
+          "Food only",
+          "Blood, oxygen, nutrients, wastes",
+          "Air only",
+          "Light"
+        ],
+        "correct": 1,
+        "explain": "Blood carries oxygen, nutrients and takes waste to be removed."
+      },
+      {
+        "q": "Which organ filters waste from blood?",
+        "choices": [
+          "Heart",
+          "Liver",
+          "Kidneys",
+          "Lungs"
+        ],
+        "correct": 2,
+        "explain": "Kidneys filter blood and make urine."
+      },
+      {
+        "q": "A balanced diet includes…",
+        "choices": [
+          "Only fats",
+          "All six food groups",
+          "Only sugar",
+          "Only meat"
+        ],
+        "correct": 1,
+        "explain": "Carbs, proteins, fats, vitamins, minerals, water — all six."
+      },
+      {
+        "q": "Non-communicable diseases include…",
+        "choices": [
+          "Flu and cold",
+          "Diabetes and hypertension",
+          "Chickenpox",
+          "Measles"
+        ],
+        "correct": 1,
+        "explain": "NCDs like diabetes are not passed person-to-person."
+      },
+      {
+        "q": "Exercise benefits the body by…",
+        "choices": [
+          "Making bones weak",
+          "Improving heart, muscles, mood",
+          "Making you tired forever",
+          "Stopping growth"
+        ],
+        "correct": 1,
+        "explain": "Regular activity strengthens heart, muscles, and mind."
+      },
+      {
+        "q": "Good personal hygiene includes…",
+        "choices": [
+          "Hand washing, bathing, brushing teeth",
+          "Only combing hair",
+          "Doing nothing",
+          "Sharing toothbrushes"
+        ],
+        "correct": 0,
+        "explain": "Clean hands and body prevent disease spread."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Circulatory",
+        "back": "Heart + blood — transport"
+      },
+      {
+        "front": "Respiratory",
+        "back": "Lungs — gas exchange"
+      },
+      {
+        "front": "Digestive",
+        "back": "Mouth → intestines — breaks down food"
+      },
+      {
+        "front": "Excretory",
+        "back": "Kidneys, bladder — removes waste"
+      },
+      {
+        "front": "Balanced Diet",
+        "back": "Right amounts from all food groups"
+      },
+      {
+        "front": "NCDs",
+        "back": "Non-Communicable Diseases (not contagious)"
+      },
+      {
+        "front": "Communicable",
+        "back": "Spreads person-to-person (flu, COVID)"
+      },
+      {
+        "front": "Immunisation",
+        "back": "Vaccines train body to resist disease"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Heart",
+          "Circulatory"
+        ],
+        [
+          "Kidney",
+          "Excretory"
+        ],
+        [
+          "Stomach",
+          "Digestive"
+        ],
+        [
+          "Lung",
+          "Respiratory"
+        ],
+        [
+          "Diabetes",
+          "NCD"
+        ],
+        [
+          "Chickenpox",
+          "Communicable"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔬",
+      "mascot": "🦜",
+      "hook": "Let's explore: Human Body, Diet & Health"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Let's explore: Human Body, Diet & Health",
+        "xp": 5
+      },
+      {
+        "type": "diagram",
+        "name": "body-system",
+        "props": {},
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Heart",
+              "Circulatory"
+            ],
+            [
+              "Kidney",
+              "Excretory"
+            ],
+            [
+              "Stomach",
+              "Digestive"
+            ],
+            [
+              "Lung",
+              "Respiratory"
+            ],
+            [
+              "Diabetes",
+              "NCD"
+            ],
+            [
+              "Chickenpox",
+              "Communicable"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-sci-3": {
+    "title": "Energy, Light & Sound",
+    "mcq": [
+      {
+        "q": "Light travels in…",
+        "choices": [
+          "Curves only",
+          "Straight lines",
+          "Zigzags",
+          "Circles"
+        ],
+        "correct": 1,
+        "explain": "Light travels in straight lines until something changes its path."
+      },
+      {
+        "q": "We see objects because…",
+        "choices": [
+          "Our eyes shoot light",
+          "Light bounces off them into our eyes",
+          "They glow at night only",
+          "Magic"
+        ],
+        "correct": 1,
+        "explain": "Reflected light enters our eyes and forms the image."
+      },
+      {
+        "q": "Sound travels as…",
+        "choices": [
+          "Waves through matter",
+          "Only through space",
+          "Only through metal",
+          "It doesn't travel"
+        ],
+        "correct": 0,
+        "explain": "Sound is a vibration that needs a medium (air, water, solids)."
+      },
+      {
+        "q": "Which surface reflects light best?",
+        "choices": [
+          "Black paper",
+          "Mirror",
+          "Wet sponge",
+          "Cloth"
+        ],
+        "correct": 1,
+        "explain": "Smooth shiny surfaces reflect most of the light."
+      },
+      {
+        "q": "Echo is caused by…",
+        "choices": [
+          "Sound absorbed",
+          "Sound reflected back",
+          "Silence",
+          "Electrical waves"
+        ],
+        "correct": 1,
+        "explain": "Sound bounces off a distant surface back to you."
+      },
+      {
+        "q": "White light is made of…",
+        "choices": [
+          "Only one colour",
+          "A spectrum of colours",
+          "Only black",
+          "Only red"
+        ],
+        "correct": 1,
+        "explain": "A prism splits white light into red, orange, yellow, green, blue, indigo, violet."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Light Travel",
+        "back": "In straight lines"
+      },
+      {
+        "front": "Reflection",
+        "back": "Bouncing of light off a surface"
+      },
+      {
+        "front": "Refraction",
+        "back": "Bending of light in a new medium"
+      },
+      {
+        "front": "Transparent",
+        "back": "Lets light through (glass)"
+      },
+      {
+        "front": "Opaque",
+        "back": "Blocks light (wood)"
+      },
+      {
+        "front": "Translucent",
+        "back": "Lets some light through (wax paper)"
+      },
+      {
+        "front": "Sound Wave",
+        "back": "Vibration through matter"
+      },
+      {
+        "front": "Pitch",
+        "back": "How high or low a sound is"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Mirror",
+          "Reflection"
+        ],
+        [
+          "Prism",
+          "Splits white light"
+        ],
+        [
+          "Glass",
+          "Transparent"
+        ],
+        [
+          "Wood",
+          "Opaque"
+        ],
+        [
+          "Echo",
+          "Reflected sound"
+        ],
+        [
+          "High note",
+          "High pitch"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔬",
+      "mascot": "🦜",
+      "hook": "Let's explore: Energy, Light & Sound"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Let's explore: Energy, Light & Sound",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Mirror",
+              "Reflection"
+            ],
+            [
+              "Prism",
+              "Splits white light"
+            ],
+            [
+              "Glass",
+              "Transparent"
+            ],
+            [
+              "Wood",
+              "Opaque"
+            ],
+            [
+              "Echo",
+              "Reflected sound"
+            ],
+            [
+              "High note",
+              "High pitch"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-sci-4": {
+    "title": "Materials & Mixtures",
+    "mcq": [
+      {
+        "q": "A pure substance is made of…",
+        "choices": [
+          "One type of particle",
+          "Many different mixed particles",
+          "Only gas",
+          "Only solid"
+        ],
+        "correct": 0,
+        "explain": "Pure substances (like pure water) contain only one kind of particle."
+      },
+      {
+        "q": "A mixture can be separated by…",
+        "choices": [
+          "Magic",
+          "Physical methods like filtering",
+          "Only fire",
+          "It can't be separated"
+        ],
+        "correct": 1,
+        "explain": "Filtering, sieving, evaporation, magnetism can separate mixtures."
+      },
+      {
+        "q": "Salt and water form a…",
+        "choices": [
+          "Compound",
+          "Solution",
+          "Element",
+          "Colloid"
+        ],
+        "correct": 1,
+        "explain": "Salt dissolves fully in water → a solution."
+      },
+      {
+        "q": "Which method separates iron from sand?",
+        "choices": [
+          "Magnet",
+          "Filter",
+          "Boil",
+          "Cool"
+        ],
+        "correct": 0,
+        "explain": "Magnetism attracts iron but not sand."
+      },
+      {
+        "q": "Evaporation removes…",
+        "choices": [
+          "Solid from liquid (by heating)",
+          "Gas from solid",
+          "Nothing",
+          "Colour only"
+        ],
+        "correct": 0,
+        "explain": "Heating makes liquid turn to vapour, leaving the solid behind."
+      },
+      {
+        "q": "A soluble substance…",
+        "choices": [
+          "Floats",
+          "Dissolves in water",
+          "Sinks always",
+          "Won't mix"
+        ],
+        "correct": 1,
+        "explain": "Sugar is soluble — it dissolves in water."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Solid",
+        "back": "Fixed shape and volume"
+      },
+      {
+        "front": "Liquid",
+        "back": "Takes shape of container, fixed volume"
+      },
+      {
+        "front": "Gas",
+        "back": "Fills any container"
+      },
+      {
+        "front": "Mixture",
+        "back": "Two or more substances mixed"
+      },
+      {
+        "front": "Solution",
+        "back": "Solute fully dissolved in solvent"
+      },
+      {
+        "front": "Soluble",
+        "back": "Can dissolve"
+      },
+      {
+        "front": "Insoluble",
+        "back": "Cannot dissolve"
+      },
+      {
+        "front": "Filter",
+        "back": "Separates solid from liquid"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Sand + iron",
+          "Use a magnet"
+        ],
+        [
+          "Salt + water",
+          "Evaporate"
+        ],
+        [
+          "Sand + water",
+          "Filter"
+        ],
+        [
+          "Oil + water",
+          "Separating funnel"
+        ],
+        [
+          "Sugar + water",
+          "Solution"
+        ],
+        [
+          "Dust + air",
+          "Sieving / filter"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔬",
+      "mascot": "🦜",
+      "hook": "Let's explore: Materials & Mixtures"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Let's explore: Materials & Mixtures",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Sand + iron",
+              "Use a magnet"
+            ],
+            [
+              "Salt + water",
+              "Evaporate"
+            ],
+            [
+              "Sand + water",
+              "Filter"
+            ],
+            [
+              "Oil + water",
+              "Separating funnel"
+            ],
+            [
+              "Sugar + water",
+              "Solution"
+            ],
+            [
+              "Dust + air",
+              "Sieving / filter"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-sci-5": {
+    "title": "Scientific Investigation",
+    "mcq": [
+      {
+        "q": "A hypothesis is…",
+        "choices": [
+          "A guaranteed fact",
+          "A testable prediction",
+          "A type of equipment",
+          "A conclusion"
+        ],
+        "correct": 1,
+        "explain": "A hypothesis is an educated guess that can be tested."
+      },
+      {
+        "q": "A fair test changes…",
+        "choices": [
+          "Many things at once",
+          "Only one variable",
+          "No variables",
+          "The question"
+        ],
+        "correct": 1,
+        "explain": "Change one variable, keep others the same."
+      },
+      {
+        "q": "The variable you change is the…",
+        "choices": [
+          "Controlled variable",
+          "Independent variable",
+          "Dependent variable",
+          "Constant"
+        ],
+        "correct": 1,
+        "explain": "The independent variable is the cause you change."
+      },
+      {
+        "q": "What is the variable you measure?",
+        "choices": [
+          "Independent",
+          "Dependent",
+          "Control",
+          "Hypothesis"
+        ],
+        "correct": 1,
+        "explain": "The dependent variable is the effect you measure."
+      },
+      {
+        "q": "Data recorded during an experiment should be…",
+        "choices": [
+          "Accurate and honest",
+          "Changed to match predictions",
+          "Ignored",
+          "Guessed"
+        ],
+        "correct": 0,
+        "explain": "Real scientists record exactly what they observe."
+      },
+      {
+        "q": "The last step of the scientific method is…",
+        "choices": [
+          "Ask a question",
+          "Plan",
+          "Draw a conclusion and share results",
+          "Do nothing"
+        ],
+        "correct": 2,
+        "explain": "After analysis, we conclude and communicate findings."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Hypothesis",
+        "back": "Testable prediction"
+      },
+      {
+        "front": "Independent Variable",
+        "back": "What you change"
+      },
+      {
+        "front": "Dependent Variable",
+        "back": "What you measure"
+      },
+      {
+        "front": "Controlled Variable",
+        "back": "What stays the same"
+      },
+      {
+        "front": "Fair Test",
+        "back": "Change only one variable at a time"
+      },
+      {
+        "front": "Data",
+        "back": "Information collected"
+      },
+      {
+        "front": "Analysis",
+        "back": "Studying the data"
+      },
+      {
+        "front": "Conclusion",
+        "back": "What the data shows"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Testable prediction",
+          "Hypothesis"
+        ],
+        [
+          "Cause",
+          "Independent variable"
+        ],
+        [
+          "Effect",
+          "Dependent variable"
+        ],
+        [
+          "Kept same",
+          "Controlled variable"
+        ],
+        [
+          "Collected info",
+          "Data"
+        ],
+        [
+          "Final decision",
+          "Conclusion"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔬",
+      "mascot": "🦜",
+      "hook": "Let's explore: Scientific Investigation"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Let's explore: Scientific Investigation",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Testable prediction",
+              "Hypothesis"
+            ],
+            [
+              "Cause",
+              "Independent variable"
+            ],
+            [
+              "Effect",
+              "Dependent variable"
+            ],
+            [
+              "Kept same",
+              "Controlled variable"
+            ],
+            [
+              "Collected info",
+              "Data"
+            ],
+            [
+              "Final decision",
+              "Conclusion"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-sci-6": {
+    "title": "Forces in Motion",
+    "mcq": [
+      {
+        "q": "Speed is…",
+        "choices": [
+          "Distance ÷ time",
+          "Time ÷ distance",
+          "Distance × time",
+          "Time + distance"
+        ],
+        "correct": 0,
+        "explain": "Speed = distance travelled ÷ time taken."
+      },
+      {
+        "q": "A runner covers 100 m in 20 s. Speed =",
+        "choices": [
+          "2 m/s",
+          "5 m/s",
+          "200 m/s",
+          "10 m/s"
+        ],
+        "correct": 1,
+        "explain": "100 ÷ 20 = 5 m/s."
+      },
+      {
+        "q": "Balanced forces result in…",
+        "choices": [
+          "No change in motion",
+          "Always motion",
+          "Acceleration",
+          "Explosion"
+        ],
+        "correct": 0,
+        "explain": "If forces balance, the object stays still or moves at constant speed."
+      },
+      {
+        "q": "Gravity on Earth is about…",
+        "choices": [
+          "1 N/kg",
+          "10 N/kg",
+          "100 N/kg",
+          "0.1 N/kg"
+        ],
+        "correct": 1,
+        "explain": "Earth's gravity pulls each kg of mass with about 10 N (9.8 N precisely)."
+      },
+      {
+        "q": "A rough surface has ___ friction.",
+        "choices": [
+          "Less",
+          "No",
+          "More",
+          "Zero"
+        ],
+        "correct": 2,
+        "explain": "Rougher = more friction."
+      },
+      {
+        "q": "A parachute slows a fall using…",
+        "choices": [
+          "Gravity",
+          "Friction from the ground",
+          "Air resistance",
+          "Magnetism"
+        ],
+        "correct": 2,
+        "explain": "Air resistance pushes up against the falling parachute."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Speed",
+        "back": "Distance ÷ time"
+      },
+      {
+        "front": "Distance",
+        "back": "How far something moves"
+      },
+      {
+        "front": "Time",
+        "back": "How long motion takes"
+      },
+      {
+        "front": "Velocity",
+        "back": "Speed in a direction"
+      },
+      {
+        "front": "Acceleration",
+        "back": "Change in velocity over time"
+      },
+      {
+        "front": "Gravity",
+        "back": "Force pulling objects toward Earth"
+      },
+      {
+        "front": "Air Resistance",
+        "back": "Friction from air against motion"
+      },
+      {
+        "front": "Newton (N)",
+        "back": "Unit of force"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Speed",
+          "Distance / time"
+        ],
+        [
+          "Force",
+          "Push or pull"
+        ],
+        [
+          "Unit of force",
+          "Newton"
+        ],
+        [
+          "Earth's pull",
+          "Gravity"
+        ],
+        [
+          "Surface rub",
+          "Friction"
+        ],
+        [
+          "Parachute",
+          "Air resistance"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔬",
+      "mascot": "🦜",
+      "hook": "Let's explore: Forces in Motion"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Let's explore: Forces in Motion",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Speed",
+              "Distance / time"
+            ],
+            [
+              "Force",
+              "Push or pull"
+            ],
+            [
+              "Unit of force",
+              "Newton"
+            ],
+            [
+              "Earth's pull",
+              "Gravity"
+            ],
+            [
+              "Surface rub",
+              "Friction"
+            ],
+            [
+              "Parachute",
+              "Air resistance"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-sci-7": {
+    "title": "Rocks, Minerals & Soils",
+    "mcq": [
+      {
+        "q": "The three main rock types are…",
+        "choices": [
+          "Hot, cold, warm",
+          "Igneous, sedimentary, metamorphic",
+          "Large, medium, small",
+          "Red, green, blue"
+        ],
+        "correct": 1,
+        "explain": "Rocks form in three ways, creating three main types."
+      },
+      {
+        "q": "Sedimentary rock forms from…",
+        "choices": [
+          "Cooled lava",
+          "Compressed layers of sediment",
+          "Heat and pressure",
+          "Magic"
+        ],
+        "correct": 1,
+        "explain": "Sand, shells, and silt settle and compress over long periods."
+      },
+      {
+        "q": "Igneous rock comes from…",
+        "choices": [
+          "Cooled magma or lava",
+          "Layers of mud",
+          "Reshaped rock",
+          "Only ocean water"
+        ],
+        "correct": 0,
+        "explain": "'Igneous' comes from Latin for fire — molten rock cooled."
+      },
+      {
+        "q": "Jamaica's main mineral resource is…",
+        "choices": [
+          "Oil",
+          "Bauxite",
+          "Diamond",
+          "Gold"
+        ],
+        "correct": 1,
+        "explain": "Bauxite (used to make aluminium) is mined in many parishes."
+      },
+      {
+        "q": "Soil is made of…",
+        "choices": [
+          "Only sand",
+          "Rock bits, organic matter, water, air",
+          "Only rocks",
+          "Plastic"
+        ],
+        "correct": 1,
+        "explain": "Soil has weathered rocks, humus, water, and air."
+      },
+      {
+        "q": "Humus is…",
+        "choices": [
+          "A food dip",
+          "Decayed plant/animal matter in soil",
+          "A type of rock",
+          "Another word for sand"
+        ],
+        "correct": 1,
+        "explain": "Humus makes soil fertile — great for plants."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Igneous",
+        "back": "From cooled magma/lava"
+      },
+      {
+        "front": "Sedimentary",
+        "back": "Compressed layers of sediment"
+      },
+      {
+        "front": "Metamorphic",
+        "back": "Changed by heat/pressure"
+      },
+      {
+        "front": "Mineral",
+        "back": "Natural, non-living solid"
+      },
+      {
+        "front": "Bauxite",
+        "back": "Jamaica's main ore (aluminium)"
+      },
+      {
+        "front": "Soil Horizon",
+        "back": "A layer in the soil"
+      },
+      {
+        "front": "Humus",
+        "back": "Decayed organic matter in soil"
+      },
+      {
+        "front": "Weathering",
+        "back": "Breakdown of rock"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Granite",
+          "Igneous"
+        ],
+        [
+          "Limestone",
+          "Sedimentary"
+        ],
+        [
+          "Marble",
+          "Metamorphic"
+        ],
+        [
+          "Bauxite",
+          "Aluminium ore"
+        ],
+        [
+          "Sandstone",
+          "Sedimentary"
+        ],
+        [
+          "Humus",
+          "Rich organic soil"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔬",
+      "mascot": "🦜",
+      "hook": "Let's explore: Rocks, Minerals & Soils"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Let's explore: Rocks, Minerals & Soils",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Granite",
+              "Igneous"
+            ],
+            [
+              "Limestone",
+              "Sedimentary"
+            ],
+            [
+              "Marble",
+              "Metamorphic"
+            ],
+            [
+              "Bauxite",
+              "Aluminium ore"
+            ],
+            [
+              "Sandstone",
+              "Sedimentary"
+            ],
+            [
+              "Humus",
+              "Rich organic soil"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-sci-8": {
+    "title": "Food Chains & Ecosystems",
+    "mcq": [
+      {
+        "q": "An ecosystem is…",
+        "choices": [
+          "Only plants",
+          "Living and non-living things interacting",
+          "Only deserts",
+          "A computer"
+        ],
+        "correct": 1,
+        "explain": "Ecosystems include organisms + air, water, soil, climate."
+      },
+      {
+        "q": "A producer's energy comes from…",
+        "choices": [
+          "Other animals",
+          "The sun",
+          "Rocks",
+          "Water alone"
+        ],
+        "correct": 1,
+        "explain": "Green plants capture sunlight via photosynthesis."
+      },
+      {
+        "q": "Grass → Rabbit → Fox. The fox is the…",
+        "choices": [
+          "Producer",
+          "Primary consumer",
+          "Secondary consumer",
+          "Decomposer"
+        ],
+        "correct": 2,
+        "explain": "Rabbit eats grass (primary); fox eats rabbit (secondary)."
+      },
+      {
+        "q": "Removing a top predator can cause…",
+        "choices": [
+          "Prey population to explode",
+          "No effect",
+          "Plants to die out",
+          "Grass to turn blue"
+        ],
+        "correct": 0,
+        "explain": "Without predators, prey numbers may explode — upsetting balance."
+      },
+      {
+        "q": "In a Jamaican coral reef, producers are…",
+        "choices": [
+          "Sharks",
+          "Algae and seagrass",
+          "Sand",
+          "Boats"
+        ],
+        "correct": 1,
+        "explain": "Algae and seagrass are the base of the marine food web."
+      },
+      {
+        "q": "Biodiversity is…",
+        "choices": [
+          "Only one species",
+          "Variety of living things",
+          "A type of pollution",
+          "A mountain"
+        ],
+        "correct": 1,
+        "explain": "More biodiversity usually means a healthier ecosystem."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Ecosystem",
+        "back": "Living + non-living things interacting"
+      },
+      {
+        "front": "Habitat",
+        "back": "Home of a living thing"
+      },
+      {
+        "front": "Producer",
+        "back": "Makes own food (plants)"
+      },
+      {
+        "front": "Consumer",
+        "back": "Eats other living things"
+      },
+      {
+        "front": "Decomposer",
+        "back": "Breaks down dead matter"
+      },
+      {
+        "front": "Food Web",
+        "back": "Many interconnected food chains"
+      },
+      {
+        "front": "Biodiversity",
+        "back": "Variety of life in an area"
+      },
+      {
+        "front": "Adaptation",
+        "back": "Feature that helps survival"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Plants",
+          "Producers"
+        ],
+        [
+          "Herbivore",
+          "Primary consumer"
+        ],
+        [
+          "Carnivore",
+          "Secondary consumer"
+        ],
+        [
+          "Fungi",
+          "Decomposer"
+        ],
+        [
+          "Variety of life",
+          "Biodiversity"
+        ],
+        [
+          "Where it lives",
+          "Habitat"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔬",
+      "mascot": "🦜",
+      "hook": "Let's explore: Food Chains & Ecosystems"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Let's explore: Food Chains & Ecosystems",
+        "xp": 5
+      },
+      {
+        "type": "diagram",
+        "name": "food-web",
+        "props": {},
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Plants",
+              "Producers"
+            ],
+            [
+              "Herbivore",
+              "Primary consumer"
+            ],
+            [
+              "Carnivore",
+              "Secondary consumer"
+            ],
+            [
+              "Fungi",
+              "Decomposer"
+            ],
+            [
+              "Variety of life",
+              "Biodiversity"
+            ],
+            [
+              "Where it lives",
+              "Habitat"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-mat-1": {
+    "title": "Sets & Number",
+    "mcq": [
+      {
+        "q": "A set is…",
+        "choices": [
+          "A random list",
+          "A collection of objects with a shared property",
+          "Only numbers",
+          "A colour"
+        ],
+        "correct": 1,
+        "explain": "Sets are well-defined groups — { } brackets."
+      },
+      {
+        "q": "Which is a whole number?",
+        "choices": [
+          "0",
+          "−3",
+          "1/2",
+          "0.5"
+        ],
+        "correct": 0,
+        "explain": "Whole numbers are 0, 1, 2, 3, … No negatives, no fractions."
+      },
+      {
+        "q": "Which is a prime number?",
+        "choices": [
+          "9",
+          "11",
+          "15",
+          "21"
+        ],
+        "correct": 1,
+        "explain": "11 has only two factors: 1 and 11."
+      },
+      {
+        "q": "|{2, 4, 6, 8}| = ?",
+        "choices": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "correct": 1,
+        "explain": "The set has 4 elements."
+      },
+      {
+        "q": "LCM of 4 and 5 is…",
+        "choices": [
+          "1",
+          "9",
+          "20",
+          "5"
+        ],
+        "correct": 2,
+        "explain": "Smallest number both divide into is 20."
+      },
+      {
+        "q": "HCF of 18 and 24 is…",
+        "choices": [
+          "2",
+          "3",
+          "6",
+          "12"
+        ],
+        "correct": 2,
+        "explain": "18 = 2·3·3; 24 = 2·2·2·3. Common = 2·3 = 6."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Set",
+        "back": "Group of objects with shared property"
+      },
+      {
+        "front": "Union",
+        "back": "A ∪ B: all in A or B"
+      },
+      {
+        "front": "Intersection",
+        "back": "A ∩ B: in both"
+      },
+      {
+        "front": "Natural Numbers",
+        "back": "1, 2, 3, …"
+      },
+      {
+        "front": "Whole Numbers",
+        "back": "0, 1, 2, 3, …"
+      },
+      {
+        "front": "Integer",
+        "back": "…−2, −1, 0, 1, 2…"
+      },
+      {
+        "front": "Prime",
+        "back": "Exactly 2 factors"
+      },
+      {
+        "front": "Composite",
+        "back": "More than 2 factors"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "1,2,3,…",
+          "Natural numbers"
+        ],
+        [
+          "0,1,2,…",
+          "Whole numbers"
+        ],
+        [
+          "−3",
+          "Integer"
+        ],
+        [
+          "1/2",
+          "Fraction"
+        ],
+        [
+          "Prime",
+          "Only 2 factors"
+        ],
+        [
+          "LCM(3,4)",
+          "12"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Sets & Number"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Sets & Number",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "place-value",
+            "number": 374562
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "place-value-slot",
+        "data": {
+          "digits": "374562"
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-mat-2": {
+    "title": "Ratios & Percentages",
+    "mcq": [
+      {
+        "q": "Ratio of boys : girls = 3 : 2. If 15 boys, how many girls?",
+        "choices": [
+          "10",
+          "9",
+          "12",
+          "18"
+        ],
+        "correct": 0,
+        "explain": "3 parts = 15 boys, 1 part = 5, so girls = 2×5 = 10."
+      },
+      {
+        "q": "25% of 80 = ?",
+        "choices": [
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "correct": 2,
+        "explain": "25% = 1/4 → 80 ÷ 4 = 20."
+      },
+      {
+        "q": "1/2 as a percent =",
+        "choices": [
+          "5%",
+          "50%",
+          "25%",
+          "20%"
+        ],
+        "correct": 1,
+        "explain": "1/2 × 100 = 50%."
+      },
+      {
+        "q": "0.75 as a percent =",
+        "choices": [
+          "7.5%",
+          "75%",
+          "750%",
+          "0.75%"
+        ],
+        "correct": 1,
+        "explain": "Multiply decimal by 100 → 75%."
+      },
+      {
+        "q": "A shirt costs J$2,000 with 20% discount. New price?",
+        "choices": [
+          "J$400",
+          "J$1,600",
+          "J$1,800",
+          "J$2,400"
+        ],
+        "correct": 1,
+        "explain": "Discount = 20% of 2,000 = 400. 2,000 − 400 = 1,600."
+      },
+      {
+        "q": "Simplify ratio 12 : 18.",
+        "choices": [
+          "1 : 2",
+          "2 : 3",
+          "3 : 4",
+          "4 : 6"
+        ],
+        "correct": 1,
+        "explain": "Divide both by 6 → 2 : 3."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Ratio",
+        "back": "Compares two quantities (a : b)"
+      },
+      {
+        "front": "Percent",
+        "back": "Out of 100 (%)"
+      },
+      {
+        "front": "Percentage of N",
+        "back": "(% ÷ 100) × N"
+      },
+      {
+        "front": "Decimal → %",
+        "back": "Multiply by 100"
+      },
+      {
+        "front": "% → Decimal",
+        "back": "Divide by 100"
+      },
+      {
+        "front": "Fraction → %",
+        "back": "Multiply by 100"
+      },
+      {
+        "front": "Discount",
+        "back": "Original − (% × Original)"
+      },
+      {
+        "front": "Simplest Ratio",
+        "back": "Divide both by HCF"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "1/2",
+          "50%"
+        ],
+        [
+          "1/4",
+          "25%"
+        ],
+        [
+          "3/4",
+          "75%"
+        ],
+        [
+          "1/5",
+          "20%"
+        ],
+        [
+          "0.1",
+          "10%"
+        ],
+        [
+          "2/5",
+          "40%"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Ratios & Percentages"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Ratios & Percentages",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "percent-bar",
+            "pct": 25
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "fraction-builder",
+        "data": {
+          "target": "1/4",
+          "maxDen": 8
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-mat-3": {
+    "title": "Measurement & Scale",
+    "mcq": [
+      {
+        "q": "A scale of 1 cm : 100 m. A distance of 5 cm = ?",
+        "choices": [
+          "50 m",
+          "100 m",
+          "500 m",
+          "1,000 m"
+        ],
+        "correct": 2,
+        "explain": "5 × 100 = 500 m."
+      },
+      {
+        "q": "2.5 km in metres =",
+        "choices": [
+          "25",
+          "250",
+          "2,500",
+          "25,000"
+        ],
+        "correct": 2,
+        "explain": "1 km = 1,000 m, so 2.5 × 1,000 = 2,500."
+      },
+      {
+        "q": "On a map scale 1 : 50,000, 2 cm represents…",
+        "choices": [
+          "50,000 cm",
+          "100,000 cm = 1 km",
+          "5 km",
+          "0.5 km"
+        ],
+        "correct": 1,
+        "explain": "2 × 50,000 = 100,000 cm = 1 km."
+      },
+      {
+        "q": "How many grams in 3.2 kg?",
+        "choices": [
+          "32",
+          "320",
+          "3,200",
+          "32,000"
+        ],
+        "correct": 2,
+        "explain": "3.2 × 1,000 = 3,200 g."
+      },
+      {
+        "q": "Which would you use for a very short pencil length?",
+        "choices": [
+          "km",
+          "m",
+          "cm",
+          "tonnes"
+        ],
+        "correct": 2,
+        "explain": "Small lengths → centimetres (or mm)."
+      },
+      {
+        "q": "Volume of a 2 L bottle in mL =",
+        "choices": [
+          "20",
+          "200",
+          "2,000",
+          "20,000"
+        ],
+        "correct": 2,
+        "explain": "1 L = 1,000 mL, so 2 × 1,000 = 2,000 mL."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Scale",
+        "back": "Ratio of map to real distance"
+      },
+      {
+        "front": "1 km",
+        "back": "1,000 m"
+      },
+      {
+        "front": "1 m",
+        "back": "100 cm"
+      },
+      {
+        "front": "1 cm",
+        "back": "10 mm"
+      },
+      {
+        "front": "1 kg",
+        "back": "1,000 g"
+      },
+      {
+        "front": "1 L",
+        "back": "1,000 mL"
+      },
+      {
+        "front": "Imperial Mass",
+        "back": "Pounds, ounces"
+      },
+      {
+        "front": "Metric",
+        "back": "Units of 10s and 1000s"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "1,000 m",
+          "1 km"
+        ],
+        [
+          "100 cm",
+          "1 m"
+        ],
+        [
+          "10 mm",
+          "1 cm"
+        ],
+        [
+          "1,000 g",
+          "1 kg"
+        ],
+        [
+          "1,000 mL",
+          "1 L"
+        ],
+        [
+          "1,000 kg",
+          "1 tonne"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Measurement & Scale"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Measurement & Scale",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "place-value",
+            "number": 374562
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "place-value-slot",
+        "data": {
+          "digits": "374562"
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-mat-4": {
+    "title": "Area, Volume & Circles",
+    "mcq": [
+      {
+        "q": "Area of a triangle with base 6 cm and height 4 cm is…",
+        "choices": [
+          "10",
+          "12",
+          "24",
+          "48"
+        ],
+        "correct": 1,
+        "explain": "½ × b × h = ½ × 6 × 4 = 12 cm²."
+      },
+      {
+        "q": "Area of a circle formula is…",
+        "choices": [
+          "πr²",
+          "2πr",
+          "πd",
+          "4πr"
+        ],
+        "correct": 0,
+        "explain": "Area = π × r × r."
+      },
+      {
+        "q": "Circumference of a circle with diameter 14 cm (π≈22/7)…",
+        "choices": [
+          "14 cm",
+          "44 cm",
+          "22 cm",
+          "88 cm"
+        ],
+        "correct": 1,
+        "explain": "C = πd = 22/7 × 14 = 44 cm."
+      },
+      {
+        "q": "Volume of a rectangular prism 3×4×5 cm is…",
+        "choices": [
+          "12",
+          "60",
+          "20",
+          "35"
+        ],
+        "correct": 1,
+        "explain": "V = l × w × h = 3 × 4 × 5 = 60 cm³."
+      },
+      {
+        "q": "Volume unit is…",
+        "choices": [
+          "cm",
+          "cm²",
+          "cm³",
+          "kg"
+        ],
+        "correct": 2,
+        "explain": "Volume uses cubic units (cm³, m³)."
+      },
+      {
+        "q": "If a circle has radius 7, its area (π=22/7)…",
+        "choices": [
+          "22",
+          "44",
+          "154",
+          "49"
+        ],
+        "correct": 2,
+        "explain": "πr² = 22/7 × 7 × 7 = 22 × 7 = 154."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Triangle Area",
+        "back": "½ × base × height"
+      },
+      {
+        "front": "Rectangle Area",
+        "back": "length × width"
+      },
+      {
+        "front": "Circle Area",
+        "back": "π × r²"
+      },
+      {
+        "front": "Circumference",
+        "back": "π × d or 2πr"
+      },
+      {
+        "front": "Prism Volume",
+        "back": "length × width × height"
+      },
+      {
+        "front": "π (pi)",
+        "back": "≈ 22/7 or 3.14"
+      },
+      {
+        "front": "Radius",
+        "back": "Centre to edge of circle"
+      },
+      {
+        "front": "Diameter",
+        "back": "Across circle through centre (= 2r)"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "L × W",
+          "Rectangle area"
+        ],
+        [
+          "½ b h",
+          "Triangle area"
+        ],
+        [
+          "π r²",
+          "Circle area"
+        ],
+        [
+          "π d",
+          "Circumference"
+        ],
+        [
+          "L × W × H",
+          "Prism volume"
+        ],
+        [
+          "cm³",
+          "Volume unit"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Area, Volume & Circles"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Area, Volume & Circles",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "perimeter-walk",
+            "w": 4,
+            "h": 3
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "area-grid-builder",
+        "data": {
+          "target": "area",
+          "goal": 12
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-mat-5": {
+    "title": "Geometry & Transformations",
+    "mcq": [
+      {
+        "q": "The sum of angles in a triangle is…",
+        "choices": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "correct": 1,
+        "explain": "All triangles have angles summing to 180°."
+      },
+      {
+        "q": "A quadrilateral's angles sum to…",
+        "choices": [
+          "180°",
+          "270°",
+          "360°",
+          "540°"
+        ],
+        "correct": 2,
+        "explain": "Four-sided shapes: angles add to 360°."
+      },
+      {
+        "q": "A shape has line symmetry if…",
+        "choices": [
+          "It has many sides",
+          "A line divides it into mirror halves",
+          "It is large",
+          "It is red"
+        ],
+        "correct": 1,
+        "explain": "Both halves match across the line."
+      },
+      {
+        "q": "Translation means…",
+        "choices": [
+          "Turning",
+          "Sliding",
+          "Resizing",
+          "Flipping"
+        ],
+        "correct": 1,
+        "explain": "Translation slides a shape without rotating."
+      },
+      {
+        "q": "Reflection creates a…",
+        "choices": [
+          "Rotated image",
+          "Mirror image",
+          "Larger copy",
+          "Smaller copy"
+        ],
+        "correct": 1,
+        "explain": "Reflection = mirror flip across a line."
+      },
+      {
+        "q": "Rotating a square 90° gives…",
+        "choices": [
+          "A circle",
+          "A square in new orientation",
+          "A triangle",
+          "Nothing"
+        ],
+        "correct": 1,
+        "explain": "Rotation keeps shape same but orientation changes."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Triangle Angles",
+        "back": "Sum to 180°"
+      },
+      {
+        "front": "Quad Angles",
+        "back": "Sum to 360°"
+      },
+      {
+        "front": "Right Angle",
+        "back": "Exactly 90°"
+      },
+      {
+        "front": "Translation",
+        "back": "Slide (no turning)"
+      },
+      {
+        "front": "Reflection",
+        "back": "Flip (mirror)"
+      },
+      {
+        "front": "Rotation",
+        "back": "Turn around a point"
+      },
+      {
+        "front": "Congruent",
+        "back": "Same shape and size"
+      },
+      {
+        "front": "Similar",
+        "back": "Same shape, different size"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Slide",
+          "Translation"
+        ],
+        [
+          "Flip",
+          "Reflection"
+        ],
+        [
+          "Turn",
+          "Rotation"
+        ],
+        [
+          "Same size & shape",
+          "Congruent"
+        ],
+        [
+          "Same shape, different size",
+          "Similar"
+        ],
+        [
+          "Sum 180°",
+          "Triangle"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Geometry & Transformations"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Geometry & Transformations",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "perimeter-walk",
+            "w": 4,
+            "h": 3
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "click-the-region",
+        "data": {
+          "diagram": "fraction-pie",
+          "target": "1/4"
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-mat-6": {
+    "title": "Algebra & Problem Solving",
+    "mcq": [
+      {
+        "q": "If x + 5 = 12, x = ?",
+        "choices": [
+          "5",
+          "7",
+          "17",
+          "60"
+        ],
+        "correct": 1,
+        "explain": "12 − 5 = 7."
+      },
+      {
+        "q": "If 3y = 21, y = ?",
+        "choices": [
+          "7",
+          "18",
+          "24",
+          "63"
+        ],
+        "correct": 0,
+        "explain": "21 ÷ 3 = 7."
+      },
+      {
+        "q": "Simplify 2a + 3a.",
+        "choices": [
+          "5a",
+          "6a²",
+          "2a+3a",
+          "23"
+        ],
+        "correct": 0,
+        "explain": "Add like terms → 5a."
+      },
+      {
+        "q": "Which is an expression?",
+        "choices": [
+          "x + 2",
+          "x + 2 = 5",
+          "9",
+          "none"
+        ],
+        "correct": 0,
+        "explain": "No equals sign → expression (not an equation)."
+      },
+      {
+        "q": "Solve: 2x − 4 = 10.",
+        "choices": [
+          "3",
+          "5",
+          "7",
+          "14"
+        ],
+        "correct": 2,
+        "explain": "2x = 14, x = 7."
+      },
+      {
+        "q": "Jasmin has J$n. She spends J$50 and has J$200 left. n = ?",
+        "choices": [
+          "150",
+          "250",
+          "100",
+          "300"
+        ],
+        "correct": 1,
+        "explain": "n − 50 = 200 → n = 250."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Variable",
+        "back": "Letter for an unknown (x, y)"
+      },
+      {
+        "front": "Expression",
+        "back": "Has no = sign"
+      },
+      {
+        "front": "Equation",
+        "back": "Has an = sign"
+      },
+      {
+        "front": "Like Terms",
+        "back": "Same variable (e.g., 3a and 5a)"
+      },
+      {
+        "front": "Inverse Operation",
+        "back": "Operation that undoes another (+/−)"
+      },
+      {
+        "front": "Solve",
+        "back": "Find the value of the variable"
+      },
+      {
+        "front": "Coefficient",
+        "back": "Number in front of variable"
+      },
+      {
+        "front": "Constant",
+        "back": "A number with no variable"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "2x + 3",
+          "Expression"
+        ],
+        [
+          "2x + 3 = 11",
+          "Equation"
+        ],
+        [
+          "x",
+          "Variable"
+        ],
+        [
+          "5 in 5x",
+          "Coefficient"
+        ],
+        [
+          "7",
+          "Constant"
+        ],
+        [
+          "+ and −",
+          "Inverse operations"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Algebra & Problem Solving"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Algebra & Problem Solving",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "equation-balance",
+            "a": 5,
+            "b": 12
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "equation-balancer",
+        "data": {
+          "left": "x + 5",
+          "right": 12
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-mat-7": {
+    "title": "Measurement & Conversions",
+    "mcq": [
+      {
+        "q": "1 hour = ? minutes",
+        "choices": [
+          "30",
+          "60",
+          "100",
+          "120"
+        ],
+        "correct": 1,
+        "explain": "60 minutes in an hour."
+      },
+      {
+        "q": "How many seconds in half a minute?",
+        "choices": [
+          "15",
+          "30",
+          "60",
+          "90"
+        ],
+        "correct": 1,
+        "explain": "½ × 60 = 30 seconds."
+      },
+      {
+        "q": "3 hours 15 min = ? minutes",
+        "choices": [
+          "195",
+          "180",
+          "215",
+          "315"
+        ],
+        "correct": 0,
+        "explain": "3 × 60 + 15 = 195."
+      },
+      {
+        "q": "2.3 m = ? cm",
+        "choices": [
+          "23",
+          "230",
+          "2,300",
+          "0.23"
+        ],
+        "correct": 1,
+        "explain": "2.3 × 100 = 230 cm."
+      },
+      {
+        "q": "500 mL + 750 mL = ? L",
+        "choices": [
+          "1.25 L",
+          "12.5 L",
+          "0.125 L",
+          "2.5 L"
+        ],
+        "correct": 0,
+        "explain": "1,250 mL = 1.25 L."
+      },
+      {
+        "q": "1 year = how many days (non-leap)?",
+        "choices": [
+          "360",
+          "365",
+          "366",
+          "400"
+        ],
+        "correct": 1,
+        "explain": "A non-leap year has 365 days; leap year has 366."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "1 hour",
+        "back": "60 minutes"
+      },
+      {
+        "front": "1 minute",
+        "back": "60 seconds"
+      },
+      {
+        "front": "1 day",
+        "back": "24 hours"
+      },
+      {
+        "front": "1 year",
+        "back": "365 (or 366) days"
+      },
+      {
+        "front": "m → cm",
+        "back": "× 100"
+      },
+      {
+        "front": "kg → g",
+        "back": "× 1,000"
+      },
+      {
+        "front": "L → mL",
+        "back": "× 1,000"
+      },
+      {
+        "front": "24-hour time",
+        "back": "0–23 hours"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "60 min",
+          "1 hour"
+        ],
+        [
+          "24 hr",
+          "1 day"
+        ],
+        [
+          "100 cm",
+          "1 m"
+        ],
+        [
+          "1,000 m",
+          "1 km"
+        ],
+        [
+          "1,000 mL",
+          "1 L"
+        ],
+        [
+          "1,000 g",
+          "1 kg"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Measurement & Conversions"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Measurement & Conversions",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "place-value",
+            "number": 374562
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "place-value-slot",
+        "data": {
+          "digits": "374562"
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-mat-8": {
+    "title": "Data & Probability",
+    "mcq": [
+      {
+        "q": "Probability of getting heads on a fair coin =",
+        "choices": [
+          "1/3",
+          "1/2",
+          "2/3",
+          "1"
+        ],
+        "correct": 1,
+        "explain": "One of two equally likely outcomes."
+      },
+      {
+        "q": "Probability of rolling an even number on a die =",
+        "choices": [
+          "1/6",
+          "1/3",
+          "1/2",
+          "2/3"
+        ],
+        "correct": 2,
+        "explain": "Evens: 2,4,6 — 3/6 = 1/2."
+      },
+      {
+        "q": "Median of 3, 5, 7, 9, 11 is…",
+        "choices": [
+          "5",
+          "7",
+          "9",
+          "11"
+        ],
+        "correct": 1,
+        "explain": "Middle value when ordered = 7."
+      },
+      {
+        "q": "Mean of 4, 6, 8, 10 is…",
+        "choices": [
+          "4",
+          "6",
+          "7",
+          "28"
+        ],
+        "correct": 2,
+        "explain": "(4+6+8+10)/4 = 28/4 = 7."
+      },
+      {
+        "q": "A pie chart sector for 25% has central angle…",
+        "choices": [
+          "45°",
+          "90°",
+          "180°",
+          "360°"
+        ],
+        "correct": 1,
+        "explain": "25% × 360° = 90°."
+      },
+      {
+        "q": "If an event is certain, its probability is…",
+        "choices": [
+          "0",
+          "0.5",
+          "1",
+          "100"
+        ],
+        "correct": 2,
+        "explain": "Certain = probability 1 (or 100%)."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Probability",
+        "back": "Chance a result occurs (0 to 1)"
+      },
+      {
+        "front": "Certain",
+        "back": "P = 1"
+      },
+      {
+        "front": "Impossible",
+        "back": "P = 0"
+      },
+      {
+        "front": "Mean",
+        "back": "Sum ÷ count"
+      },
+      {
+        "front": "Median",
+        "back": "Middle value"
+      },
+      {
+        "front": "Mode",
+        "back": "Most common value"
+      },
+      {
+        "front": "Range",
+        "back": "Max − min"
+      },
+      {
+        "front": "Pie Sector Angle",
+        "back": "% × 360°"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "P=1",
+          "Certain"
+        ],
+        [
+          "P=0",
+          "Impossible"
+        ],
+        [
+          "P(heads)",
+          "1/2"
+        ],
+        [
+          "P(6 on die)",
+          "1/6"
+        ],
+        [
+          "Average",
+          "Mean"
+        ],
+        [
+          "Middle",
+          "Median"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Data & Probability"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Data & Probability",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "place-value",
+            "number": 374562
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "place-value-slot",
+        "data": {
+          "digits": "374562"
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-mat-9": {
+    "title": "Number Systems & Roman",
+    "mcq": [
+      {
+        "q": "Roman numeral V represents…",
+        "choices": [
+          "1",
+          "5",
+          "10",
+          "50"
+        ],
+        "correct": 1,
+        "explain": "V = 5. I=1, V=5, X=10, L=50, C=100."
+      },
+      {
+        "q": "IX = ?",
+        "choices": [
+          "11",
+          "9",
+          "10",
+          "21"
+        ],
+        "correct": 1,
+        "explain": "I before X = 10 − 1 = 9."
+      },
+      {
+        "q": "Write 2026 in Roman numerals.",
+        "choices": [
+          "MMXXVI",
+          "MMMXXVI",
+          "MMXXIV",
+          "MMMXVI"
+        ],
+        "correct": 0,
+        "explain": "MM = 2000, XX = 20, VI = 6 → MMXXVI."
+      },
+      {
+        "q": "40 in Roman numerals =",
+        "choices": [
+          "XXXX",
+          "XL",
+          "LX",
+          "VL"
+        ],
+        "correct": 1,
+        "explain": "XL = 50 − 10 = 40."
+      },
+      {
+        "q": "LXX = ?",
+        "choices": [
+          "20",
+          "60",
+          "70",
+          "90"
+        ],
+        "correct": 2,
+        "explain": "L(50) + X(10) + X(10) = 70."
+      },
+      {
+        "q": "In binary, 5 is written as…",
+        "choices": [
+          "101",
+          "100",
+          "110",
+          "111"
+        ],
+        "correct": 0,
+        "explain": "5 = 4 + 1 = 101 in binary."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "I",
+        "back": "1"
+      },
+      {
+        "front": "V",
+        "back": "5"
+      },
+      {
+        "front": "X",
+        "back": "10"
+      },
+      {
+        "front": "L",
+        "back": "50"
+      },
+      {
+        "front": "C",
+        "back": "100"
+      },
+      {
+        "front": "D",
+        "back": "500"
+      },
+      {
+        "front": "M",
+        "back": "1,000"
+      },
+      {
+        "front": "Binary",
+        "back": "Base-2 number system"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "I",
+          "1"
+        ],
+        [
+          "V",
+          "5"
+        ],
+        [
+          "X",
+          "10"
+        ],
+        [
+          "L",
+          "50"
+        ],
+        [
+          "C",
+          "100"
+        ],
+        [
+          "M",
+          "1,000"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Number Systems & Roman"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Number Systems & Roman",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "place-value",
+            "number": 374562
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "place-value-slot",
+        "data": {
+          "digits": "374562"
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-mat-10": {
+    "title": "Verbal & Quantitative Reasoning",
+    "mcq": [
+      {
+        "q": "What comes next: 2, 4, 8, 16, __ ?",
+        "choices": [
+          "18",
+          "24",
+          "32",
+          "20"
+        ],
+        "correct": 2,
+        "explain": "Each term doubles — 16 × 2 = 32."
+      },
+      {
+        "q": "Odd one out: cat, dog, goat, car.",
+        "choices": [
+          "cat",
+          "dog",
+          "goat",
+          "car"
+        ],
+        "correct": 3,
+        "explain": "Car is not an animal."
+      },
+      {
+        "q": "If BOOK is coded 2-15-15-11, what does 3-1-20 mean?",
+        "choices": [
+          "BAT",
+          "CAT",
+          "CAR",
+          "DOG"
+        ],
+        "correct": 1,
+        "explain": "A=1, so 3=C, 1=A, 20=T → CAT."
+      },
+      {
+        "q": "Hand is to glove as foot is to…",
+        "choices": [
+          "Shoe",
+          "Hat",
+          "Scarf",
+          "Shirt"
+        ],
+        "correct": 0,
+        "explain": "Glove covers hand; shoe covers foot."
+      },
+      {
+        "q": "If 3 pencils cost J$60, 5 pencils cost…",
+        "choices": [
+          "J$80",
+          "J$100",
+          "J$120",
+          "J$150"
+        ],
+        "correct": 1,
+        "explain": "Each = 60 ÷ 3 = 20. 5 × 20 = 100."
+      },
+      {
+        "q": "Pattern: 5, 10, 20, 40, __ ?",
+        "choices": [
+          "50",
+          "60",
+          "80",
+          "100"
+        ],
+        "correct": 2,
+        "explain": "Double each time: 40 × 2 = 80."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Number Pattern",
+        "back": "A sequence that follows a rule"
+      },
+      {
+        "front": "Analogy",
+        "back": "A : B as C : D"
+      },
+      {
+        "front": "Sequence Rule",
+        "back": "How each term relates to the next"
+      },
+      {
+        "front": "Reasoning",
+        "back": "Thinking through logic to solve"
+      },
+      {
+        "front": "Odd One Out",
+        "back": "Item not like the others"
+      },
+      {
+        "front": "Code",
+        "back": "Letters/numbers standing for others"
+      },
+      {
+        "front": "Proportion",
+        "back": "Two ratios that are equal"
+      },
+      {
+        "front": "Inference",
+        "back": "A conclusion from given clues"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "2, 4, 8, 16",
+          "Double each time"
+        ],
+        [
+          "1, 3, 5, 7",
+          "Odd numbers"
+        ],
+        [
+          "5, 10, 15, 20",
+          "Multiples of 5"
+        ],
+        [
+          "2, 3, 5, 8, 13",
+          "Add previous two"
+        ],
+        [
+          "Hand : Glove",
+          "Foot : Shoe"
+        ],
+        [
+          "A=1, B=2, C=3",
+          "Alphabet code"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🔢",
+      "mascot": "🦜",
+      "hook": "Time to play with numbers! Verbal & Quantitative Reasoning"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Time to play with numbers! Verbal & Quantitative Reasoning",
+        "xp": 5
+      },
+      {
+        "type": "stepper",
+        "data": {
+          "auto": {
+            "kind": "place-value",
+            "number": 374562
+          }
+        },
+        "xp": 10
+      },
+      {
+        "type": "game",
+        "module": "place-value-slot",
+        "data": {
+          "digits": "374562"
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-soc-1": {
+    "title": "Our Common Heritage",
+    "mcq": [
+      {
+        "q": "Jamaica's seven National Heroes include all EXCEPT…",
+        "choices": [
+          "Sam Sharpe",
+          "Paul Bogle",
+          "Marcus Garvey",
+          "Usain Bolt"
+        ],
+        "correct": 3,
+        "explain": "Usain Bolt is a legendary athlete but not a National Hero."
+      },
+      {
+        "q": "Jamaica became independent on…",
+        "choices": [
+          "August 6, 1962",
+          "August 1, 1838",
+          "October 28, 1968",
+          "January 1, 1900"
+        ],
+        "correct": 0,
+        "explain": "Independence Day — August 6, 1962."
+      },
+      {
+        "q": "The national motto reflects…",
+        "choices": [
+          "One race",
+          "Jamaica's diverse people as one",
+          "Only British heritage",
+          "Only African heritage"
+        ],
+        "correct": 1,
+        "explain": "'Out of Many, One People' honours all ethnic contributions."
+      },
+      {
+        "q": "Which is NOT a national symbol of Jamaica?",
+        "choices": [
+          "Doctor Bird",
+          "Ackee",
+          "Apple",
+          "Lignum Vitae"
+        ],
+        "correct": 2,
+        "explain": "Apple isn't a Jamaican symbol. National fruit = ackee."
+      },
+      {
+        "q": "The Jamaican flag colours represent…",
+        "choices": [
+          "Sunshine, hardships, land & rivers",
+          "Fruits only",
+          "Teams",
+          "Foreign places"
+        ],
+        "correct": 0,
+        "explain": "Gold=sun/wealth; Black=strength/creativity; Green=land."
+      },
+      {
+        "q": "Festival of Heritage is observed in…",
+        "choices": [
+          "January",
+          "April",
+          "October",
+          "December"
+        ],
+        "correct": 2,
+        "explain": "Heritage Week / National Heroes Day = October."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Independence Day",
+        "back": "August 6, 1962"
+      },
+      {
+        "front": "Emancipation Day",
+        "back": "August 1 (1834)"
+      },
+      {
+        "front": "National Heroes Day",
+        "back": "3rd Monday in October"
+      },
+      {
+        "front": "National Bird",
+        "back": "Doctor Bird"
+      },
+      {
+        "front": "National Flower",
+        "back": "Lignum Vitae"
+      },
+      {
+        "front": "National Tree",
+        "back": "Blue Mahoe"
+      },
+      {
+        "front": "National Fruit",
+        "back": "Ackee"
+      },
+      {
+        "front": "National Dish",
+        "back": "Ackee & Saltfish"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Gold",
+          "Sunshine / wealth"
+        ],
+        [
+          "Black",
+          "Strength / creativity"
+        ],
+        [
+          "Green",
+          "Land / hope"
+        ],
+        [
+          "Doctor Bird",
+          "National Bird"
+        ],
+        [
+          "Ackee",
+          "National Fruit"
+        ],
+        [
+          "Blue Mahoe",
+          "National Tree"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🗺️",
+      "mascot": "🦜",
+      "hook": "A story from our world: Our Common Heritage"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "A story from our world: Our Common Heritage",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Gold",
+              "Sunshine / wealth"
+            ],
+            [
+              "Black",
+              "Strength / creativity"
+            ],
+            [
+              "Green",
+              "Land / hope"
+            ],
+            [
+              "Doctor Bird",
+              "National Bird"
+            ],
+            [
+              "Ackee",
+              "National Fruit"
+            ],
+            [
+              "Blue Mahoe",
+              "National Tree"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-soc-2": {
+    "title": "Living Together",
+    "mcq": [
+      {
+        "q": "A healthy community has…",
+        "choices": [
+          "Conflict only",
+          "Cooperation, respect, shared values",
+          "No rules",
+          "Isolation"
+        ],
+        "correct": 1,
+        "explain": "Communities thrive when people work together and respect each other."
+      },
+      {
+        "q": "A good citizen shows…",
+        "choices": [
+          "Respect for laws and neighbours",
+          "Selfishness",
+          "Rudeness",
+          "Dishonesty"
+        ],
+        "correct": 0,
+        "explain": "Citizenship means contributing positively."
+      },
+      {
+        "q": "Human rights include…",
+        "choices": [
+          "Freedom of speech and education",
+          "Only what the rich have",
+          "Things only adults get",
+          "Cars and money"
+        ],
+        "correct": 0,
+        "explain": "Rights belong to every person — food, school, speech, safety."
+      },
+      {
+        "q": "Conflict is best resolved by…",
+        "choices": [
+          "Fighting",
+          "Ignoring forever",
+          "Communication and compromise",
+          "Running away"
+        ],
+        "correct": 2,
+        "explain": "Talking openly and compromising helps solve conflicts."
+      },
+      {
+        "q": "Jamaica is a member of CARICOM because it…",
+        "choices": [
+          "Has to be",
+          "Benefits from regional cooperation",
+          "Enjoys war",
+          "Has no friends"
+        ],
+        "correct": 1,
+        "explain": "CARICOM aids trade, education, disaster response."
+      },
+      {
+        "q": "Bullying in school can be stopped by…",
+        "choices": [
+          "Ignoring it",
+          "Reporting, supporting victims, building kindness",
+          "Joining in",
+          "Blaming the victim"
+        ],
+        "correct": 1,
+        "explain": "Speak up, support, and create positive culture."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Community",
+        "back": "Group of people living together in an area"
+      },
+      {
+        "front": "Citizen",
+        "back": "Member of a country with rights and duties"
+      },
+      {
+        "front": "Rights",
+        "back": "Freedoms and protections every person should have"
+      },
+      {
+        "front": "Responsibilities",
+        "back": "Duties citizens owe each other"
+      },
+      {
+        "front": "Democracy",
+        "back": "Government by the people"
+      },
+      {
+        "front": "Diversity",
+        "back": "Variety of people and cultures"
+      },
+      {
+        "front": "Conflict Resolution",
+        "back": "Solving disagreements peacefully"
+      },
+      {
+        "front": "CARICOM",
+        "back": "Caribbean cooperation body"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Voting",
+          "Citizen right"
+        ],
+        [
+          "Free school",
+          "Child's right"
+        ],
+        [
+          "Obey laws",
+          "Responsibility"
+        ],
+        [
+          "Respect elders",
+          "Responsibility"
+        ],
+        [
+          "Many cultures",
+          "Diversity"
+        ],
+        [
+          "Talking it out",
+          "Conflict resolution"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🗺️",
+      "mascot": "🦜",
+      "hook": "A story from our world: Living Together"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "A story from our world: Living Together",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Voting",
+              "Citizen right"
+            ],
+            [
+              "Free school",
+              "Child's right"
+            ],
+            [
+              "Obey laws",
+              "Responsibility"
+            ],
+            [
+              "Respect elders",
+              "Responsibility"
+            ],
+            [
+              "Many cultures",
+              "Diversity"
+            ],
+            [
+              "Talking it out",
+              "Conflict resolution"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-soc-3": {
+    "title": "Physical Environment & Human Impact",
+    "mcq": [
+      {
+        "q": "Deforestation in Jamaica can lead to…",
+        "choices": [
+          "Less flooding",
+          "Soil erosion and flooding",
+          "Better air",
+          "Fewer hurricanes"
+        ],
+        "correct": 1,
+        "explain": "Trees anchor soil and absorb water; removing them worsens erosion and floods."
+      },
+      {
+        "q": "Jamaica's main freshwater source is…",
+        "choices": [
+          "The sea",
+          "Rivers, springs and aquifers",
+          "Ice glaciers",
+          "Foreign wells"
+        ],
+        "correct": 1,
+        "explain": "Rainfall feeds rivers and underground aquifers."
+      },
+      {
+        "q": "A way to reduce plastic pollution is…",
+        "choices": [
+          "Burn plastic everywhere",
+          "Reduce, reuse, recycle",
+          "Throw it in the sea",
+          "Hide it"
+        ],
+        "correct": 1,
+        "explain": "The 3 Rs cut waste at the source."
+      },
+      {
+        "q": "Mining bauxite helps Jamaica economically but can…",
+        "choices": [
+          "Cure all diseases",
+          "Damage land if not managed",
+          "Make more rain",
+          "Reduce traffic"
+        ],
+        "correct": 1,
+        "explain": "Mining without rehabilitation harms soils and biodiversity."
+      },
+      {
+        "q": "Coral reefs are threatened by…",
+        "choices": [
+          "Pollution and warming seas",
+          "More fish",
+          "Sunlight only",
+          "Tourism prevention"
+        ],
+        "correct": 0,
+        "explain": "Warming and pollution bleach corals."
+      },
+      {
+        "q": "Sustainability means meeting needs…",
+        "choices": [
+          "Today only",
+          "Without harming future generations",
+          "For rich countries only",
+          "By exhausting resources"
+        ],
+        "correct": 1,
+        "explain": "Use resources so future people can too."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Environment",
+        "back": "Surroundings of living things"
+      },
+      {
+        "front": "Pollution",
+        "back": "Harmful substances in the environment"
+      },
+      {
+        "front": "Deforestation",
+        "back": "Cutting down forests"
+      },
+      {
+        "front": "Erosion",
+        "back": "Soil worn away by water/wind"
+      },
+      {
+        "front": "Conservation",
+        "back": "Protecting resources"
+      },
+      {
+        "front": "Sustainability",
+        "back": "Meeting needs without harming future"
+      },
+      {
+        "front": "Reforestation",
+        "back": "Planting trees to restore forests"
+      },
+      {
+        "front": "Bauxite",
+        "back": "Aluminium ore mined in Jamaica"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Soil loss",
+          "Erosion"
+        ],
+        [
+          "Forest loss",
+          "Deforestation"
+        ],
+        [
+          "Protect resources",
+          "Conservation"
+        ],
+        [
+          "Tree planting",
+          "Reforestation"
+        ],
+        [
+          "Aluminium ore",
+          "Bauxite"
+        ],
+        [
+          "Care for future",
+          "Sustainability"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🗺️",
+      "mascot": "🦜",
+      "hook": "A story from our world: Physical Environment & Human Impact"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "A story from our world: Physical Environment & Human Impact",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Soil loss",
+              "Erosion"
+            ],
+            [
+              "Forest loss",
+              "Deforestation"
+            ],
+            [
+              "Protect resources",
+              "Conservation"
+            ],
+            [
+              "Tree planting",
+              "Reforestation"
+            ],
+            [
+              "Aluminium ore",
+              "Bauxite"
+            ],
+            [
+              "Care for future",
+              "Sustainability"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-soc-4": {
+    "title": "Diversity, Interdependence & Culture",
+    "mcq": [
+      {
+        "q": "Jamaica's population includes people of…",
+        "choices": [
+          "Only African descent",
+          "African, European, Indian, Chinese, Middle Eastern and more",
+          "Only Asian descent",
+          "Only one origin"
+        ],
+        "correct": 1,
+        "explain": "Jamaica's diversity reflects its history of migration."
+      },
+      {
+        "q": "Interdependence means…",
+        "choices": [
+          "Nobody needs anyone",
+          "Countries/people rely on each other",
+          "Independence alone",
+          "Isolation"
+        ],
+        "correct": 1,
+        "explain": "We depend on each other for trade, ideas, support."
+      },
+      {
+        "q": "Jamaica exports mainly…",
+        "choices": [
+          "Oil",
+          "Bauxite, sugar, coffee, tourism services",
+          "Cars",
+          "Wheat"
+        ],
+        "correct": 1,
+        "explain": "These are Jamaica's major export earners."
+      },
+      {
+        "q": "Jamaica imports things like…",
+        "choices": [
+          "Ackee",
+          "Wheat, oil, machinery",
+          "Blue Mountain coffee",
+          "Bananas"
+        ],
+        "correct": 1,
+        "explain": "Jamaica imports what it doesn't produce locally."
+      },
+      {
+        "q": "Cultural exchange between countries can…",
+        "choices": [
+          "Damage everyone",
+          "Share ideas, foods, music",
+          "Prevent friendship",
+          "Stop trade"
+        ],
+        "correct": 1,
+        "explain": "Culture sharing enriches societies."
+      },
+      {
+        "q": "An example of Jamaica's global cultural impact is…",
+        "choices": [
+          "Reggae music",
+          "Polar ice",
+          "Mount Everest",
+          "Tulips"
+        ],
+        "correct": 0,
+        "explain": "Reggae, jerk, Patois, and sprinters are world-famous."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Diversity",
+        "back": "Variety of cultures and people"
+      },
+      {
+        "front": "Interdependence",
+        "back": "Mutual reliance between groups"
+      },
+      {
+        "front": "Migration",
+        "back": "Movement of people to live elsewhere"
+      },
+      {
+        "front": "Culture",
+        "back": "Shared beliefs, customs, art of a people"
+      },
+      {
+        "front": "Trade",
+        "back": "Exchange of goods and services"
+      },
+      {
+        "front": "Export",
+        "back": "Goods sent out to sell abroad"
+      },
+      {
+        "front": "Import",
+        "back": "Goods brought in from abroad"
+      },
+      {
+        "front": "Globalisation",
+        "back": "Growing connection of world cultures and economies"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Bauxite, sugar, coffee",
+          "Jamaican exports"
+        ],
+        [
+          "Wheat, oil, cars",
+          "Jamaican imports"
+        ],
+        [
+          "Reggae, jerk",
+          "Jamaican cultural exports"
+        ],
+        [
+          "Moving country",
+          "Migration"
+        ],
+        [
+          "Variety of people",
+          "Diversity"
+        ],
+        [
+          "Needing each other",
+          "Interdependence"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "🗺️",
+      "mascot": "🦜",
+      "hook": "A story from our world: Diversity, Interdependence & Culture"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "A story from our world: Diversity, Interdependence & Culture",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Bauxite, sugar, coffee",
+              "Jamaican exports"
+            ],
+            [
+              "Wheat, oil, cars",
+              "Jamaican imports"
+            ],
+            [
+              "Reggae, jerk",
+              "Jamaican cultural exports"
+            ],
+            [
+              "Moving country",
+              "Migration"
+            ],
+            [
+              "Variety of people",
+              "Diversity"
+            ],
+            [
+              "Needing each other",
+              "Interdependence"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-lan-1": {
+    "title": "Listening & Speaking",
+    "mcq": [
+      {
+        "q": "The main aim of listening is…",
+        "choices": [
+          "Hearing sound only",
+          "Understanding meaning",
+          "Falling asleep",
+          "Memorising every word"
+        ],
+        "correct": 1,
+        "explain": "Listening seeks to understand — not just hear noise."
+      },
+      {
+        "q": "A speech should start with…",
+        "choices": [
+          "A boring fact",
+          "An engaging hook / greeting",
+          "Silence",
+          "An insult"
+        ],
+        "correct": 1,
+        "explain": "A strong opener grabs attention."
+      },
+      {
+        "q": "Formal speech tone is used when…",
+        "choices": [
+          "Talking to the principal",
+          "Playing with friends",
+          "Joking",
+          "Watching TV"
+        ],
+        "correct": 0,
+        "explain": "Formal = respectful, structured language."
+      },
+      {
+        "q": "A good listener avoids…",
+        "choices": [
+          "Phone distractions",
+          "Taking notes",
+          "Eye contact",
+          "Thinking"
+        ],
+        "correct": 0,
+        "explain": "Phones distract — put them away."
+      },
+      {
+        "q": "Paraphrasing is…",
+        "choices": [
+          "Copying word-for-word",
+          "Restating in your own words",
+          "Singing",
+          "Ignoring"
+        ],
+        "correct": 1,
+        "explain": "Paraphrasing proves understanding."
+      },
+      {
+        "q": "Tone of voice can change…",
+        "choices": [
+          "Nothing",
+          "Meaning of a message",
+          "Colour of paper",
+          "Weather"
+        ],
+        "correct": 1,
+        "explain": "The same words can mean different things with different tones."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Active Listening",
+        "back": "Focused listening to understand"
+      },
+      {
+        "front": "Formal Speech",
+        "back": "Respectful, structured"
+      },
+      {
+        "front": "Informal Speech",
+        "back": "Casual, relaxed"
+      },
+      {
+        "front": "Tone",
+        "back": "Emotion expressed in voice"
+      },
+      {
+        "front": "Pace",
+        "back": "Speed of speech"
+      },
+      {
+        "front": "Paraphrase",
+        "back": "Restate in own words"
+      },
+      {
+        "front": "Summary",
+        "back": "Brief version of key points"
+      },
+      {
+        "front": "Inflection",
+        "back": "Rise and fall of voice"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Restate",
+          "Paraphrase"
+        ],
+        [
+          "Emotion in voice",
+          "Tone"
+        ],
+        [
+          "Talking to principal",
+          "Formal"
+        ],
+        [
+          "Talking to friend",
+          "Informal"
+        ],
+        [
+          "Key points short",
+          "Summary"
+        ],
+        [
+          "Full attention",
+          "Active listening"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Listening & Speaking"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Listening & Speaking",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Restate",
+              "Paraphrase"
+            ],
+            [
+              "Emotion in voice",
+              "Tone"
+            ],
+            [
+              "Talking to principal",
+              "Formal"
+            ],
+            [
+              "Talking to friend",
+              "Informal"
+            ],
+            [
+              "Key points short",
+              "Summary"
+            ],
+            [
+              "Full attention",
+              "Active listening"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-lan-2": {
+    "title": "Fluency & Recognition",
+    "mcq": [
+      {
+        "q": "Reading fluently means…",
+        "choices": [
+          "Slowly with pauses at every word",
+          "Smoothly with expression and understanding",
+          "Shouting",
+          "Whispering always"
+        ],
+        "correct": 1,
+        "explain": "Fluency = smooth, accurate, expressive reading."
+      },
+      {
+        "q": "Sight words are words…",
+        "choices": [
+          "Read without sounding out",
+          "Always long",
+          "Only science terms",
+          "Only foreign"
+        ],
+        "correct": 0,
+        "explain": "Common words recognised instantly (the, and, was)."
+      },
+      {
+        "q": "Context helps us…",
+        "choices": [
+          "Confuse meaning",
+          "Figure out unknown words",
+          "Remove words",
+          "Do maths"
+        ],
+        "correct": 1,
+        "explain": "Surrounding words give clues to meaning."
+      },
+      {
+        "q": "A prefix is added to…",
+        "choices": [
+          "The end",
+          "The start",
+          "The middle",
+          "Randomly"
+        ],
+        "correct": 1,
+        "explain": "Re-, un-, dis- are added to the front."
+      },
+      {
+        "q": "'Unhappy' means…",
+        "choices": [
+          "Happy",
+          "Very happy",
+          "Not happy",
+          "Always happy"
+        ],
+        "correct": 2,
+        "explain": "Prefix 'un-' = not."
+      },
+      {
+        "q": "Reading aloud with expression helps…",
+        "choices": [
+          "Only the reader",
+          "Listener understand",
+          "Memorisation fail",
+          "Nobody"
+        ],
+        "correct": 1,
+        "explain": "Expression conveys meaning to the audience."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Fluency",
+        "back": "Smooth, expressive reading"
+      },
+      {
+        "front": "Sight Word",
+        "back": "Recognised instantly"
+      },
+      {
+        "front": "Decoding",
+        "back": "Sounding out words"
+      },
+      {
+        "front": "Context Clue",
+        "back": "Nearby words that hint at meaning"
+      },
+      {
+        "front": "Prefix",
+        "back": "Start of a word (un-, re-)"
+      },
+      {
+        "front": "Suffix",
+        "back": "End of a word (-ness, -ful)"
+      },
+      {
+        "front": "Root Word",
+        "back": "Base part of a word"
+      },
+      {
+        "front": "Expression",
+        "back": "Tone/emotion in reading"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Re-",
+          "Prefix"
+        ],
+        [
+          "-ness",
+          "Suffix"
+        ],
+        [
+          "Read smoothly",
+          "Fluency"
+        ],
+        [
+          "Sound out",
+          "Decoding"
+        ],
+        [
+          "Nearby clue words",
+          "Context clue"
+        ],
+        [
+          "'the'",
+          "Sight word"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Fluency & Recognition"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Fluency & Recognition",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Re-",
+              "Prefix"
+            ],
+            [
+              "-ness",
+              "Suffix"
+            ],
+            [
+              "Read smoothly",
+              "Fluency"
+            ],
+            [
+              "Sound out",
+              "Decoding"
+            ],
+            [
+              "Nearby clue words",
+              "Context clue"
+            ],
+            [
+              "'the'",
+              "Sight word"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-lan-3": {
+    "title": "Reading Comprehension",
+    "mcq": [
+      {
+        "q": "The author's main idea is…",
+        "choices": [
+          "First sentence always",
+          "The key message of the text",
+          "Random",
+          "The title only"
+        ],
+        "correct": 1,
+        "explain": "Main idea = the core point, supported by details."
+      },
+      {
+        "q": "Inferences combine…",
+        "choices": [
+          "Text clues + prior knowledge",
+          "Only guesses",
+          "Only the title",
+          "Random words"
+        ],
+        "correct": 0,
+        "explain": "You read between the lines using evidence and experience."
+      },
+      {
+        "q": "A character trait is…",
+        "choices": [
+          "Their action",
+          "A quality or personality attribute",
+          "Their hair colour only",
+          "Their age"
+        ],
+        "correct": 1,
+        "explain": "Traits are qualities (kind, brave, shy) shown through actions."
+      },
+      {
+        "q": "Author's purpose might be to…",
+        "choices": [
+          "Inform, entertain, persuade",
+          "Confuse",
+          "Bore",
+          "Do math"
+        ],
+        "correct": 0,
+        "explain": "PIE — Persuade, Inform, Entertain."
+      },
+      {
+        "q": "Fiction is…",
+        "choices": [
+          "Imaginary stories",
+          "Only facts",
+          "Only news",
+          "Laws"
+        ],
+        "correct": 0,
+        "explain": "Fiction comes from imagination."
+      },
+      {
+        "q": "Non-fiction includes…",
+        "choices": [
+          "Fairy tales",
+          "Biographies and news",
+          "Only poetry",
+          "Cartoons"
+        ],
+        "correct": 1,
+        "explain": "Non-fiction is based on real facts and events."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Main Idea",
+        "back": "Key point of text"
+      },
+      {
+        "front": "Supporting Detail",
+        "back": "Backs up main idea"
+      },
+      {
+        "front": "Inference",
+        "back": "Clues + knowledge → conclusion"
+      },
+      {
+        "front": "Character Trait",
+        "back": "Quality of a character"
+      },
+      {
+        "front": "Author's Purpose",
+        "back": "Why they wrote it (PIE)"
+      },
+      {
+        "front": "Fiction",
+        "back": "Imaginary"
+      },
+      {
+        "front": "Non-fiction",
+        "back": "Based on fact"
+      },
+      {
+        "front": "Genre",
+        "back": "Category of writing"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Persuade / Inform / Entertain",
+          "Author's purpose"
+        ],
+        [
+          "Imaginary",
+          "Fiction"
+        ],
+        [
+          "Factual",
+          "Non-fiction"
+        ],
+        [
+          "Key point",
+          "Main idea"
+        ],
+        [
+          "Reading between lines",
+          "Inference"
+        ],
+        [
+          "Personality",
+          "Character trait"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Reading Comprehension"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Reading Comprehension",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Persuade / Inform / Entertain",
+              "Author's purpose"
+            ],
+            [
+              "Imaginary",
+              "Fiction"
+            ],
+            [
+              "Factual",
+              "Non-fiction"
+            ],
+            [
+              "Key point",
+              "Main idea"
+            ],
+            [
+              "Reading between lines",
+              "Inference"
+            ],
+            [
+              "Personality",
+              "Character trait"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-lan-4": {
+    "title": "Advanced Grammar",
+    "mcq": [
+      {
+        "q": "A subject is…",
+        "choices": [
+          "What the sentence is about",
+          "Only verbs",
+          "Nothing",
+          "An ending"
+        ],
+        "correct": 0,
+        "explain": "The subject is who or what performs the action."
+      },
+      {
+        "q": "A compound sentence joins…",
+        "choices": [
+          "One idea only",
+          "Two complete thoughts with a conjunction",
+          "Random words",
+          "No sentences"
+        ],
+        "correct": 1,
+        "explain": "E.g., 'I went home, and I slept.' Two complete ideas joined."
+      },
+      {
+        "q": "Which is correct punctuation?",
+        "choices": [
+          "where are you going",
+          "Where are you going?",
+          "Where are you going.",
+          "Where are you going!"
+        ],
+        "correct": 1,
+        "explain": "Questions end with a question mark."
+      },
+      {
+        "q": "'Their', 'there', 'they're' are examples of…",
+        "choices": [
+          "Synonyms",
+          "Homophones",
+          "Metaphors",
+          "Prefixes"
+        ],
+        "correct": 1,
+        "explain": "Sound alike, different meanings and spellings."
+      },
+      {
+        "q": "Which is a contraction?",
+        "choices": [
+          "Can't",
+          "Cannot",
+          "Yes",
+          "Could"
+        ],
+        "correct": 0,
+        "explain": "Can't = cannot; apostrophe shows missing letters."
+      },
+      {
+        "q": "Select the proper noun:",
+        "choices": [
+          "city",
+          "Kingston",
+          "girl",
+          "school"
+        ],
+        "correct": 1,
+        "explain": "Proper nouns name specific places, people — capitalised."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Subject",
+        "back": "Who/what the sentence is about"
+      },
+      {
+        "front": "Predicate",
+        "back": "What the subject does"
+      },
+      {
+        "front": "Simple Sentence",
+        "back": "One complete idea"
+      },
+      {
+        "front": "Compound Sentence",
+        "back": "Two ideas joined (and, but…)"
+      },
+      {
+        "front": "Complex Sentence",
+        "back": "Main + dependent clause"
+      },
+      {
+        "front": "Proper Noun",
+        "back": "Specific name — capitalised"
+      },
+      {
+        "front": "Common Noun",
+        "back": "General name"
+      },
+      {
+        "front": "Contraction",
+        "back": "Shortened form with apostrophe"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Don't",
+          "Contraction"
+        ],
+        [
+          "Kingston",
+          "Proper noun"
+        ],
+        [
+          "City",
+          "Common noun"
+        ],
+        [
+          "The cat",
+          "Subject"
+        ],
+        [
+          "ran fast",
+          "Predicate"
+        ],
+        [
+          "There / Their",
+          "Homophones"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Advanced Grammar"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Advanced Grammar",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "syntax-builder",
+        "data": {
+          "template": "[NOUN] [VERB] [NOUN]",
+          "words": {
+            "NOUN": [
+              "cat",
+              "dog",
+              "child"
+            ],
+            "VERB": [
+              "runs",
+              "jumps",
+              "sees"
+            ]
+          }
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-lan-5": {
+    "title": "Research & Media",
+    "mcq": [
+      {
+        "q": "A primary source is…",
+        "choices": [
+          "An original document or firsthand account",
+          "A comment on it",
+          "A summary",
+          "Always wrong"
+        ],
+        "correct": 0,
+        "explain": "Primary = original (diaries, letters, interviews)."
+      },
+      {
+        "q": "Secondary sources…",
+        "choices": [
+          "Analyse primary sources",
+          "Are never useful",
+          "Copy Mixtures",
+          "Are illegal"
+        ],
+        "correct": 0,
+        "explain": "Textbooks and articles that discuss primary sources."
+      },
+      {
+        "q": "To verify information online, you should…",
+        "choices": [
+          "Check multiple trusted sources",
+          "Believe the first result",
+          "Trust every meme",
+          "Skip it"
+        ],
+        "correct": 0,
+        "explain": "Cross-check facts on reliable sites."
+      },
+      {
+        "q": "Plagiarism is…",
+        "choices": [
+          "Sharing cake",
+          "Using someone's work without credit",
+          "A planet",
+          "A font"
+        ],
+        "correct": 1,
+        "explain": "Always cite your sources."
+      },
+      {
+        "q": "Bias in media means…",
+        "choices": [
+          "Fair reporting",
+          "One-sided viewpoint",
+          "Silence",
+          "Cooking"
+        ],
+        "correct": 1,
+        "explain": "Biased news favours one side."
+      },
+      {
+        "q": "Media includes…",
+        "choices": [
+          "Only TV",
+          "TV, newspapers, internet, radio, social media",
+          "Only radio",
+          "Only books"
+        ],
+        "correct": 1,
+        "explain": "All channels that deliver information."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Research",
+        "back": "Careful search for information"
+      },
+      {
+        "front": "Primary Source",
+        "back": "Original firsthand material"
+      },
+      {
+        "front": "Secondary Source",
+        "back": "Analysis of primary sources"
+      },
+      {
+        "front": "Citation",
+        "back": "Credit to a source"
+      },
+      {
+        "front": "Plagiarism",
+        "back": "Using others' work without credit"
+      },
+      {
+        "front": "Bias",
+        "back": "One-sided viewpoint"
+      },
+      {
+        "front": "Fact",
+        "back": "Can be proven true"
+      },
+      {
+        "front": "Opinion",
+        "back": "Someone's personal view"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Original letter",
+          "Primary source"
+        ],
+        [
+          "Textbook",
+          "Secondary source"
+        ],
+        [
+          "Credit given",
+          "Citation"
+        ],
+        [
+          "Copying work",
+          "Plagiarism"
+        ],
+        [
+          "One-sided",
+          "Bias"
+        ],
+        [
+          "Provable",
+          "Fact"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Research & Media"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Research & Media",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Original letter",
+              "Primary source"
+            ],
+            [
+              "Textbook",
+              "Secondary source"
+            ],
+            [
+              "Credit given",
+              "Citation"
+            ],
+            [
+              "Copying work",
+              "Plagiarism"
+            ],
+            [
+              "One-sided",
+              "Bias"
+            ],
+            [
+              "Provable",
+              "Fact"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-lan-6": {
+    "title": "Public Speaking & Test Skills",
+    "mcq": [
+      {
+        "q": "When nervous before a speech, you can…",
+        "choices": [
+          "Take deep breaths and practise",
+          "Run away",
+          "Shout",
+          "Cry"
+        ],
+        "correct": 0,
+        "explain": "Deep breathing and rehearsal calm nerves."
+      },
+      {
+        "q": "Before a test, you should…",
+        "choices": [
+          "Not sleep",
+          "Get rest and review notes",
+          "Eat lots of sugar",
+          "Panic"
+        ],
+        "correct": 1,
+        "explain": "Sleep and review boost performance."
+      },
+      {
+        "q": "On a multiple-choice test, you should…",
+        "choices": [
+          "Leave blanks",
+          "Read ALL options before choosing",
+          "Guess first one",
+          "Skip reading"
+        ],
+        "correct": 1,
+        "explain": "The best answer may be C or D — read them all."
+      },
+      {
+        "q": "A good essay has…",
+        "choices": [
+          "Only one sentence",
+          "Introduction, body, conclusion",
+          "No paragraphs",
+          "Only pictures"
+        ],
+        "correct": 1,
+        "explain": "Structured essays are clear and persuasive."
+      },
+      {
+        "q": "Key words in a question are…",
+        "choices": [
+          "Unimportant",
+          "Words that tell you what to do",
+          "Always nouns",
+          "In colour"
+        ],
+        "correct": 1,
+        "explain": "'Compare', 'describe', 'list' tell you the task."
+      },
+      {
+        "q": "If you finish a test early, you should…",
+        "choices": [
+          "Leave silently",
+          "Check answers",
+          "Sleep",
+          "Stare out"
+        ],
+        "correct": 1,
+        "explain": "Review to catch errors."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Audience",
+        "back": "Those listening to your speech"
+      },
+      {
+        "front": "Introduction",
+        "back": "Opening of a speech/essay"
+      },
+      {
+        "front": "Body",
+        "back": "Main points and details"
+      },
+      {
+        "front": "Conclusion",
+        "back": "Wrap-up and closing"
+      },
+      {
+        "front": "Cue Cards",
+        "back": "Small cards with notes"
+      },
+      {
+        "front": "MCQ",
+        "back": "Multiple-choice question"
+      },
+      {
+        "front": "Key Word",
+        "back": "Word telling you task"
+      },
+      {
+        "front": "Time Management",
+        "back": "Pacing yourself in a test"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Opening",
+          "Introduction"
+        ],
+        [
+          "Main points",
+          "Body"
+        ],
+        [
+          "Wrap up",
+          "Conclusion"
+        ],
+        [
+          "Short notes",
+          "Cue cards"
+        ],
+        [
+          "Multiple choice",
+          "MCQ"
+        ],
+        [
+          "Read all options",
+          "MCQ tip"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Public Speaking & Test Skills"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Public Speaking & Test Skills",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Opening",
+              "Introduction"
+            ],
+            [
+              "Main points",
+              "Body"
+            ],
+            [
+              "Wrap up",
+              "Conclusion"
+            ],
+            [
+              "Short notes",
+              "Cue cards"
+            ],
+            [
+              "Multiple choice",
+              "MCQ"
+            ],
+            [
+              "Read all options",
+              "MCQ tip"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-lan-7": {
+    "title": "Vocabulary Development",
+    "mcq": [
+      {
+        "q": "Synonym for 'brave':",
+        "choices": [
+          "Cowardly",
+          "Courageous",
+          "Quiet",
+          "Small"
+        ],
+        "correct": 1,
+        "explain": "Brave and courageous have the same meaning."
+      },
+      {
+        "q": "Antonym for 'generous':",
+        "choices": [
+          "Kind",
+          "Selfish",
+          "Giving",
+          "Helpful"
+        ],
+        "correct": 1,
+        "explain": "Opposite of generous is selfish."
+      },
+      {
+        "q": "'Benevolent' means…",
+        "choices": [
+          "Cruel",
+          "Kind and helpful",
+          "Sad",
+          "Loud"
+        ],
+        "correct": 1,
+        "explain": "From Latin 'bene' = good, 'volens' = willing."
+      },
+      {
+        "q": "Which best fits: 'The jerk chicken had a ___ aroma.'",
+        "choices": [
+          "silent",
+          "tantalising",
+          "cold",
+          "loud"
+        ],
+        "correct": 1,
+        "explain": "Aromas are captivating, tantalising — teasing the senses."
+      },
+      {
+        "q": "An idiom is…",
+        "choices": [
+          "A literal phrase",
+          "A phrase with a figurative meaning",
+          "A number",
+          "A chart"
+        ],
+        "correct": 1,
+        "explain": "'Break a leg' = good luck, not literal."
+      },
+      {
+        "q": "'Tongue in cheek' means…",
+        "choices": [
+          "Injured",
+          "Joking / not serious",
+          "Hungry",
+          "Loud"
+        ],
+        "correct": 1,
+        "explain": "Idiom for saying something ironically or humorously."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Synonym",
+        "back": "Same meaning"
+      },
+      {
+        "front": "Antonym",
+        "back": "Opposite meaning"
+      },
+      {
+        "front": "Idiom",
+        "back": "Figurative phrase"
+      },
+      {
+        "front": "Simile",
+        "back": "Compare with 'like' or 'as'"
+      },
+      {
+        "front": "Metaphor",
+        "back": "Direct comparison"
+      },
+      {
+        "front": "Figurative Language",
+        "back": "Not literal — creative meaning"
+      },
+      {
+        "front": "Cognate",
+        "back": "Word that looks/sounds similar across languages"
+      },
+      {
+        "front": "Precise Word",
+        "back": "Exact word for the meaning"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Brave",
+          "Courageous (syn)"
+        ],
+        [
+          "Happy",
+          "Sad (ant)"
+        ],
+        [
+          "Break a leg",
+          "Idiom"
+        ],
+        [
+          "Fast as a cheetah",
+          "Simile"
+        ],
+        [
+          "Life is a journey",
+          "Metaphor"
+        ],
+        [
+          "Hot = warm",
+          "Synonym"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Vocabulary Development"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Vocabulary Development",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "hangman",
+        "data": {
+          "word": "Synonym",
+          "hint": "Same meaning"
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "g6-lan-8": {
+    "title": "Advanced Reasoning Skills",
+    "mcq": [
+      {
+        "q": "If all Jamaicans love ackee and Kemar is Jamaican, Kemar probably…",
+        "choices": [
+          "Hates ackee",
+          "Loves ackee",
+          "Can't say",
+          "Is tired"
+        ],
+        "correct": 1,
+        "explain": "Applying a general rule to a specific case = deduction."
+      },
+      {
+        "q": "A claim without evidence is…",
+        "choices": [
+          "Factual",
+          "Unsupported",
+          "Always true",
+          "Scientific"
+        ],
+        "correct": 1,
+        "explain": "Good arguments use evidence."
+      },
+      {
+        "q": "Cause and effect shows…",
+        "choices": [
+          "Why something happens",
+          "Only descriptions",
+          "Size only",
+          "Names only"
+        ],
+        "correct": 0,
+        "explain": "Cause → effect. E.g., rain → wet roads."
+      },
+      {
+        "q": "Which is a fact?",
+        "choices": [
+          "Jamaica is the best",
+          "Jamaica is an island in the Caribbean",
+          "Ackee is pretty",
+          "Summer is best"
+        ],
+        "correct": 1,
+        "explain": "Facts can be verified; the rest are opinions."
+      },
+      {
+        "q": "Reading critically means…",
+        "choices": [
+          "Accepting everything",
+          "Thinking about purpose, evidence, bias",
+          "Skipping hard parts",
+          "Quitting"
+        ],
+        "correct": 1,
+        "explain": "Critical readers question and evaluate."
+      },
+      {
+        "q": "Which is NOT a logical fallacy example?",
+        "choices": [
+          "Name-calling",
+          "Everyone else says so",
+          "Attacking facts",
+          "Providing clear evidence"
+        ],
+        "correct": 3,
+        "explain": "Evidence is the opposite of a fallacy."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Fact",
+        "back": "Can be proven true"
+      },
+      {
+        "front": "Opinion",
+        "back": "Personal view"
+      },
+      {
+        "front": "Argument",
+        "back": "Claim supported by evidence"
+      },
+      {
+        "front": "Evidence",
+        "back": "Proof supporting a claim"
+      },
+      {
+        "front": "Bias",
+        "back": "One-sided thinking"
+      },
+      {
+        "front": "Cause",
+        "back": "Reason something happens"
+      },
+      {
+        "front": "Effect",
+        "back": "Result"
+      },
+      {
+        "front": "Inference",
+        "back": "Conclusion from clues"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Provable",
+          "Fact"
+        ],
+        [
+          "Personal view",
+          "Opinion"
+        ],
+        [
+          "Proof",
+          "Evidence"
+        ],
+        [
+          "One-sided",
+          "Bias"
+        ],
+        [
+          "Reason",
+          "Cause"
+        ],
+        [
+          "Result",
+          "Effect"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "📚",
+      "mascot": "🦜",
+      "hook": "Words are powerful! Advanced Reasoning Skills"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Words are powerful! Advanced Reasoning Skills",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Provable",
+              "Fact"
+            ],
+            [
+              "Personal view",
+              "Opinion"
+            ],
+            [
+              "Proof",
+              "Evidence"
+            ],
+            [
+              "One-sided",
+              "Bias"
+            ],
+            [
+              "Reason",
+              "Cause"
+            ],
+            [
+              "Result",
+              "Effect"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  }
+}

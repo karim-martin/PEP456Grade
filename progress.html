@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📊 My Progress - Jamaica PEP Study Guide</title>
+    <link rel="stylesheet" href="Resource/style.css">
+    <script src="Resource/gamification.js" defer></script>
+    <script src="Resource/audio.js" defer></script>
+    <script src="Resource/mascot.js" defer></script>
+    <style>
+      body { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; margin: 0; }
+      .dash-wrap { max-width:1100px; margin:24px auto; padding:28px; background:#fff; border-radius:18px; box-shadow:0 10px 30px rgba(0,0,0,0.15); }
+      .dash-hero { text-align:center; padding:30px 20px 10px; }
+      .dash-hero h1 { font-size:2.4em; color:var(--pep-text); margin-bottom:6px; }
+      .dash-hero p { color:var(--pep-text-muted); }
+      .back-link { display:inline-block; margin:12px 0 20px; padding:8px 16px; background:var(--pep-surface); border-radius:20px; color:var(--pep-text); text-decoration:none; font-weight:600; box-shadow:var(--pep-shadow); }
+      .back-link:hover { background:var(--pep-accent); color:#fff; }
+      .dash-section { background:var(--pep-surface); border-radius:16px; padding:24px; margin:20px 0; box-shadow:var(--pep-shadow); }
+      .dash-section h2 { margin-bottom:14px; color:var(--pep-text); font-size:1.4em; }
+      .dash-row { display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:16px; }
+      .dash-stat { text-align:center; padding:16px; border-radius:12px; background:var(--pep-surface-muted, #f7fafc); }
+      .dash-stat__num { font-size:2.2em; font-weight:800; color:var(--pep-accent); }
+      .dash-stat__lbl { color:var(--pep-text-muted); text-transform:uppercase; font-size:0.85em; letter-spacing:0.5px; }
+      .grade-block { margin-top:18px; }
+      .grade-block h3 { margin-bottom:10px; color:var(--pep-text); }
+      .subj-row { display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:12px; }
+      .subj-card { background:var(--pep-surface-muted, #f7fafc); border-radius:12px; padding:14px; }
+      .subj-card__label { font-weight:700; color:var(--pep-text); display:flex; justify-content:space-between; margin-bottom:8px; }
+      .subj-card__bar { height:10px; background:#e2e8f0; border-radius:999px; overflow:hidden; }
+      .subj-card__fill { height:100%; background:linear-gradient(135deg,#667eea 0%,#764ba2 100%); transition:width 0.6s; }
+      .badge-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(140px,1fr)); gap:12px; margin-top:14px; }
+      .badge-card { background:var(--pep-surface-muted, #f7fafc); border-radius:12px; padding:14px; text-align:center; opacity:0.35; transition:all 0.3s; }
+      .badge-card.is-earned { opacity:1; background:linear-gradient(135deg,#fef5e7 0%,#fed7aa 100%); }
+      .badge-card__icon { font-size:2.4em; }
+      .badge-card__label { font-weight:700; color:var(--pep-text); margin-top:4px; font-size:0.95em; }
+      .badge-card__desc { color:var(--pep-text-muted); font-size:0.8em; margin-top:4px; }
+      .reset-btn { background:#e53e3e; color:#fff; padding:10px 20px; border:none; border-radius:8px; cursor:pointer; font-weight:700; margin-top:10px; }
+      .reset-btn:hover { background:#c53030; }
+      /* Growing trees */
+      .tree-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-top: 12px; }
+      .tree-card { background: linear-gradient(180deg, #d6efff 0%, #a8d8a8 70%); border-radius: 14px; padding: 14px; text-align: center; box-shadow: var(--pep-shadow); }
+      .tree-card__svg { width: 110px; height: 110px; }
+      .tree-card__title { font-weight: 800; color: #1f7a3f; margin-top: 6px; }
+      .tree-card__pct { font-weight: 700; color: #2d3748; }
+    </style>
+</head>
+<body>
+    <div class="dash-wrap">
+        <a href="index.html" class="back-link">← Home</a>
+        <div class="dash-hero">
+            <h1>📊 My Progress</h1>
+            <p id="greeting">Welcome back, learner!</p>
+        </div>
+
+        <div class="dash-section">
+            <h2>⚡ Overall Stats</h2>
+            <div class="dash-row" id="stats-row"></div>
+            <div style="margin-top:20px;">
+                <div id="xp-bar-host"></div>
+            </div>
+        </div>
+
+        <div class="dash-section">
+            <h2>🌳 My Knowledge Trees</h2>
+            <p style="color:var(--pep-text-muted); margin-bottom:8px;">Each tree grows leaves as you finish chapters!</p>
+            <div class="tree-grid" id="trees"></div>
+        </div>
+
+        <div class="dash-section">
+            <h2>📚 Progress by Subject</h2>
+            <div id="subject-progress"></div>
+        </div>
+
+        <div class="dash-section">
+            <h2>🏅 Badges</h2>
+            <div class="badge-grid" id="badge-grid"></div>
+        </div>
+
+        <div class="dash-section" style="text-align:center;">
+            <h2>🧹 Reset My Progress</h2>
+            <p style="color:var(--pep-text-muted); margin-bottom:10px;">This clears ALL XP, badges, streak and chapter progress. Only a parent should do this.</p>
+            <button class="reset-btn" id="reset-btn">Reset Everything</button>
+        </div>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        if (!window.PEP) {
+          document.querySelector('.dash-wrap').insertAdjacentHTML('afterbegin',
+            '<div style="padding:20px;background:#fff3cd;border-radius:8px;margin:10px 0;">Gamification not loaded. Please refresh.</div>');
+          return;
+        }
+
+        function render() {
+          const s = PEP.getState();
+          const statsRow = document.getElementById('stats-row');
+          const greeting = document.getElementById('greeting');
+          greeting.textContent = s.name ? `Welcome back, ${s.name}! 🇯🇲` : 'Welcome back, learner!';
+
+          const info = PEP.xpForNextLevel(s.xp);
+          const pctToNext = info.span > 0 ? Math.round((info.progress / info.span) * 100) : 100;
+
+          statsRow.innerHTML = `
+            <div class="dash-stat"><div class="dash-stat__num">⭐ ${s.xp}</div><div class="dash-stat__lbl">Total XP</div></div>
+            <div class="dash-stat"><div class="dash-stat__num">🎖 ${s.level}</div><div class="dash-stat__lbl">Level</div></div>
+            <div class="dash-stat"><div class="dash-stat__num">🔥 ${s.streak.count || 0}</div><div class="dash-stat__lbl">Day Streak</div></div>
+            <div class="dash-stat"><div class="dash-stat__num">🏅 ${s.badges.length}</div><div class="dash-stat__lbl">Badges</div></div>
+            <div class="dash-stat"><div class="dash-stat__num">📖 ${Object.keys(s.completed).length}</div><div class="dash-stat__lbl">Chapters Tried</div></div>
+            <div class="dash-stat"><div class="dash-stat__num">💯 ${s.perfectScores || 0}</div><div class="dash-stat__lbl">Perfect Scores</div></div>
+          `;
+
+          document.getElementById('xp-bar-host').innerHTML = `
+            <div style="color:var(--pep-text-muted); font-size:0.9em; margin-bottom:6px;">
+              Level ${info.level} → ${info.level + 1}: ${info.progress} / ${info.span} XP
+            </div>
+            <div style="height:14px; background:#e2e8f0; border-radius:999px; overflow:hidden;">
+              <div style="width:${pctToNext}%; height:100%; background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);"></div>
+            </div>`;
+
+          // Trees — one per subject across all grades
+          const trees = document.getElementById('trees');
+          const subjLabelsTree = { sci:'🔬 Science', soc:'🏛️ Social Studies', mat:'🧮 Math', lan:'📚 Language Arts', tech:'💻 Technology' };
+          const totals = { sci:0, soc:0, mat:0, lan:0, tech:0 };
+          const counts = { sci:0, soc:0, mat:0, lan:0, tech:0 };
+          Object.keys(PEP.CHAPTER_COUNTS).forEach(g => {
+            Object.keys(PEP.CHAPTER_COUNTS[g]).forEach(sub => { totals[sub] += PEP.CHAPTER_COUNTS[g][sub]; });
+          });
+          Object.keys(s.completed).forEach(k => { const sub = k.split('-')[1]; if (counts[sub] !== undefined) counts[sub]++; });
+          let treesHtml = '';
+          Object.keys(subjLabelsTree).forEach(sub => {
+            const pct = totals[sub] ? Math.round((counts[sub]/totals[sub])*100) : 0;
+            const leaves = Math.min(8, Math.round(pct/12.5));
+            treesHtml += `<div class="tree-card">
+              <svg class="tree-card__svg" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                <rect x="55" y="80" width="10" height="35" fill="#7a4400" rx="2"/>
+                <circle cx="60" cy="78" r="${30 + leaves*2}" fill="${leaves > 0 ? '#48bb78' : '#cbd5e0'}" opacity="${0.5 + leaves*0.06}"/>
+                ${[...Array(leaves)].map((_,i)=>{
+                  const a = (i/8)*Math.PI*2;
+                  const x = 60 + Math.cos(a)*22;
+                  const y = 78 + Math.sin(a)*22;
+                  return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="6" fill="#1f7a3f"/>`;
+                }).join('')}
+                ${pct === 100 ? '<text x="60" y="40" text-anchor="middle" font-size="20">🌟</text>' : ''}
+              </svg>
+              <div class="tree-card__title">${subjLabelsTree[sub]}</div>
+              <div class="tree-card__pct">${counts[sub]} / ${totals[sub]} chapters · ${pct}%</div>
+            </div>`;
+          });
+          trees.innerHTML = treesHtml;
+
+          // Subject progress
+          const subjHost = document.getElementById('subject-progress');
+          const gradeLabels = { g4: 'Grade 4', g5: 'Grade 5', g6: 'Grade 6', tech: 'Technology' };
+          const subjLabels = { sci: '🔬 Science', soc: '🏛️ Social Studies', mat: '🧮 Math', lan: '📚 Language Arts', tech: '💻 Technology' };
+          let html = '';
+          Object.keys(PEP.CHAPTER_COUNTS).forEach(grade => {
+            const subjects = PEP.CHAPTER_COUNTS[grade];
+            html += `<div class="grade-block"><h3>${gradeLabels[grade] || grade}</h3><div class="subj-row">`;
+            Object.keys(subjects).forEach(subj => {
+              const prog = PEP.getSubjectProgress(grade, subj);
+              html += `
+                <div class="subj-card">
+                  <div class="subj-card__label"><span>${subjLabels[subj] || subj}</span><span>${prog.done}/${prog.total}</span></div>
+                  <div class="subj-card__bar"><div class="subj-card__fill" style="width:${prog.pct}%"></div></div>
+                </div>`;
+            });
+            html += `</div></div>`;
+          });
+          subjHost.innerHTML = html;
+
+          // Badges
+          const badgeHost = document.getElementById('badge-grid');
+          const earnedSet = new Set(s.badges);
+          badgeHost.innerHTML = Object.keys(PEP.BADGES).map(id => {
+            const b = PEP.BADGES[id];
+            const earned = earnedSet.has(id);
+            return `<div class="badge-card ${earned ? 'is-earned' : ''}">
+              <div class="badge-card__icon">${b.icon}</div>
+              <div class="badge-card__label">${b.label}</div>
+              <div class="badge-card__desc">${b.desc}</div>
+            </div>`;
+          }).join('');
+        }
+
+        render();
+        document.addEventListener('pep:state-changed', render);
+
+        document.getElementById('reset-btn').addEventListener('click', function () {
+          if (confirm('This will clear ALL XP, badges, streak and chapter progress. Continue?')) {
+            PEP.resetAll();
+            render();
+          }
+        });
+      });
+    </script>
+</body>
+</html>

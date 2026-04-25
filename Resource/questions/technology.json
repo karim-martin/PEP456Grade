@@ -1,0 +1,2253 @@
+{
+  "tech-tech-1": {
+    "title": "What is Technology?",
+    "mcq": [
+      {
+        "q": "Technology is…",
+        "choices": [
+          "Only computers",
+          "Tools and knowledge that solve problems",
+          "Only phones",
+          "Only TV"
+        ],
+        "correct": 1,
+        "explain": "Technology is any tool or knowledge humans use to solve problems — from a wheel to a smartphone."
+      },
+      {
+        "q": "Which of these is NOT technology?",
+        "choices": [
+          "Pencil",
+          "Refrigerator",
+          "Rainbow",
+          "Phone"
+        ],
+        "correct": 2,
+        "explain": "A rainbow is natural — not made by people."
+      },
+      {
+        "q": "The first wheel was a form of…",
+        "choices": [
+          "Modern tech",
+          "Early technology",
+          "Magic",
+          "Art only"
+        ],
+        "correct": 1,
+        "explain": "Simple tools like the wheel are among the earliest technology."
+      },
+      {
+        "q": "Technology helps us by…",
+        "choices": [
+          "Making life easier",
+          "Doing nothing",
+          "Only entertaining",
+          "Only costing money"
+        ],
+        "correct": 0,
+        "explain": "Technology saves time, energy, and solves problems."
+      },
+      {
+        "q": "An example of digital technology is…",
+        "choices": [
+          "A tablet",
+          "A hammer",
+          "A shoe",
+          "A leaf"
+        ],
+        "correct": 0,
+        "explain": "Digital tech uses electronic signals (computers, tablets, phones)."
+      },
+      {
+        "q": "Technology can be used for good and…",
+        "choices": [
+          "Nothing else",
+          "Bad — so we must use it wisely",
+          "Only cooking",
+          "Only dancing"
+        ],
+        "correct": 1,
+        "explain": "Like any tool, tech should be used responsibly."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Technology",
+        "back": "Tools and knowledge used to solve problems"
+      },
+      {
+        "front": "Digital Technology",
+        "back": "Uses electronic signals (computers, phones)"
+      },
+      {
+        "front": "Analog Technology",
+        "back": "Mechanical — e.g., old wristwatches"
+      },
+      {
+        "front": "Innovation",
+        "back": "Creating something new or improved"
+      },
+      {
+        "front": "Invention",
+        "back": "A new product or idea"
+      },
+      {
+        "front": "Tool",
+        "back": "Anything that helps you do a task"
+      },
+      {
+        "front": "Problem-Solving",
+        "back": "Why we invent new tech"
+      },
+      {
+        "front": "Responsible Use",
+        "back": "Using tech wisely and ethically"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Wheel",
+          "Early tech"
+        ],
+        [
+          "Smartphone",
+          "Modern tech"
+        ],
+        [
+          "Hammer",
+          "Simple tool"
+        ],
+        [
+          "Tablet",
+          "Digital tech"
+        ],
+        [
+          "Clock",
+          "Invention"
+        ],
+        [
+          "New idea",
+          "Innovation"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "💻",
+      "mascot": "🦜",
+      "hook": "Build something cool: What is Technology?"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Build something cool: What is Technology?",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Wheel",
+              "Early tech"
+            ],
+            [
+              "Smartphone",
+              "Modern tech"
+            ],
+            [
+              "Hammer",
+              "Simple tool"
+            ],
+            [
+              "Tablet",
+              "Digital tech"
+            ],
+            [
+              "Clock",
+              "Invention"
+            ],
+            [
+              "New idea",
+              "Innovation"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "tech-tech-2": {
+    "title": "Computer Basics",
+    "mcq": [
+      {
+        "q": "The 'brain' of a computer is the…",
+        "choices": [
+          "Keyboard",
+          "CPU",
+          "Monitor",
+          "Mouse"
+        ],
+        "correct": 1,
+        "explain": "CPU = Central Processing Unit. It does all the thinking."
+      },
+      {
+        "q": "RAM stands for…",
+        "choices": [
+          "Really Amazing Machine",
+          "Random Access Memory",
+          "Run All Mice",
+          "Read All Messages"
+        ],
+        "correct": 1,
+        "explain": "RAM temporarily holds data the CPU is working on."
+      },
+      {
+        "q": "Which is a storage device?",
+        "choices": [
+          "Monitor",
+          "Hard drive / SSD",
+          "Speaker",
+          "Mouse"
+        ],
+        "correct": 1,
+        "explain": "Hard drives and SSDs store files permanently."
+      },
+      {
+        "q": "The physical parts of a computer are called…",
+        "choices": [
+          "Software",
+          "Hardware",
+          "Firmware",
+          "Nothing"
+        ],
+        "correct": 1,
+        "explain": "Hardware = things you can touch."
+      },
+      {
+        "q": "Programs and apps are examples of…",
+        "choices": [
+          "Hardware",
+          "Software",
+          "Cables",
+          "Screens"
+        ],
+        "correct": 1,
+        "explain": "Software = instructions for the computer."
+      },
+      {
+        "q": "Which is an operating system?",
+        "choices": [
+          "Windows",
+          "Chrome browser",
+          "Word document",
+          "Paint drawing"
+        ],
+        "correct": 0,
+        "explain": "Windows, macOS, Linux, Android, iOS are OSes."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "CPU",
+        "back": "Central Processing Unit — the brain"
+      },
+      {
+        "front": "RAM",
+        "back": "Temporary working memory"
+      },
+      {
+        "front": "Storage",
+        "back": "Permanent file holding (HDD/SSD)"
+      },
+      {
+        "front": "Hardware",
+        "back": "Physical parts you can touch"
+      },
+      {
+        "front": "Software",
+        "back": "Programs that run on hardware"
+      },
+      {
+        "front": "Operating System",
+        "back": "Master software (Windows, macOS)"
+      },
+      {
+        "front": "Application",
+        "back": "Program for a specific task"
+      },
+      {
+        "front": "Bit / Byte",
+        "back": "Units of computer data"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "CPU",
+          "Processing"
+        ],
+        [
+          "RAM",
+          "Working memory"
+        ],
+        [
+          "SSD",
+          "Storage"
+        ],
+        [
+          "Keyboard",
+          "Input"
+        ],
+        [
+          "Monitor",
+          "Output"
+        ],
+        [
+          "Windows",
+          "Operating System"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "💻",
+      "mascot": "🦜",
+      "hook": "Build something cool: Computer Basics"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Build something cool: Computer Basics",
+        "xp": 5
+      },
+      {
+        "type": "diagram",
+        "name": "computer-system",
+        "props": {},
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "CPU",
+              "Processing"
+            ],
+            [
+              "RAM",
+              "Working memory"
+            ],
+            [
+              "SSD",
+              "Storage"
+            ],
+            [
+              "Keyboard",
+              "Input"
+            ],
+            [
+              "Monitor",
+              "Output"
+            ],
+            [
+              "Windows",
+              "Operating System"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "tech-tech-3": {
+    "title": "Introduction to HTML",
+    "mcq": [
+      {
+        "q": "HTML stands for…",
+        "choices": [
+          "High Text Machine Language",
+          "HyperText Markup Language",
+          "Home Tech Modern Lab",
+          "Hot Type Multi Line"
+        ],
+        "correct": 1,
+        "explain": "HTML = HyperText Markup Language — describes web page structure."
+      },
+      {
+        "q": "Which tag makes a big heading?",
+        "choices": [
+          "<p>",
+          "<h1>",
+          "<a>",
+          "<img>"
+        ],
+        "correct": 1,
+        "explain": "<h1> is the largest heading; <h6> is smallest."
+      },
+      {
+        "q": "A paragraph uses the tag…",
+        "choices": [
+          "<para>",
+          "<p>",
+          "<text>",
+          "<line>"
+        ],
+        "correct": 1,
+        "explain": "<p> is the paragraph tag in HTML."
+      },
+      {
+        "q": "The link tag is…",
+        "choices": [
+          "<link>",
+          "<a>",
+          "<href>",
+          "<url>"
+        ],
+        "correct": 1,
+        "explain": "<a href=\"...\">link text</a> creates hyperlinks."
+      },
+      {
+        "q": "An image tag looks like…",
+        "choices": [
+          "<img src=\"photo.jpg\">",
+          "<image>",
+          "<pic>",
+          "<photo>"
+        ],
+        "correct": 0,
+        "explain": "<img src=\"...\"> embeds an image."
+      },
+      {
+        "q": "Every HTML document starts with…",
+        "choices": [
+          "<html>",
+          "<!DOCTYPE html>",
+          "<top>",
+          "<begin>"
+        ],
+        "correct": 1,
+        "explain": "<!DOCTYPE html> declares the document as HTML5."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "HTML",
+        "back": "HyperText Markup Language"
+      },
+      {
+        "front": "Tag",
+        "back": "Keyword in < > like <p> or <h1>"
+      },
+      {
+        "front": "<h1> – <h6>",
+        "back": "Headings (biggest to smallest)"
+      },
+      {
+        "front": "<p>",
+        "back": "Paragraph"
+      },
+      {
+        "front": "<a href>",
+        "back": "Hyperlink"
+      },
+      {
+        "front": "<img src>",
+        "back": "Image"
+      },
+      {
+        "front": "<ul> / <li>",
+        "back": "Unordered list / list item"
+      },
+      {
+        "front": "Attribute",
+        "back": "Extra info inside a tag (e.g., href)"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "<h1>",
+          "Big heading"
+        ],
+        [
+          "<p>",
+          "Paragraph"
+        ],
+        [
+          "<a>",
+          "Link"
+        ],
+        [
+          "<img>",
+          "Image"
+        ],
+        [
+          "<ul>",
+          "Unordered list"
+        ],
+        [
+          "<ol>",
+          "Ordered list"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "💻",
+      "mascot": "🦜",
+      "hook": "Build something cool: Introduction to HTML"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Build something cool: Introduction to HTML",
+        "xp": 5
+      },
+      {
+        "type": "diagram",
+        "name": "html-tag-tree",
+        "props": {},
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "syntax-builder",
+        "data": {
+          "tags": [
+            "<html>",
+            "<body>",
+            "<h1>",
+            "</h1>",
+            "</body>",
+            "</html>"
+          ],
+          "solution": [
+            "<html>",
+            "<body>",
+            "<h1>",
+            "</h1>",
+            "</body>",
+            "</html>"
+          ]
+        },
+        "xp": 15
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "tech-tech-4": {
+    "title": "Styling with CSS",
+    "mcq": [
+      {
+        "q": "CSS stands for…",
+        "choices": [
+          "Computer Style System",
+          "Cascading Style Sheets",
+          "Cool Screen Styles",
+          "Cool Script Syntax"
+        ],
+        "correct": 1,
+        "explain": "CSS = Cascading Style Sheets — styles HTML."
+      },
+      {
+        "q": "Which CSS sets text colour?",
+        "choices": [
+          "color: red;",
+          "text-colour: red;",
+          "font: red;",
+          "bg: red;"
+        ],
+        "correct": 0,
+        "explain": "The property 'color' (American spelling) sets text colour."
+      },
+      {
+        "q": "background-color: yellow sets…",
+        "choices": [
+          "Text colour",
+          "Background colour",
+          "Font size",
+          "Border"
+        ],
+        "correct": 1,
+        "explain": "As named — it sets background."
+      },
+      {
+        "q": "A selector like .card targets…",
+        "choices": [
+          "All <card> tags",
+          "All elements with class 'card'",
+          "Only id 'card'",
+          "Nothing"
+        ],
+        "correct": 1,
+        "explain": "A dot selects a class. # selects an id."
+      },
+      {
+        "q": "How do you link an external CSS file?",
+        "choices": [
+          "<css src='style.css'>",
+          "<link rel='stylesheet' href='style.css'>",
+          "<style href>",
+          "<include css>"
+        ],
+        "correct": 1,
+        "explain": "<link rel=\"stylesheet\" href=\"style.css\"> in the <head>."
+      },
+      {
+        "q": "Which property controls spacing INSIDE a box?",
+        "choices": [
+          "margin",
+          "padding",
+          "border",
+          "background"
+        ],
+        "correct": 1,
+        "explain": "Padding is inside; margin is outside."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "CSS",
+        "back": "Cascading Style Sheets"
+      },
+      {
+        "front": "Selector",
+        "back": "Picks which elements to style"
+      },
+      {
+        "front": "Property",
+        "back": "What you change (color, size)"
+      },
+      {
+        "front": "Value",
+        "back": "The style setting (red, 16px)"
+      },
+      {
+        "front": "Class Selector",
+        "back": ".classname"
+      },
+      {
+        "front": "ID Selector",
+        "back": "#idname"
+      },
+      {
+        "front": "Padding",
+        "back": "Space inside a box"
+      },
+      {
+        "front": "Margin",
+        "back": "Space outside a box"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          ".card",
+          "Class selector"
+        ],
+        [
+          "#hero",
+          "ID selector"
+        ],
+        [
+          "color",
+          "Text colour"
+        ],
+        [
+          "background",
+          "Background"
+        ],
+        [
+          "padding",
+          "Space inside"
+        ],
+        [
+          "margin",
+          "Space outside"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "💻",
+      "mascot": "🦜",
+      "hook": "Build something cool: Styling with CSS"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Build something cool: Styling with CSS",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              ".card",
+              "Class selector"
+            ],
+            [
+              "#hero",
+              "ID selector"
+            ],
+            [
+              "color",
+              "Text colour"
+            ],
+            [
+              "background",
+              "Background"
+            ],
+            [
+              "padding",
+              "Space inside"
+            ],
+            [
+              "margin",
+              "Space outside"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "tech-tech-5": {
+    "title": "JavaScript Magic",
+    "mcq": [
+      {
+        "q": "JavaScript makes websites…",
+        "choices": [
+          "Static",
+          "Interactive",
+          "Colourful only",
+          "Smelly"
+        ],
+        "correct": 1,
+        "explain": "JS adds interactivity — buttons, forms, animations."
+      },
+      {
+        "q": "Which shows an alert?",
+        "choices": [
+          "alert('Hi');",
+          "print('Hi');",
+          "say('Hi');",
+          "show('Hi');"
+        ],
+        "correct": 0,
+        "explain": "alert() pops up a message."
+      },
+      {
+        "q": "Which declares a variable in modern JS?",
+        "choices": [
+          "var",
+          "let",
+          "const",
+          "All of these"
+        ],
+        "correct": 3,
+        "explain": "var (old), let (changeable), const (unchangeable) — all declare variables."
+      },
+      {
+        "q": "console.log() is used to…",
+        "choices": [
+          "Delete files",
+          "Print to the developer console",
+          "Play music",
+          "Download"
+        ],
+        "correct": 1,
+        "explain": "console.log helps you debug by printing values."
+      },
+      {
+        "q": "A function is…",
+        "choices": [
+          "A block of reusable code",
+          "A single number",
+          "A web page",
+          "A keyboard"
+        ],
+        "correct": 0,
+        "explain": "Functions group instructions you can run many times."
+      },
+      {
+        "q": "An event listener responds to…",
+        "choices": [
+          "The weather",
+          "User actions like clicks",
+          "Time of year",
+          "Nothing"
+        ],
+        "correct": 1,
+        "explain": "addEventListener('click', fn) runs fn when clicked."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "JavaScript",
+        "back": "Language that makes webpages interactive"
+      },
+      {
+        "front": "Variable",
+        "back": "Named storage for a value"
+      },
+      {
+        "front": "let",
+        "back": "Declares a changeable variable"
+      },
+      {
+        "front": "const",
+        "back": "Declares an unchangeable value"
+      },
+      {
+        "front": "Function",
+        "back": "Reusable block of code"
+      },
+      {
+        "front": "Event",
+        "back": "User action like click, type, scroll"
+      },
+      {
+        "front": "Condition (if)",
+        "back": "Runs code when a test is true"
+      },
+      {
+        "front": "Loop",
+        "back": "Repeats code (for, while)"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "let",
+          "Changeable variable"
+        ],
+        [
+          "const",
+          "Unchangeable value"
+        ],
+        [
+          "function",
+          "Reusable code block"
+        ],
+        [
+          "if",
+          "Conditional"
+        ],
+        [
+          "for",
+          "Loop"
+        ],
+        [
+          "addEventListener",
+          "React to events"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "💻",
+      "mascot": "🦜",
+      "hook": "Build something cool: JavaScript Magic"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Build something cool: JavaScript Magic",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "let",
+              "Changeable variable"
+            ],
+            [
+              "const",
+              "Unchangeable value"
+            ],
+            [
+              "function",
+              "Reusable code block"
+            ],
+            [
+              "if",
+              "Conditional"
+            ],
+            [
+              "for",
+              "Loop"
+            ],
+            [
+              "addEventListener",
+              "React to events"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "tech-tech-6": {
+    "title": "Electrical Components",
+    "mcq": [
+      {
+        "q": "Electricity flows through a…",
+        "choices": [
+          "Conductor",
+          "Insulator",
+          "Ghost",
+          "Vacuum"
+        ],
+        "correct": 0,
+        "explain": "Conductors (metal) let current flow. Insulators (rubber) block it."
+      },
+      {
+        "q": "A battery provides…",
+        "choices": [
+          "Only light",
+          "Electric energy (voltage)",
+          "Sound only",
+          "Water"
+        ],
+        "correct": 1,
+        "explain": "Batteries store chemical energy and release electricity."
+      },
+      {
+        "q": "A switch is used to…",
+        "choices": [
+          "Break or complete a circuit",
+          "Make sound",
+          "Cook food",
+          "Change colour"
+        ],
+        "correct": 0,
+        "explain": "Switches turn circuits on or off."
+      },
+      {
+        "q": "A resistor…",
+        "choices": [
+          "Speeds up current",
+          "Slows/limits current",
+          "Stores data",
+          "Is a battery"
+        ],
+        "correct": 1,
+        "explain": "Resistors control how much current flows."
+      },
+      {
+        "q": "An LED is a…",
+        "choices": [
+          "Loud Electronic Device",
+          "Light-Emitting Diode",
+          "Long Electric Drive",
+          "Low Energy Display"
+        ],
+        "correct": 1,
+        "explain": "LEDs are small, efficient light sources."
+      },
+      {
+        "q": "Circuit diagrams use…",
+        "choices": [
+          "Real pictures",
+          "Symbols for each component",
+          "Emojis",
+          "Coloured blocks"
+        ],
+        "correct": 1,
+        "explain": "Standard symbols make diagrams easy to read."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Circuit",
+        "back": "Closed path for electricity to flow"
+      },
+      {
+        "front": "Conductor",
+        "back": "Material electricity flows through (metal)"
+      },
+      {
+        "front": "Insulator",
+        "back": "Material that blocks current (rubber, plastic)"
+      },
+      {
+        "front": "Battery",
+        "back": "Source of electrical energy"
+      },
+      {
+        "front": "Switch",
+        "back": "Opens/closes a circuit"
+      },
+      {
+        "front": "Resistor",
+        "back": "Limits current"
+      },
+      {
+        "front": "LED",
+        "back": "Light-Emitting Diode"
+      },
+      {
+        "front": "Voltage",
+        "back": "'Push' behind the current (volts)"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Battery",
+          "Energy source"
+        ],
+        [
+          "Switch",
+          "On/Off"
+        ],
+        [
+          "Resistor",
+          "Limits current"
+        ],
+        [
+          "LED",
+          "Tiny light"
+        ],
+        [
+          "Conductor",
+          "Carries current"
+        ],
+        [
+          "Insulator",
+          "Blocks current"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "💻",
+      "mascot": "🦜",
+      "hook": "Build something cool: Electrical Components"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Build something cool: Electrical Components",
+        "xp": 5
+      },
+      {
+        "type": "diagram",
+        "name": "circuit",
+        "props": {},
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Battery",
+              "Energy source"
+            ],
+            [
+              "Switch",
+              "On/Off"
+            ],
+            [
+              "Resistor",
+              "Limits current"
+            ],
+            [
+              "LED",
+              "Tiny light"
+            ],
+            [
+              "Conductor",
+              "Carries current"
+            ],
+            [
+              "Insulator",
+              "Blocks current"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "tech-tech-7": {
+    "title": "Input & Output Devices",
+    "mcq": [
+      {
+        "q": "The keyboard is an…",
+        "choices": [
+          "Input device",
+          "Output device",
+          "Storage device",
+          "Processor"
+        ],
+        "correct": 0,
+        "explain": "Input devices send data INTO the computer."
+      },
+      {
+        "q": "A speaker is an…",
+        "choices": [
+          "Input device",
+          "Output device",
+          "Memory device",
+          "Processor"
+        ],
+        "correct": 1,
+        "explain": "Output devices present results TO the user."
+      },
+      {
+        "q": "A touchscreen is…",
+        "choices": [
+          "Input only",
+          "Output only",
+          "Both input AND output",
+          "Neither"
+        ],
+        "correct": 2,
+        "explain": "It shows output AND receives touch input."
+      },
+      {
+        "q": "A microphone captures…",
+        "choices": [
+          "Text",
+          "Sound",
+          "Images",
+          "Smells"
+        ],
+        "correct": 1,
+        "explain": "It's an audio input device."
+      },
+      {
+        "q": "A printer is an…",
+        "choices": [
+          "Input device",
+          "Output device",
+          "Memory device",
+          "Virus"
+        ],
+        "correct": 1,
+        "explain": "Printers produce physical (printed) output."
+      },
+      {
+        "q": "A webcam is an…",
+        "choices": [
+          "Input device (captures video)",
+          "Output device",
+          "Processor",
+          "Battery"
+        ],
+        "correct": 0,
+        "explain": "Cameras send video/image data to the computer."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Input Device",
+        "back": "Sends data to the computer"
+      },
+      {
+        "front": "Output Device",
+        "back": "Shows info from the computer"
+      },
+      {
+        "front": "Keyboard",
+        "back": "Input — typing"
+      },
+      {
+        "front": "Mouse",
+        "back": "Input — pointing/clicking"
+      },
+      {
+        "front": "Microphone",
+        "back": "Input — audio"
+      },
+      {
+        "front": "Monitor",
+        "back": "Output — visual"
+      },
+      {
+        "front": "Speaker",
+        "back": "Output — audio"
+      },
+      {
+        "front": "Printer",
+        "back": "Output — printed paper"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Keyboard",
+          "Input"
+        ],
+        [
+          "Mouse",
+          "Input"
+        ],
+        [
+          "Microphone",
+          "Input"
+        ],
+        [
+          "Monitor",
+          "Output"
+        ],
+        [
+          "Speaker",
+          "Output"
+        ],
+        [
+          "Printer",
+          "Output"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "💻",
+      "mascot": "🦜",
+      "hook": "Build something cool: Input & Output Devices"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Build something cool: Input & Output Devices",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Keyboard",
+              "Input"
+            ],
+            [
+              "Mouse",
+              "Input"
+            ],
+            [
+              "Microphone",
+              "Input"
+            ],
+            [
+              "Monitor",
+              "Output"
+            ],
+            [
+              "Speaker",
+              "Output"
+            ],
+            [
+              "Printer",
+              "Output"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "tech-tech-8": {
+    "title": "How the Internet Works",
+    "mcq": [
+      {
+        "q": "The Internet is…",
+        "choices": [
+          "One giant computer",
+          "A global network of connected computers",
+          "Only a website",
+          "A single cable"
+        ],
+        "correct": 1,
+        "explain": "It links billions of devices across the world."
+      },
+      {
+        "q": "A website address starts with…",
+        "choices": [
+          "ftp://",
+          "http:// or https://",
+          "xyz://",
+          "ppt://"
+        ],
+        "correct": 1,
+        "explain": "HTTPS is the secure version of HTTP."
+      },
+      {
+        "q": "Wi-Fi uses…",
+        "choices": [
+          "Cables only",
+          "Radio waves",
+          "Smoke signals",
+          "Light only"
+        ],
+        "correct": 1,
+        "explain": "Wi-Fi is wireless radio transmission."
+      },
+      {
+        "q": "A browser is a program that…",
+        "choices": [
+          "Stores food",
+          "Displays web pages",
+          "Controls the fridge",
+          "Heats water"
+        ],
+        "correct": 1,
+        "explain": "Chrome, Firefox, Safari, Edge display websites."
+      },
+      {
+        "q": "Data sent across the Internet travels in small…",
+        "choices": [
+          "Packets",
+          "Boxes",
+          "Buckets",
+          "Waves only"
+        ],
+        "correct": 0,
+        "explain": "Data is broken into packets and reassembled."
+      },
+      {
+        "q": "A search engine helps you…",
+        "choices": [
+          "Drive a car",
+          "Find info on the web",
+          "Bake cake",
+          "Learn to swim"
+        ],
+        "correct": 1,
+        "explain": "Google, Bing, DuckDuckGo are search engines."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Internet",
+        "back": "Global network of computers"
+      },
+      {
+        "front": "WWW",
+        "back": "World Wide Web — websites on the Internet"
+      },
+      {
+        "front": "Browser",
+        "back": "App to view websites"
+      },
+      {
+        "front": "URL",
+        "back": "Website address"
+      },
+      {
+        "front": "HTTPS",
+        "back": "Secure web protocol"
+      },
+      {
+        "front": "Wi-Fi",
+        "back": "Wireless Internet connection"
+      },
+      {
+        "front": "Server",
+        "back": "Computer that sends info to others"
+      },
+      {
+        "front": "Client",
+        "back": "Computer asking for info"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Chrome",
+          "Browser"
+        ],
+        [
+          "Google",
+          "Search engine"
+        ],
+        [
+          "https://",
+          "Secure URL"
+        ],
+        [
+          "Wi-Fi",
+          "Wireless"
+        ],
+        [
+          "Server",
+          "Sends data"
+        ],
+        [
+          "Client",
+          "Requests data"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "💻",
+      "mascot": "🦜",
+      "hook": "Build something cool: How the Internet Works"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Build something cool: How the Internet Works",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Chrome",
+              "Browser"
+            ],
+            [
+              "Google",
+              "Search engine"
+            ],
+            [
+              "https://",
+              "Secure URL"
+            ],
+            [
+              "Wi-Fi",
+              "Wireless"
+            ],
+            [
+              "Server",
+              "Sends data"
+            ],
+            [
+              "Client",
+              "Requests data"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "tech-tech-9": {
+    "title": "Digital Tools & Apps",
+    "mcq": [
+      {
+        "q": "A word processor is used for…",
+        "choices": [
+          "Typing documents",
+          "Painting walls",
+          "Baking bread",
+          "Running"
+        ],
+        "correct": 0,
+        "explain": "MS Word, Google Docs — for text documents."
+      },
+      {
+        "q": "A spreadsheet is best for…",
+        "choices": [
+          "Video games",
+          "Numbers and tables",
+          "Music",
+          "3D art"
+        ],
+        "correct": 1,
+        "explain": "Excel, Google Sheets handle numbers and formulas."
+      },
+      {
+        "q": "A presentation tool lets you…",
+        "choices": [
+          "Create slides for speeches",
+          "Eat ice cream",
+          "Send emails only",
+          "Paint houses"
+        ],
+        "correct": 0,
+        "explain": "PowerPoint, Google Slides, Keynote."
+      },
+      {
+        "q": "Online safety includes…",
+        "choices": [
+          "Sharing passwords",
+          "Strong passwords and never sharing personal info",
+          "Talking to strangers online",
+          "Posting your address"
+        ],
+        "correct": 1,
+        "explain": "Protect yourself with strong passwords and privacy."
+      },
+      {
+        "q": "Cloud storage means…",
+        "choices": [
+          "Saving files on the sky",
+          "Saving files on servers online",
+          "Only on your desktop",
+          "Only on paper"
+        ],
+        "correct": 1,
+        "explain": "Google Drive, OneDrive, iCloud store files online."
+      },
+      {
+        "q": "An email address has the symbol…",
+        "choices": [
+          "%",
+          "@",
+          "$",
+          "&"
+        ],
+        "correct": 1,
+        "explain": "user@example.com"
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Word Processor",
+        "back": "App for text documents"
+      },
+      {
+        "front": "Spreadsheet",
+        "back": "App for numbers and tables"
+      },
+      {
+        "front": "Presentation",
+        "back": "App for slides"
+      },
+      {
+        "front": "Email",
+        "back": "Digital mail (user@domain.com)"
+      },
+      {
+        "front": "Cloud Storage",
+        "back": "Files saved on the Internet"
+      },
+      {
+        "front": "Password",
+        "back": "Secret to protect your account"
+      },
+      {
+        "front": "2-Factor Auth",
+        "back": "Extra security step (code on phone)"
+      },
+      {
+        "front": "Backup",
+        "back": "Spare copy of important files"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Word",
+          "Word processor"
+        ],
+        [
+          "Excel",
+          "Spreadsheet"
+        ],
+        [
+          "PowerPoint",
+          "Presentation"
+        ],
+        [
+          "Gmail",
+          "Email"
+        ],
+        [
+          "Google Drive",
+          "Cloud storage"
+        ],
+        [
+          "Zoom",
+          "Video call"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "💻",
+      "mascot": "🦜",
+      "hook": "Build something cool: Digital Tools & Apps"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Build something cool: Digital Tools & Apps",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Word",
+              "Word processor"
+            ],
+            [
+              "Excel",
+              "Spreadsheet"
+            ],
+            [
+              "PowerPoint",
+              "Presentation"
+            ],
+            [
+              "Gmail",
+              "Email"
+            ],
+            [
+              "Google Drive",
+              "Cloud storage"
+            ],
+            [
+              "Zoom",
+              "Video call"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "tech-tech-10": {
+    "title": "Coding Concepts",
+    "mcq": [
+      {
+        "q": "An algorithm is…",
+        "choices": [
+          "A dance move",
+          "Step-by-step instructions",
+          "A snack",
+          "A computer only"
+        ],
+        "correct": 1,
+        "explain": "Algorithms describe how to solve a problem."
+      },
+      {
+        "q": "A loop is used when you need to…",
+        "choices": [
+          "Do something once",
+          "Repeat code multiple times",
+          "Never run code",
+          "Delete files"
+        ],
+        "correct": 1,
+        "explain": "Loops save time by repeating tasks."
+      },
+      {
+        "q": "An if-statement runs code when…",
+        "choices": [
+          "Always",
+          "A condition is true",
+          "Never",
+          "On Mondays"
+        ],
+        "correct": 1,
+        "explain": "if (score > 10) { … } — runs only if score is more than 10."
+      },
+      {
+        "q": "A bug in code means…",
+        "choices": [
+          "An insect",
+          "An error in the program",
+          "A feature",
+          "Nothing"
+        ],
+        "correct": 1,
+        "explain": "Fixing bugs is called debugging."
+      },
+      {
+        "q": "Pseudocode is…",
+        "choices": [
+          "Fake food",
+          "A plan in plain English-like steps",
+          "A virus",
+          "A real language"
+        ],
+        "correct": 1,
+        "explain": "Pseudocode plans logic before you code."
+      },
+      {
+        "q": "Which is a programming language?",
+        "choices": [
+          "HTML",
+          "JavaScript",
+          "English",
+          "Drawing"
+        ],
+        "correct": 1,
+        "explain": "JS lets you control program logic. HTML is markup, not programming."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Algorithm",
+        "back": "Step-by-step recipe to solve a problem"
+      },
+      {
+        "front": "Variable",
+        "back": "Named storage for a value"
+      },
+      {
+        "front": "Loop",
+        "back": "Repeats a block of code"
+      },
+      {
+        "front": "Condition",
+        "back": "A test that is true or false"
+      },
+      {
+        "front": "Function",
+        "back": "Reusable block of code"
+      },
+      {
+        "front": "Debugging",
+        "back": "Finding and fixing errors"
+      },
+      {
+        "front": "Pseudocode",
+        "back": "Plan written in plain language"
+      },
+      {
+        "front": "Programming Language",
+        "back": "Tool to write code (Python, JS, etc.)"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "Repeat action",
+          "Loop"
+        ],
+        [
+          "Make decision",
+          "If-statement"
+        ],
+        [
+          "Store value",
+          "Variable"
+        ],
+        [
+          "Group of steps",
+          "Function"
+        ],
+        [
+          "Fix error",
+          "Debug"
+        ],
+        [
+          "Plan logic",
+          "Pseudocode"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "💻",
+      "mascot": "🦜",
+      "hook": "Build something cool: Coding Concepts"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Build something cool: Coding Concepts",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "Repeat action",
+              "Loop"
+            ],
+            [
+              "Make decision",
+              "If-statement"
+            ],
+            [
+              "Store value",
+              "Variable"
+            ],
+            [
+              "Group of steps",
+              "Function"
+            ],
+            [
+              "Fix error",
+              "Debug"
+            ],
+            [
+              "Plan logic",
+              "Pseudocode"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "tech-tech-11": {
+    "title": "Exercise 1: Simple Calculator",
+    "mcq": [
+      {
+        "q": "In a calculator app, buttons for digits are usually…",
+        "choices": [
+          "<input>",
+          "<button>",
+          "<table>",
+          "<video>"
+        ],
+        "correct": 1,
+        "explain": "Clickable items use the <button> element."
+      },
+      {
+        "q": "Which JS math operator adds?",
+        "choices": [
+          "-",
+          "*",
+          "+",
+          "/"
+        ],
+        "correct": 2,
+        "explain": "+ adds. - subtracts. * multiplies. / divides."
+      },
+      {
+        "q": "If display = 5 and user clicks '+' then '3' then '=', what should display show?",
+        "choices": [
+          "8",
+          "53",
+          "2",
+          "15"
+        ],
+        "correct": 0,
+        "explain": "5 + 3 = 8."
+      },
+      {
+        "q": "parseFloat('3.14') returns…",
+        "choices": [
+          "3.14 as a number",
+          "The string '3.14'",
+          "0",
+          "NaN"
+        ],
+        "correct": 0,
+        "explain": "parseFloat turns a string into a floating-point number."
+      },
+      {
+        "q": "To clear the calculator, you might set display to…",
+        "choices": [
+          "'0' or ''",
+          "'Clear'",
+          "Random number",
+          "undefined"
+        ],
+        "correct": 0,
+        "explain": "Reset to 0 or empty string."
+      },
+      {
+        "q": "Why wrap calculator logic in functions?",
+        "choices": [
+          "Organize and reuse code",
+          "Make it slower",
+          "Break the web",
+          "No reason"
+        ],
+        "correct": 0,
+        "explain": "Functions keep code clean and reusable."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "<button>",
+        "back": "HTML clickable button"
+      },
+      {
+        "front": "onclick",
+        "back": "Runs JS when clicked"
+      },
+      {
+        "front": "parseFloat",
+        "back": "Convert string → number"
+      },
+      {
+        "front": "String",
+        "back": "Text (e.g., '3.14')"
+      },
+      {
+        "front": "Number",
+        "back": "Numeric value (e.g., 3.14)"
+      },
+      {
+        "front": "textContent",
+        "back": "Read/write text inside element"
+      },
+      {
+        "front": "eval()",
+        "back": "Runs a string as JS (use carefully!)"
+      },
+      {
+        "front": "Function",
+        "back": "Reusable block of code"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "+",
+          "Add"
+        ],
+        [
+          "-",
+          "Subtract"
+        ],
+        [
+          "*",
+          "Multiply"
+        ],
+        [
+          "/",
+          "Divide"
+        ],
+        [
+          "=",
+          "Equals (compute)"
+        ],
+        [
+          "C",
+          "Clear"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "💻",
+      "mascot": "🦜",
+      "hook": "Build something cool: Exercise 1: Simple Calculator"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Build something cool: Exercise 1: Simple Calculator",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "+",
+              "Add"
+            ],
+            [
+              "-",
+              "Subtract"
+            ],
+            [
+              "*",
+              "Multiply"
+            ],
+            [
+              "/",
+              "Divide"
+            ],
+            [
+              "=",
+              "Equals (compute)"
+            ],
+            [
+              "C",
+              "Clear"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  },
+  "tech-tech-12": {
+    "title": "Exercise 2: To-Do List App",
+    "mcq": [
+      {
+        "q": "localStorage saves data…",
+        "choices": [
+          "For one second",
+          "Until the user clears it",
+          "Only in RAM",
+          "Never"
+        ],
+        "correct": 1,
+        "explain": "localStorage persists across sessions in the browser."
+      },
+      {
+        "q": "What does JSON.stringify() do?",
+        "choices": [
+          "Converts an object to text",
+          "Converts text to object",
+          "Deletes data",
+          "Sends email"
+        ],
+        "correct": 0,
+        "explain": "Needed to save arrays/objects in localStorage."
+      },
+      {
+        "q": "JSON.parse() does the opposite — converts…",
+        "choices": [
+          "Object to text",
+          "Text back to object",
+          "Nothing",
+          "Image to audio"
+        ],
+        "correct": 1,
+        "explain": "Used when loading data from localStorage."
+      },
+      {
+        "q": "To add an item to an array 'todos', you use…",
+        "choices": [
+          "todos.push(item)",
+          "todos.add(item)",
+          "todos + item",
+          "todos[item]"
+        ],
+        "correct": 0,
+        "explain": "push() appends an item to the end."
+      },
+      {
+        "q": "document.querySelector('#list') finds…",
+        "choices": [
+          "All elements",
+          "The element with id 'list'",
+          "Every button",
+          "Nothing"
+        ],
+        "correct": 1,
+        "explain": "# finds an id; . finds classes."
+      },
+      {
+        "q": "To remove an element from the DOM you can call…",
+        "choices": [
+          "element.remove()",
+          "element.delete()",
+          "element.kill()",
+          "drop(element)"
+        ],
+        "correct": 0,
+        "explain": "element.remove() removes it from the page."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "localStorage",
+        "back": "Browser key-value store (persists)"
+      },
+      {
+        "front": "JSON.stringify()",
+        "back": "Object → string"
+      },
+      {
+        "front": "JSON.parse()",
+        "back": "String → object"
+      },
+      {
+        "front": "Array.push()",
+        "back": "Add item to end of array"
+      },
+      {
+        "front": "Array.filter()",
+        "back": "Keep items that match"
+      },
+      {
+        "front": "querySelector",
+        "back": "Find one element"
+      },
+      {
+        "front": "querySelectorAll",
+        "back": "Find all matching elements"
+      },
+      {
+        "front": "addEventListener",
+        "back": "React to user actions"
+      }
+    ],
+    "match": {
+      "pairs": [
+        [
+          "localStorage.setItem",
+          "Save data"
+        ],
+        [
+          "localStorage.getItem",
+          "Read data"
+        ],
+        [
+          "JSON.stringify",
+          "Object → text"
+        ],
+        [
+          "JSON.parse",
+          "Text → object"
+        ],
+        [
+          "push()",
+          "Add to array"
+        ],
+        [
+          "remove()",
+          "Delete from DOM"
+        ]
+      ]
+    },
+    "meta": {
+      "icon": "💻",
+      "mascot": "🦜",
+      "hook": "Build something cool: Exercise 2: To-Do List App"
+    },
+    "lessons": [
+      {
+        "type": "intro",
+        "text": "Build something cool: Exercise 2: To-Do List App",
+        "xp": 5
+      },
+      {
+        "type": "game",
+        "module": "definition-match-speed",
+        "data": {
+          "pairs": [
+            [
+              "localStorage.setItem",
+              "Save data"
+            ],
+            [
+              "localStorage.getItem",
+              "Read data"
+            ],
+            [
+              "JSON.stringify",
+              "Object → text"
+            ],
+            [
+              "JSON.parse",
+              "Text → object"
+            ],
+            [
+              "push()",
+              "Add to array"
+            ],
+            [
+              "remove()",
+              "Delete from DOM"
+            ]
+          ],
+          "seconds": 60
+        },
+        "xp": 12
+      },
+      {
+        "type": "check",
+        "count": 3,
+        "xp": 10
+      },
+      {
+        "type": "boss"
+      }
+    ]
+  }
+}

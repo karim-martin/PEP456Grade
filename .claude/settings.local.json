@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node c:/Users/Marathon/Downloads/PEP456Grade/Resource/tools/seed-lessons.js)",
+      "Bash(node -e \"const j=require\\('c:/Users/Marathon/Downloads/PEP456Grade/Resource/questions/grade5.json'\\); console.log\\(JSON.stringify\\({chapter:'g5-mat-1', meta:j['g5-mat-1'].meta, lessons:j['g5-mat-1'].lessons}, null, 2\\)\\);\")",
+      "Bash(node -e \"const j=require\\('c:/Users/Marathon/Downloads/PEP456Grade/Resource/questions/grade5.json'\\); ['g5-mat-1','g5-mat-2','g5-mat-3','g5-mat-4','g5-mat-5','g5-mat-6','g5-mat-7'].forEach\\(k=>console.log\\(k, '→', j[k]?.title, '— lessons:', j[k]?.lessons?.map\\(l=>l.module||l.type\\).join\\(', '\\)\\)\\);\")",
+      "Bash(node -e ' *)",
+      "Bash(node c:/Users/Marathon/Downloads/PEP456Grade/Resource/tools/inject-lesson-divs.js)",
+      "Bash(node -e 'try { const d = require\\('\\\\''./__TRACKED_VAR__'\\\\''\\); console.log\\('\\\\''OK: __TRACKED_VAR__'\\\\'', Object.keys\\(d\\).length, '\\\\''chapters'\\\\''\\); } catch\\(e\\) { console.error\\('\\\\''FAIL: __TRACKED_VAR__'\\\\'', e.message\\); }')",
+      "Bash(python -m http.server 8765)",
+      "Bash(curl -s -o /dev/null -w \"index: %{http_code}\\\\n\" http://localhost:8765/index.html)",
+      "Bash(curl -s -o /dev/null -w \"grade5: %{http_code}\\\\n\" http://localhost:8765/grade5.html)",
+      "Bash(curl -s -o /dev/null -w \"games: %{http_code}\\\\n\" http://localhost:8765/games.html)",
+      "Bash(curl -s -o /dev/null -w \"progress: %{http_code}\\\\n\" http://localhost:8765/progress.html)",
+      "Bash(curl -s -o /dev/null -w \"tech: %{http_code}\\\\n\" http://localhost:8765/technology.html)",
+      "Bash(curl -s -o /tmp/p.html -w \"code: %{http_code}, size: %{size_download}\\\\n\" http://localhost:8765/progress.html)",
+      "Read(//tmp/**)",
+      "Bash(curl -s -o /tmp/q.html -w \"code: %{http_code}, size: %{size_download}\\\\n\" http://localhost:8765/progress.html)",
+      "Bash(taskkill /F /IM python.exe)",
+      "Bash(curl -s -o /tmp/p.html -w \"progress: %{http_code}, size: %{size_download}\\\\n\" http://localhost:8765/progress.html)",
+      "Bash(curl -s -o /tmp/p.html -w \"progress: %{http_code}\\\\n\" http://localhost:8765/progress.html)",
+      "Bash(netstat -ano)",
+      "Bash(python -m http.server 8770)",
+      "Bash(tee /tmp/srv.log)",
+      "Bash(curl -s --connect-timeout 5 -o /tmp/p.html -w \"code: %{http_code}, bytes: %{size_download}\\\\n\" http://127.0.0.1:8770/progress.html)",
+      "Bash(curl -s --connect-timeout 5 -o /dev/null -w '%{http_code} %{size_download}b  __TRACKED_VAR__\\\\n' http://127.0.0.1:8770/__TRACKED_VAR__)",
+      "Bash(curl -s --connect-timeout 5 http://127.0.0.1:8770/Resource/questions/grade5.json)",
+      "Bash(curl -s --connect-timeout 3 http://127.0.0.1:8770/index.html)",
+      "Bash(curl -s --connect-timeout 3 http://127.0.0.1:8770/grade5.html)"
+    ]
+  }
+}

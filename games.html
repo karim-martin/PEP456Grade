@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎮 Games Arcade - Jamaica PEP Study Guide</title>
+    <link rel="stylesheet" href="Resource/style.css">
+    <script src="Resource/gamification.js" defer></script>
+    <script src="Resource/audio.js" defer></script>
+    <script src="Resource/mascot.js" defer></script>
+    <script src="Resource/math-notation.js" defer></script>
+    <script src="Resource/diagrams.js" defer></script>
+    <script src="Resource/diagrams/jamaica-parishes.js" defer></script>
+    <script src="Resource/diagrams/water-cycle.js" defer></script>
+    <script src="Resource/diagrams/plant-cell.js" defer></script>
+    <script src="Resource/diagrams/fraction-pie.js" defer></script>
+    <script src="Resource/diagrams/place-value-chart.js" defer></script>
+    <script src="Resource/diagrams/number-line.js" defer></script>
+    <script src="Resource/stepper.js" defer></script>
+    <script src="Resource/drill.js" defer></script>
+    <script src="Resource/memory-game.js" defer></script>
+    <script src="Resource/flashcards.js" defer></script>
+    <script src="Resource/matching.js" defer></script>
+    <script src="Resource/games/place-value-slot.js" defer></script>
+    <script src="Resource/games/fraction-builder.js" defer></script>
+    <script src="Resource/games/factor-tree.js" defer></script>
+    <script src="Resource/games/drag-to-order.js" defer></script>
+    <script src="Resource/games/click-the-region.js" defer></script>
+    <script src="Resource/games/syntax-builder.js" defer></script>
+    <script src="Resource/games/choice-adventure.js" defer></script>
+    <script src="Resource/games/definition-match-speed.js" defer></script>
+    <script src="Resource/games/hangman.js" defer></script>
+    <script src="Resource/games/timeline-builder.js" defer></script>
+    <script src="Resource/games/area-grid-builder.js" defer></script>
+    <script src="Resource/games/equation-balancer.js" defer></script>
+    <script src="Resource/games/long-division-walker.js" defer></script>
+    <style>
+      body { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; margin: 0; }
+      .games-wrap { max-width:1600px; margin:24px auto; padding:40px 48px; background:#fff; border-radius:20px; box-shadow:0 10px 30px rgba(0,0,0,0.15); }
+      .games-hero { text-align:center; padding:20px 10px 16px; }
+      .games-hero h1 { font-size:3em; margin-bottom:10px; color:var(--pep-text); }
+      .games-hero p { color:var(--pep-text-muted); font-size:1.25em; }
+      .back-link { display:inline-block; margin:0 0 16px; padding:10px 20px; background:#edf2f7; border-radius:22px; color:var(--pep-text); text-decoration:none; box-shadow:var(--pep-shadow); font-weight:600; font-size:1.05em; }
+      .back-link:hover { background:var(--pep-accent); color:#fff; }
+      #game-host { margin-top:28px; }
+      #game-host:empty { display:none; }
+      .choose-label { margin-top:28px; color:var(--pep-text); font-weight:700; font-size:1.5em; }
+      .games-wrap .pep-games-grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:24px; }
+      .games-wrap .pep-game-tile { padding:32px 24px; }
+      .games-wrap .pep-game-tile__icon { font-size:3.6em; }
+      .games-wrap .pep-game-tile__title { font-size:1.5em; }
+      .games-wrap .pep-game-tile__desc { font-size:1.05em; }
+      .games-wrap .pep-arcade-picker { display:flex; flex-wrap:wrap; gap:16px 20px; align-items:flex-end; padding:24px; background:#f7fafc; border-radius:14px; margin-top:16px; font-size:1.1em; }
+      .games-wrap .pep-arcade-picker label { display:flex; flex-direction:column; gap:6px; flex:1 1 220px; min-width:220px; font-weight:700; color:var(--pep-text); }
+      .games-wrap .pep-arcade-picker select { width:100%; padding:12px 14px; font-size:1em; border:2px solid #cbd5e0; border-radius:10px; background:#fff; color:var(--pep-text); cursor:pointer; min-height:48px; }
+      .games-wrap .pep-arcade-picker select:hover, .games-wrap .pep-arcade-picker select:focus { border-color:var(--pep-accent); outline:none; }
+      .games-wrap .pep-arcade-picker .pep-btn-primary { flex:1 1 200px; min-height:52px; padding:12px 20px; font-size:1.05em; font-weight:700; border:none; border-radius:10px; background:linear-gradient(135deg,#667eea,#764ba2); color:#fff; cursor:pointer; box-shadow:0 4px 12px rgba(102,126,234,0.3); }
+      .games-wrap .pep-arcade-picker .pep-btn-primary:hover { transform:translateY(-2px); box-shadow:0 6px 16px rgba(102,126,234,0.4); }
+    </style>
+</head>
+<body>
+    <div class="games-wrap">
+        <a href="index.html" class="back-link">← Home</a>
+        <div class="games-hero">
+            <h1>🎮 Games Arcade</h1>
+            <p>Pick a game — earn XP, stars, and badges while you learn!</p>
+        </div>
+
+        <!-- Daily Challenge -->
+        <div id="dailyChallenge" style="background:linear-gradient(135deg,#f6ad55,#ed8936); color:#fff; padding:18px 22px; border-radius:14px; margin:14px 0; display:flex; gap:14px; align-items:center; flex-wrap:wrap; box-shadow:0 8px 22px rgba(237,137,54,0.35);">
+          <div style="font-size:2.6em;">🌟</div>
+          <div style="flex:1;min-width:220px;">
+            <div style="font-weight:900; font-size:1.15em">Daily Challenge</div>
+            <div id="dailyChallengeDesc" style="font-weight:600">Loading…</div>
+          </div>
+          <button id="dailyChallengeStart" style="padding:12px 22px;background:#fff;color:#ed8936;border:0;border-radius:999px;font-weight:800;cursor:pointer;min-height:48px;">Play! ✨</button>
+        </div>
+
+        <div class="choose-label">🏎️ Timed Drills (60 seconds each)</div>
+        <div class="pep-games-grid">
+            <div class="pep-game-tile" data-game="math-add">
+                <span class="pep-game-tile__icon">➕</span>
+                <div class="pep-game-tile__title">Addition Attack</div>
+                <div class="pep-game-tile__desc">Solve as many addition problems as you can in 60 seconds.</div>
+            </div>
+            <div class="pep-game-tile" data-game="math-mul">
+                <span class="pep-game-tile__icon">✖️</span>
+                <div class="pep-game-tile__title">Multiplication Mayhem</div>
+                <div class="pep-game-tile__desc">Times-table fury — chain combos for huge scores!</div>
+            </div>
+            <div class="pep-game-tile" data-game="math-mixed">
+                <span class="pep-game-tile__icon">🧮</span>
+                <div class="pep-game-tile__title">Math Mixer</div>
+                <div class="pep-game-tile__desc">Add, subtract, multiply — mix it up in rapid fire.</div>
+            </div>
+            <div class="pep-game-tile" data-game="spelling">
+                <span class="pep-game-tile__icon">✏️</span>
+                <div class="pep-game-tile__title">Spelling Showdown</div>
+                <div class="pep-game-tile__desc">Pick the correctly-spelled word before time runs out.</div>
+            </div>
+            <div class="pep-game-tile" data-game="capitals">
+                <span class="pep-game-tile__icon">🌍</span>
+                <div class="pep-game-tile__title">Capital Cities</div>
+                <div class="pep-game-tile__desc">Name the capital from the Caribbean and beyond.</div>
+            </div>
+            <div class="pep-game-tile" data-game="memory">
+                <span class="pep-game-tile__icon">🧠</span>
+                <div class="pep-game-tile__title">Memory Match</div>
+                <div class="pep-game-tile__desc">Flip cards and find matching pairs. How few moves can you do it in?</div>
+            </div>
+        </div>
+
+        <div class="choose-label">🧩 Mini-Games Library</div>
+        <p style="color:var(--pep-text-muted); margin-bottom:14px;">Topic-specific games — try them with sample data!</p>
+        <div class="pep-games-grid">
+            <div class="pep-game-tile" data-mini="place-value-slot">
+                <span class="pep-game-tile__icon">🎰</span>
+                <div class="pep-game-tile__title">Place Value Slot</div>
+                <div class="pep-game-tile__desc">Drag digits into the correct columns to build big numbers!</div>
+            </div>
+            <div class="pep-game-tile" data-mini="fraction-builder">
+                <span class="pep-game-tile__icon">🍕</span>
+                <div class="pep-game-tile__title">Fraction Builder</div>
+                <div class="pep-game-tile__desc">Tap pizza slices to make the target fraction.</div>
+            </div>
+            <div class="pep-game-tile" data-mini="factor-tree">
+                <span class="pep-game-tile__icon">🌳</span>
+                <div class="pep-game-tile__title">Factor Tree</div>
+                <div class="pep-game-tile__desc">Split a number into prime factors.</div>
+            </div>
+            <div class="pep-game-tile" data-mini="long-division-walker">
+                <span class="pep-game-tile__icon">📏</span>
+                <div class="pep-game-tile__title">Long Division</div>
+                <div class="pep-game-tile__desc">Walk through long division step by step.</div>
+            </div>
+            <div class="pep-game-tile" data-mini="equation-balancer">
+                <span class="pep-game-tile__icon">⚖️</span>
+                <div class="pep-game-tile__title">Equation Balancer</div>
+                <div class="pep-game-tile__desc">Solve x by balancing the seesaw.</div>
+            </div>
+            <div class="pep-game-tile" data-mini="area-grid-builder">
+                <span class="pep-game-tile__icon">📐</span>
+                <div class="pep-game-tile__title">Area Builder</div>
+                <div class="pep-game-tile__desc">Build a rectangle with the target area.</div>
+            </div>
+            <div class="pep-game-tile" data-mini="click-the-region">
+                <span class="pep-game-tile__icon">🗺️</span>
+                <div class="pep-game-tile__title">Find the Parish</div>
+                <div class="pep-game-tile__desc">Click the right parish on the Jamaica map.</div>
+            </div>
+            <div class="pep-game-tile" data-mini="hangman">
+                <span class="pep-game-tile__icon">🪢</span>
+                <div class="pep-game-tile__title">Hangman</div>
+                <div class="pep-game-tile__desc">Guess the word letter by letter.</div>
+            </div>
+            <div class="pep-game-tile" data-mini="drag-to-order">
+                <span class="pep-game-tile__icon">🪜</span>
+                <div class="pep-game-tile__title">Order It!</div>
+                <div class="pep-game-tile__desc">Drag numbers, events, or steps into order.</div>
+            </div>
+            <div class="pep-game-tile" data-mini="syntax-builder">
+                <span class="pep-game-tile__icon">🧩</span>
+                <div class="pep-game-tile__title">Sentence Builder</div>
+                <div class="pep-game-tile__desc">Drag words into the right slots.</div>
+            </div>
+            <div class="pep-game-tile" data-mini="timeline-builder">
+                <span class="pep-game-tile__icon">🕰️</span>
+                <div class="pep-game-tile__title">Timeline</div>
+                <div class="pep-game-tile__desc">Put Jamaican history events in order.</div>
+            </div>
+            <div class="pep-game-tile" data-mini="choice-adventure">
+                <span class="pep-game-tile__icon">📖</span>
+                <div class="pep-game-tile__title">Choice Adventure</div>
+                <div class="pep-game-tile__desc">Make decisions in a branching story.</div>
+            </div>
+        </div>
+
+        <div class="choose-label">🎓 Study Games by Grade</div>
+        <div class="pep-arcade-picker">
+            <label>Grade:
+                <select id="arcade-grade">
+                    <option value="grade4">Grade 4</option>
+                    <option value="grade5">Grade 5</option>
+                    <option value="grade6">Grade 6</option>
+                    <option value="technology">Technology</option>
+                </select>
+            </label>
+            <label>Subject:
+                <select id="arcade-subject">
+                    <option value="sci">Science</option>
+                    <option value="soc">Social Studies</option>
+                    <option value="mat">Math</option>
+                    <option value="lan">Language Arts</option>
+                    <option value="tech">Technology</option>
+                </select>
+            </label>
+            <label>Chapter: <select id="arcade-chapter"></select></label>
+            <button type="button" class="pep-btn-primary" id="arcade-flash">🗂️ Flashcards</button>
+            <button type="button" class="pep-btn-primary" id="arcade-match">🔗 Matching</button>
+            <button type="button" class="pep-btn-primary" id="arcade-memory-ch">🧠 Memory (from chapter)</button>
+        </div>
+
+        <div id="game-host"></div>
+    </div>
+
+    <script>
+      (function () {
+        const host = document.getElementById('game-host');
+        const bankCache = {};
+
+        async function getBank(gradeFile) {
+          if (bankCache[gradeFile]) return bankCache[gradeFile];
+          try {
+            const res = await fetch(`Resource/questions/${gradeFile}.json`, { cache: 'no-cache' });
+            bankCache[gradeFile] = res.ok ? await res.json() : {};
+          } catch { bankCache[gradeFile] = {}; }
+          return bankCache[gradeFile];
+        }
+
+        // Timed drills + memory game tiles
+        document.querySelectorAll('.pep-game-tile[data-game]').forEach(tile => {
+          tile.addEventListener('click', () => {
+            const g = tile.dataset.game;
+            host.innerHTML = '';
+            host.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            if (g === 'memory') {
+              if (window.PEPMemory) PEPMemory.render(host, { pairs: 8 });
+            } else {
+              if (window.PEPDrill) PEPDrill.render(host, g);
+            }
+          });
+        });
+
+        // Mini-game tiles — use the registry
+        const MINI_DATA = {
+          'place-value-slot':       { digits: '7459203' },
+          'fraction-builder':       { target: '3/4', maxDen: 8 },
+          'factor-tree':            { number: 36 },
+          'long-division-walker':   { dividend: 84, divisor: 7 },
+          'equation-balancer':      { left: 'x + 5', right: 12 },
+          'area-grid-builder':      { target: 'area', goal: 12 },
+          'click-the-region':       { diagram: 'jamaica-parishes', target: 'Saint Catherine' },
+          'hangman':                { word: 'Caribbean', hint: 'A sea around Jamaica' },
+          'drag-to-order':          { items:[
+                                       { label: '419,002', value: 419002 },
+                                       { label: '418,999', value: 418999 },
+                                       { label: '409,999', value: 409999 },
+                                       { label: '409,812', value: 409812 }
+                                     ], direction: 'asc' },
+          'syntax-builder':         { template: '[NOUN] [VERB] [NOUN]', words: { NOUN:['cat','dog','child'], VERB:['sees','feeds','catches'] } },
+          'timeline-builder':       { events:[
+                                       { date: '1494', label: 'Columbus arrives in Jamaica' },
+                                       { date: '1655', label: 'British capture Jamaica' },
+                                       { date: '1834', label: 'Slavery abolished' },
+                                       { date: '1838', label: 'Full emancipation' },
+                                       { date: '1962', label: 'Jamaica independence' }
+                                     ] },
+          'choice-adventure':       { scenes: {
+              start: { text: 'You see a friend stuck in a tree. What do you do?', choices: [
+                { label: 'Run for help', goto: 'help', xp: 5, good: true, feedback: 'A wise choice!' },
+                { label: 'Throw rocks at the tree', goto: 'oops', xp: 0, feedback: 'That could hurt them more!' }
+              ]},
+              help: { text: 'You found an adult who helped quickly. Friend is safe!', choices: [{ label:'Yes!', goto:'end:good', xp:10 }]},
+              oops: { text: 'A grown-up explains a kinder way. You learn for next time.', choices: [{ label:'Got it', goto:'end:learn', xp:5 }]}
+          }}
+        };
+
+        function ctxFor(name) {
+          return {
+            chapterId: 'arcade-mini-' + name,
+            awardXP(n, opts) { try { window.PEP?.awardXP(n, { silent:true, ...(opts||{}) }); } catch(_){} },
+            complete()       { try { window.PEPMascot?.cheer('Nice!'); } catch(_){} },
+            fail()           { try { window.PEPMascot?.encourage(); } catch(_){} },
+            speak: (t) => window.PEPAudio?.speak(t),
+            sound: (k) => window.PEPAudio?.sfx(k)
+          };
+        }
+
+        document.querySelectorAll('.pep-game-tile[data-mini]').forEach(tile => {
+          tile.addEventListener('click', () => {
+            const name = tile.dataset.mini;
+            const mod = window.PEP?.getGame?.(name);
+            if (!mod) return;
+            host.innerHTML = '';
+            host.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            mod.mount(host, MINI_DATA[name] || {}, ctxFor(name));
+          });
+        });
+
+        // Daily challenge — pick a game based on the day so it changes daily
+        const DAILY_OPTIONS = ['place-value-slot','fraction-builder','factor-tree','long-division-walker','equation-balancer','hangman','drag-to-order','definition-match-speed'];
+        const day = new Date();
+        const dayKey = day.getFullYear()+'-'+(day.getMonth()+1)+'-'+day.getDate();
+        const idx = Math.abs(dayKey.split('').reduce((h,c)=>h*31+c.charCodeAt(0),7)) % DAILY_OPTIONS.length;
+        const todayGame = DAILY_OPTIONS[idx];
+        document.getElementById('dailyChallengeDesc').textContent = `${day.toLocaleDateString('en-US',{weekday:'long'})} — try ${todayGame.replace(/-/g,' ')}!`;
+        document.getElementById('dailyChallengeStart').addEventListener('click', () => {
+          const data = MINI_DATA[todayGame] || (todayGame === 'definition-match-speed'
+            ? { pairs: [['Mongoose','A small Caribbean mammal'],['Hummingbird','Jamaica’s national bird'],['Kingston','Jamaica’s capital'],['Blue Mountain','Famous coffee region'],['Patois','Jamaican Creole language'],['Marcus Garvey','National hero']], seconds: 60 }
+            : {});
+          const mod = window.PEP?.getGame?.(todayGame);
+          if (!mod) return;
+          host.innerHTML = '';
+          host.scrollIntoView({ behavior:'smooth', block:'start' });
+          mod.mount(host, data, ctxFor(todayGame));
+        });
+
+        // Chapter picker
+        const gradeSel = document.getElementById('arcade-grade');
+        const subjSel = document.getElementById('arcade-subject');
+        const chSel = document.getElementById('arcade-chapter');
+
+        function subjPrefix() {
+          // grade value -> chapter id prefix; tech only has 'tech'
+          const grade = gradeSel.value;
+          const subj = subjSel.value;
+          if (grade === 'technology') return 'tech-tech';
+          return `g${grade.slice(-1)}-${subj}`;
+        }
+
+        async function refreshChapters() {
+          const bank = await getBank(gradeSel.value);
+          const prefix = subjPrefix();
+          const ids = Object.keys(bank).filter(id => id.startsWith(prefix));
+          ids.sort((a, b) => parseInt(a.split('-').pop()) - parseInt(b.split('-').pop()));
+          chSel.innerHTML = ids.map(id => `<option value="${id}">${id.split('-').pop()}. ${bank[id].title || id}</option>`).join('')
+              || '<option value="">(no chapters)</option>';
+        }
+
+        gradeSel.addEventListener('change', () => {
+          if (gradeSel.value === 'technology') {
+            subjSel.value = 'tech';
+            subjSel.disabled = true;
+          } else {
+            subjSel.disabled = false;
+            if (subjSel.value === 'tech') subjSel.value = 'sci';
+          }
+          refreshChapters();
+        });
+        subjSel.addEventListener('change', refreshChapters);
+
+        async function runFlashcards() {
+          const bank = await getBank(gradeSel.value);
+          const id = chSel.value;
+          if (!id || !bank[id]) return;
+          host.innerHTML = '';
+          host.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          if (window.PEPFlashcards) PEPFlashcards.render(host, id, bank[id]);
+        }
+        async function runMatching() {
+          const bank = await getBank(gradeSel.value);
+          const id = chSel.value;
+          if (!id || !bank[id]) return;
+          host.innerHTML = '';
+          host.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          if (window.PEPMatching) PEPMatching.render(host, id, bank[id]);
+        }
+        async function runMemory() {
+          const bank = await getBank(gradeSel.value);
+          const id = chSel.value;
+          if (!id || !bank[id]) return;
+          host.innerHTML = '';
+          host.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          if (window.PEPMemory) PEPMemory.render(host, { pairs: 6, chapterData: bank[id] });
+        }
+
+        document.getElementById('arcade-flash').addEventListener('click', runFlashcards);
+        document.getElementById('arcade-match').addEventListener('click', runMatching);
+        document.getElementById('arcade-memory-ch').addEventListener('click', runMemory);
+
+        refreshChapters();
+      })();
+    </script>
+</body>
+</html>
