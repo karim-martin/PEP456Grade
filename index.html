@@ -188,6 +188,87 @@
             .pep-island__icon { font-size: 3.4em; }
             .pep-island__name { font-size: 1.3em; }
         }
+
+        /* Grade-picker modal */
+        .pep-grade-modal { animation: pep-fade-in 0.2s ease-out; }
+        .pep-grade-modal__box {
+            position: relative;
+            max-width: 480px;
+            padding: 32px 26px 26px;
+            border: 4px solid #f9c100;
+            animation: pep-grade-pop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        .pep-grade-modal__close {
+            position: absolute;
+            top: 10px;
+            right: 12px;
+            width: 38px;
+            height: 38px;
+            border: 0;
+            background: rgba(0,0,0,0.06);
+            border-radius: 50%;
+            font-size: 1.05em;
+            font-weight: 800;
+            color: #2d3748;
+            cursor: pointer;
+            line-height: 1;
+        }
+        .pep-grade-modal__close:hover { background: rgba(0,0,0,0.14); }
+        .pep-grade-modal__close:focus-visible { outline: 3px solid #ed8936; outline-offset: 2px; }
+        .pep-grade-modal__icon {
+            font-size: 3.6em;
+            line-height: 1;
+            margin: 4px 0 8px;
+            animation: pep-bob 2.6s ease-in-out infinite;
+        }
+        .pep-grade-modal__title {
+            font-size: 1.5em;
+            font-weight: 900;
+            color: #1a2a3a;
+            margin: 0 0 6px;
+            line-height: 1.25;
+        }
+        .pep-grade-modal__title #gradePickerSubject { color: #ed8936; }
+        .pep-grade-modal__instr {
+            color: #4a5568;
+            font-weight: 700;
+            font-size: 1em;
+            margin: 0 0 18px;
+        }
+        .pep-grade-modal__arrow {
+            display: inline-block;
+            animation: pep-bob 1.2s ease-in-out infinite;
+        }
+        .pep-grade-modal__row {
+            display: flex; gap: 12px; flex-wrap: wrap;
+            justify-content: center;
+            margin: 6px 0 4px;
+        }
+        .pep-grade-modal__row .pep-grade-pill {
+            font-size: 1.05em;
+            padding: 14px 22px;
+            background: linear-gradient(135deg, #fff, #fef5e7);
+            border: 3px solid #f9c100;
+            box-shadow: 0 6px 16px rgba(249,193,0,0.25);
+            color: #2d3748;
+        }
+        .pep-grade-modal__row .pep-grade-pill:hover { transform: translateY(-3px); }
+        .pep-grade-modal__row .pep-grade-pill:focus-visible { outline: 3px solid #ed8936; outline-offset: 3px; }
+        @keyframes pep-grade-pop {
+            0%   { transform: scale(0.7); opacity: 0; }
+            100% { transform: scale(1);   opacity: 1; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .pep-grade-modal,
+            .pep-grade-modal__box,
+            .pep-grade-modal__icon,
+            .pep-grade-modal__arrow { animation: none; }
+        }
+        @media (max-width: 600px) {
+            .pep-grade-modal__box { padding: 26px 18px 20px; }
+            .pep-grade-modal__icon { font-size: 3em; }
+            .pep-grade-modal__title { font-size: 1.25em; }
+        }
     </style>
 </head>
 <body>
@@ -256,14 +337,28 @@
             </a>
         </div>
 
-        <!-- Grade Picker (when an island is tapped) -->
-        <div id="gradePicker" style="display:none; margin-top: 20px;">
-            <h2 style="text-align:center;color:#fff;font-size:1.4em;margin-bottom:14px;">Pick your grade for <span id="gradePickerSubject" style="color:#f9c100"></span></h2>
-            <div class="pep-grade-row">
-                <a href="grade4.html" class="pep-grade-pill" id="grade4Btn">📚 Grade 4</a>
-                <a href="grade5.html" class="pep-grade-pill" id="grade5Btn">🎓 Grade 5</a>
-                <a href="grade6.html" class="pep-grade-pill" id="grade6Btn">🏆 Grade 6</a>
-                <button class="pep-grade-pill" id="gradeCancel" style="border:0;cursor:pointer;background:rgba(255,255,255,0.6)">✕ Close</button>
+        <!-- Grade Picker Modal (opens when an island is tapped) -->
+        <div id="gradePicker"
+             class="pep-modal pep-grade-modal"
+             style="display:none;"
+             role="dialog"
+             aria-modal="true"
+             aria-labelledby="gradePickerHeading"
+             aria-describedby="gradePickerInstr">
+            <div class="pep-modal__box pep-grade-modal__box" tabindex="-1">
+                <button class="pep-grade-modal__close" id="gradeCancel" aria-label="Close grade picker">✕</button>
+                <div class="pep-grade-modal__icon" id="gradePickerIcon" aria-hidden="true">📚</div>
+                <h2 id="gradePickerHeading" class="pep-grade-modal__title">
+                    Pick your grade for <span id="gradePickerSubject"></span>!
+                </h2>
+                <p id="gradePickerInstr" class="pep-grade-modal__instr">
+                    Tap a grade to start your adventure <span class="pep-grade-modal__arrow" aria-hidden="true">👇</span>
+                </p>
+                <div class="pep-grade-modal__row">
+                    <a href="grade4.html" class="pep-grade-pill" id="grade4Btn">📚 Grade 4</a>
+                    <a href="grade5.html" class="pep-grade-pill" id="grade5Btn">🎓 Grade 5</a>
+                    <a href="grade6.html" class="pep-grade-pill" id="grade6Btn">🏆 Grade 6</a>
+                </div>
             </div>
         </div>
 
@@ -321,20 +416,74 @@
             } catch(_){}
         }
 
-        // Subject island tap → reveal grade picker (or jump direct for tech)
+        // Subject island tap → open the grade-picker modal
+        const gradePicker = document.getElementById('gradePicker');
+        const gradePickerBox = gradePicker.querySelector('.pep-grade-modal__box');
+        const subjMap  = { mat:'Math',   sci:'Science',   soc:'Social Studies', lan:'Language Arts' };
+        const iconMap  = { mat:'🔢',     sci:'🔬',        soc:'🗺️',             lan:'📚' };
+        const mascotLine = {
+            mat: 'Now pick your grade for Math — 4, 5, or 6!',
+            sci: 'Now pick your grade for Science — 4, 5, or 6!',
+            soc: 'Now pick your grade for Social Studies — 4, 5, or 6!',
+            lan: 'Now pick your grade for Language Arts — 4, 5, or 6!'
+        };
+        let lastFocused = null;
+
+        function openGradePicker(subj, originEl) {
+            document.getElementById('gradePickerSubject').textContent = subjMap[subj] || subj;
+            document.getElementById('gradePickerIcon').textContent = iconMap[subj] || '📚';
+            lastFocused = originEl || document.activeElement;
+            gradePicker.style.display = 'flex';
+            // Move focus into the dialog so keyboard users land here
+            setTimeout(() => gradePickerBox?.focus(), 0);
+            try { window.PEPAudio?.sfx('pop'); } catch(_){}
+            try { window.PEPMascot?.say(mascotLine[subj] || 'Now pick your grade — 4, 5, or 6!'); } catch(_){}
+        }
+
+        function closeGradePicker() {
+            if (gradePicker.style.display === 'none') return;
+            gradePicker.style.display = 'none';
+            try { window.PEPAudio?.sfx('swoosh'); } catch(_){}
+            if (lastFocused && typeof lastFocused.focus === 'function') {
+                lastFocused.focus();
+            }
+        }
+
         document.querySelectorAll('.pep-island[data-grade-prefix]').forEach(el => {
             el.addEventListener('click', (e) => {
                 e.preventDefault();
-                const subj = el.dataset.gradePrefix;
-                const subjMap = { mat:'Math', sci:'Science', soc:'Social Studies', lan:'Language Arts' };
-                document.getElementById('gradePickerSubject').textContent = subjMap[subj] || subj;
-                document.getElementById('gradePicker').style.display = 'block';
-                document.getElementById('gradePicker').scrollIntoView({ behavior:'smooth', block:'center' });
-                try { window.PEPAudio?.sfx('click'); } catch(_){}
+                openGradePicker(el.dataset.gradePrefix, el);
             });
         });
-        document.getElementById('gradeCancel').addEventListener('click', () => {
-            document.getElementById('gradePicker').style.display = 'none';
+
+        document.getElementById('gradeCancel').addEventListener('click', closeGradePicker);
+
+        // Close on backdrop click (clicks on the dimmed area, not the inner box)
+        gradePicker.addEventListener('click', (e) => {
+            if (e.target === gradePicker) closeGradePicker();
+        });
+
+        // Close on ESC; trap Tab inside the dialog while open
+        document.addEventListener('keydown', (e) => {
+            if (gradePicker.style.display !== 'flex') return;
+            if (e.key === 'Escape') {
+                e.preventDefault();
+                closeGradePicker();
+                return;
+            }
+            if (e.key === 'Tab') {
+                const focusables = gradePicker.querySelectorAll(
+                    'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
+                );
+                if (!focusables.length) return;
+                const first = focusables[0];
+                const last  = focusables[focusables.length - 1];
+                if (e.shiftKey && document.activeElement === first) {
+                    e.preventDefault(); last.focus();
+                } else if (!e.shiftKey && document.activeElement === last) {
+                    e.preventDefault(); first.focus();
+                }
+            }
         });
 
         document.addEventListener('DOMContentLoaded', () => {
