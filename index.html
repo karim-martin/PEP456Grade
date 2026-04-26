@@ -421,17 +421,30 @@
         const gradePickerBox = gradePicker.querySelector('.pep-grade-modal__box');
         const subjMap  = { mat:'Math',   sci:'Science',   soc:'Social Studies', lan:'Language Arts' };
         const iconMap  = { mat:'🔢',     sci:'🔬',        soc:'🗺️',             lan:'📚' };
+        // Maps the home-page short prefix to the subject id used inside grade pages
+        const subjParam = { mat:'math', sci:'science', soc:'social', lan:'language' };
         const mascotLine = {
             mat: 'Now pick your grade for Math — 4, 5, or 6!',
             sci: 'Now pick your grade for Science — 4, 5, or 6!',
             soc: 'Now pick your grade for Social Studies — 4, 5, or 6!',
             lan: 'Now pick your grade for Language Arts — 4, 5, or 6!'
         };
+        const gradeBtns = {
+            4: document.getElementById('grade4Btn'),
+            5: document.getElementById('grade5Btn'),
+            6: document.getElementById('grade6Btn')
+        };
         let lastFocused = null;
 
         function openGradePicker(subj, originEl) {
             document.getElementById('gradePickerSubject').textContent = subjMap[subj] || subj;
             document.getElementById('gradePickerIcon').textContent = iconMap[subj] || '📚';
+            // Carry the chosen subject into the grade page so it lands on the right content
+            const param = subjParam[subj];
+            const suffix = param ? `?s=${param}` : '';
+            gradeBtns[4].href = `grade4.html${suffix}`;
+            gradeBtns[5].href = `grade5.html${suffix}`;
+            gradeBtns[6].href = `grade6.html${suffix}`;
             lastFocused = originEl || document.activeElement;
             gradePicker.style.display = 'flex';
             // Move focus into the dialog so keyboard users land here

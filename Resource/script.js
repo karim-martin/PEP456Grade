@@ -1,3 +1,20 @@
+// Subject metadata used by the in-page subject badge
+const SUBJECT_META = {
+    science:  { name: 'Science',         emoji: '🔬' },
+    social:   { name: 'Social Studies',  emoji: '🗺️' },
+    math:     { name: 'Mathematics',     emoji: '🔢' },
+    language: { name: 'Language Arts',   emoji: '📚' }
+};
+
+function updateSubjectBadge(subjectId) {
+    const meta = SUBJECT_META[subjectId];
+    if (!meta) return;
+    const emojiEl = document.getElementById('currentSubjectEmoji');
+    const nameEl  = document.getElementById('currentSubjectName');
+    if (emojiEl) emojiEl.textContent = meta.emoji;
+    if (nameEl)  nameEl.textContent  = meta.name;
+}
+
 function showSubject(subject) {
     // Hide all content areas
     document.querySelectorAll('.content-area').forEach(area => {
@@ -6,12 +23,15 @@ function showSubject(subject) {
 
     // Show selected content area
     document.getElementById(subject).classList.add('active');
+    updateSubjectBadge(subject);
 
-    // Update button states
+    // Update button states (legacy: only runs if subject buttons exist on the page)
     document.querySelectorAll('.subject-btn').forEach(btn => {
         btn.classList.remove('active');
     });
-    event.target.classList.add('active');
+    if (typeof event !== 'undefined' && event && event.target && event.target.classList) {
+        event.target.classList.add('active');
+    }
 
     // Close any open hamburger menus
     closeAllMenus();
@@ -69,6 +89,25 @@ document.addEventListener('DOMContentLoaded', function() {
     const overlay = document.getElementById('menu-overlay');
     if (overlay) {
         overlay.addEventListener('click', closeAllMenus);
+    }
+
+    // Activate the subject the user picked on the home page (?s=science|social|math|language).
+    // Falls back to whatever content-area already has the .active class for direct visits.
+    const params = new URLSearchParams(window.location.search);
+    const requested = params.get('s');
+    const allowed = ['science', 'social', 'math', 'language'];
+    if (requested && allowed.includes(requested)) {
+        const target = document.getElementById(requested);
+        if (target && target.classList.contains('content-area')) {
+            document.querySelectorAll('.content-area').forEach(area => area.classList.remove('active'));
+            target.classList.add('active');
+        }
+    }
+
+    // Sync the header subject badge with whichever content-area is now active
+    const activeArea = document.querySelector('.content-area.active');
+    if (activeArea && SUBJECT_META[activeArea.id]) {
+        updateSubjectBadge(activeArea.id);
     }
 
     // Make YouTube Video Search Terms clickable

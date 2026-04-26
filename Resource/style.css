@@ -107,6 +107,29 @@ body {
 .header h1 { color: var(--pep-text); font-size: 1.8em; margin-bottom: 5px; }
 .header p  { color: var(--pep-text-muted); font-size: 1em; }
 
+/* Active-subject badge shown in the grade-page header */
+.subject-now {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #fff8e7, #fed7aa);
+    color: #2d3748;
+    border: 3px solid #f9c100;
+    border-radius: 999px;
+    padding: 8px 18px;
+    font-weight: 800;
+    font-size: 1em;
+    margin: 8px auto 0;
+    box-shadow: 0 4px 14px rgba(249,193,0,0.25);
+    max-width: max-content;
+}
+.subject-now__emoji { font-size: 1.5em; line-height: 1; }
+html.pep-dark .subject-now {
+    background: linear-gradient(135deg, var(--pep-surface-2), var(--pep-surface));
+    color: var(--pep-text);
+    border-color: var(--pep-primary);
+}
+
 .subject-selector {
     display: flex;
     justify-content: center;
@@ -848,6 +871,8 @@ html.pep-dark .pep-modal__box { background: var(--pep-surface); color: var(--pep
     .header h1 { font-size: 1.3em; }
     .header p  { font-size: 0.9em; }
     .back-button { padding: 8px 16px; font-size: 0.9em; }
+    .subject-now { font-size: 0.9em; padding: 6px 14px; }
+    .subject-now__emoji { font-size: 1.3em; }
     .pep-memory__grid { grid-template-columns: repeat(4, 1fr); }
 }
 @media screen and (max-width: 640px) {

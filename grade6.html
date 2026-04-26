@@ -55,16 +55,11 @@
             <a href="index.html" class="back-button">← Return to Grade Selection</a>
             <div class="header-content">
                 <h1>📚 Jamaica Grade 6 PEP Complete Study Guide</h1>
-                <p>Interactive eBook for Science, Social Studies, Mathematics &amp; Language Arts</p>
+                <div class="subject-now" id="currentSubject" aria-live="polite">
+                    <span class="subject-now__emoji" id="currentSubjectEmoji" aria-hidden="true">🔢</span>
+                    <span>You're learning: <strong id="currentSubjectName">Mathematics</strong></span>
+                </div>
             </div>
-        </div>
-
-        <!-- Subject Selector -->
-        <div class="subject-selector">
-            <button class="subject-btn" onclick="showSubject('science')">🔬 Science</button>
-            <button class="subject-btn" onclick="showSubject('social')">🌍 Social Studies</button>
-            <button class="subject-btn active" onclick="showSubject('math')">📐 Mathematics</button>
-            <button class="subject-btn" onclick="showSubject('language')">📝 Language Arts</button>
         </div>
 
         <!-- Science Content -->
