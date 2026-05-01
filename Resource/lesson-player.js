@@ -322,7 +322,7 @@
         card.innerHTML = '<p>No quick-check questions yet.</p>';
         return subCtx.complete();
       }
-      const count = Math.min(act.count || 3, data.mcq.length);
+      const count = Math.min(act.count || 20, data.mcq.length);
       const qs = shuffle(data.mcq).slice(0, count);
       let qi = 0, correct = 0;
       const wrap = document.createElement('div');
