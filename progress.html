@@ -118,34 +118,32 @@
               <div style="width:${pctToNext}%; height:100%; background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);"></div>
             </div>`;
 
-          // Trees — one per subject across all grades
+          // Trees — one per (grade × subject) so completing all topics in one grade-subject = 100%
           const trees = document.getElementById('trees');
           const subjLabelsTree = { sci:'🔬 Science', soc:'🏛️ Social Studies', mat:'🧮 Math', lan:'📚 Language Arts', tech:'💻 Technology' };
-          const totals = { sci:0, soc:0, mat:0, lan:0, tech:0 };
-          const counts = { sci:0, soc:0, mat:0, lan:0, tech:0 };
-          Object.keys(PEP.CHAPTER_COUNTS).forEach(g => {
-            Object.keys(PEP.CHAPTER_COUNTS[g]).forEach(sub => { totals[sub] += PEP.CHAPTER_COUNTS[g][sub]; });
-          });
-          Object.keys(s.completed).forEach(k => { const sub = k.split('-')[1]; if (counts[sub] !== undefined) counts[sub]++; });
+          const gradeShort = { g4:'G4', g5:'G5', g6:'G6', tech:'Tech' };
           let treesHtml = '';
-          Object.keys(subjLabelsTree).forEach(sub => {
-            const pct = totals[sub] ? Math.round((counts[sub]/totals[sub])*100) : 0;
-            const leaves = Math.min(8, Math.round(pct/12.5));
-            treesHtml += `<div class="tree-card">
-              <svg class="tree-card__svg" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-                <rect x="55" y="80" width="10" height="35" fill="#7a4400" rx="2"/>
-                <circle cx="60" cy="78" r="${30 + leaves*2}" fill="${leaves > 0 ? '#48bb78' : '#cbd5e0'}" opacity="${0.5 + leaves*0.06}"/>
-                ${[...Array(leaves)].map((_,i)=>{
-                  const a = (i/8)*Math.PI*2;
-                  const x = 60 + Math.cos(a)*22;
-                  const y = 78 + Math.sin(a)*22;
-                  return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="6" fill="#1f7a3f"/>`;
-                }).join('')}
-                ${pct === 100 ? '<text x="60" y="40" text-anchor="middle" font-size="20">🌟</text>' : ''}
-              </svg>
-              <div class="tree-card__title">${subjLabelsTree[sub]}</div>
-              <div class="tree-card__pct">${counts[sub]} / ${totals[sub]} chapters · ${pct}%</div>
-            </div>`;
+          Object.keys(PEP.CHAPTER_COUNTS).forEach(grade => {
+            Object.keys(PEP.CHAPTER_COUNTS[grade]).forEach(sub => {
+              const prog = PEP.getSubjectProgress(grade, sub);
+              const leaves = Math.min(8, Math.round(prog.pct/12.5));
+              const titleLabel = grade === 'tech' ? subjLabelsTree[sub] : `${gradeShort[grade]} · ${subjLabelsTree[sub]}`;
+              treesHtml += `<div class="tree-card">
+                <svg class="tree-card__svg" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="55" y="80" width="10" height="35" fill="#7a4400" rx="2"/>
+                  <circle cx="60" cy="78" r="${30 + leaves*2}" fill="${leaves > 0 ? '#48bb78' : '#cbd5e0'}" opacity="${0.5 + leaves*0.06}"/>
+                  ${[...Array(leaves)].map((_,i)=>{
+                    const a = (i/8)*Math.PI*2;
+                    const x = 60 + Math.cos(a)*22;
+                    const y = 78 + Math.sin(a)*22;
+                    return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="6" fill="#1f7a3f"/>`;
+                  }).join('')}
+                  ${prog.pct === 100 ? '<text x="60" y="40" text-anchor="middle" font-size="20">🌟</text>' : ''}
+                </svg>
+                <div class="tree-card__title">${titleLabel}</div>
+                <div class="tree-card__pct">${prog.done} / ${prog.total} chapters · ${prog.pct}%</div>
+              </div>`;
+            });
           });
           trees.innerHTML = treesHtml;
 

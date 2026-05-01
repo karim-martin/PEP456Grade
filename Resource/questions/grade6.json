@@ -67,6 +67,160 @@
         ],
         "correct": 1,
         "explain": "Warmer oceans strengthen hurricanes; melting ice raises sea levels."
+      },
+      {
+        "q": "The atmosphere's largest gas by volume is…",
+        "choices": [
+          "Nitrogen",
+          "Oxygen",
+          "Carbon dioxide",
+          "Argon"
+        ],
+        "correct": 0,
+        "explain": "Air is about 78% nitrogen."
+      },
+      {
+        "q": "The ozone layer protects life by…",
+        "choices": [
+          "Blocking harmful UV rays",
+          "Producing oxygen",
+          "Heating the ocean",
+          "Forming clouds"
+        ],
+        "correct": 0,
+        "explain": "Ozone absorbs ultraviolet radiation from the Sun."
+      },
+      {
+        "q": "Which is NOT a greenhouse gas?",
+        "choices": [
+          "Nitrogen",
+          "Carbon dioxide",
+          "Methane",
+          "Water vapour"
+        ],
+        "correct": 0,
+        "explain": "Nitrogen makes up most of the air but isn't a greenhouse gas."
+      },
+      {
+        "q": "Burning fossil fuels releases…",
+        "choices": [
+          "Carbon dioxide",
+          "Oxygen",
+          "Nitrogen only",
+          "Helium"
+        ],
+        "correct": 0,
+        "explain": "CO2 is the main waste gas of burning fossil fuels."
+      },
+      {
+        "q": "A 'carbon footprint' is the…",
+        "choices": [
+          "Amount of greenhouse gases caused by your activities",
+          "Size of your shoe",
+          "Garbage you produce",
+          "Length of your walk"
+        ],
+        "correct": 0,
+        "explain": "Your carbon footprint measures climate impact."
+      },
+      {
+        "q": "Sea level rise is mostly caused by…",
+        "choices": [
+          "Melting ice and warming oceans",
+          "Falling rain only",
+          "More fish",
+          "More forests"
+        ],
+        "correct": 0,
+        "explain": "Warmer oceans expand and melted ice adds water."
+      },
+      {
+        "q": "Which renewable energy is widely used in Jamaica?",
+        "choices": [
+          "Solar",
+          "Coal",
+          "Diesel",
+          "Petrol"
+        ],
+        "correct": 0,
+        "explain": "Jamaica is increasing solar generation."
+      },
+      {
+        "q": "A category 5 hurricane has wind speeds over…",
+        "choices": [
+          "252 km/h",
+          "100 km/h",
+          "50 km/h",
+          "25 km/h"
+        ],
+        "correct": 0,
+        "explain": "Cat 5 has winds of 252 km/h or more."
+      },
+      {
+        "q": "Coral bleaching happens when corals…",
+        "choices": [
+          "Lose their algae due to stress",
+          "Get extra colour",
+          "Eat too much",
+          "Move away"
+        ],
+        "correct": 0,
+        "explain": "Heat-stressed corals expel their colourful algae and turn white."
+      },
+      {
+        "q": "Deforestation contributes to climate change because trees…",
+        "choices": [
+          "Absorb CO2",
+          "Make CO2",
+          "Cool the ocean",
+          "Block hurricanes"
+        ],
+        "correct": 0,
+        "explain": "Without trees, less CO2 is removed from the air."
+      },
+      {
+        "q": "Recycling aluminium…",
+        "choices": [
+          "Saves a lot of energy",
+          "Uses more energy",
+          "Has no effect",
+          "Wastes water"
+        ],
+        "correct": 0,
+        "explain": "Recycling aluminium uses much less energy than making new aluminium."
+      },
+      {
+        "q": "Which gas keeps Earth warm naturally?",
+        "choices": [
+          "Carbon dioxide",
+          "Argon",
+          "Helium",
+          "Neon"
+        ],
+        "correct": 0,
+        "explain": "CO2 traps heat — without some, Earth would be very cold; too much causes warming."
+      },
+      {
+        "q": "Smog is a type of…",
+        "choices": [
+          "Air pollution",
+          "Cloud",
+          "Rain",
+          "Wind"
+        ],
+        "correct": 0,
+        "explain": "Smog is fog mixed with smoke or other pollutants."
+      },
+      {
+        "q": "A small action you can take is to…",
+        "choices": [
+          "Walk or cycle for short trips",
+          "Drive everywhere",
+          "Leave electronics on",
+          "Buy plastic bags"
+        ],
+        "correct": 0,
+        "explain": "Walking or cycling produces zero emissions."
       }
     ],
     "flashcards": [
@@ -254,6 +408,160 @@
         ],
         "correct": 0,
         "explain": "Clean hands and body prevent disease spread."
+      },
+      {
+        "q": "Red blood cells carry…",
+        "choices": [
+          "Oxygen",
+          "Carbon dioxide only",
+          "Sugar only",
+          "Salt only"
+        ],
+        "correct": 0,
+        "explain": "Haemoglobin in red cells binds oxygen."
+      },
+      {
+        "q": "Arteries carry blood…",
+        "choices": [
+          "Away from the heart",
+          "Toward the heart",
+          "Only to the brain",
+          "Only to the lungs"
+        ],
+        "correct": 0,
+        "explain": "Arteries carry blood from the heart; veins carry it back."
+      },
+      {
+        "q": "The alimentary canal includes the…",
+        "choices": [
+          "Mouth, oesophagus, stomach, intestines",
+          "Brain only",
+          "Heart only",
+          "Lungs only"
+        ],
+        "correct": 0,
+        "explain": "It is the long tube that food travels through."
+      },
+      {
+        "q": "Bile is produced by the…",
+        "choices": [
+          "Liver",
+          "Heart",
+          "Lung",
+          "Brain"
+        ],
+        "correct": 0,
+        "explain": "Bile from the liver helps digest fats."
+      },
+      {
+        "q": "Diabetes is a non-communicable disease related to…",
+        "choices": [
+          "Blood sugar control",
+          "Cuts",
+          "Hearing",
+          "Hair growth"
+        ],
+        "correct": 0,
+        "explain": "Diabetes affects how the body manages sugar."
+      },
+      {
+        "q": "BMI stands for…",
+        "choices": [
+          "Body Mass Index",
+          "Bone Marrow Index",
+          "Best Movement Index",
+          "Body Music Index"
+        ],
+        "correct": 0,
+        "explain": "BMI estimates if your weight is healthy for your height."
+      },
+      {
+        "q": "Smoking can damage the…",
+        "choices": [
+          "Lungs and heart",
+          "Eyes only",
+          "Hair only",
+          "Nails only"
+        ],
+        "correct": 0,
+        "explain": "Smoking harms the respiratory and cardiovascular systems."
+      },
+      {
+        "q": "Vaccines protect against…",
+        "choices": [
+          "Specific diseases",
+          "Hunger",
+          "Sleep",
+          "Boredom"
+        ],
+        "correct": 0,
+        "explain": "Vaccines train the immune system against diseases."
+      },
+      {
+        "q": "To prevent the spread of germs you should…",
+        "choices": [
+          "Wash hands often",
+          "Share utensils",
+          "Skip showers",
+          "Sneeze without covering"
+        ],
+        "correct": 0,
+        "explain": "Hand washing is one of the best ways to stop germs."
+      },
+      {
+        "q": "A balanced plate has roughly…",
+        "choices": [
+          "Half veg/fruit; quarter protein; quarter carbs",
+          "All sweets",
+          "All meat",
+          "No vegetables"
+        ],
+        "correct": 0,
+        "explain": "Healthy plates focus on vegetables, lean protein and whole grains."
+      },
+      {
+        "q": "Adolescents need ___ hours of sleep per night.",
+        "choices": [
+          "8–10",
+          "2–3",
+          "4",
+          "12+"
+        ],
+        "correct": 0,
+        "explain": "Most teens need about 8–10 hours of sleep."
+      },
+      {
+        "q": "Which is a sign of dehydration?",
+        "choices": [
+          "Dark urine",
+          "Clear urine",
+          "Sweating less than usual only",
+          "Always thirsty only"
+        ],
+        "correct": 0,
+        "explain": "Dark yellow urine often signals you need more water."
+      },
+      {
+        "q": "Drinking sugary drinks daily can lead to…",
+        "choices": [
+          "Tooth decay and weight gain",
+          "Stronger bones",
+          "Better eyesight",
+          "Faster running"
+        ],
+        "correct": 0,
+        "explain": "Excess sugar harms teeth and adds calories."
+      },
+      {
+        "q": "Brushing teeth at least…",
+        "choices": [
+          "Twice a day",
+          "Once a year",
+          "Once a week",
+          "Never"
+        ],
+        "correct": 0,
+        "explain": "Twice-daily brushing keeps teeth healthy."
       }
     ],
     "flashcards": [
@@ -447,6 +755,160 @@
         ],
         "correct": 1,
         "explain": "A prism splits white light into red, orange, yellow, green, blue, indigo, violet."
+      },
+      {
+        "q": "Light travels at about…",
+        "choices": [
+          "300,000 km/s",
+          "30 km/s",
+          "30 m/s",
+          "3,000 km/h"
+        ],
+        "correct": 0,
+        "explain": "Speed of light is roughly 300,000,000 m/s."
+      },
+      {
+        "q": "A shadow forms because…",
+        "choices": [
+          "Light cannot pass through opaque objects",
+          "Light bends around",
+          "The Sun goes out",
+          "Air thickens"
+        ],
+        "correct": 0,
+        "explain": "Opaque objects block light, leaving a dark shape."
+      },
+      {
+        "q": "Refraction is the…",
+        "choices": [
+          "Bending of light when it passes between media",
+          "Reflection of light",
+          "Absorbing of light",
+          "Producing of light"
+        ],
+        "correct": 0,
+        "explain": "Light bends when it enters water or glass."
+      },
+      {
+        "q": "A prism splits white light into…",
+        "choices": [
+          "A spectrum of colours",
+          "Just red and blue",
+          "Just green",
+          "Just black"
+        ],
+        "correct": 0,
+        "explain": "A prism reveals the rainbow inside white light."
+      },
+      {
+        "q": "Sound needs a ___ to travel through.",
+        "choices": [
+          "Medium (solid, liquid, gas)",
+          "Vacuum",
+          "Mirror",
+          "Battery"
+        ],
+        "correct": 0,
+        "explain": "Sound waves need particles to move through."
+      },
+      {
+        "q": "Which travels fastest in air?",
+        "choices": [
+          "Light",
+          "Sound",
+          "Heat by conduction",
+          "Touch"
+        ],
+        "correct": 0,
+        "explain": "Light travels much faster than sound."
+      },
+      {
+        "q": "A loud sound has a high…",
+        "choices": [
+          "Amplitude",
+          "Frequency only",
+          "Wavelength only",
+          "Speed"
+        ],
+        "correct": 0,
+        "explain": "Amplitude relates to loudness."
+      },
+      {
+        "q": "A high-pitched sound has a high…",
+        "choices": [
+          "Frequency",
+          "Amplitude",
+          "Wavelength",
+          "Length"
+        ],
+        "correct": 0,
+        "explain": "Pitch goes with frequency."
+      },
+      {
+        "q": "Echoes are caused by sound waves…",
+        "choices": [
+          "Reflecting off surfaces",
+          "Producing light",
+          "Going underground",
+          "Absorbing"
+        ],
+        "correct": 0,
+        "explain": "Sound bounces back from large flat surfaces."
+      },
+      {
+        "q": "A mirror produces a clear image because of…",
+        "choices": [
+          "Regular reflection",
+          "Refraction",
+          "Diffraction",
+          "Absorption"
+        ],
+        "correct": 0,
+        "explain": "Smooth surfaces reflect light evenly."
+      },
+      {
+        "q": "Translucent materials…",
+        "choices": [
+          "Let some light through but you can't see clearly",
+          "Block all light",
+          "Let no light through",
+          "Are mirrors"
+        ],
+        "correct": 0,
+        "explain": "Frosted glass is translucent."
+      },
+      {
+        "q": "Energy from the Sun reaches Earth as…",
+        "choices": [
+          "Light and heat",
+          "Sound",
+          "Magnetism only",
+          "Wind only"
+        ],
+        "correct": 0,
+        "explain": "Solar energy comes as electromagnetic radiation."
+      },
+      {
+        "q": "A musical instrument that vibrates strings is a…",
+        "choices": [
+          "Guitar",
+          "Drum",
+          "Trumpet",
+          "Flute"
+        ],
+        "correct": 0,
+        "explain": "String instruments make sound by vibrating strings."
+      },
+      {
+        "q": "Energy can be transformed but cannot be…",
+        "choices": [
+          "Created or destroyed",
+          "Stored",
+          "Used",
+          "Converted"
+        ],
+        "correct": 0,
+        "explain": "Conservation of energy: forms change but total stays the same."
       }
     ],
     "flashcards": [
@@ -634,6 +1096,160 @@
         ],
         "correct": 1,
         "explain": "Sugar is soluble — it dissolves in water."
+      },
+      {
+        "q": "An element is a substance made of…",
+        "choices": [
+          "One type of atom",
+          "Many types of atoms",
+          "Compounds only",
+          "Mixtures only"
+        ],
+        "correct": 0,
+        "explain": "Each element has only one kind of atom."
+      },
+      {
+        "q": "A compound is…",
+        "choices": [
+          "Two or more elements chemically joined",
+          "A type of metal",
+          "A noble gas",
+          "A single element"
+        ],
+        "correct": 0,
+        "explain": "Water (H2O) is a compound of hydrogen and oxygen."
+      },
+      {
+        "q": "Filtration separates…",
+        "choices": [
+          "Insoluble solids from a liquid",
+          "Two gases",
+          "Liquids of different colour",
+          "Magnetic from non-magnetic"
+        ],
+        "correct": 0,
+        "explain": "Filter paper traps solids while liquid passes."
+      },
+      {
+        "q": "Distillation separates a mixture by…",
+        "choices": [
+          "Boiling and condensing",
+          "Filtering",
+          "Magnetism",
+          "Decanting"
+        ],
+        "correct": 0,
+        "explain": "Distillation purifies liquids using boiling points."
+      },
+      {
+        "q": "Chromatography separates…",
+        "choices": [
+          "Different coloured pigments",
+          "Magnets",
+          "Gases only",
+          "Solids and liquids"
+        ],
+        "correct": 0,
+        "explain": "Chromatography separates inks or dyes."
+      },
+      {
+        "q": "Salt water is a…",
+        "choices": [
+          "Solution",
+          "Compound",
+          "Element",
+          "Pure substance"
+        ],
+        "correct": 0,
+        "explain": "Solutions are mixtures of solute and solvent."
+      },
+      {
+        "q": "A solute is the…",
+        "choices": [
+          "Substance dissolved",
+          "Substance doing the dissolving",
+          "Mixture only",
+          "Container"
+        ],
+        "correct": 0,
+        "explain": "Sugar in water — sugar is the solute."
+      },
+      {
+        "q": "A solvent is the…",
+        "choices": [
+          "Substance doing the dissolving",
+          "Solid that won't dissolve",
+          "Mixture only",
+          "Container"
+        ],
+        "correct": 0,
+        "explain": "Water is the solvent in salt water."
+      },
+      {
+        "q": "Which mixture can be separated by a magnet?",
+        "choices": [
+          "Iron filings and sand",
+          "Sugar and water",
+          "Sand and water",
+          "Salt and water"
+        ],
+        "correct": 0,
+        "explain": "Magnets attract iron, leaving the sand."
+      },
+      {
+        "q": "Sieving separates by…",
+        "choices": [
+          "Particle size",
+          "Colour",
+          "Smell",
+          "Taste"
+        ],
+        "correct": 0,
+        "explain": "Sieves let small particles through and trap big ones."
+      },
+      {
+        "q": "A saturated solution can…",
+        "choices": [
+          "No longer dissolve more solute at that temperature",
+          "Always dissolve more",
+          "Always evaporate",
+          "Change colour"
+        ],
+        "correct": 0,
+        "explain": "Saturated means it has hit its dissolving limit."
+      },
+      {
+        "q": "Which substance is insoluble in water?",
+        "choices": [
+          "Sand",
+          "Sugar",
+          "Salt",
+          "Honey"
+        ],
+        "correct": 0,
+        "explain": "Sand does not dissolve in water."
+      },
+      {
+        "q": "To recover salt from saltwater, you can use…",
+        "choices": [
+          "Evaporation",
+          "Freezing only",
+          "Magnetism",
+          "Filtration"
+        ],
+        "correct": 0,
+        "explain": "Evaporating water leaves salt crystals behind."
+      },
+      {
+        "q": "A physical change does NOT…",
+        "choices": [
+          "Form a new substance",
+          "Change shape",
+          "Change state",
+          "Be reversible"
+        ],
+        "correct": 0,
+        "explain": "Physical changes don't make new substances; only appearance changes."
       }
     ],
     "flashcards": [
@@ -821,6 +1437,160 @@
         ],
         "correct": 2,
         "explain": "After analysis, we conclude and communicate findings."
+      },
+      {
+        "q": "A scientist's question to test is called…",
+        "choices": [
+          "A hypothesis",
+          "A conclusion",
+          "A title",
+          "A summary"
+        ],
+        "correct": 0,
+        "explain": "A hypothesis is a testable prediction."
+      },
+      {
+        "q": "The variable changed by the scientist is the…",
+        "choices": [
+          "Independent variable",
+          "Dependent variable",
+          "Control",
+          "Constant"
+        ],
+        "correct": 0,
+        "explain": "It's chosen and changed deliberately."
+      },
+      {
+        "q": "The variable measured is the…",
+        "choices": [
+          "Dependent variable",
+          "Independent variable",
+          "Constant",
+          "Control"
+        ],
+        "correct": 0,
+        "explain": "It depends on the change made."
+      },
+      {
+        "q": "Things kept the same in an experiment are…",
+        "choices": [
+          "Constants/controls",
+          "Independent variables",
+          "Hypotheses",
+          "Conclusions"
+        ],
+        "correct": 0,
+        "explain": "Constants stop other factors from affecting results."
+      },
+      {
+        "q": "To make data reliable, scientists…",
+        "choices": [
+          "Repeat experiments",
+          "Skip steps",
+          "Guess",
+          "Use only one trial"
+        ],
+        "correct": 0,
+        "explain": "Repeating reduces random errors."
+      },
+      {
+        "q": "Bar graphs are best for…",
+        "choices": [
+          "Comparing categories",
+          "Showing time trends",
+          "Showing parts of a whole",
+          "Random data"
+        ],
+        "correct": 0,
+        "explain": "Bars compare different categories well."
+      },
+      {
+        "q": "Line graphs are best for…",
+        "choices": [
+          "Trends over time",
+          "Categories",
+          "Pies",
+          "Locations"
+        ],
+        "correct": 0,
+        "explain": "Lines show how data changes over time."
+      },
+      {
+        "q": "A conclusion should…",
+        "choices": [
+          "State whether the hypothesis was supported",
+          "Restart the experiment",
+          "Be empty",
+          "Just be a graph"
+        ],
+        "correct": 0,
+        "explain": "Conclusions sum up what was learned."
+      },
+      {
+        "q": "Anomalous data is…",
+        "choices": [
+          "A result that doesn't fit the pattern",
+          "Always wrong",
+          "Always correct",
+          "A type of unit"
+        ],
+        "correct": 0,
+        "explain": "Anomalies are unexpected results that need investigation."
+      },
+      {
+        "q": "A control group is used to…",
+        "choices": [
+          "Compare with the experimental group",
+          "Add noise",
+          "Test new ideas",
+          "Make it longer"
+        ],
+        "correct": 0,
+        "explain": "The control sees what would happen with no change."
+      },
+      {
+        "q": "Units in measurement (e.g., cm, kg) are important because…",
+        "choices": [
+          "They explain what the number means",
+          "They look pretty",
+          "They take time",
+          "They confuse people"
+        ],
+        "correct": 0,
+        "explain": "Without units, numbers are meaningless."
+      },
+      {
+        "q": "Safety in the lab includes…",
+        "choices": [
+          "Wearing goggles and following rules",
+          "Running",
+          "Eating in the lab",
+          "Touching hot things"
+        ],
+        "correct": 0,
+        "explain": "Safety rules prevent accidents."
+      },
+      {
+        "q": "Observations made with the senses are…",
+        "choices": [
+          "Qualitative",
+          "Quantitative",
+          "Random",
+          "Hypothetical"
+        ],
+        "correct": 0,
+        "explain": "Qualitative data describes; quantitative data uses numbers."
+      },
+      {
+        "q": "Quantitative data is…",
+        "choices": [
+          "Numerical",
+          "Descriptive",
+          "Random",
+          "Visual only"
+        ],
+        "correct": 0,
+        "explain": "Quantitative means measurable in numbers."
       }
     ],
     "flashcards": [
@@ -1008,6 +1778,160 @@
         ],
         "correct": 2,
         "explain": "Air resistance pushes up against the falling parachute."
+      },
+      {
+        "q": "Velocity is speed in a specific…",
+        "choices": [
+          "Direction",
+          "Time",
+          "Mass",
+          "Color"
+        ],
+        "correct": 0,
+        "explain": "Velocity adds direction to speed."
+      },
+      {
+        "q": "Acceleration is…",
+        "choices": [
+          "Change in velocity over time",
+          "Speed only",
+          "Mass only",
+          "Time only"
+        ],
+        "correct": 0,
+        "explain": "Acceleration measures how velocity changes."
+      },
+      {
+        "q": "Newton's second law: F = ?",
+        "choices": [
+          "m × a",
+          "m / a",
+          "a / m",
+          "m + a"
+        ],
+        "correct": 0,
+        "explain": "Force = mass × acceleration."
+      },
+      {
+        "q": "For every action there is an equal and opposite…",
+        "choices": [
+          "Reaction",
+          "Action",
+          "Speed",
+          "Mass"
+        ],
+        "correct": 0,
+        "explain": "Newton's third law states actions and reactions are equal and opposite."
+      },
+      {
+        "q": "Friction always acts in the direction…",
+        "choices": [
+          "Opposite to motion",
+          "Same as motion",
+          "Sideways",
+          "Up"
+        ],
+        "correct": 0,
+        "explain": "Friction resists movement."
+      },
+      {
+        "q": "Air resistance increases with…",
+        "choices": [
+          "Speed and surface area",
+          "Mass only",
+          "Colour",
+          "Sound"
+        ],
+        "correct": 0,
+        "explain": "Faster speed and larger area mean more drag."
+      },
+      {
+        "q": "Weight equals mass times…",
+        "choices": [
+          "Acceleration due to gravity (g)",
+          "Volume",
+          "Speed",
+          "Density"
+        ],
+        "correct": 0,
+        "explain": "W = m × g."
+      },
+      {
+        "q": "On the Moon, your mass…",
+        "choices": [
+          "Stays the same",
+          "Gets larger",
+          "Becomes zero",
+          "Doubles"
+        ],
+        "correct": 0,
+        "explain": "Mass is constant; only weight changes with gravity."
+      },
+      {
+        "q": "A balanced force on a moving object…",
+        "choices": [
+          "Keeps it moving at constant velocity",
+          "Stops it suddenly",
+          "Speeds it up",
+          "Reverses direction"
+        ],
+        "correct": 0,
+        "explain": "With balanced forces, motion does not change."
+      },
+      {
+        "q": "Inertia depends on…",
+        "choices": [
+          "Mass",
+          "Colour",
+          "Time",
+          "Speed only"
+        ],
+        "correct": 0,
+        "explain": "More mass = more inertia."
+      },
+      {
+        "q": "Two forces of 5 N pulling in opposite directions give a net of…",
+        "choices": [
+          "0 N",
+          "10 N",
+          "5 N",
+          "-5 N"
+        ],
+        "correct": 0,
+        "explain": "They cancel out — net = 0."
+      },
+      {
+        "q": "Which surface has the LEAST friction?",
+        "choices": [
+          "Polished ice",
+          "Sand",
+          "Carpet",
+          "Rubber mat"
+        ],
+        "correct": 0,
+        "explain": "Smooth ice has very low friction."
+      },
+      {
+        "q": "A streamlined car…",
+        "choices": [
+          "Reduces air resistance",
+          "Increases air resistance",
+          "Has no effect",
+          "Is heavier"
+        ],
+        "correct": 0,
+        "explain": "Streamlining lets air slip past easily."
+      },
+      {
+        "q": "Speed = ?",
+        "choices": [
+          "Distance ÷ time",
+          "Mass × time",
+          "Force × distance",
+          "Time ÷ distance"
+        ],
+        "correct": 0,
+        "explain": "Speed measures distance covered per unit time."
       }
     ],
     "flashcards": [
@@ -1195,6 +2119,160 @@
         ],
         "correct": 1,
         "explain": "Humus makes soil fertile — great for plants."
+      },
+      {
+        "q": "Which is an igneous rock?",
+        "choices": [
+          "Basalt",
+          "Limestone",
+          "Marble",
+          "Sandstone"
+        ],
+        "correct": 0,
+        "explain": "Basalt forms from cooled lava — igneous."
+      },
+      {
+        "q": "Which is a sedimentary rock?",
+        "choices": [
+          "Limestone",
+          "Granite",
+          "Marble",
+          "Basalt"
+        ],
+        "correct": 0,
+        "explain": "Limestone forms from compacted shell and sand — sedimentary."
+      },
+      {
+        "q": "Which is a metamorphic rock?",
+        "choices": [
+          "Marble",
+          "Sandstone",
+          "Basalt",
+          "Limestone"
+        ],
+        "correct": 0,
+        "explain": "Marble forms from limestone changed by heat and pressure."
+      },
+      {
+        "q": "Erosion mostly involves…",
+        "choices": [
+          "Movement of weathered material",
+          "Forming new lava",
+          "Cooling rocks",
+          "Hardening soil"
+        ],
+        "correct": 0,
+        "explain": "Erosion is the transport of weathered bits by wind, water or ice."
+      },
+      {
+        "q": "Weathering is the…",
+        "choices": [
+          "Breakdown of rock in place",
+          "Movement of soil",
+          "Forming of fossils",
+          "Heating of magma"
+        ],
+        "correct": 0,
+        "explain": "Weathering breaks rock without moving it."
+      },
+      {
+        "q": "Which factor improves soil fertility?",
+        "choices": [
+          "Humus",
+          "Plastic",
+          "Concrete",
+          "Sand only"
+        ],
+        "correct": 0,
+        "explain": "Humus adds nutrients."
+      },
+      {
+        "q": "Loam soil is…",
+        "choices": [
+          "A mix of sand, silt and clay with humus",
+          "All sand",
+          "All clay",
+          "All gravel"
+        ],
+        "correct": 0,
+        "explain": "Loam balances all soil elements — best for plants."
+      },
+      {
+        "q": "Which Jamaican mineral is mined for aluminium?",
+        "choices": [
+          "Bauxite",
+          "Salt",
+          "Coal",
+          "Diamond"
+        ],
+        "correct": 0,
+        "explain": "Bauxite is the source of aluminium."
+      },
+      {
+        "q": "Layers in sedimentary rock are called…",
+        "choices": [
+          "Strata",
+          "Crystals",
+          "Veins",
+          "Faults"
+        ],
+        "correct": 0,
+        "explain": "Strata are the visible layers."
+      },
+      {
+        "q": "Fossils are usually found in…",
+        "choices": [
+          "Sedimentary rocks",
+          "Igneous rocks",
+          "Marble only",
+          "Lava"
+        ],
+        "correct": 0,
+        "explain": "Sedimentary rocks preserve plant and animal remains."
+      },
+      {
+        "q": "Magma that reaches the surface is called…",
+        "choices": [
+          "Lava",
+          "Ash",
+          "Sand",
+          "Ice"
+        ],
+        "correct": 0,
+        "explain": "Once erupted, magma is called lava."
+      },
+      {
+        "q": "Pumice is a light igneous rock formed…",
+        "choices": [
+          "From frothy lava trapping gas",
+          "Underground only",
+          "From sand",
+          "From shells"
+        ],
+        "correct": 0,
+        "explain": "Pumice is full of bubbles, so it can float."
+      },
+      {
+        "q": "A 'rock cycle' shows…",
+        "choices": [
+          "How rocks change between igneous, sedimentary and metamorphic",
+          "How clouds form",
+          "How plants grow",
+          "How rivers flow"
+        ],
+        "correct": 0,
+        "explain": "Rocks transform from one type to another through Earth's processes."
+      },
+      {
+        "q": "Caves form when groundwater dissolves…",
+        "choices": [
+          "Limestone",
+          "Granite",
+          "Basalt",
+          "Quartz"
+        ],
+        "correct": 0,
+        "explain": "Limestone is soluble in slightly acidic groundwater."
       }
     ],
     "flashcards": [
@@ -1382,6 +2460,160 @@
         ],
         "correct": 1,
         "explain": "More biodiversity usually means a healthier ecosystem."
+      },
+      {
+        "q": "A habitat is…",
+        "choices": [
+          "The place where an organism lives",
+          "A factory",
+          "A school",
+          "A type of mineral"
+        ],
+        "correct": 0,
+        "explain": "Habitats provide food, water and shelter."
+      },
+      {
+        "q": "A 'population' is…",
+        "choices": [
+          "All members of one species in an area",
+          "All living things",
+          "All non-living things",
+          "All countries"
+        ],
+        "correct": 0,
+        "explain": "Population focuses on one species."
+      },
+      {
+        "q": "A 'community' includes…",
+        "choices": [
+          "All species in an area",
+          "One species only",
+          "Just plants",
+          "Just animals"
+        ],
+        "correct": 0,
+        "explain": "Community includes all the species living together."
+      },
+      {
+        "q": "An ecosystem includes…",
+        "choices": [
+          "Living things plus their non-living environment",
+          "Only animals",
+          "Only plants",
+          "Only soil"
+        ],
+        "correct": 0,
+        "explain": "Ecosystems contain biotic and abiotic factors."
+      },
+      {
+        "q": "Which is an abiotic factor?",
+        "choices": [
+          "Water",
+          "Snake",
+          "Tree",
+          "Bird"
+        ],
+        "correct": 0,
+        "explain": "Abiotic = non-living parts of the environment."
+      },
+      {
+        "q": "A keystone species is…",
+        "choices": [
+          "A species with a big effect on the ecosystem",
+          "An invasive species",
+          "A pest",
+          "A planted crop"
+        ],
+        "correct": 0,
+        "explain": "Removing keystone species often causes big changes."
+      },
+      {
+        "q": "Coral reef producers are mostly…",
+        "choices": [
+          "Algae",
+          "Fish",
+          "Sharks",
+          "Crabs"
+        ],
+        "correct": 0,
+        "explain": "Symbiotic algae in coral are the main reef producers."
+      },
+      {
+        "q": "Decomposers in soil include…",
+        "choices": [
+          "Fungi and bacteria",
+          "Sharks",
+          "Tigers",
+          "Eagles"
+        ],
+        "correct": 0,
+        "explain": "They break down dead matter, recycling nutrients."
+      },
+      {
+        "q": "Energy in food chains is mostly…",
+        "choices": [
+          "Lost as heat at each step",
+          "Doubled",
+          "Stored forever",
+          "Created"
+        ],
+        "correct": 0,
+        "explain": "Only ~10% of energy passes to the next level."
+      },
+      {
+        "q": "An invasive species is one that…",
+        "choices": [
+          "Spreads where it is not native and harms locals",
+          "Helps the ecosystem always",
+          "Is naturally found there",
+          "Dies out quickly"
+        ],
+        "correct": 0,
+        "explain": "Invasive species can damage ecosystems."
+      },
+      {
+        "q": "Which adaptation helps a cactus survive in the desert?",
+        "choices": [
+          "Storing water",
+          "Big leaves",
+          "Living in groups",
+          "Bright flowers only"
+        ],
+        "correct": 0,
+        "explain": "Cacti store water in their stems."
+      },
+      {
+        "q": "Camouflage helps animals to…",
+        "choices": [
+          "Blend in to avoid predators",
+          "Be seen by mates only",
+          "Run faster",
+          "Fly higher"
+        ],
+        "correct": 0,
+        "explain": "Camouflage hides animals from predators."
+      },
+      {
+        "q": "Pollinators include…",
+        "choices": [
+          "Bees and birds",
+          "Sharks",
+          "Crocodiles",
+          "Whales"
+        ],
+        "correct": 0,
+        "explain": "Bees and birds carry pollen between flowers."
+      },
+      {
+        "q": "Conservation of biodiversity helps to…",
+        "choices": [
+          "Maintain healthy ecosystems",
+          "Reduce species",
+          "Promote pollution",
+          "Block sunlight"
+        ],
+        "correct": 0,
+        "explain": "More biodiversity makes ecosystems more stable."
       }
     ],
     "flashcards": [
@@ -1575,6 +2807,160 @@
         ],
         "correct": 2,
         "explain": "18 = 2·3·3; 24 = 2·2·2·3. Common = 2·3 = 6."
+      },
+      {
+        "q": "Which is the empty set?",
+        "choices": [
+          "{}",
+          "{0}",
+          "{ }",
+          "{empty}"
+        ],
+        "correct": 0,
+        "explain": "The empty set is { } (no elements)."
+      },
+      {
+        "q": "Set A = {1,2,3}, B = {3,4}. A ∪ B = ?",
+        "choices": [
+          "{1,2,3,4}",
+          "{3}",
+          "{1,2}",
+          "{4}"
+        ],
+        "correct": 0,
+        "explain": "Union has all unique elements from both."
+      },
+      {
+        "q": "Set A = {1,2,3}, B = {3,4}. A ∩ B = ?",
+        "choices": [
+          "{3}",
+          "{1,2}",
+          "{4}",
+          "{}"
+        ],
+        "correct": 0,
+        "explain": "Intersection has only what's in both."
+      },
+      {
+        "q": "Which is composite?",
+        "choices": [
+          "15",
+          "17",
+          "19",
+          "23"
+        ],
+        "correct": 0,
+        "explain": "15 = 3 × 5, so composite."
+      },
+      {
+        "q": "Which is prime?",
+        "choices": [
+          "29",
+          "27",
+          "33",
+          "21"
+        ],
+        "correct": 0,
+        "explain": "29's only factors are 1 and 29."
+      },
+      {
+        "q": "LCM of 6 and 8 is…",
+        "choices": [
+          "24",
+          "12",
+          "48",
+          "16"
+        ],
+        "correct": 0,
+        "explain": "24 is the smallest number divisible by both."
+      },
+      {
+        "q": "HCF of 24 and 36 is…",
+        "choices": [
+          "12",
+          "6",
+          "8",
+          "9"
+        ],
+        "correct": 0,
+        "explain": "12 is the largest factor common to both."
+      },
+      {
+        "q": "How many subsets does {a,b,c} have?",
+        "choices": [
+          "8",
+          "6",
+          "7",
+          "9"
+        ],
+        "correct": 0,
+        "explain": "2^3 = 8 subsets."
+      },
+      {
+        "q": "Which is an integer but not a natural number?",
+        "choices": [
+          "−5",
+          "5",
+          "2.5",
+          "0.1"
+        ],
+        "correct": 0,
+        "explain": "Natural numbers are 1, 2, 3, …; integers include negatives."
+      },
+      {
+        "q": "|{a,e,i,o,u}| = ?",
+        "choices": [
+          "5",
+          "4",
+          "6",
+          "3"
+        ],
+        "correct": 0,
+        "explain": "5 vowels."
+      },
+      {
+        "q": "Multiples of 7 less than 50 include…",
+        "choices": [
+          "7,14,21,28,35,42,49",
+          "7,17,27",
+          "2,4,7",
+          "9,18,27"
+        ],
+        "correct": 0,
+        "explain": "Add 7 each time up to 49."
+      },
+      {
+        "q": "Greatest common divisor of 30 and 45 is…",
+        "choices": [
+          "15",
+          "5",
+          "10",
+          "9"
+        ],
+        "correct": 0,
+        "explain": "15 divides both."
+      },
+      {
+        "q": "Is 1 prime, composite, or neither?",
+        "choices": [
+          "Neither",
+          "Prime",
+          "Composite",
+          "Both"
+        ],
+        "correct": 0,
+        "explain": "By definition, 1 is neither."
+      },
+      {
+        "q": "Which set is finite?",
+        "choices": [
+          "Days in a week",
+          "All counting numbers",
+          "All real numbers",
+          "All primes"
+        ],
+        "correct": 0,
+        "explain": "There are 7 days — finite."
       }
     ],
     "flashcards": [
@@ -1746,6 +3132,160 @@
         ],
         "correct": 1,
         "explain": "Divide both by 6 → 2 : 3."
+      },
+      {
+        "q": "Simplify 25 : 100.",
+        "choices": [
+          "1 : 4",
+          "2 : 5",
+          "5 : 20",
+          "1 : 5"
+        ],
+        "correct": 0,
+        "explain": "Divide both by 25."
+      },
+      {
+        "q": "30% of 200 = ?",
+        "choices": [
+          "60",
+          "30",
+          "20",
+          "100"
+        ],
+        "correct": 0,
+        "explain": "30/100 × 200 = 60."
+      },
+      {
+        "q": "What percentage is 1/4?",
+        "choices": [
+          "25%",
+          "20%",
+          "30%",
+          "40%"
+        ],
+        "correct": 0,
+        "explain": "1/4 = 25%."
+      },
+      {
+        "q": "What is 0.6 as a percent?",
+        "choices": [
+          "60%",
+          "6%",
+          "0.6%",
+          "100%"
+        ],
+        "correct": 0,
+        "explain": "0.6 = 60/100 = 60%."
+      },
+      {
+        "q": "Increase J$500 by 10% gives…",
+        "choices": [
+          "J$550",
+          "J$510",
+          "J$450",
+          "J$1,000"
+        ],
+        "correct": 0,
+        "explain": "10% of 500 = 50, 500 + 50 = 550."
+      },
+      {
+        "q": "Decrease J$1,000 by 25% gives…",
+        "choices": [
+          "J$750",
+          "J$250",
+          "J$1,250",
+          "J$800"
+        ],
+        "correct": 0,
+        "explain": "25% of 1,000 = 250; 1,000 − 250 = 750."
+      },
+      {
+        "q": "Convert 3/5 to a percentage.",
+        "choices": [
+          "60%",
+          "40%",
+          "75%",
+          "50%"
+        ],
+        "correct": 0,
+        "explain": "3/5 = 0.6 = 60%."
+      },
+      {
+        "q": "Convert 80% to a fraction (simplest).",
+        "choices": [
+          "4/5",
+          "8/100",
+          "2/5",
+          "3/4"
+        ],
+        "correct": 0,
+        "explain": "80/100 = 4/5."
+      },
+      {
+        "q": "Ratio of 1.5 m to 50 cm is…",
+        "choices": [
+          "3 : 1",
+          "1 : 3",
+          "1 : 2",
+          "2 : 1"
+        ],
+        "correct": 0,
+        "explain": "150 cm : 50 cm = 3 : 1."
+      },
+      {
+        "q": "If 4 pens cost J$200, 7 pens cost…",
+        "choices": [
+          "J$350",
+          "J$300",
+          "J$400",
+          "J$280"
+        ],
+        "correct": 0,
+        "explain": "50 each × 7 = 350."
+      },
+      {
+        "q": "A 25% tax on J$400 adds…",
+        "choices": [
+          "J$100",
+          "J$25",
+          "J$50",
+          "J$75"
+        ],
+        "correct": 0,
+        "explain": "25% of 400 = 100."
+      },
+      {
+        "q": "Express 7 : 21 in simplest form.",
+        "choices": [
+          "1 : 3",
+          "7 : 21",
+          "2 : 6",
+          "3 : 1"
+        ],
+        "correct": 0,
+        "explain": "Divide both by 7."
+      },
+      {
+        "q": "45% of 60 = ?",
+        "choices": [
+          "27",
+          "30",
+          "20",
+          "35"
+        ],
+        "correct": 0,
+        "explain": "45/100 × 60 = 27."
+      },
+      {
+        "q": "If 3 : 5 = 9 : x, x = ?",
+        "choices": [
+          "15",
+          "12",
+          "10",
+          "18"
+        ],
+        "correct": 0,
+        "explain": "Cross-multiply: 3x = 45, so x = 15."
       }
     ],
     "flashcards": [
@@ -1918,6 +3458,160 @@
         ],
         "correct": 2,
         "explain": "1 L = 1,000 mL, so 2 × 1,000 = 2,000 mL."
+      },
+      {
+        "q": "3.5 km in metres = ?",
+        "choices": [
+          "3,500",
+          "350",
+          "35,000",
+          "350,000"
+        ],
+        "correct": 0,
+        "explain": "3.5 × 1,000 = 3,500."
+      },
+      {
+        "q": "500 g in kg = ?",
+        "choices": [
+          "0.5",
+          "5",
+          "50",
+          "0.05"
+        ],
+        "correct": 0,
+        "explain": "500 / 1,000 = 0.5."
+      },
+      {
+        "q": "1 L in mL = ?",
+        "choices": [
+          "1,000",
+          "100",
+          "10",
+          "10,000"
+        ],
+        "correct": 0,
+        "explain": "1 L = 1,000 mL."
+      },
+      {
+        "q": "On a scale 1:1,000, 4 cm represents…",
+        "choices": [
+          "4,000 cm = 40 m",
+          "4 m",
+          "400 m",
+          "4 km"
+        ],
+        "correct": 0,
+        "explain": "4 × 1,000 = 4,000 cm = 40 m."
+      },
+      {
+        "q": "On a scale 1:200, 6 cm represents…",
+        "choices": [
+          "1,200 cm = 12 m",
+          "6 m",
+          "60 m",
+          "60 cm"
+        ],
+        "correct": 0,
+        "explain": "6 × 200 = 1,200 cm = 12 m."
+      },
+      {
+        "q": "How many millilitres in 0.25 L?",
+        "choices": [
+          "250",
+          "25",
+          "2,500",
+          "0.25"
+        ],
+        "correct": 0,
+        "explain": "0.25 × 1,000 = 250 mL."
+      },
+      {
+        "q": "How many minutes in 2 1/2 hours?",
+        "choices": [
+          "150",
+          "120",
+          "60",
+          "250"
+        ],
+        "correct": 0,
+        "explain": "2.5 × 60 = 150 minutes."
+      },
+      {
+        "q": "How many millimetres in 0.5 m?",
+        "choices": [
+          "500",
+          "50",
+          "5,000",
+          "5"
+        ],
+        "correct": 0,
+        "explain": "0.5 × 1,000 = 500 mm."
+      },
+      {
+        "q": "Convert 2,500 g to kg.",
+        "choices": [
+          "2.5 kg",
+          "25 kg",
+          "0.25 kg",
+          "250 kg"
+        ],
+        "correct": 0,
+        "explain": "2,500 / 1,000 = 2.5."
+      },
+      {
+        "q": "Convert 4 km to metres.",
+        "choices": [
+          "4,000 m",
+          "400 m",
+          "40,000 m",
+          "40 m"
+        ],
+        "correct": 0,
+        "explain": "4 × 1,000 = 4,000."
+      },
+      {
+        "q": "On a scale 1 cm : 50 km, 3 cm = …",
+        "choices": [
+          "150 km",
+          "50 km",
+          "100 km",
+          "300 km"
+        ],
+        "correct": 0,
+        "explain": "3 × 50 = 150 km."
+      },
+      {
+        "q": "Which is heavier: 1.2 kg or 1,150 g?",
+        "choices": [
+          "1.2 kg",
+          "1,150 g",
+          "Equal",
+          "Cannot tell"
+        ],
+        "correct": 0,
+        "explain": "1.2 kg = 1,200 g > 1,150 g."
+      },
+      {
+        "q": "How many cm in 3.4 m?",
+        "choices": [
+          "340",
+          "34",
+          "3,400",
+          "3.4"
+        ],
+        "correct": 0,
+        "explain": "3.4 × 100 = 340 cm."
+      },
+      {
+        "q": "A bottle holds 1.5 L. In mL?",
+        "choices": [
+          "1,500",
+          "150",
+          "15,000",
+          "15"
+        ],
+        "correct": 0,
+        "explain": "1.5 × 1,000 = 1,500."
       }
     ],
     "flashcards": [
@@ -2089,6 +3783,160 @@
         ],
         "correct": 2,
         "explain": "πr² = 22/7 × 7 × 7 = 22 × 7 = 154."
+      },
+      {
+        "q": "Area of a triangle with base 10 cm and height 6 cm = ?",
+        "choices": [
+          "30 cm²",
+          "60 cm²",
+          "16 cm²",
+          "20 cm²"
+        ],
+        "correct": 0,
+        "explain": "Area = 1/2 × 10 × 6 = 30 cm²."
+      },
+      {
+        "q": "Area of a circle = π r²; π=22/7 and r=7. Area = ?",
+        "choices": [
+          "154 cm²",
+          "77 cm²",
+          "308 cm²",
+          "49 cm²"
+        ],
+        "correct": 0,
+        "explain": "22/7 × 49 = 154."
+      },
+      {
+        "q": "Circumference = π × diameter. d=14, π=22/7 gives…",
+        "choices": [
+          "44",
+          "22",
+          "88",
+          "14"
+        ],
+        "correct": 0,
+        "explain": "22/7 × 14 = 44."
+      },
+      {
+        "q": "Volume of a cuboid = length × width × height. 4 × 5 × 6 = ?",
+        "choices": [
+          "120 cm³",
+          "60 cm³",
+          "30 cm³",
+          "45 cm³"
+        ],
+        "correct": 0,
+        "explain": "4 × 5 × 6 = 120."
+      },
+      {
+        "q": "Volume of a cube with side 5 cm is…",
+        "choices": [
+          "125 cm³",
+          "25 cm³",
+          "75 cm³",
+          "100 cm³"
+        ],
+        "correct": 0,
+        "explain": "5³ = 125."
+      },
+      {
+        "q": "What is the radius if diameter = 12?",
+        "choices": [
+          "6",
+          "12",
+          "24",
+          "3"
+        ],
+        "correct": 0,
+        "explain": "Radius = diameter / 2 = 6."
+      },
+      {
+        "q": "Area of a rectangle 7 cm by 9 cm = ?",
+        "choices": [
+          "63 cm²",
+          "16 cm²",
+          "32 cm²",
+          "56 cm²"
+        ],
+        "correct": 0,
+        "explain": "7 × 9 = 63."
+      },
+      {
+        "q": "Perimeter of a square with side 9 = ?",
+        "choices": [
+          "36",
+          "81",
+          "18",
+          "72"
+        ],
+        "correct": 0,
+        "explain": "4 × 9 = 36."
+      },
+      {
+        "q": "Area of a parallelogram = base × height. b=12, h=5 gives…",
+        "choices": [
+          "60",
+          "17",
+          "30",
+          "25"
+        ],
+        "correct": 0,
+        "explain": "12 × 5 = 60."
+      },
+      {
+        "q": "Area of a circle with radius 5 (π≈3.14) ≈",
+        "choices": [
+          "78.5",
+          "31.4",
+          "50",
+          "100"
+        ],
+        "correct": 0,
+        "explain": "3.14 × 25 = 78.5."
+      },
+      {
+        "q": "Volume unit is…",
+        "choices": [
+          "Cubic units",
+          "Square units",
+          "Linear units",
+          "Litres only"
+        ],
+        "correct": 0,
+        "explain": "Volume uses cubic units like cm³."
+      },
+      {
+        "q": "A swimming pool 10 m × 5 m × 2 m has volume…",
+        "choices": [
+          "100 m³",
+          "17 m³",
+          "50 m³",
+          "20 m³"
+        ],
+        "correct": 0,
+        "explain": "10 × 5 × 2 = 100."
+      },
+      {
+        "q": "Surface area of a cube with side 2 cm is…",
+        "choices": [
+          "24 cm²",
+          "8 cm²",
+          "12 cm²",
+          "16 cm²"
+        ],
+        "correct": 0,
+        "explain": "6 faces × (2×2) = 24."
+      },
+      {
+        "q": "A circle has circumference 44 (π=22/7). Diameter is…",
+        "choices": [
+          "14",
+          "22",
+          "7",
+          "11"
+        ],
+        "correct": 0,
+        "explain": "d = C ÷ π = 44 ÷ 22/7 = 14."
       }
     ],
     "flashcards": [
@@ -2262,6 +4110,160 @@
         ],
         "correct": 1,
         "explain": "Rotation keeps shape same but orientation changes."
+      },
+      {
+        "q": "Sum of angles in any quadrilateral is…",
+        "choices": [
+          "360°",
+          "180°",
+          "90°",
+          "270°"
+        ],
+        "correct": 0,
+        "explain": "Quadrilateral angles always total 360°."
+      },
+      {
+        "q": "A regular pentagon has interior angles of…",
+        "choices": [
+          "108° each",
+          "90° each",
+          "60° each",
+          "120° each"
+        ],
+        "correct": 0,
+        "explain": "(5−2)×180 / 5 = 108°."
+      },
+      {
+        "q": "A regular hexagon's interior angles total…",
+        "choices": [
+          "720°",
+          "360°",
+          "540°",
+          "900°"
+        ],
+        "correct": 0,
+        "explain": "(6−2) × 180 = 720."
+      },
+      {
+        "q": "Two angles that sum to 90° are…",
+        "choices": [
+          "Complementary",
+          "Supplementary",
+          "Vertical",
+          "Adjacent only"
+        ],
+        "correct": 0,
+        "explain": "Complementary angles add to 90°."
+      },
+      {
+        "q": "Two angles that sum to 180° are…",
+        "choices": [
+          "Supplementary",
+          "Complementary",
+          "Vertical",
+          "Adjacent only"
+        ],
+        "correct": 0,
+        "explain": "Supplementary angles add to 180°."
+      },
+      {
+        "q": "A 90° rotation of a shape is a…",
+        "choices": [
+          "Quarter turn",
+          "Half turn",
+          "Full turn",
+          "No turn"
+        ],
+        "correct": 0,
+        "explain": "90° = quarter of 360°."
+      },
+      {
+        "q": "A 180° rotation is a…",
+        "choices": [
+          "Half turn",
+          "Quarter turn",
+          "Full turn",
+          "No turn"
+        ],
+        "correct": 0,
+        "explain": "180° = half of 360°."
+      },
+      {
+        "q": "A reflection of a shape produces a mirror image across a…",
+        "choices": [
+          "Line of reflection",
+          "Point",
+          "Plane",
+          "Cube"
+        ],
+        "correct": 0,
+        "explain": "Reflection uses a line as the mirror."
+      },
+      {
+        "q": "A square has how many lines of symmetry?",
+        "choices": [
+          "4",
+          "2",
+          "1",
+          "8"
+        ],
+        "correct": 0,
+        "explain": "A square has 4 lines of symmetry."
+      },
+      {
+        "q": "An equilateral triangle has how many lines of symmetry?",
+        "choices": [
+          "3",
+          "1",
+          "2",
+          "0"
+        ],
+        "correct": 0,
+        "explain": "Three lines, one through each vertex."
+      },
+      {
+        "q": "A circle has how many lines of symmetry?",
+        "choices": [
+          "Infinite",
+          "1",
+          "2",
+          "4"
+        ],
+        "correct": 0,
+        "explain": "Every line through the centre is a line of symmetry."
+      },
+      {
+        "q": "Translation means…",
+        "choices": [
+          "Sliding without turning",
+          "Rotating",
+          "Reflecting",
+          "Resizing"
+        ],
+        "correct": 0,
+        "explain": "Translation moves a shape, no turn."
+      },
+      {
+        "q": "In a rectangle, opposite sides are…",
+        "choices": [
+          "Equal and parallel",
+          "Different lengths",
+          "Perpendicular",
+          "Not parallel"
+        ],
+        "correct": 0,
+        "explain": "Rectangles have equal opposite sides that are parallel."
+      },
+      {
+        "q": "Two lines that meet at 90° are…",
+        "choices": [
+          "Perpendicular",
+          "Parallel",
+          "Skew",
+          "Intersecting only"
+        ],
+        "correct": 0,
+        "explain": "Perpendicular lines form right angles."
       }
     ],
     "flashcards": [
@@ -2435,6 +4437,160 @@
         ],
         "correct": 1,
         "explain": "n − 50 = 200 → n = 250."
+      },
+      {
+        "q": "Solve 2x + 3 = 11. x = ?",
+        "choices": [
+          "4",
+          "3",
+          "5",
+          "6"
+        ],
+        "correct": 0,
+        "explain": "2x = 8 → x = 4."
+      },
+      {
+        "q": "Solve 5y − 3 = 17. y = ?",
+        "choices": [
+          "4",
+          "3",
+          "5",
+          "6"
+        ],
+        "correct": 0,
+        "explain": "5y = 20 → y = 4."
+      },
+      {
+        "q": "Simplify 4a + 2a − 3a.",
+        "choices": [
+          "3a",
+          "9a",
+          "a",
+          "6a"
+        ],
+        "correct": 0,
+        "explain": "4 + 2 − 3 = 3."
+      },
+      {
+        "q": "Simplify 5x − 2x + x.",
+        "choices": [
+          "4x",
+          "3x",
+          "8x",
+          "6x"
+        ],
+        "correct": 0,
+        "explain": "5 − 2 + 1 = 4."
+      },
+      {
+        "q": "If x = 3, what is 2x + 5?",
+        "choices": [
+          "11",
+          "8",
+          "13",
+          "10"
+        ],
+        "correct": 0,
+        "explain": "2 × 3 + 5 = 11."
+      },
+      {
+        "q": "Solve x/4 = 6. x = ?",
+        "choices": [
+          "24",
+          "10",
+          "2",
+          "12"
+        ],
+        "correct": 0,
+        "explain": "4 × 6 = 24."
+      },
+      {
+        "q": "Solve 3x = x + 12. x = ?",
+        "choices": [
+          "6",
+          "4",
+          "12",
+          "8"
+        ],
+        "correct": 0,
+        "explain": "2x = 12, so x = 6."
+      },
+      {
+        "q": "Identify the variable in 4y + 7.",
+        "choices": [
+          "y",
+          "4",
+          "7",
+          "11"
+        ],
+        "correct": 0,
+        "explain": "y stands for an unknown — it is the variable."
+      },
+      {
+        "q": "Translate: 'Five more than n.'",
+        "choices": [
+          "n + 5",
+          "n − 5",
+          "5n",
+          "5/n"
+        ],
+        "correct": 0,
+        "explain": "More means addition."
+      },
+      {
+        "q": "Translate: 'Three times a number.'",
+        "choices": [
+          "3n",
+          "n + 3",
+          "n − 3",
+          "n/3"
+        ],
+        "correct": 0,
+        "explain": "Times means multiplication."
+      },
+      {
+        "q": "If 2x + 4 = 14, x = ?",
+        "choices": [
+          "5",
+          "9",
+          "10",
+          "6"
+        ],
+        "correct": 0,
+        "explain": "2x = 10 → x = 5."
+      },
+      {
+        "q": "What is 3(x + 2) when x = 4?",
+        "choices": [
+          "18",
+          "20",
+          "24",
+          "21"
+        ],
+        "correct": 0,
+        "explain": "3(4+2) = 3 × 6 = 18."
+      },
+      {
+        "q": "Solve 2(x − 1) = 8.",
+        "choices": [
+          "x = 5",
+          "x = 4",
+          "x = 3",
+          "x = 6"
+        ],
+        "correct": 0,
+        "explain": "x − 1 = 4 → x = 5."
+      },
+      {
+        "q": "Maria has J$x. She buys 3 books at J$50. She has J$50 left. x = ?",
+        "choices": [
+          "200",
+          "150",
+          "250",
+          "300"
+        ],
+        "correct": 0,
+        "explain": "3 × 50 + 50 = 200."
       }
     ],
     "flashcards": [
@@ -2608,6 +4764,160 @@
         ],
         "correct": 1,
         "explain": "A non-leap year has 365 days; leap year has 366."
+      },
+      {
+        "q": "How many minutes in 2 hours 15 minutes?",
+        "choices": [
+          "135",
+          "125",
+          "145",
+          "150"
+        ],
+        "correct": 0,
+        "explain": "2×60 + 15 = 135."
+      },
+      {
+        "q": "How many seconds in 4 minutes?",
+        "choices": [
+          "240",
+          "60",
+          "120",
+          "30"
+        ],
+        "correct": 0,
+        "explain": "4 × 60 = 240."
+      },
+      {
+        "q": "How many days in 3 weeks?",
+        "choices": [
+          "21",
+          "28",
+          "14",
+          "30"
+        ],
+        "correct": 0,
+        "explain": "3 × 7 = 21."
+      },
+      {
+        "q": "How many hours in 1 day?",
+        "choices": [
+          "24",
+          "12",
+          "30",
+          "36"
+        ],
+        "correct": 0,
+        "explain": "1 day = 24 hours."
+      },
+      {
+        "q": "How many millilitres in 0.75 L?",
+        "choices": [
+          "750",
+          "75",
+          "7.5",
+          "7,500"
+        ],
+        "correct": 0,
+        "explain": "0.75 × 1,000 = 750."
+      },
+      {
+        "q": "How many grams in 4.2 kg?",
+        "choices": [
+          "4,200",
+          "420",
+          "42",
+          "4,000"
+        ],
+        "correct": 0,
+        "explain": "4.2 × 1,000 = 4,200."
+      },
+      {
+        "q": "Convert 90 minutes to hours.",
+        "choices": [
+          "1.5",
+          "2",
+          "0.9",
+          "1.25"
+        ],
+        "correct": 0,
+        "explain": "90 ÷ 60 = 1.5."
+      },
+      {
+        "q": "How many leap years in 100 years approximately?",
+        "choices": [
+          "24",
+          "25",
+          "20",
+          "30"
+        ],
+        "correct": 0,
+        "explain": "Most centuries have ~24 leap years."
+      },
+      {
+        "q": "From 11:50 am to 1:20 pm is…",
+        "choices": [
+          "1 hour 30 min",
+          "30 min",
+          "2 hours",
+          "45 min"
+        ],
+        "correct": 0,
+        "explain": "10 minutes to 12:00 + 1 hour 20 min = 1 hour 30 min."
+      },
+      {
+        "q": "How many millimetres in 5.6 cm?",
+        "choices": [
+          "56",
+          "560",
+          "5.6",
+          "6"
+        ],
+        "correct": 0,
+        "explain": "5.6 × 10 = 56."
+      },
+      {
+        "q": "Which is heavier: 2.4 kg or 2,500 g?",
+        "choices": [
+          "2,500 g",
+          "2.4 kg",
+          "Equal",
+          "Cannot tell"
+        ],
+        "correct": 0,
+        "explain": "2,500 g > 2,400 g (2.4 kg)."
+      },
+      {
+        "q": "How many seconds in 1 hour?",
+        "choices": [
+          "3,600",
+          "60",
+          "600",
+          "6,000"
+        ],
+        "correct": 0,
+        "explain": "60 × 60 = 3,600."
+      },
+      {
+        "q": "30 days in which month?",
+        "choices": [
+          "April",
+          "January",
+          "July",
+          "December"
+        ],
+        "correct": 0,
+        "explain": "April has 30 days."
+      },
+      {
+        "q": "From midnight (00:00) to 7:30 am is…",
+        "choices": [
+          "7 h 30 min",
+          "8 h",
+          "6 h 30 min",
+          "7 h"
+        ],
+        "correct": 0,
+        "explain": "7 hours plus 30 minutes."
       }
     ],
     "flashcards": [
@@ -2779,6 +5089,160 @@
         ],
         "correct": 2,
         "explain": "Certain = probability 1 (or 100%)."
+      },
+      {
+        "q": "Probability of drawing a red marble from a bag of 4 red and 6 blue is…",
+        "choices": [
+          "4/10",
+          "6/10",
+          "4/6",
+          "1/2"
+        ],
+        "correct": 0,
+        "explain": "4 reds out of 10 marbles total."
+      },
+      {
+        "q": "Mean of 5, 7, 8, 10 = ?",
+        "choices": [
+          "7.5",
+          "8",
+          "6",
+          "9"
+        ],
+        "correct": 0,
+        "explain": "(5+7+8+10)/4 = 7.5."
+      },
+      {
+        "q": "Median of 2, 4, 6, 8, 10 = ?",
+        "choices": [
+          "6",
+          "8",
+          "5",
+          "7"
+        ],
+        "correct": 0,
+        "explain": "Middle of 5 values is 6."
+      },
+      {
+        "q": "Mode of 3, 5, 5, 7, 8 = ?",
+        "choices": [
+          "5",
+          "7",
+          "8",
+          "3"
+        ],
+        "correct": 0,
+        "explain": "5 appears most."
+      },
+      {
+        "q": "Range of 2, 5, 9, 11 = ?",
+        "choices": [
+          "9",
+          "11",
+          "7",
+          "2"
+        ],
+        "correct": 0,
+        "explain": "11 − 2 = 9."
+      },
+      {
+        "q": "Probability of an event certain to happen is…",
+        "choices": [
+          "1",
+          "0",
+          "1/2",
+          "2"
+        ],
+        "correct": 0,
+        "explain": "Certain = probability 1."
+      },
+      {
+        "q": "Probability of impossible event is…",
+        "choices": [
+          "0",
+          "1",
+          "1/2",
+          "0.5"
+        ],
+        "correct": 0,
+        "explain": "Impossible = 0."
+      },
+      {
+        "q": "On a fair coin, P(tails) = ?",
+        "choices": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "2/3"
+        ],
+        "correct": 0,
+        "explain": "Two equally likely outcomes."
+      },
+      {
+        "q": "On a fair die, P(rolling > 4) = ?",
+        "choices": [
+          "2/6",
+          "1/2",
+          "3/6",
+          "4/6"
+        ],
+        "correct": 0,
+        "explain": "5 and 6 are >4 → 2 of 6."
+      },
+      {
+        "q": "Pie chart sector for 50% has central angle…",
+        "choices": [
+          "180°",
+          "90°",
+          "60°",
+          "45°"
+        ],
+        "correct": 0,
+        "explain": "Half of 360° is 180°."
+      },
+      {
+        "q": "Pie chart sector for 25% has central angle…",
+        "choices": [
+          "90°",
+          "180°",
+          "30°",
+          "45°"
+        ],
+        "correct": 0,
+        "explain": "Quarter of 360° is 90°."
+      },
+      {
+        "q": "In a survey, 12 of 30 like reggae. Percentage = ?",
+        "choices": [
+          "40%",
+          "30%",
+          "12%",
+          "50%"
+        ],
+        "correct": 0,
+        "explain": "12/30 = 0.4 = 40%."
+      },
+      {
+        "q": "A spinner has 4 equal sections (red, blue, green, yellow). P(red) = ?",
+        "choices": [
+          "1/4",
+          "1/2",
+          "1/3",
+          "1/8"
+        ],
+        "correct": 0,
+        "explain": "4 equal outcomes — 1/4."
+      },
+      {
+        "q": "Mean of 0, 0, 0, 0, 5 = ?",
+        "choices": [
+          "1",
+          "0",
+          "2",
+          "5"
+        ],
+        "correct": 0,
+        "explain": "Sum 5 ÷ 5 = 1."
       }
     ],
     "flashcards": [
@@ -2950,6 +5414,160 @@
         ],
         "correct": 0,
         "explain": "5 = 4 + 1 = 101 in binary."
+      },
+      {
+        "q": "Roman numeral L =",
+        "choices": [
+          "50",
+          "5",
+          "100",
+          "500"
+        ],
+        "correct": 0,
+        "explain": "L = 50."
+      },
+      {
+        "q": "Roman numeral D =",
+        "choices": [
+          "500",
+          "50",
+          "5",
+          "100"
+        ],
+        "correct": 0,
+        "explain": "D = 500."
+      },
+      {
+        "q": "Roman numeral M =",
+        "choices": [
+          "1,000",
+          "100",
+          "10",
+          "10,000"
+        ],
+        "correct": 0,
+        "explain": "M = 1,000."
+      },
+      {
+        "q": "Roman numeral CD =",
+        "choices": [
+          "400",
+          "600",
+          "500",
+          "100"
+        ],
+        "correct": 0,
+        "explain": "CD = 500 − 100 = 400."
+      },
+      {
+        "q": "Roman numeral CM =",
+        "choices": [
+          "900",
+          "1,100",
+          "100",
+          "1,000"
+        ],
+        "correct": 0,
+        "explain": "CM = 1,000 − 100 = 900."
+      },
+      {
+        "q": "Write 1990 in Roman numerals.",
+        "choices": [
+          "MCMXC",
+          "MXM",
+          "MCMC",
+          "MDCCCC"
+        ],
+        "correct": 0,
+        "explain": "1000 + 900 + 90 = MCMXC."
+      },
+      {
+        "q": "Write 2024 in Roman numerals.",
+        "choices": [
+          "MMXXIV",
+          "MMXIV",
+          "MMXVI",
+          "MMIV"
+        ],
+        "correct": 0,
+        "explain": "1000+1000+10+10+(5−1) = MMXXIV."
+      },
+      {
+        "q": "Binary 10 = decimal…",
+        "choices": [
+          "2",
+          "1",
+          "10",
+          "20"
+        ],
+        "correct": 0,
+        "explain": "Binary 10 = 1×2 + 0 = 2."
+      },
+      {
+        "q": "Binary 11 = decimal…",
+        "choices": [
+          "3",
+          "2",
+          "4",
+          "11"
+        ],
+        "correct": 0,
+        "explain": "1×2 + 1 = 3."
+      },
+      {
+        "q": "Binary 100 = decimal…",
+        "choices": [
+          "4",
+          "2",
+          "8",
+          "100"
+        ],
+        "correct": 0,
+        "explain": "1×4 + 0 + 0 = 4."
+      },
+      {
+        "q": "Decimal 6 in binary is…",
+        "choices": [
+          "110",
+          "011",
+          "101",
+          "100"
+        ],
+        "correct": 0,
+        "explain": "4 + 2 + 0 = 6 = 110."
+      },
+      {
+        "q": "Roman numeral XL =",
+        "choices": [
+          "40",
+          "60",
+          "50",
+          "45"
+        ],
+        "correct": 0,
+        "explain": "50 − 10 = 40."
+      },
+      {
+        "q": "Roman numeral XC =",
+        "choices": [
+          "90",
+          "110",
+          "80",
+          "70"
+        ],
+        "correct": 0,
+        "explain": "100 − 10 = 90."
+      },
+      {
+        "q": "Decimal 8 in binary is…",
+        "choices": [
+          "1000",
+          "100",
+          "10",
+          "1010"
+        ],
+        "correct": 0,
+        "explain": "8 = 1000 in binary."
       }
     ],
     "flashcards": [
@@ -3121,6 +5739,160 @@
         ],
         "correct": 2,
         "explain": "Double each time: 40 × 2 = 80."
+      },
+      {
+        "q": "What comes next: 1, 4, 9, 16, ?",
+        "choices": [
+          "25",
+          "20",
+          "23",
+          "32"
+        ],
+        "correct": 0,
+        "explain": "Square numbers — 5² = 25."
+      },
+      {
+        "q": "Odd one out: square, circle, triangle, hexagon.",
+        "choices": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Hexagon"
+        ],
+        "correct": 0,
+        "explain": "Circle has no straight sides; the others are polygons."
+      },
+      {
+        "q": "Hand : Glove :: Foot : ?",
+        "choices": [
+          "Sock",
+          "Hat",
+          "Glove",
+          "Shoelace"
+        ],
+        "correct": 0,
+        "explain": "A glove fits a hand; a sock fits a foot."
+      },
+      {
+        "q": "If today is Monday, day after tomorrow is…",
+        "choices": [
+          "Wednesday",
+          "Tuesday",
+          "Thursday",
+          "Friday"
+        ],
+        "correct": 0,
+        "explain": "Monday → Tuesday → Wednesday."
+      },
+      {
+        "q": "What comes next: 100, 50, 25, 12.5, ?",
+        "choices": [
+          "6.25",
+          "5",
+          "10",
+          "6"
+        ],
+        "correct": 0,
+        "explain": "Each term is half of the previous."
+      },
+      {
+        "q": "If A = 1, B = 2, C = 3 …, then DOG = ?",
+        "choices": [
+          "4-15-7",
+          "3-15-7",
+          "1-15-7",
+          "4-15-8"
+        ],
+        "correct": 0,
+        "explain": "D=4, O=15, G=7."
+      },
+      {
+        "q": "4, 9, 16, 25, ? (squares)",
+        "choices": [
+          "36",
+          "30",
+          "32",
+          "40"
+        ],
+        "correct": 0,
+        "explain": "6² = 36."
+      },
+      {
+        "q": "If 5 books cost J$1,000, 8 books cost…",
+        "choices": [
+          "J$1,600",
+          "J$1,200",
+          "J$1,500",
+          "J$2,000"
+        ],
+        "correct": 0,
+        "explain": "200 each × 8 = 1,600."
+      },
+      {
+        "q": "Pattern: 2, 5, 11, 23, ?",
+        "choices": [
+          "47",
+          "41",
+          "32",
+          "30"
+        ],
+        "correct": 0,
+        "explain": "Each term doubles and adds 1."
+      },
+      {
+        "q": "Bird : Sky :: Fish : ?",
+        "choices": [
+          "Water",
+          "Tree",
+          "Land",
+          "Sand"
+        ],
+        "correct": 0,
+        "explain": "A bird lives in the sky; a fish lives in water."
+      },
+      {
+        "q": "Odd one out: lion, tiger, leopard, dog.",
+        "choices": [
+          "Dog",
+          "Lion",
+          "Tiger",
+          "Leopard"
+        ],
+        "correct": 0,
+        "explain": "Dog is domesticated; the others are big wild cats."
+      },
+      {
+        "q": "3 students share 24 sweets equally. Each gets…",
+        "choices": [
+          "8",
+          "6",
+          "12",
+          "4"
+        ],
+        "correct": 0,
+        "explain": "24 ÷ 3 = 8."
+      },
+      {
+        "q": "Pattern: 1, 1, 2, 3, 5, 8, ? (Fibonacci)",
+        "choices": [
+          "13",
+          "11",
+          "12",
+          "10"
+        ],
+        "correct": 0,
+        "explain": "Each term is the sum of the two before."
+      },
+      {
+        "q": "If a train travels 60 km in 1 hour, in 4 hours it goes…",
+        "choices": [
+          "240 km",
+          "60 km",
+          "100 km",
+          "180 km"
+        ],
+        "correct": 0,
+        "explain": "60 × 4 = 240."
       }
     ],
     "flashcards": [
@@ -3292,6 +6064,160 @@
         ],
         "correct": 2,
         "explain": "Heritage Week / National Heroes Day = October."
+      },
+      {
+        "q": "Sam Sharpe was a National Hero who…",
+        "choices": [
+          "Led the 1831 enslaved people's rebellion",
+          "Led independence",
+          "Wrote the anthem",
+          "Founded JLP"
+        ],
+        "correct": 0,
+        "explain": "Sharpe led the Christmas (Baptist) War."
+      },
+      {
+        "q": "Marcus Garvey founded…",
+        "choices": [
+          "UNIA",
+          "CARICOM",
+          "UN",
+          "UWI"
+        ],
+        "correct": 0,
+        "explain": "Garvey founded the Universal Negro Improvement Association."
+      },
+      {
+        "q": "The colour gold on the Jamaican flag stands for…",
+        "choices": [
+          "Sunshine and natural wealth",
+          "The sea",
+          "Vegetation",
+          "Sorrow"
+        ],
+        "correct": 0,
+        "explain": "Gold = sunshine and natural wealth."
+      },
+      {
+        "q": "Black on the Jamaican flag represents…",
+        "choices": [
+          "Strength and creativity",
+          "Sun",
+          "Trees",
+          "Rivers"
+        ],
+        "correct": 0,
+        "explain": "Today, black symbolises strength and creativity."
+      },
+      {
+        "q": "Green on the Jamaican flag stands for…",
+        "choices": [
+          "Hope and the lush land",
+          "Sun",
+          "Sea",
+          "Sorrow"
+        ],
+        "correct": 0,
+        "explain": "Green = hope and our lush vegetation."
+      },
+      {
+        "q": "Jamaica's National Anthem starts with…",
+        "choices": [
+          "Eternal Father bless our land",
+          "God Save the King",
+          "Jamaica jamaica",
+          "O say can you see"
+        ],
+        "correct": 0,
+        "explain": "Our anthem opens 'Eternal Father, bless our land'."
+      },
+      {
+        "q": "Heroes Day is observed on the…",
+        "choices": [
+          "Third Monday in October",
+          "First Monday in August",
+          "6 August",
+          "Christmas Day"
+        ],
+        "correct": 0,
+        "explain": "Heroes Day = third Monday of October."
+      },
+      {
+        "q": "Independence Day is celebrated on…",
+        "choices": [
+          "6 August",
+          "1 January",
+          "23 October",
+          "25 December"
+        ],
+        "correct": 0,
+        "explain": "Jamaica became independent on 6 August 1962."
+      },
+      {
+        "q": "Norman Manley founded the…",
+        "choices": [
+          "PNP",
+          "JLP",
+          "UNIA",
+          "CARICOM"
+        ],
+        "correct": 0,
+        "explain": "Norman Manley founded the People's National Party in 1938."
+      },
+      {
+        "q": "Alexander Bustamante founded the…",
+        "choices": [
+          "JLP",
+          "PNP",
+          "UNIA",
+          "CARICOM"
+        ],
+        "correct": 0,
+        "explain": "Bustamante founded the Jamaica Labour Party."
+      },
+      {
+        "q": "Devon House in Kingston is a…",
+        "choices": [
+          "Historic mansion",
+          "Beach",
+          "Sports stadium",
+          "Volcano"
+        ],
+        "correct": 0,
+        "explain": "Devon House is a 19th-century mansion now open to visitors."
+      },
+      {
+        "q": "The Blue & John Crow Mountains became a UNESCO site in…",
+        "choices": [
+          "2015",
+          "1962",
+          "1834",
+          "1990"
+        ],
+        "correct": 0,
+        "explain": "They were inscribed in 2015 as a mixed natural and cultural site."
+      },
+      {
+        "q": "Reggae music was inscribed by UNESCO as…",
+        "choices": [
+          "Intangible Cultural Heritage",
+          "World Heritage Site",
+          "A sport",
+          "A dish"
+        ],
+        "correct": 0,
+        "explain": "UNESCO recognised reggae in 2018."
+      },
+      {
+        "q": "The national fruit of Jamaica is…",
+        "choices": [
+          "Ackee",
+          "Mango",
+          "Banana",
+          "Pineapple"
+        ],
+        "correct": 0,
+        "explain": "Ackee is the national fruit and part of the national dish."
       }
     ],
     "flashcards": [
@@ -3479,6 +6405,160 @@
         ],
         "correct": 1,
         "explain": "Speak up, support, and create positive culture."
+      },
+      {
+        "q": "A 'community' is a group of people who…",
+        "choices": [
+          "Live together and share interests",
+          "Speak the same language only",
+          "Are related only",
+          "Are silent"
+        ],
+        "correct": 0,
+        "explain": "Communities share more than one thing in common."
+      },
+      {
+        "q": "Civil society includes…",
+        "choices": [
+          "NGOs, charities, religious groups",
+          "Banks only",
+          "Police only",
+          "Foreign armies"
+        ],
+        "correct": 0,
+        "explain": "Civil society is non-government, non-business community life."
+      },
+      {
+        "q": "Civic responsibility means…",
+        "choices": [
+          "Doing your duty as a citizen",
+          "Avoiding rules",
+          "Skipping voting",
+          "Shouting"
+        ],
+        "correct": 0,
+        "explain": "Citizens have duties as well as rights."
+      },
+      {
+        "q": "A right of every Jamaican child is…",
+        "choices": [
+          "Education",
+          "Voting at any age",
+          "Driving",
+          "Smoking"
+        ],
+        "correct": 0,
+        "explain": "All Jamaican children have the right to attend school."
+      },
+      {
+        "q": "To resolve conflict respectfully you can…",
+        "choices": [
+          "Listen and discuss calmly",
+          "Fight",
+          "Shout",
+          "Stay angry"
+        ],
+        "correct": 0,
+        "explain": "Calm dialogue helps solve disputes."
+      },
+      {
+        "q": "Tolerance means…",
+        "choices": [
+          "Accepting differences in others",
+          "Disliking diversity",
+          "Hiding",
+          "Anger"
+        ],
+        "correct": 0,
+        "explain": "Tolerance respects diversity."
+      },
+      {
+        "q": "Bullying can be stopped by…",
+        "choices": [
+          "Reporting it to a trusted adult",
+          "Joining in",
+          "Ignoring forever",
+          "Laughing"
+        ],
+        "correct": 0,
+        "explain": "Adults can help intervene safely."
+      },
+      {
+        "q": "A volunteer is someone who…",
+        "choices": [
+          "Helps without expecting payment",
+          "Works for high pay",
+          "Refuses to help",
+          "Steals"
+        ],
+        "correct": 0,
+        "explain": "Volunteers serve their community freely."
+      },
+      {
+        "q": "Mediation is…",
+        "choices": [
+          "Helping two sides reach agreement",
+          "Forcing a winner",
+          "Ignoring conflict",
+          "Arguing"
+        ],
+        "correct": 0,
+        "explain": "Mediators help disputes get resolved peacefully."
+      },
+      {
+        "q": "Rules in school exist to…",
+        "choices": [
+          "Keep everyone safe and learning",
+          "Make us unhappy",
+          "Waste time",
+          "Stop fun"
+        ],
+        "correct": 0,
+        "explain": "Rules protect students and create a learning environment."
+      },
+      {
+        "q": "Diversity in a community means…",
+        "choices": [
+          "Many backgrounds together",
+          "One group only",
+          "Same age only",
+          "Same language only"
+        ],
+        "correct": 0,
+        "explain": "Diversity is differences in age, culture, etc."
+      },
+      {
+        "q": "A councillor is…",
+        "choices": [
+          "A local government representative",
+          "A type of priest only",
+          "A teacher only",
+          "A pirate"
+        ],
+        "correct": 0,
+        "explain": "Councillors serve on parish councils."
+      },
+      {
+        "q": "To stop the spread of disease in a community you can…",
+        "choices": [
+          "Wash hands and get vaccinated",
+          "Cough on people",
+          "Hide indoors only",
+          "Ignore symptoms"
+        ],
+        "correct": 0,
+        "explain": "Hand washing and vaccination are key public health steps."
+      },
+      {
+        "q": "A community can solve a litter problem by…",
+        "choices": [
+          "Organising a clean-up campaign",
+          "Adding more litter",
+          "Burning everything",
+          "Ignoring it"
+        ],
+        "correct": 0,
+        "explain": "Joint clean-ups make a real difference."
       }
     ],
     "flashcards": [
@@ -3666,6 +6746,160 @@
         ],
         "correct": 1,
         "explain": "Use resources so future people can too."
+      },
+      {
+        "q": "Soil erosion is caused mainly by…",
+        "choices": [
+          "Loss of vegetation and heavy rain",
+          "Magnetism",
+          "Sound",
+          "Light"
+        ],
+        "correct": 0,
+        "explain": "Without plant cover, water washes soil away."
+      },
+      {
+        "q": "A flood occurs when…",
+        "choices": [
+          "Water overflows onto normally dry land",
+          "Rain stops",
+          "Rivers dry up",
+          "Tides retreat"
+        ],
+        "correct": 0,
+        "explain": "Floods happen when waterways exceed their banks."
+      },
+      {
+        "q": "Mangroves protect coasts because they…",
+        "choices": [
+          "Trap sediment and reduce wave energy",
+          "Cause erosion",
+          "Add salt",
+          "Remove fish"
+        ],
+        "correct": 0,
+        "explain": "Mangroves are natural shore defenders."
+      },
+      {
+        "q": "To save energy at home you can…",
+        "choices": [
+          "Switch off appliances when not in use",
+          "Leave them on",
+          "Open the fridge often",
+          "Use 100W bulbs everywhere"
+        ],
+        "correct": 0,
+        "explain": "Switching off cuts unnecessary use."
+      },
+      {
+        "q": "Bauxite mining can damage…",
+        "choices": [
+          "Land and water",
+          "Computers",
+          "Music",
+          "Spelling"
+        ],
+        "correct": 0,
+        "explain": "Mining can disturb landscapes and pollute water."
+      },
+      {
+        "q": "A reef damaged by warming oceans undergoes…",
+        "choices": [
+          "Coral bleaching",
+          "Coral growth",
+          "Coral colouring",
+          "Coral cooking"
+        ],
+        "correct": 0,
+        "explain": "Heat stress causes corals to expel their colourful algae."
+      },
+      {
+        "q": "Acid rain is caused by…",
+        "choices": [
+          "Air pollutants reacting with water vapour",
+          "Healthy air",
+          "Sunshine",
+          "Wind only"
+        ],
+        "correct": 0,
+        "explain": "Sulphur dioxide and nitrogen oxides cause acid rain."
+      },
+      {
+        "q": "To reduce plastic in the sea, communities can…",
+        "choices": [
+          "Refuse single-use plastics",
+          "Throw more plastic",
+          "Burn it on the beach",
+          "Bury it under sand"
+        ],
+        "correct": 0,
+        "explain": "Refusing single-use plastics reduces ocean waste."
+      },
+      {
+        "q": "A wetland is important because it…",
+        "choices": [
+          "Provides habitat and filters water",
+          "Creates pollution",
+          "Cools cities only",
+          "Increases fires"
+        ],
+        "correct": 0,
+        "explain": "Wetlands clean water and host many species."
+      },
+      {
+        "q": "Sustainable fishing means…",
+        "choices": [
+          "Catching at rates fish can recover from",
+          "Catching all fish",
+          "Using dynamite",
+          "No fishing rules"
+        ],
+        "correct": 0,
+        "explain": "Sustainable fishing keeps fish populations healthy."
+      },
+      {
+        "q": "Climate change can cause…",
+        "choices": [
+          "Stronger hurricanes and droughts",
+          "Cooler stable weather",
+          "Longer winters in Jamaica",
+          "No change"
+        ],
+        "correct": 0,
+        "explain": "Warming amplifies extreme weather."
+      },
+      {
+        "q": "Composting reduces…",
+        "choices": [
+          "Waste sent to landfill",
+          "The need for plants",
+          "Sunlight",
+          "Air pressure"
+        ],
+        "correct": 0,
+        "explain": "Composting recycles food scraps into soil."
+      },
+      {
+        "q": "A national park aims to…",
+        "choices": [
+          "Protect natural environments",
+          "Be a market",
+          "Hold concerts",
+          "Sell land"
+        ],
+        "correct": 0,
+        "explain": "Parks safeguard biodiversity."
+      },
+      {
+        "q": "Reforestation involves…",
+        "choices": [
+          "Planting new trees",
+          "Cutting trees",
+          "Burning trees",
+          "Watering the sea"
+        ],
+        "correct": 0,
+        "explain": "Reforestation restores forest cover."
       }
     ],
     "flashcards": [
@@ -3853,6 +7087,160 @@
         ],
         "correct": 0,
         "explain": "Reggae, jerk, Patois, and sprinters are world-famous."
+      },
+      {
+        "q": "Globalisation is the…",
+        "choices": [
+          "Increasing connection between countries",
+          "Closing of borders",
+          "Stop of trade",
+          "Loss of language"
+        ],
+        "correct": 0,
+        "explain": "Globalisation links economies, cultures and people."
+      },
+      {
+        "q": "Jamaica trades with countries through…",
+        "choices": [
+          "Imports and exports",
+          "Wars only",
+          "Boycotts",
+          "Hiding"
+        ],
+        "correct": 0,
+        "explain": "Trade involves selling and buying goods/services."
+      },
+      {
+        "q": "The Jamaican Diaspora refers to…",
+        "choices": [
+          "Jamaicans living abroad",
+          "Tourists only",
+          "Foreign students",
+          "Embassies only"
+        ],
+        "correct": 0,
+        "explain": "The diaspora are Jamaicans living in other countries."
+      },
+      {
+        "q": "Remittances are…",
+        "choices": [
+          "Money sent home by relatives abroad",
+          "Loans from banks",
+          "Local taxes",
+          "Property"
+        ],
+        "correct": 0,
+        "explain": "Remittances boost the Jamaican economy."
+      },
+      {
+        "q": "Cultural exchange can lead to…",
+        "choices": [
+          "Sharing of music, food, and ideas",
+          "War always",
+          "Hatred",
+          "Loss of identity always"
+        ],
+        "correct": 0,
+        "explain": "Exchange enriches all cultures involved."
+      },
+      {
+        "q": "Jamaica's reggae has spread across the world thanks to artists like…",
+        "choices": [
+          "Bob Marley",
+          "Mozart",
+          "Beethoven",
+          "Bach"
+        ],
+        "correct": 0,
+        "explain": "Bob Marley made reggae a global genre."
+      },
+      {
+        "q": "Jamaica's tourism industry depends on…",
+        "choices": [
+          "International visitors",
+          "Mining only",
+          "Snowfall",
+          "Polar bears"
+        ],
+        "correct": 0,
+        "explain": "Tourists come from many countries."
+      },
+      {
+        "q": "Jamaicans share a heritage shaped by…",
+        "choices": [
+          "African, European, Asian and indigenous influences",
+          "Only African",
+          "Only European",
+          "Only Indian"
+        ],
+        "correct": 0,
+        "explain": "Many groups have shaped Jamaican culture."
+      },
+      {
+        "q": "A multinational company is a…",
+        "choices": [
+          "Business operating in many countries",
+          "Local shop",
+          "One-store business",
+          "Charity"
+        ],
+        "correct": 0,
+        "explain": "Multinationals operate across borders."
+      },
+      {
+        "q": "Free trade agreements aim to…",
+        "choices": [
+          "Reduce trade barriers",
+          "Add taxes",
+          "Stop trade",
+          "Hide information"
+        ],
+        "correct": 0,
+        "explain": "They open markets between nations."
+      },
+      {
+        "q": "CARICOM Single Market and Economy supports…",
+        "choices": [
+          "Free movement of goods and people",
+          "Closed borders",
+          "Higher tariffs",
+          "No cooperation"
+        ],
+        "correct": 0,
+        "explain": "CSME helps integration in the region."
+      },
+      {
+        "q": "The United Nations works to…",
+        "choices": [
+          "Promote peace and cooperation",
+          "Start wars",
+          "Hide problems",
+          "Sell land"
+        ],
+        "correct": 0,
+        "explain": "The UN helps solve global problems."
+      },
+      {
+        "q": "A passport is needed to…",
+        "choices": [
+          "Travel internationally",
+          "Buy bread",
+          "Watch TV",
+          "Drive locally"
+        ],
+        "correct": 0,
+        "explain": "Passports identify you when crossing borders."
+      },
+      {
+        "q": "Climate change is a global issue because…",
+        "choices": [
+          "It affects all countries",
+          "Only one country is affected",
+          "It is local",
+          "It is invisible everywhere"
+        ],
+        "correct": 0,
+        "explain": "Greenhouse gases cross borders, affecting everyone."
       }
     ],
     "flashcards": [
@@ -4040,6 +7428,160 @@
         ],
         "correct": 1,
         "explain": "The same words can mean different things with different tones."
+      },
+      {
+        "q": "A good speaker uses…",
+        "choices": [
+          "Clear speech and eye contact",
+          "Mumbles",
+          "Whispers always",
+          "Looks at the floor"
+        ],
+        "correct": 0,
+        "explain": "Clarity and eye contact engage listeners."
+      },
+      {
+        "q": "Active listening involves…",
+        "choices": [
+          "Paying full attention and responding",
+          "Daydreaming",
+          "Texting",
+          "Sleeping"
+        ],
+        "correct": 0,
+        "explain": "Active listeners stay engaged."
+      },
+      {
+        "q": "Pace in a speech means…",
+        "choices": [
+          "Speed of delivery",
+          "Volume only",
+          "Topic",
+          "Length"
+        ],
+        "correct": 0,
+        "explain": "Pace = how fast you speak."
+      },
+      {
+        "q": "A persuasive speech tries to…",
+        "choices": [
+          "Convince the audience",
+          "Bore them",
+          "Confuse them",
+          "Insult them"
+        ],
+        "correct": 0,
+        "explain": "Persuasion argues for a position."
+      },
+      {
+        "q": "An informative speech aims to…",
+        "choices": [
+          "Share knowledge",
+          "Entertain only",
+          "Sell products",
+          "Argue"
+        ],
+        "correct": 0,
+        "explain": "Informative speeches teach the audience."
+      },
+      {
+        "q": "Body language includes…",
+        "choices": [
+          "Facial expressions and gestures",
+          "Words only",
+          "Punctuation",
+          "Spelling"
+        ],
+        "correct": 0,
+        "explain": "Body movements communicate without words."
+      },
+      {
+        "q": "Pausing is good for…",
+        "choices": [
+          "Letting points sink in",
+          "Forgetting",
+          "Confusing",
+          "Hiding"
+        ],
+        "correct": 0,
+        "explain": "Pauses give listeners time to process."
+      },
+      {
+        "q": "To handle questions you should…",
+        "choices": [
+          "Listen carefully and reply clearly",
+          "Argue",
+          "Ignore",
+          "Walk away"
+        ],
+        "correct": 0,
+        "explain": "Good speakers welcome questions."
+      },
+      {
+        "q": "Visual aids should be…",
+        "choices": [
+          "Clear and supportive",
+          "Confusing",
+          "Tiny",
+          "Random"
+        ],
+        "correct": 0,
+        "explain": "Aids should help, not distract."
+      },
+      {
+        "q": "Constructive feedback is…",
+        "choices": [
+          "Helpful and specific",
+          "Mean",
+          "Vague",
+          "Personal attack"
+        ],
+        "correct": 0,
+        "explain": "Constructive feedback guides improvement."
+      },
+      {
+        "q": "A formal greeting in a speech could be…",
+        "choices": [
+          "Good morning, distinguished guests",
+          "Yo",
+          "Wah gwaan",
+          "Whatever"
+        ],
+        "correct": 0,
+        "explain": "Formal speeches use polite, formal greetings."
+      },
+      {
+        "q": "In a panel discussion, members should…",
+        "choices": [
+          "Take turns to speak",
+          "Speak all at once",
+          "Stay silent",
+          "Argue loudly"
+        ],
+        "correct": 0,
+        "explain": "Turn-taking lets ideas be heard."
+      },
+      {
+        "q": "Rehearsing a speech aloud helps to…",
+        "choices": [
+          "Improve confidence and timing",
+          "Make it longer",
+          "Forget",
+          "Lose focus"
+        ],
+        "correct": 0,
+        "explain": "Practising builds confidence."
+      },
+      {
+        "q": "A strong conclusion should…",
+        "choices": [
+          "Restate key points",
+          "Add new info",
+          "Apologise",
+          "Be silent"
+        ],
+        "correct": 0,
+        "explain": "Conclusions reinforce the main message."
       }
     ],
     "flashcards": [
@@ -4227,6 +7769,160 @@
         ],
         "correct": 1,
         "explain": "Expression conveys meaning to the audience."
+      },
+      {
+        "q": "Decoding a word means…",
+        "choices": [
+          "Sounding it out",
+          "Skipping it",
+          "Memorising it only",
+          "Translating it"
+        ],
+        "correct": 0,
+        "explain": "Decoding uses phonics to read unfamiliar words."
+      },
+      {
+        "q": "Reading with expression helps…",
+        "choices": [
+          "Comprehension",
+          "Speed only",
+          "Counting",
+          "Spelling"
+        ],
+        "correct": 0,
+        "explain": "Expression helps the reader understand meaning."
+      },
+      {
+        "q": "A suffix is added to the…",
+        "choices": [
+          "End of a word",
+          "Beginning of a word",
+          "Middle",
+          "Anywhere"
+        ],
+        "correct": 0,
+        "explain": "Suffixes go at the end (e.g., -ful, -ness)."
+      },
+      {
+        "q": "The root of 'unbreakable' is…",
+        "choices": [
+          "Break",
+          "Un",
+          "Able",
+          "Reak"
+        ],
+        "correct": 0,
+        "explain": "Break is the root word."
+      },
+      {
+        "q": "Context clues are…",
+        "choices": [
+          "Words around an unknown word that hint its meaning",
+          "Pictures only",
+          "Page numbers",
+          "Author's age"
+        ],
+        "correct": 0,
+        "explain": "Surrounding words help define unfamiliar terms."
+      },
+      {
+        "q": "Fluent reading means…",
+        "choices": [
+          "Reading smoothly with proper expression",
+          "Reading word by word",
+          "Skipping words",
+          "Memorising"
+        ],
+        "correct": 0,
+        "explain": "Fluency = pace + accuracy + expression."
+      },
+      {
+        "q": "Skimming is…",
+        "choices": [
+          "Quick reading for the main idea",
+          "Reading every word slowly",
+          "Memorising",
+          "Reading backwards"
+        ],
+        "correct": 0,
+        "explain": "Skimming gets the gist."
+      },
+      {
+        "q": "Scanning is…",
+        "choices": [
+          "Searching quickly for specific info",
+          "Reading slowly",
+          "Reading every word",
+          "Memorising"
+        ],
+        "correct": 0,
+        "explain": "Scanning hunts for keywords."
+      },
+      {
+        "q": "A homophone of 'pair' is…",
+        "choices": [
+          "Pear",
+          "Parent",
+          "Pail",
+          "Pin"
+        ],
+        "correct": 0,
+        "explain": "Pair and pear sound the same."
+      },
+      {
+        "q": "A homograph is…",
+        "choices": [
+          "A word with the same spelling but different meaning",
+          "Words that rhyme",
+          "Same sound, different spelling",
+          "A grammar rule"
+        ],
+        "correct": 0,
+        "explain": "E.g., 'lead' (metal) vs 'lead' (guide)."
+      },
+      {
+        "q": "Word families share a…",
+        "choices": [
+          "Common root",
+          "Random meanings",
+          "Same prefix",
+          "Same length"
+        ],
+        "correct": 0,
+        "explain": "Families share a root, like sing/singer/sang/song."
+      },
+      {
+        "q": "Reading aloud regularly improves…",
+        "choices": [
+          "Pronunciation and confidence",
+          "Speed only",
+          "Maths",
+          "Drawing"
+        ],
+        "correct": 0,
+        "explain": "Practice builds reading skills."
+      },
+      {
+        "q": "A 'sight word' is…",
+        "choices": [
+          "Recognised on sight without sounding out",
+          "A word you only see",
+          "An adjective",
+          "A verb only"
+        ],
+        "correct": 0,
+        "explain": "Sight words are recognised instantly."
+      },
+      {
+        "q": "Inflection in reading means…",
+        "choices": [
+          "Changing voice tone for meaning",
+          "Skipping words",
+          "Reading slowly",
+          "Reading silently"
+        ],
+        "correct": 0,
+        "explain": "Inflection helps express questions, feelings, etc."
       }
     ],
     "flashcards": [
@@ -4414,6 +8110,160 @@
         ],
         "correct": 1,
         "explain": "Non-fiction is based on real facts and events."
+      },
+      {
+        "q": "Theme of a story is the…",
+        "choices": [
+          "Big lesson or message",
+          "Cover",
+          "Author",
+          "Page count"
+        ],
+        "correct": 0,
+        "explain": "Theme is the central idea."
+      },
+      {
+        "q": "A protagonist is…",
+        "choices": [
+          "The main character",
+          "The villain",
+          "Setting",
+          "Title"
+        ],
+        "correct": 0,
+        "explain": "Protagonists drive the story."
+      },
+      {
+        "q": "An antagonist is…",
+        "choices": [
+          "A character who opposes the main character",
+          "The hero",
+          "Background",
+          "Setting"
+        ],
+        "correct": 0,
+        "explain": "Antagonists create conflict."
+      },
+      {
+        "q": "Setting includes…",
+        "choices": [
+          "Time and place",
+          "Plot",
+          "Characters",
+          "Theme only"
+        ],
+        "correct": 0,
+        "explain": "Setting tells where and when the story happens."
+      },
+      {
+        "q": "The climax is…",
+        "choices": [
+          "The turning point",
+          "The setting",
+          "The conclusion",
+          "The first sentence"
+        ],
+        "correct": 0,
+        "explain": "Climax is the most intense moment."
+      },
+      {
+        "q": "To 'infer' means to…",
+        "choices": [
+          "Read between the lines using clues",
+          "Read aloud",
+          "Memorise",
+          "Skip"
+        ],
+        "correct": 0,
+        "explain": "Inference fills in what's not directly stated."
+      },
+      {
+        "q": "A summary is a…",
+        "choices": [
+          "Short retelling of main points",
+          "Long copy",
+          "Title only",
+          "Picture"
+        ],
+        "correct": 0,
+        "explain": "Summaries condense main ideas."
+      },
+      {
+        "q": "A paragraph's topic sentence usually…",
+        "choices": [
+          "States the main idea",
+          "Asks a question",
+          "Lists numbers",
+          "Ends the paragraph"
+        ],
+        "correct": 0,
+        "explain": "Topic sentences orient the reader."
+      },
+      {
+        "q": "To compare two texts you look at…",
+        "choices": [
+          "Similarities and differences",
+          "Only similarities",
+          "Only differences",
+          "Authors' ages"
+        ],
+        "correct": 0,
+        "explain": "Comparing examines both sides."
+      },
+      {
+        "q": "Author's tone may be…",
+        "choices": [
+          "Serious, playful, sarcastic, etc.",
+          "Always neutral",
+          "Random",
+          "Nothing"
+        ],
+        "correct": 0,
+        "explain": "Tone is the author's attitude."
+      },
+      {
+        "q": "Flashback in a story is…",
+        "choices": [
+          "Going back in time",
+          "Skipping forward",
+          "Pausing",
+          "Speeding up"
+        ],
+        "correct": 0,
+        "explain": "Flashback shows past events."
+      },
+      {
+        "q": "A myth is a traditional story that…",
+        "choices": [
+          "Explains beliefs or natural events",
+          "Always factual",
+          "Modern news",
+          "A scientific journal"
+        ],
+        "correct": 0,
+        "explain": "Myths often explain how things came to be."
+      },
+      {
+        "q": "A biography is…",
+        "choices": [
+          "A non-fiction book about a real person's life",
+          "A fictional story",
+          "A poem only",
+          "A play"
+        ],
+        "correct": 0,
+        "explain": "Biographies tell real lives."
+      },
+      {
+        "q": "Onomatopoeia is words that…",
+        "choices": [
+          "Sound like what they mean",
+          "Rhyme",
+          "Are short",
+          "Are long"
+        ],
+        "correct": 0,
+        "explain": "Examples: buzz, splash."
       }
     ],
     "flashcards": [
@@ -4601,6 +8451,160 @@
         ],
         "correct": 1,
         "explain": "Proper nouns name specific places, people — capitalised."
+      },
+      {
+        "q": "A complex sentence has…",
+        "choices": [
+          "One independent and one dependent clause",
+          "Only one independent clause",
+          "Two independent clauses",
+          "No clauses"
+        ],
+        "correct": 0,
+        "explain": "Complex sentences combine an independent and a dependent clause."
+      },
+      {
+        "q": "A semicolon (;) is used to…",
+        "choices": [
+          "Join two related independent clauses",
+          "End sentences",
+          "Show possession",
+          "Show shouting"
+        ],
+        "correct": 0,
+        "explain": "Semicolons join closely related thoughts."
+      },
+      {
+        "q": "A colon (:) often introduces…",
+        "choices": [
+          "A list or quote",
+          "Only questions",
+          "Only exclamations",
+          "Only contractions"
+        ],
+        "correct": 0,
+        "explain": "Colons set up lists, examples or quotes."
+      },
+      {
+        "q": "Plural of 'leaf' is…",
+        "choices": [
+          "Leaves",
+          "Leafs",
+          "Leafes",
+          "Leafz"
+        ],
+        "correct": 0,
+        "explain": "Words ending in -f often change to -ves."
+      },
+      {
+        "q": "Which is in passive voice?",
+        "choices": [
+          "The cake was eaten by the boy.",
+          "The boy ate the cake.",
+          "The boy is eating.",
+          "Eat the cake."
+        ],
+        "correct": 0,
+        "explain": "In passive voice, the subject is acted upon."
+      },
+      {
+        "q": "Which is in active voice?",
+        "choices": [
+          "The boy ate the cake.",
+          "The cake was eaten.",
+          "The cake is being eaten.",
+          "The cake had been eaten."
+        ],
+        "correct": 0,
+        "explain": "Active voice — the subject does the action."
+      },
+      {
+        "q": "A relative pronoun is…",
+        "choices": [
+          "Who, which, that",
+          "Run, jump",
+          "Quickly, slowly",
+          "And, but"
+        ],
+        "correct": 0,
+        "explain": "Relative pronouns introduce relative clauses."
+      },
+      {
+        "q": "Plural of 'criterion' is…",
+        "choices": [
+          "Criteria",
+          "Criterions",
+          "Criteries",
+          "Criterias"
+        ],
+        "correct": 0,
+        "explain": "Greek-origin word; plural is 'criteria'."
+      },
+      {
+        "q": "Choose the correct verb: 'The teacher, along with the students, ___ in the hall.'",
+        "choices": [
+          "is",
+          "are",
+          "were",
+          "being"
+        ],
+        "correct": 0,
+        "explain": "Subject is 'teacher' (singular) — use 'is'."
+      },
+      {
+        "q": "Which is correct?",
+        "choices": [
+          "She and I went to the market.",
+          "Her and I went to the market.",
+          "Me and her went to the market.",
+          "Her and me went to the market."
+        ],
+        "correct": 0,
+        "explain": "Use 'she and I' as subjects."
+      },
+      {
+        "q": "Which is correct?",
+        "choices": [
+          "The dog wagged its tail.",
+          "The dog wagged it's tail.",
+          "The dog wagged its' tail.",
+          "The dog wagged is tail."
+        ],
+        "correct": 0,
+        "explain": "'Its' (no apostrophe) shows possession."
+      },
+      {
+        "q": "Which is the past participle of 'go'?",
+        "choices": [
+          "Gone",
+          "Went",
+          "Going",
+          "Goed"
+        ],
+        "correct": 0,
+        "explain": "Have/has gone — past participle is 'gone'."
+      },
+      {
+        "q": "Future tense of 'eat' is…",
+        "choices": [
+          "Will eat",
+          "Ate",
+          "Eaten",
+          "Eating"
+        ],
+        "correct": 0,
+        "explain": "'Will' + verb forms simple future."
+      },
+      {
+        "q": "Which is a complete sentence?",
+        "choices": [
+          "The market was crowded.",
+          "Crowded the market.",
+          "In the market.",
+          "Crowded."
+        ],
+        "correct": 0,
+        "explain": "A sentence needs subject and verb."
       }
     ],
     "flashcards": [
@@ -4774,6 +8778,160 @@
         ],
         "correct": 1,
         "explain": "All channels that deliver information."
+      },
+      {
+        "q": "A primary source includes…",
+        "choices": [
+          "Original documents and direct accounts",
+          "Encyclopedias",
+          "Textbooks",
+          "Summaries"
+        ],
+        "correct": 0,
+        "explain": "Primary sources are first-hand."
+      },
+      {
+        "q": "A secondary source is…",
+        "choices": [
+          "An interpretation of primary sources",
+          "An eyewitness account",
+          "A diary",
+          "Photos of the event"
+        ],
+        "correct": 0,
+        "explain": "Secondary sources analyse primaries."
+      },
+      {
+        "q": "Citing sources means…",
+        "choices": [
+          "Giving credit for ideas/information",
+          "Hiding sources",
+          "Copying word for word",
+          "Avoiding research"
+        ],
+        "correct": 0,
+        "explain": "Citations credit the original creators."
+      },
+      {
+        "q": "Plagiarism is…",
+        "choices": [
+          "Using someone else's work without credit",
+          "Quoting properly",
+          "Reading sources",
+          "Asking for help"
+        ],
+        "correct": 0,
+        "explain": "Plagiarism is intellectual theft."
+      },
+      {
+        "q": "A reliable website usually…",
+        "choices": [
+          "Cites sources and is updated",
+          "Has many ads",
+          "Is anonymous",
+          "Has spelling errors"
+        ],
+        "correct": 0,
+        "explain": "Reliable sites verify their info."
+      },
+      {
+        "q": "To check facts, you should…",
+        "choices": [
+          "Use multiple credible sources",
+          "Trust the first one",
+          "Stop checking",
+          "Just guess"
+        ],
+        "correct": 0,
+        "explain": "Cross-checking reduces errors."
+      },
+      {
+        "q": "Bias in media means…",
+        "choices": [
+          "A leaning toward one view",
+          "Neutral reporting",
+          "Math errors",
+          "Wrong dates only"
+        ],
+        "correct": 0,
+        "explain": "Bias colours how news is presented."
+      },
+      {
+        "q": "Stereotypes in media are…",
+        "choices": [
+          "Oversimplified images of groups",
+          "Real people",
+          "Statistics",
+          "Maps"
+        ],
+        "correct": 0,
+        "explain": "Stereotypes can mislead viewers."
+      },
+      {
+        "q": "To search effectively, use…",
+        "choices": [
+          "Specific keywords",
+          "Whole sentences",
+          "One letter",
+          "Random words"
+        ],
+        "correct": 0,
+        "explain": "Keywords narrow results."
+      },
+      {
+        "q": "A bibliography lists…",
+        "choices": [
+          "Sources used",
+          "Authors only",
+          "Random pages",
+          "Pictures"
+        ],
+        "correct": 0,
+        "explain": "Bibliographies credit research sources."
+      },
+      {
+        "q": "Wikipedia is best used as…",
+        "choices": [
+          "A starting point — verify elsewhere",
+          "A 100% reliable final source",
+          "Useless",
+          "Always wrong"
+        ],
+        "correct": 0,
+        "explain": "It can be edited by anyone, so verify with other sources."
+      },
+      {
+        "q": "An infographic is…",
+        "choices": [
+          "Visual presentation of information",
+          "Long essay",
+          "Spreadsheet only",
+          "Voice recording"
+        ],
+        "correct": 0,
+        "explain": "Infographics use images to share data."
+      },
+      {
+        "q": "A fact differs from an opinion because facts are…",
+        "choices": [
+          "Verifiable",
+          "Personal beliefs",
+          "Random",
+          "Always emotional"
+        ],
+        "correct": 0,
+        "explain": "Facts can be checked."
+      },
+      {
+        "q": "A peer-reviewed article is…",
+        "choices": [
+          "Checked by other experts",
+          "Self-published",
+          "Random blog",
+          "Anonymous"
+        ],
+        "correct": 0,
+        "explain": "Peer review boosts reliability."
       }
     ],
     "flashcards": [
@@ -4961,6 +9119,160 @@
         ],
         "correct": 1,
         "explain": "Review to catch errors."
+      },
+      {
+        "q": "To prepare for a test, you should…",
+        "choices": [
+          "Study early and practise",
+          "Cram only",
+          "Skip studying",
+          "Stay up late"
+        ],
+        "correct": 0,
+        "explain": "Spaced study works best."
+      },
+      {
+        "q": "On a multiple-choice question, eliminate…",
+        "choices": [
+          "Obviously wrong choices first",
+          "All choices",
+          "Right answers",
+          "No choices"
+        ],
+        "correct": 0,
+        "explain": "Eliminating wrong answers improves your odds."
+      },
+      {
+        "q": "For an essay, plan with a…",
+        "choices": [
+          "Brief outline",
+          "No structure",
+          "Random ideas",
+          "Drawings only"
+        ],
+        "correct": 0,
+        "explain": "Outlines keep essays organised."
+      },
+      {
+        "q": "During a long test you should…",
+        "choices": [
+          "Manage your time per section",
+          "Spend all time on one question",
+          "Stop early",
+          "Rush"
+        ],
+        "correct": 0,
+        "explain": "Time management lets you finish."
+      },
+      {
+        "q": "To handle test anxiety try…",
+        "choices": [
+          "Deep breathing",
+          "Panicking",
+          "Crying",
+          "Running out"
+        ],
+        "correct": 0,
+        "explain": "Breathing calms the body."
+      },
+      {
+        "q": "Read each question…",
+        "choices": [
+          "Carefully and fully",
+          "Halfway",
+          "Just keywords",
+          "Randomly"
+        ],
+        "correct": 0,
+        "explain": "Misreading loses points."
+      },
+      {
+        "q": "For show-your-work problems, write…",
+        "choices": [
+          "Each step clearly",
+          "Only the answer",
+          "No work",
+          "Random scribbles"
+        ],
+        "correct": 0,
+        "explain": "Showing work earns partial credit."
+      },
+      {
+        "q": "After finishing, you should…",
+        "choices": [
+          "Review your answers",
+          "Leave immediately",
+          "Stop checking",
+          "Sleep"
+        ],
+        "correct": 0,
+        "explain": "Catching mistakes saves marks."
+      },
+      {
+        "q": "Mind-mapping is good for…",
+        "choices": [
+          "Linking ideas visually",
+          "Memorising tables only",
+          "Drawing",
+          "Spelling tests only"
+        ],
+        "correct": 0,
+        "explain": "Mind maps show how ideas connect."
+      },
+      {
+        "q": "Active recall studying involves…",
+        "choices": [
+          "Testing yourself",
+          "Re-reading only",
+          "Skipping topics",
+          "Daydreaming"
+        ],
+        "correct": 0,
+        "explain": "Self-testing strengthens memory."
+      },
+      {
+        "q": "Spaced practice means…",
+        "choices": [
+          "Studying over multiple sessions",
+          "Cramming all at once",
+          "Studying once a year",
+          "Skipping"
+        ],
+        "correct": 0,
+        "explain": "Spacing helps long-term memory."
+      },
+      {
+        "q": "Before a presentation, rehearse…",
+        "choices": [
+          "Out loud and timed",
+          "Silently only",
+          "Once is enough",
+          "Never"
+        ],
+        "correct": 0,
+        "explain": "Speaking aloud catches stumbles and improves timing."
+      },
+      {
+        "q": "A 'thesis statement' in an essay is…",
+        "choices": [
+          "The main argument",
+          "A list of facts",
+          "A title",
+          "A picture"
+        ],
+        "correct": 0,
+        "explain": "Thesis statements anchor the essay."
+      },
+      {
+        "q": "On the morning of a test, eat…",
+        "choices": [
+          "A balanced breakfast",
+          "Only sweets",
+          "Nothing",
+          "A huge feast"
+        ],
+        "correct": 0,
+        "explain": "Balanced food helps focus."
       }
     ],
     "flashcards": [
@@ -5148,6 +9460,160 @@
         ],
         "correct": 1,
         "explain": "Idiom for saying something ironically or humorously."
+      },
+      {
+        "q": "Antonym for 'lazy' is…",
+        "choices": [
+          "Hardworking",
+          "Tired",
+          "Sleepy",
+          "Quiet"
+        ],
+        "correct": 0,
+        "explain": "Lazy and hardworking are opposites."
+      },
+      {
+        "q": "Synonym for 'happy' is…",
+        "choices": [
+          "Joyful",
+          "Sad",
+          "Angry",
+          "Tired"
+        ],
+        "correct": 0,
+        "explain": "Joyful = happy."
+      },
+      {
+        "q": "What does 'meticulous' mean?",
+        "choices": [
+          "Careful and detailed",
+          "Sloppy",
+          "Loud",
+          "Fast"
+        ],
+        "correct": 0,
+        "explain": "Meticulous people pay attention to detail."
+      },
+      {
+        "q": "What does 'reluctant' mean?",
+        "choices": [
+          "Unwilling",
+          "Eager",
+          "Excited",
+          "Loud"
+        ],
+        "correct": 0,
+        "explain": "Reluctant = hesitant or not wanting to."
+      },
+      {
+        "q": "Idiom 'piece of cake' means…",
+        "choices": [
+          "Easy",
+          "Hard",
+          "Tasty only",
+          "Boring"
+        ],
+        "correct": 0,
+        "explain": "Means something easy to do."
+      },
+      {
+        "q": "Idiom 'break the ice' means…",
+        "choices": [
+          "Start a conversation",
+          "Damage ice",
+          "Cool a drink",
+          "Go skating"
+        ],
+        "correct": 0,
+        "explain": "To begin friendly talk."
+      },
+      {
+        "q": "What does 'enormous' mean?",
+        "choices": [
+          "Very large",
+          "Very small",
+          "Loud",
+          "Quick"
+        ],
+        "correct": 0,
+        "explain": "Enormous = huge."
+      },
+      {
+        "q": "Synonym for 'difficult' is…",
+        "choices": [
+          "Challenging",
+          "Easy",
+          "Simple",
+          "Light"
+        ],
+        "correct": 0,
+        "explain": "Difficult and challenging mean similar things."
+      },
+      {
+        "q": "What does 'optimistic' mean?",
+        "choices": [
+          "Hopeful and positive",
+          "Sad",
+          "Negative",
+          "Worried"
+        ],
+        "correct": 0,
+        "explain": "Optimistic people see the bright side."
+      },
+      {
+        "q": "Antonym for 'expand'?",
+        "choices": [
+          "Shrink",
+          "Grow",
+          "Stretch",
+          "Increase"
+        ],
+        "correct": 0,
+        "explain": "Shrink = make smaller, opposite of expand."
+      },
+      {
+        "q": "What does 'novel' mean as an adjective?",
+        "choices": [
+          "New and unusual",
+          "Old",
+          "Common",
+          "Cheap"
+        ],
+        "correct": 0,
+        "explain": "As an adjective, novel = original."
+      },
+      {
+        "q": "Synonym for 'angry' is…",
+        "choices": [
+          "Furious",
+          "Calm",
+          "Cool",
+          "Quiet"
+        ],
+        "correct": 0,
+        "explain": "Furious = very angry."
+      },
+      {
+        "q": "Idiom 'hit the books' means…",
+        "choices": [
+          "To study",
+          "To play",
+          "To rest",
+          "To swim"
+        ],
+        "correct": 0,
+        "explain": "It means start studying hard."
+      },
+      {
+        "q": "What does 'persevere' mean?",
+        "choices": [
+          "Keep trying despite difficulties",
+          "Give up",
+          "Sleep",
+          "Run away"
+        ],
+        "correct": 0,
+        "explain": "Persevere = persist."
       }
     ],
     "flashcards": [
@@ -5310,6 +9776,160 @@
         ],
         "correct": 3,
         "explain": "Evidence is the opposite of a fallacy."
+      },
+      {
+        "q": "Drawing a conclusion uses…",
+        "choices": [
+          "Evidence and reasoning",
+          "Random guesses",
+          "Hopes only",
+          "Numbers only"
+        ],
+        "correct": 0,
+        "explain": "Conclusions need backing evidence."
+      },
+      {
+        "q": "A logical argument has…",
+        "choices": [
+          "Premises that support a conclusion",
+          "Random sentences",
+          "Loud claims",
+          "No structure"
+        ],
+        "correct": 0,
+        "explain": "Logic links premises to a conclusion."
+      },
+      {
+        "q": "Cause and effect: rain made the field muddy. Effect is…",
+        "choices": [
+          "Muddy field",
+          "Rain",
+          "Clouds",
+          "Wind"
+        ],
+        "correct": 0,
+        "explain": "The cause is rain; the effect is the muddy field."
+      },
+      {
+        "q": "Which is a fact?",
+        "choices": [
+          "Jamaica is in the Caribbean.",
+          "Jamaica is the most beautiful country.",
+          "Reggae is the best music.",
+          "Mango tastes better than orange."
+        ],
+        "correct": 0,
+        "explain": "Facts can be verified."
+      },
+      {
+        "q": "Critical reading means…",
+        "choices": [
+          "Evaluating ideas thoughtfully",
+          "Ignoring everything",
+          "Reading fast",
+          "Memorising"
+        ],
+        "correct": 0,
+        "explain": "Critical readers question and evaluate."
+      },
+      {
+        "q": "An assumption is something…",
+        "choices": [
+          "Believed without proof",
+          "Tested",
+          "Always true",
+          "Visible"
+        ],
+        "correct": 0,
+        "explain": "Assumptions go without verification."
+      },
+      {
+        "q": "A bias in writing is…",
+        "choices": [
+          "A leaning that favours one side",
+          "Neutral reporting",
+          "A spelling error",
+          "A picture"
+        ],
+        "correct": 0,
+        "explain": "Bias slants the message."
+      },
+      {
+        "q": "To compare two arguments you look for…",
+        "choices": [
+          "Strengths and weaknesses",
+          "Length only",
+          "Author's age",
+          "Cover style"
+        ],
+        "correct": 0,
+        "explain": "Comparison weighs both."
+      },
+      {
+        "q": "An analogy compares…",
+        "choices": [
+          "Two things to highlight similarity",
+          "Two opposites",
+          "Random items",
+          "Math facts"
+        ],
+        "correct": 0,
+        "explain": "Analogies show 'this is like that'."
+      },
+      {
+        "q": "A generalisation is…",
+        "choices": [
+          "A broad statement based on examples",
+          "A specific fact",
+          "A measurement",
+          "A name"
+        ],
+        "correct": 0,
+        "explain": "Generalisations cover many cases."
+      },
+      {
+        "q": "Begging the question is when…",
+        "choices": [
+          "The conclusion is assumed in the premise",
+          "Two ideas conflict",
+          "Evidence is strong",
+          "Logic is sound"
+        ],
+        "correct": 0,
+        "explain": "It is a logical fallacy."
+      },
+      {
+        "q": "A correlation is…",
+        "choices": [
+          "A relationship between two things",
+          "Always cause and effect",
+          "A random number",
+          "A spelling"
+        ],
+        "correct": 0,
+        "explain": "Correlation doesn't prove causation."
+      },
+      {
+        "q": "Critical thinking helps you…",
+        "choices": [
+          "Solve problems wisely",
+          "Forget",
+          "Ignore evidence",
+          "Be confused"
+        ],
+        "correct": 0,
+        "explain": "Critical thinkers analyse and decide better."
+      },
+      {
+        "q": "A counter-argument…",
+        "choices": [
+          "Opposes a claim",
+          "Supports it",
+          "Repeats it",
+          "Hides it"
+        ],
+        "correct": 0,
+        "explain": "Counter-arguments offer the other side."
       }
     ],
     "flashcards": [

@@ -26,7 +26,10 @@
       "Bash(curl -s --connect-timeout 5 -o /dev/null -w '%{http_code} %{size_download}b  __TRACKED_VAR__\\\\n' http://127.0.0.1:8770/__TRACKED_VAR__)",
       "Bash(curl -s --connect-timeout 5 http://127.0.0.1:8770/Resource/questions/grade5.json)",
       "Bash(curl -s --connect-timeout 3 http://127.0.0.1:8770/index.html)",
-      "Bash(curl -s --connect-timeout 3 http://127.0.0.1:8770/grade5.html)"
+      "Bash(curl -s --connect-timeout 3 http://127.0.0.1:8770/grade5.html)",
+      "Bash(sed 's/[0-9]//g')",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('c:/Users/Marathon/Downloads/PEP456Grade/Resource/questions/grade4.json'\\)\\)\")",
+      "Bash(node Resource/tools/_apply-mcq-additions.js)"
     ]
   }
 }

@@ -67,6 +67,160 @@
         ],
         "correct": 1,
         "explain": "Like any tool, tech should be used responsibly."
+      },
+      {
+        "q": "Which is an example of analogue technology?",
+        "choices": [
+          "A wind-up clock",
+          "A smartphone",
+          "An MP3 player",
+          "A digital camera"
+        ],
+        "correct": 0,
+        "explain": "Wind-up clocks use mechanical motion — analogue, not digital."
+      },
+      {
+        "q": "The wheel and axle is one of the…",
+        "choices": [
+          "Six simple machines",
+          "Modern inventions",
+          "Software programs",
+          "Food items"
+        ],
+        "correct": 0,
+        "explain": "It's an ancient simple machine."
+      },
+      {
+        "q": "Modern computers store information using…",
+        "choices": [
+          "Bits and bytes",
+          "Pebbles",
+          "Strings",
+          "Pictures only"
+        ],
+        "correct": 0,
+        "explain": "Computers use binary digits (bits)."
+      },
+      {
+        "q": "Which of these is assistive technology?",
+        "choices": [
+          "A hearing aid",
+          "A ruler",
+          "A pencil",
+          "A book"
+        ],
+        "correct": 0,
+        "explain": "Assistive tech helps people with disabilities — like hearing aids."
+      },
+      {
+        "q": "Renewable technology uses…",
+        "choices": [
+          "Sources that don't run out (solar, wind)",
+          "Coal only",
+          "Petrol only",
+          "Diesel only"
+        ],
+        "correct": 0,
+        "explain": "Renewables harness sun, wind, water etc."
+      },
+      {
+        "q": "Smart watches are a form of…",
+        "choices": [
+          "Wearable technology",
+          "Fixed technology",
+          "Mechanical",
+          "Construction tech"
+        ],
+        "correct": 0,
+        "explain": "Wearable tech is worn on the body."
+      },
+      {
+        "q": "GPS stands for…",
+        "choices": [
+          "Global Positioning System",
+          "Great Position Sensor",
+          "General Phone Service",
+          "Garmin Phone Set"
+        ],
+        "correct": 0,
+        "explain": "GPS uses satellites to find your location."
+      },
+      {
+        "q": "3D printing creates objects by…",
+        "choices": [
+          "Building them up layer by layer",
+          "Cutting from blocks only",
+          "Painting",
+          "Spraying"
+        ],
+        "correct": 0,
+        "explain": "Additive manufacturing builds layer by layer."
+      },
+      {
+        "q": "Bluetooth is a…",
+        "choices": [
+          "Short-range wireless tech",
+          "Wired connection",
+          "A type of paint",
+          "An app"
+        ],
+        "correct": 0,
+        "explain": "Bluetooth connects devices wirelessly over short distances."
+      },
+      {
+        "q": "AI in technology stands for…",
+        "choices": [
+          "Artificial Intelligence",
+          "Atomic Information",
+          "Audio Interface",
+          "Automatic Internet"
+        ],
+        "correct": 0,
+        "explain": "AI imitates human thinking with computers."
+      },
+      {
+        "q": "Drones are a kind of…",
+        "choices": [
+          "Unmanned aerial vehicle",
+          "Boat",
+          "Car",
+          "House"
+        ],
+        "correct": 0,
+        "explain": "Drones fly without a pilot on board."
+      },
+      {
+        "q": "E-waste is…",
+        "choices": [
+          "Discarded electronic devices",
+          "Eaten waste",
+          "Liquid",
+          "Paper"
+        ],
+        "correct": 0,
+        "explain": "E-waste is old electronics that need careful recycling."
+      },
+      {
+        "q": "Renewable battery technology helps reduce…",
+        "choices": [
+          "Reliance on fossil fuels",
+          "Renewable energy",
+          "Wind",
+          "Sunlight"
+        ],
+        "correct": 0,
+        "explain": "Better batteries support solar and wind power."
+      },
+      {
+        "q": "Technology has both benefits and…",
+        "choices": [
+          "Risks",
+          "Songs",
+          "Smells",
+          "Tastes only"
+        ],
+        "correct": 0,
+        "explain": "With benefits come risks like privacy and safety."
       }
     ],
     "flashcards": [
@@ -254,6 +408,160 @@
         ],
         "correct": 0,
         "explain": "Windows, macOS, Linux, Android, iOS are OSes."
+      },
+      {
+        "q": "The CPU is short for…",
+        "choices": [
+          "Central Processing Unit",
+          "Common Power Unit",
+          "Computer Power Use",
+          "Central Phone Unit"
+        ],
+        "correct": 0,
+        "explain": "The CPU is the computer's processor."
+      },
+      {
+        "q": "GB stands for…",
+        "choices": [
+          "Gigabyte",
+          "Great Byte",
+          "Game Byte",
+          "General Byte"
+        ],
+        "correct": 0,
+        "explain": "A gigabyte is 1 billion bytes (about)."
+      },
+      {
+        "q": "A monitor is a(n)…",
+        "choices": [
+          "Output device",
+          "Input device",
+          "Storage",
+          "CPU"
+        ],
+        "correct": 0,
+        "explain": "Monitors display output."
+      },
+      {
+        "q": "A mouse is a(n)…",
+        "choices": [
+          "Input device",
+          "Output device",
+          "Storage",
+          "Battery"
+        ],
+        "correct": 0,
+        "explain": "You input commands using a mouse."
+      },
+      {
+        "q": "Software is…",
+        "choices": [
+          "Programs that tell hardware what to do",
+          "Wires",
+          "Plastic",
+          "Glass"
+        ],
+        "correct": 0,
+        "explain": "Software is the instructions a computer runs."
+      },
+      {
+        "q": "Hardware is…",
+        "choices": [
+          "Physical computer parts",
+          "Apps",
+          "Files",
+          "Webpages"
+        ],
+        "correct": 0,
+        "explain": "Hardware = the tangible parts."
+      },
+      {
+        "q": "A USB flash drive is for…",
+        "choices": [
+          "Storing files portably",
+          "Display",
+          "Power",
+          "Printing"
+        ],
+        "correct": 0,
+        "explain": "USB flash drives store and carry files."
+      },
+      {
+        "q": "An OS is…",
+        "choices": [
+          "Operating System",
+          "Online Site",
+          "Office Sheet",
+          "Open Sale"
+        ],
+        "correct": 0,
+        "explain": "The OS manages the computer's resources."
+      },
+      {
+        "q": "Which is an OS?",
+        "choices": [
+          "Windows",
+          "Photoshop",
+          "Word",
+          "Chrome"
+        ],
+        "correct": 0,
+        "explain": "Windows is an operating system."
+      },
+      {
+        "q": "A bit is the smallest unit of data and equals…",
+        "choices": [
+          "0 or 1",
+          "Letter",
+          "Number",
+          "Pixel"
+        ],
+        "correct": 0,
+        "explain": "Binary digits are 0 or 1."
+      },
+      {
+        "q": "Cloud storage saves files…",
+        "choices": [
+          "On servers accessed via the internet",
+          "Inside a cloud in the sky",
+          "On the moon",
+          "On paper"
+        ],
+        "correct": 0,
+        "explain": "Cloud means online servers."
+      },
+      {
+        "q": "A webcam is an…",
+        "choices": [
+          "Input device",
+          "Output device",
+          "CPU",
+          "Storage"
+        ],
+        "correct": 0,
+        "explain": "It captures video — input."
+      },
+      {
+        "q": "BIOS is short for…",
+        "choices": [
+          "Basic Input Output System",
+          "Best Input Online System",
+          "Big Input Output Source",
+          "Beam Input Output"
+        ],
+        "correct": 0,
+        "explain": "BIOS starts the computer."
+      },
+      {
+        "q": "A 'firewall' protects a computer from…",
+        "choices": [
+          "Unauthorised network access",
+          "Real fire",
+          "Sunlight",
+          "Heat only"
+        ],
+        "correct": 0,
+        "explain": "Firewalls block unwanted network traffic."
       }
     ],
     "flashcards": [
@@ -447,6 +755,160 @@
         ],
         "correct": 1,
         "explain": "<!DOCTYPE html> declares the document as HTML5."
+      },
+      {
+        "q": "Which tag creates a line break?",
+        "choices": [
+          "<br>",
+          "<lb>",
+          "<break>",
+          "<line>"
+        ],
+        "correct": 0,
+        "explain": "<br> is a line break in HTML."
+      },
+      {
+        "q": "Which tag is for the largest heading?",
+        "choices": [
+          "<h1>",
+          "<h6>",
+          "<head>",
+          "<heading>"
+        ],
+        "correct": 0,
+        "explain": "<h1> is the largest heading."
+      },
+      {
+        "q": "To open a link in a new tab, you add the attribute…",
+        "choices": [
+          "target=\"_blank\"",
+          "new=\"yes\"",
+          "tab=\"new\"",
+          "window=\"new\""
+        ],
+        "correct": 0,
+        "explain": "target=\"_blank\" opens in a new tab."
+      },
+      {
+        "q": "<ul> creates a(n)…",
+        "choices": [
+          "Unordered (bulleted) list",
+          "Ordered list",
+          "Heading",
+          "Image"
+        ],
+        "correct": 0,
+        "explain": "<ul> is an unordered list."
+      },
+      {
+        "q": "<ol> creates a(n)…",
+        "choices": [
+          "Ordered (numbered) list",
+          "Unordered list",
+          "Image",
+          "Heading"
+        ],
+        "correct": 0,
+        "explain": "<ol> is an ordered list."
+      },
+      {
+        "q": "Each item in a list uses…",
+        "choices": [
+          "<li>",
+          "<item>",
+          "<list>",
+          "<element>"
+        ],
+        "correct": 0,
+        "explain": "<li> is a list item."
+      },
+      {
+        "q": "Which attribute provides text for an image when it can't be displayed?",
+        "choices": [
+          "alt",
+          "title only",
+          "src",
+          "name"
+        ],
+        "correct": 0,
+        "explain": "The alt attribute is alternative text for accessibility."
+      },
+      {
+        "q": "Which tag is for the page's main content area?",
+        "choices": [
+          "<main>",
+          "<head>",
+          "<title>",
+          "<body> only"
+        ],
+        "correct": 0,
+        "explain": "<main> is HTML5 semantic for the main content."
+      },
+      {
+        "q": "To make text bold semantically use…",
+        "choices": [
+          "<strong>",
+          "<bold>",
+          "<b1>",
+          "<bold>"
+        ],
+        "correct": 0,
+        "explain": "<strong> indicates strong importance and shows bold."
+      },
+      {
+        "q": "To make text italic semantically use…",
+        "choices": [
+          "<em>",
+          "<italic>",
+          "<i1>",
+          "<emp>"
+        ],
+        "correct": 0,
+        "explain": "<em> emphasises text in italics."
+      },
+      {
+        "q": "<head> contains…",
+        "choices": [
+          "Metadata, title, links to CSS",
+          "Visible text",
+          "Footer only",
+          "Pictures only"
+        ],
+        "correct": 0,
+        "explain": "<head> holds info that doesn't appear on the page."
+      },
+      {
+        "q": "Which is a self-closing tag?",
+        "choices": [
+          "<img>",
+          "<div>",
+          "<p>",
+          "<a>"
+        ],
+        "correct": 0,
+        "explain": "<img> doesn't need a closing tag."
+      },
+      {
+        "q": "<a href=\"page.html\">…</a> creates a…",
+        "choices": [
+          "Hyperlink",
+          "Heading",
+          "Image",
+          "List"
+        ],
+        "correct": 0,
+        "explain": "<a> tags make links."
+      },
+      {
+        "q": "DOCTYPE declaration tells the browser…",
+        "choices": [
+          "Which HTML version is used",
+          "The page colour",
+          "The author",
+          "The OS"
+        ],
+        "correct": 0,
+        "explain": "DOCTYPE specifies the document type."
       }
     ],
     "flashcards": [
@@ -629,6 +1091,160 @@
         ],
         "correct": 1,
         "explain": "Padding is inside; margin is outside."
+      },
+      {
+        "q": "In CSS, the property that sets text size is…",
+        "choices": [
+          "font-size",
+          "text-size",
+          "size",
+          "letter-size"
+        ],
+        "correct": 0,
+        "explain": "font-size controls the size of text."
+      },
+      {
+        "q": "To make text bold in CSS, use…",
+        "choices": [
+          "font-weight: bold",
+          "text-bold: yes",
+          "weight: heavy",
+          "strong: true"
+        ],
+        "correct": 0,
+        "explain": "font-weight: bold makes text bold."
+      },
+      {
+        "q": "#header is a CSS selector that targets…",
+        "choices": [
+          "The element with id 'header'",
+          "All header tags",
+          "All h1 elements",
+          "Any element"
+        ],
+        "correct": 0,
+        "explain": "# selects by id."
+      },
+      {
+        "q": "To centre text use…",
+        "choices": [
+          "text-align: center",
+          "align-text: middle",
+          "center-text: yes",
+          "text-pos: c"
+        ],
+        "correct": 0,
+        "explain": "text-align: center centres text."
+      },
+      {
+        "q": "Margin controls space…",
+        "choices": [
+          "Outside an element",
+          "Inside an element",
+          "Behind an element",
+          "Above text only"
+        ],
+        "correct": 0,
+        "explain": "Margins are outside the box."
+      },
+      {
+        "q": "Padding controls space…",
+        "choices": [
+          "Inside an element",
+          "Outside an element",
+          "Above text only",
+          "Below text only"
+        ],
+        "correct": 0,
+        "explain": "Padding sits inside the box, between the content and the border."
+      },
+      {
+        "q": "To set background colour to red use…",
+        "choices": [
+          "background-color: red",
+          "background: red color",
+          "bg-color: red",
+          "colorbg: red"
+        ],
+        "correct": 0,
+        "explain": "background-color: red is correct."
+      },
+      {
+        "q": "In CSS, /* this is a comment */ is the syntax for…",
+        "choices": [
+          "A comment",
+          "An error",
+          "A class",
+          "A property"
+        ],
+        "correct": 0,
+        "explain": "CSS comments use /* … */."
+      },
+      {
+        "q": "Which property controls a border thickness?",
+        "choices": [
+          "border-width",
+          "border-thickness",
+          "width-border",
+          "border-size"
+        ],
+        "correct": 0,
+        "explain": "border-width sets the line thickness."
+      },
+      {
+        "q": "Flexbox layout is enabled by display…",
+        "choices": [
+          "flex",
+          "grid",
+          "block",
+          "inline"
+        ],
+        "correct": 0,
+        "explain": "display: flex starts flex layout."
+      },
+      {
+        "q": "To round corners use…",
+        "choices": [
+          "border-radius",
+          "corner-radius",
+          "round-corners",
+          "border-curve"
+        ],
+        "correct": 0,
+        "explain": "border-radius rounds corners."
+      },
+      {
+        "q": "Hex colours look like…",
+        "choices": [
+          "#ff0000",
+          "red 100",
+          "255,0,0",
+          "color red"
+        ],
+        "correct": 0,
+        "explain": "Hex codes start with # then 6 hex digits."
+      },
+      {
+        "q": "To make an image responsive, set width to…",
+        "choices": [
+          "100%",
+          "100px",
+          "auto only",
+          "none"
+        ],
+        "correct": 0,
+        "explain": "width:100% scales to its container."
+      },
+      {
+        "q": "@media queries are used for…",
+        "choices": [
+          "Different screen sizes",
+          "Sound",
+          "Database",
+          "Servers"
+        ],
+        "correct": 0,
+        "explain": "Media queries make designs responsive."
       }
     ],
     "flashcards": [
@@ -816,6 +1432,160 @@
         ],
         "correct": 1,
         "explain": "addEventListener('click', fn) runs fn when clicked."
+      },
+      {
+        "q": "To declare a constant in modern JS use…",
+        "choices": [
+          "const",
+          "var",
+          "let",
+          "constant"
+        ],
+        "correct": 0,
+        "explain": "const declares a constant."
+      },
+      {
+        "q": "console.log('hello') displays in…",
+        "choices": [
+          "The browser console",
+          "An alert",
+          "The page",
+          "The status bar"
+        ],
+        "correct": 0,
+        "explain": "console.log prints to the console."
+      },
+      {
+        "q": "To add 2 and 3 in JS, write…",
+        "choices": [
+          "2 + 3",
+          "2 plus 3",
+          "add(2,3) only",
+          "2add3"
+        ],
+        "correct": 0,
+        "explain": "+ adds numbers."
+      },
+      {
+        "q": "To select an element by id use…",
+        "choices": [
+          "document.getElementById('id')",
+          "document.getId('id')",
+          "getElement('id')",
+          "selectId('id')"
+        ],
+        "correct": 0,
+        "explain": "getElementById selects by id."
+      },
+      {
+        "q": "An if-statement runs code when…",
+        "choices": [
+          "A condition is true",
+          "Always",
+          "Never",
+          "Only at midnight"
+        ],
+        "correct": 0,
+        "explain": "if runs the block when the condition evaluates true."
+      },
+      {
+        "q": "A for-loop is used to…",
+        "choices": [
+          "Repeat code a known number of times",
+          "Run only once",
+          "Stop the page",
+          "Print"
+        ],
+        "correct": 0,
+        "explain": "for loops repeat using a counter."
+      },
+      {
+        "q": "An array stores…",
+        "choices": [
+          "A list of values",
+          "One value",
+          "Only numbers",
+          "Only strings"
+        ],
+        "correct": 0,
+        "explain": "Arrays hold ordered lists."
+      },
+      {
+        "q": "Strings are wrapped in…",
+        "choices": [
+          "Quotes",
+          "Parentheses",
+          "Brackets",
+          "Braces"
+        ],
+        "correct": 0,
+        "explain": "Use single, double or back-tick quotes."
+      },
+      {
+        "q": "A function is defined with the keyword…",
+        "choices": [
+          "function",
+          "def",
+          "method",
+          "sub"
+        ],
+        "correct": 0,
+        "explain": "function keyword (or arrow function => syntax)."
+      },
+      {
+        "q": "== compares values with…",
+        "choices": [
+          "Loose equality (type conversion)",
+          "Strict equality always",
+          "Difference",
+          "Sum"
+        ],
+        "correct": 0,
+        "explain": "=== is strict; == is loose."
+      },
+      {
+        "q": "To respond to a button click, you use…",
+        "choices": [
+          "addEventListener('click', fn)",
+          "onClick now",
+          "whenClicked()",
+          "button.do()"
+        ],
+        "correct": 0,
+        "explain": "addEventListener attaches an event handler."
+      },
+      {
+        "q": "A boolean has two values…",
+        "choices": [
+          "true and false",
+          "yes and no",
+          "1 and 2",
+          "on and over"
+        ],
+        "correct": 0,
+        "explain": "Booleans are true or false."
+      },
+      {
+        "q": "document.querySelector('.box') selects…",
+        "choices": [
+          "The first element with class 'box'",
+          "All elements",
+          "Only IDs",
+          "Only forms"
+        ],
+        "correct": 0,
+        "explain": "querySelector returns the first match."
+      },
+      {
+        "q": "Comments in JS use…",
+        "choices": [
+          "// single line or /* multi */",
+          "## comments",
+          "-- comments",
+          "'''comments'''"
+        ],
+        "correct": 0,
+        "explain": "// for one line, /* */ for many."
       }
     ],
     "flashcards": [
@@ -1003,6 +1773,160 @@
         ],
         "correct": 1,
         "explain": "Standard symbols make diagrams easy to read."
+      },
+      {
+        "q": "A complete loop for current to flow is a…",
+        "choices": [
+          "Closed circuit",
+          "Open circuit",
+          "Broken circuit",
+          "Solid circuit"
+        ],
+        "correct": 0,
+        "explain": "Closed circuits let current flow."
+      },
+      {
+        "q": "An open circuit has…",
+        "choices": [
+          "A break — current cannot flow",
+          "Continuous flow",
+          "Two batteries",
+          "Three resistors"
+        ],
+        "correct": 0,
+        "explain": "Breaks prevent current."
+      },
+      {
+        "q": "A switch in the OFF position creates a(n)…",
+        "choices": [
+          "Open circuit",
+          "Closed circuit",
+          "Short circuit",
+          "Battery"
+        ],
+        "correct": 0,
+        "explain": "OFF means circuit is broken."
+      },
+      {
+        "q": "Voltage is measured in…",
+        "choices": [
+          "Volts",
+          "Amperes",
+          "Ohms",
+          "Watts"
+        ],
+        "correct": 0,
+        "explain": "Volts measure electric potential."
+      },
+      {
+        "q": "Current is measured in…",
+        "choices": [
+          "Amperes",
+          "Volts",
+          "Ohms",
+          "Watts"
+        ],
+        "correct": 0,
+        "explain": "Amperes (A) measure flow of charge."
+      },
+      {
+        "q": "Resistance is measured in…",
+        "choices": [
+          "Ohms",
+          "Volts",
+          "Amperes",
+          "Watts"
+        ],
+        "correct": 0,
+        "explain": "Ohms (Ω) measure opposition to current."
+      },
+      {
+        "q": "A diode allows current to flow…",
+        "choices": [
+          "In one direction",
+          "In both directions",
+          "Never",
+          "Only in summer"
+        ],
+        "correct": 0,
+        "explain": "Diodes are one-way."
+      },
+      {
+        "q": "A capacitor stores…",
+        "choices": [
+          "Electric charge",
+          "Heat",
+          "Sound",
+          "Magnetism"
+        ],
+        "correct": 0,
+        "explain": "Capacitors store charge for later use."
+      },
+      {
+        "q": "In series circuits, current is…",
+        "choices": [
+          "The same through every component",
+          "Different in each",
+          "Random",
+          "Zero"
+        ],
+        "correct": 0,
+        "explain": "Series shares the same current."
+      },
+      {
+        "q": "In parallel circuits, voltage across each branch is…",
+        "choices": [
+          "The same",
+          "Different in each",
+          "Random",
+          "Zero"
+        ],
+        "correct": 0,
+        "explain": "Parallel branches have the same voltage."
+      },
+      {
+        "q": "AC stands for…",
+        "choices": [
+          "Alternating Current",
+          "Always Current",
+          "Atomic Charge",
+          "Active Cell"
+        ],
+        "correct": 0,
+        "explain": "AC reverses direction many times per second."
+      },
+      {
+        "q": "DC stands for…",
+        "choices": [
+          "Direct Current",
+          "Dual Current",
+          "Daily Charge",
+          "Dim Cell"
+        ],
+        "correct": 0,
+        "explain": "DC flows in one direction."
+      },
+      {
+        "q": "A fuse protects a circuit by…",
+        "choices": [
+          "Breaking when current is too high",
+          "Adding more current",
+          "Storing energy",
+          "Producing light"
+        ],
+        "correct": 0,
+        "explain": "Fuses melt to stop dangerous overloads."
+      },
+      {
+        "q": "A short circuit happens when…",
+        "choices": [
+          "Current bypasses the load through a low-resistance path",
+          "Resistance is high",
+          "No battery",
+          "Switch is off"
+        ],
+        "correct": 0,
+        "explain": "Short circuits can be dangerous."
       }
     ],
     "flashcards": [
@@ -1196,6 +2120,160 @@
         ],
         "correct": 0,
         "explain": "Cameras send video/image data to the computer."
+      },
+      {
+        "q": "A scanner is an…",
+        "choices": [
+          "Input device",
+          "Output device",
+          "Storage",
+          "CPU"
+        ],
+        "correct": 0,
+        "explain": "Scanners turn paper into digital images — input."
+      },
+      {
+        "q": "Headphones are an…",
+        "choices": [
+          "Output device",
+          "Input device",
+          "Storage",
+          "CPU"
+        ],
+        "correct": 0,
+        "explain": "Headphones output sound."
+      },
+      {
+        "q": "A graphics tablet is mainly an…",
+        "choices": [
+          "Input device",
+          "Output device",
+          "Storage",
+          "Battery"
+        ],
+        "correct": 0,
+        "explain": "You draw input with the stylus."
+      },
+      {
+        "q": "A projector is an…",
+        "choices": [
+          "Output device",
+          "Input device",
+          "Storage",
+          "CPU"
+        ],
+        "correct": 0,
+        "explain": "It outputs an image to a screen or wall."
+      },
+      {
+        "q": "Touchscreens combine…",
+        "choices": [
+          "Input and output",
+          "Two outputs only",
+          "Storage and CPU",
+          "Two batteries"
+        ],
+        "correct": 0,
+        "explain": "They display (output) and respond to touch (input)."
+      },
+      {
+        "q": "VR (Virtual Reality) headsets are mostly…",
+        "choices": [
+          "Output devices (with input sensors)",
+          "Storage only",
+          "CPUs only",
+          "Random"
+        ],
+        "correct": 0,
+        "explain": "They display immersive output and detect head movement."
+      },
+      {
+        "q": "A barcode scanner is an…",
+        "choices": [
+          "Input device",
+          "Output device",
+          "Storage",
+          "Battery"
+        ],
+        "correct": 0,
+        "explain": "It reads (inputs) the barcode."
+      },
+      {
+        "q": "A 3D printer is an…",
+        "choices": [
+          "Output device",
+          "Input device",
+          "Storage",
+          "CPU"
+        ],
+        "correct": 0,
+        "explain": "It builds physical objects from data — output."
+      },
+      {
+        "q": "A trackpad is an…",
+        "choices": [
+          "Input device",
+          "Output device",
+          "Storage",
+          "Sound"
+        ],
+        "correct": 0,
+        "explain": "You input pointer movements with it."
+      },
+      {
+        "q": "Speakers convert…",
+        "choices": [
+          "Electrical signals to sound",
+          "Light to sound",
+          "Sound to light",
+          "Heat to sound"
+        ],
+        "correct": 0,
+        "explain": "Speakers vibrate to make sound."
+      },
+      {
+        "q": "Microphones convert…",
+        "choices": [
+          "Sound to electrical signals",
+          "Electricity to sound",
+          "Light to sound",
+          "Sound to text always"
+        ],
+        "correct": 0,
+        "explain": "Mics turn sound into electrical signals."
+      },
+      {
+        "q": "A QR code reader on a phone is an…",
+        "choices": [
+          "Input device",
+          "Output device",
+          "Storage",
+          "CPU"
+        ],
+        "correct": 0,
+        "explain": "It captures the code — input."
+      },
+      {
+        "q": "A monitor mostly uses…",
+        "choices": [
+          "LED or LCD technology",
+          "Cassette tape",
+          "Wax",
+          "Wood"
+        ],
+        "correct": 0,
+        "explain": "Modern screens use LED or LCD."
+      },
+      {
+        "q": "A 'plotter' prints…",
+        "choices": [
+          "Large drawings using pens",
+          "Music",
+          "Sound only",
+          "Heat only"
+        ],
+        "correct": 0,
+        "explain": "Plotters move pens to create large prints."
       }
     ],
     "flashcards": [
@@ -1383,6 +2461,160 @@
         ],
         "correct": 1,
         "explain": "Google, Bing, DuckDuckGo are search engines."
+      },
+      {
+        "q": "HTTP stands for…",
+        "choices": [
+          "HyperText Transfer Protocol",
+          "High Tech Transfer Path",
+          "Home Text Transfer Page",
+          "Hyper Text Tag Page"
+        ],
+        "correct": 0,
+        "explain": "HTTP transfers web data."
+      },
+      {
+        "q": "HTTPS is HTTP plus…",
+        "choices": [
+          "Security",
+          "Speed",
+          "Storage",
+          "Style"
+        ],
+        "correct": 0,
+        "explain": "HTTPS encrypts data."
+      },
+      {
+        "q": "A URL is a…",
+        "choices": [
+          "Web address",
+          "Username",
+          "Robot",
+          "Box"
+        ],
+        "correct": 0,
+        "explain": "URL = Uniform Resource Locator."
+      },
+      {
+        "q": "DNS converts…",
+        "choices": [
+          "Domain names to IP addresses",
+          "Sound to image",
+          "English to French",
+          "Time to date"
+        ],
+        "correct": 0,
+        "explain": "DNS lets you type names instead of numbers."
+      },
+      {
+        "q": "An IP address is…",
+        "choices": [
+          "A number that identifies a device on the internet",
+          "A photo",
+          "A letter",
+          "A song"
+        ],
+        "correct": 0,
+        "explain": "Devices have IP addresses to be reachable."
+      },
+      {
+        "q": "A modem connects you to your…",
+        "choices": [
+          "ISP / internet line",
+          "TV cable",
+          "Lights",
+          "Sink"
+        ],
+        "correct": 0,
+        "explain": "Modems link your network to the internet provider."
+      },
+      {
+        "q": "A router…",
+        "choices": [
+          "Directs traffic between networks",
+          "Cleans data",
+          "Cooks data",
+          "Removes data"
+        ],
+        "correct": 0,
+        "explain": "Routers move packets between networks."
+      },
+      {
+        "q": "Data on the internet is split into…",
+        "choices": [
+          "Packets",
+          "Blocks of cement",
+          "Letters of the alphabet",
+          "Tiles"
+        ],
+        "correct": 0,
+        "explain": "Packets are small data pieces sent separately."
+      },
+      {
+        "q": "To browse safely, look for…",
+        "choices": [
+          "A padlock and HTTPS",
+          "Any popup",
+          "Long flashy URLs",
+          "A red icon"
+        ],
+        "correct": 0,
+        "explain": "HTTPS and padlock indicate a secure connection."
+      },
+      {
+        "q": "Spam is…",
+        "choices": [
+          "Unwanted bulk messages",
+          "Important news",
+          "Required forms",
+          "Important emails only"
+        ],
+        "correct": 0,
+        "explain": "Spam clutters inboxes."
+      },
+      {
+        "q": "Phishing tries to…",
+        "choices": [
+          "Trick users into giving sensitive info",
+          "Catch fish",
+          "Print pages",
+          "Make tea"
+        ],
+        "correct": 0,
+        "explain": "Phishing emails impersonate trusted services."
+      },
+      {
+        "q": "A strong password should be…",
+        "choices": [
+          "Long with mixed characters",
+          "Your name",
+          "123456",
+          "Same on every site"
+        ],
+        "correct": 0,
+        "explain": "Length and variety make passwords harder to crack."
+      },
+      {
+        "q": "Two-factor authentication adds…",
+        "choices": [
+          "A second verification step",
+          "Less security",
+          "Confusion",
+          "Speed"
+        ],
+        "correct": 0,
+        "explain": "2FA makes accounts much safer."
+      },
+      {
+        "q": "A cookie is…",
+        "choices": [
+          "Small data stored by your browser for a site",
+          "A snack",
+          "An app",
+          "A monitor"
+        ],
+        "correct": 0,
+        "explain": "Cookies remember preferences and logins."
       }
     ],
     "flashcards": [
@@ -1570,6 +2802,160 @@
         ],
         "correct": 1,
         "explain": "user@example.com"
+      },
+      {
+        "q": "A spreadsheet uses cells arranged in…",
+        "choices": [
+          "Rows and columns",
+          "Pages",
+          "Lines only",
+          "Random"
+        ],
+        "correct": 0,
+        "explain": "Cells form a grid."
+      },
+      {
+        "q": "In a spreadsheet, =SUM(A1:A5) calculates…",
+        "choices": [
+          "The sum of cells A1 through A5",
+          "Multiplication",
+          "The first cell only",
+          "The last cell"
+        ],
+        "correct": 0,
+        "explain": "SUM totals values in a range."
+      },
+      {
+        "q": "A digital photo's resolution is measured in…",
+        "choices": [
+          "Pixels",
+          "Litres",
+          "Metres",
+          "Volts"
+        ],
+        "correct": 0,
+        "explain": "Pixels are the dots that make up an image."
+      },
+      {
+        "q": "A PDF is a format good for…",
+        "choices": [
+          "Sharing documents that look the same on any device",
+          "Music only",
+          "Videos only",
+          "Spreadsheets only"
+        ],
+        "correct": 0,
+        "explain": "PDFs preserve layout."
+      },
+      {
+        "q": "A presentation slide should…",
+        "choices": [
+          "Use clear visuals and short text",
+          "Be packed with paragraphs",
+          "Have tiny text",
+          "Be blank always"
+        ],
+        "correct": 0,
+        "explain": "Less text + visuals communicates better."
+      },
+      {
+        "q": "A digital citizen…",
+        "choices": [
+          "Uses tech responsibly",
+          "Avoids tech",
+          "Spams others",
+          "Hacks systems"
+        ],
+        "correct": 0,
+        "explain": "Digital citizenship means responsible online behaviour."
+      },
+      {
+        "q": "To back up files you can…",
+        "choices": [
+          "Save to cloud or external drive",
+          "Just hope",
+          "Delete them",
+          "Print them only"
+        ],
+        "correct": 0,
+        "explain": "Backups protect against data loss."
+      },
+      {
+        "q": "A digital footprint is the…",
+        "choices": [
+          "Trail of data you leave online",
+          "Shoe print",
+          "Your weight",
+          "Your height"
+        ],
+        "correct": 0,
+        "explain": "Posts, comments and history form your footprint."
+      },
+      {
+        "q": "To collaborate online many tools allow…",
+        "choices": [
+          "Real-time editing of documents",
+          "No teamwork",
+          "Single user only",
+          "Shouting"
+        ],
+        "correct": 0,
+        "explain": "Cloud docs allow many editors."
+      },
+      {
+        "q": "A QR code can be used to…",
+        "choices": [
+          "Quickly open a website on a phone",
+          "Cook food",
+          "Listen to radio",
+          "Heat water"
+        ],
+        "correct": 0,
+        "explain": "Phones scan QR codes to open links."
+      },
+      {
+        "q": "A virus on a computer is a type of…",
+        "choices": [
+          "Malware",
+          "Game",
+          "Hardware",
+          "Operating system"
+        ],
+        "correct": 0,
+        "explain": "Viruses are malicious software."
+      },
+      {
+        "q": "Antivirus software helps…",
+        "choices": [
+          "Detect and remove malware",
+          "Make games faster",
+          "Print better",
+          "Store water"
+        ],
+        "correct": 0,
+        "explain": "Antivirus protects against threats."
+      },
+      {
+        "q": "Online safety includes…",
+        "choices": [
+          "Not sharing personal info with strangers",
+          "Sharing your address",
+          "Telling everyone your password",
+          "Posting all secrets"
+        ],
+        "correct": 0,
+        "explain": "Keep personal data private online."
+      },
+      {
+        "q": "A meme is…",
+        "choices": [
+          "A piece of cultural content shared online",
+          "A type of video card",
+          "A keyboard",
+          "An OS"
+        ],
+        "correct": 0,
+        "explain": "Memes spread fast on social media."
       }
     ],
     "flashcards": [
@@ -1757,6 +3143,160 @@
         ],
         "correct": 1,
         "explain": "JS lets you control program logic. HTML is markup, not programming."
+      },
+      {
+        "q": "A 'variable' in code stores…",
+        "choices": [
+          "A value that can change",
+          "A constant only",
+          "A bug",
+          "An error"
+        ],
+        "correct": 0,
+        "explain": "Variables hold values."
+      },
+      {
+        "q": "A 'function' is…",
+        "choices": [
+          "A reusable block of code",
+          "A bug",
+          "A loop",
+          "A page"
+        ],
+        "correct": 0,
+        "explain": "Functions perform a task and can be reused."
+      },
+      {
+        "q": "To repeat code while a condition is true, use a…",
+        "choices": [
+          "while loop",
+          "if statement",
+          "switch",
+          "function"
+        ],
+        "correct": 0,
+        "explain": "While loops keep running until the condition is false."
+      },
+      {
+        "q": "Boolean values are…",
+        "choices": [
+          "true or false",
+          "yes or no",
+          "1 or 2",
+          "on or off only"
+        ],
+        "correct": 0,
+        "explain": "Booleans store true/false."
+      },
+      {
+        "q": "A debugger helps you…",
+        "choices": [
+          "Find and fix bugs",
+          "Add bugs",
+          "Run faster",
+          "Print code"
+        ],
+        "correct": 0,
+        "explain": "Debuggers step through code to inspect it."
+      },
+      {
+        "q": "An array index usually starts at…",
+        "choices": [
+          "0",
+          "1",
+          "2",
+          "10"
+        ],
+        "correct": 0,
+        "explain": "Most languages use 0-based indexing."
+      },
+      {
+        "q": "Code that runs only when a button is clicked uses…",
+        "choices": [
+          "An event listener",
+          "A loop",
+          "A constant",
+          "A variable"
+        ],
+        "correct": 0,
+        "explain": "Event listeners react to user actions."
+      },
+      {
+        "q": "A flowchart shows the…",
+        "choices": [
+          "Logic of a program",
+          "Page colour",
+          "Title",
+          "Server"
+        ],
+        "correct": 0,
+        "explain": "Flowcharts visualise algorithms."
+      },
+      {
+        "q": "Conditionals (if/else) let code…",
+        "choices": [
+          "Make decisions",
+          "Loop forever",
+          "Hide errors",
+          "Compile faster"
+        ],
+        "correct": 0,
+        "explain": "Conditions branch the program."
+      },
+      {
+        "q": "Comments in code…",
+        "choices": [
+          "Explain code to humans",
+          "Run as code",
+          "Make code slower",
+          "Are required by browsers"
+        ],
+        "correct": 0,
+        "explain": "Comments are ignored by the compiler/interpreter."
+      },
+      {
+        "q": "Pair programming is when…",
+        "choices": [
+          "Two people code together",
+          "Two computers run",
+          "Code is duplicated",
+          "Two languages are used"
+        ],
+        "correct": 0,
+        "explain": "Pairs share screen and ideas."
+      },
+      {
+        "q": "Version control tools like Git track…",
+        "choices": [
+          "Code changes over time",
+          "Internet usage",
+          "Battery life",
+          "Volume"
+        ],
+        "correct": 0,
+        "explain": "Git records every change to your code."
+      },
+      {
+        "q": "A 'syntax error' means…",
+        "choices": [
+          "Code structure is wrong",
+          "Logic is wrong",
+          "No bug",
+          "Program is too fast"
+        ],
+        "correct": 0,
+        "explain": "Syntax errors break the language rules."
+      },
+      {
+        "q": "A simple 'Hello World' program is often used to…",
+        "choices": [
+          "Test setup of a new language",
+          "Solve maths",
+          "Encrypt data",
+          "Send email"
+        ],
+        "correct": 0,
+        "explain": "Hello World is the classic first program."
       }
     ],
     "flashcards": [
@@ -1944,6 +3484,160 @@
         ],
         "correct": 0,
         "explain": "Functions keep code clean and reusable."
+      },
+      {
+        "q": "In a calculator, you can store the running total in a variable like…",
+        "choices": [
+          "let total = 0;",
+          "print(total)",
+          "total += 'a';",
+          "var = total;"
+        ],
+        "correct": 0,
+        "explain": "Use let or const to declare the variable."
+      },
+      {
+        "q": "To multiply in JS use…",
+        "choices": [
+          "*",
+          "x",
+          "X",
+          "times"
+        ],
+        "correct": 0,
+        "explain": "* is the multiplication operator."
+      },
+      {
+        "q": "To divide in JS use…",
+        "choices": [
+          "/",
+          "÷",
+          "\\",
+          "|"
+        ],
+        "correct": 0,
+        "explain": "/ is the division operator."
+      },
+      {
+        "q": "Pressing the equals button should…",
+        "choices": [
+          "Calculate the result",
+          "Reset to zero",
+          "Open settings",
+          "Open a new tab"
+        ],
+        "correct": 0,
+        "explain": "= triggers the calculation."
+      },
+      {
+        "q": "For decimal input, the dot button must add to the number string only if…",
+        "choices": [
+          "No dot already exists",
+          "Always",
+          "Never",
+          "After =."
+        ],
+        "correct": 0,
+        "explain": "Avoid two decimal points in one number."
+      },
+      {
+        "q": "A clear (C) button should…",
+        "choices": [
+          "Reset state to default",
+          "Print result",
+          "Close the app",
+          "Repeat last entry"
+        ],
+        "correct": 0,
+        "explain": "C clears the calculator."
+      },
+      {
+        "q": "To prevent dividing by zero you can…",
+        "choices": [
+          "Check the divisor first",
+          "Ignore",
+          "Crash on purpose",
+          "Print zero only"
+        ],
+        "correct": 0,
+        "explain": "Add validation to avoid errors."
+      },
+      {
+        "q": "To append a digit to the display string, use…",
+        "choices": [
+          "display = display + '5'",
+          "display - 5",
+          "display / 5",
+          "display % 5"
+        ],
+        "correct": 0,
+        "explain": "String concatenation builds the number text."
+      },
+      {
+        "q": "Number(\"3.14\") returns…",
+        "choices": [
+          "3.14 as a number",
+          "'3.14' as a string",
+          "NaN",
+          "314"
+        ],
+        "correct": 0,
+        "explain": "Number() converts a string to a number."
+      },
+      {
+        "q": "To round to 2 decimal places use…",
+        "choices": [
+          "Number(value).toFixed(2)",
+          "round(value)",
+          "value.round()",
+          "floor(value)"
+        ],
+        "correct": 0,
+        "explain": "toFixed(2) returns a string with 2 decimals."
+      },
+      {
+        "q": "To listen for a button click in JS, use…",
+        "choices": [
+          "btn.addEventListener('click', fn)",
+          "btn.click(fn)",
+          "onClick(btn, fn)",
+          "fn(btn)"
+        ],
+        "correct": 0,
+        "explain": "addEventListener is the standard way."
+      },
+      {
+        "q": "To handle keyboard input you can listen for…",
+        "choices": [
+          "'keydown' event",
+          "'click' event only",
+          "'scroll' only",
+          "'mouse' only"
+        ],
+        "correct": 0,
+        "explain": "keydown fires when a key is pressed."
+      },
+      {
+        "q": "To keep code DRY, repeated logic should be…",
+        "choices": [
+          "Put in a function",
+          "Copy-pasted",
+          "Removed",
+          "Hidden"
+        ],
+        "correct": 0,
+        "explain": "DRY = Don't Repeat Yourself."
+      },
+      {
+        "q": "To show errors clearly to users you can…",
+        "choices": [
+          "Display a friendly message",
+          "Crash silently",
+          "Pop 100 alerts",
+          "Restart the device"
+        ],
+        "correct": 0,
+        "explain": "Helpful messages improve user experience."
       }
     ],
     "flashcards": [
@@ -2131,6 +3825,160 @@
         ],
         "correct": 0,
         "explain": "element.remove() removes it from the page."
+      },
+      {
+        "q": "localStorage values are stored as…",
+        "choices": [
+          "Strings",
+          "Numbers",
+          "Arrays",
+          "Objects"
+        ],
+        "correct": 0,
+        "explain": "localStorage only stores strings — that's why we use JSON."
+      },
+      {
+        "q": "To save an object to localStorage you should…",
+        "choices": [
+          "JSON.stringify() it first",
+          "Save directly",
+          "Use Math.round",
+          "Use JSON.parse"
+        ],
+        "correct": 0,
+        "explain": "Convert to JSON string before saving."
+      },
+      {
+        "q": "To load an object from localStorage you should…",
+        "choices": [
+          "JSON.parse() the string",
+          "Use it directly",
+          "Use eval()",
+          "Use Math.round"
+        ],
+        "correct": 0,
+        "explain": "Parse the JSON string back to an object."
+      },
+      {
+        "q": "To clear all stored data, call…",
+        "choices": [
+          "localStorage.clear()",
+          "localStorage.delete()",
+          "localStorage = null",
+          "clearStorage()"
+        ],
+        "correct": 0,
+        "explain": "clear() removes everything."
+      },
+      {
+        "q": "To delete a single key, use…",
+        "choices": [
+          "localStorage.removeItem('key')",
+          "localStorage.delete('key')",
+          "localStorage.kill('key')",
+          "removeKey('key')"
+        ],
+        "correct": 0,
+        "explain": "removeItem removes one key."
+      },
+      {
+        "q": "A todo list is best stored as…",
+        "choices": [
+          "An array of items",
+          "A single string",
+          "A number",
+          "A boolean"
+        ],
+        "correct": 0,
+        "explain": "Arrays hold ordered collections naturally."
+      },
+      {
+        "q": "To add to an array, use…",
+        "choices": [
+          "array.push(item)",
+          "array.add(item)",
+          "array.insert(item)",
+          "array += item"
+        ],
+        "correct": 0,
+        "explain": "push appends to the end."
+      },
+      {
+        "q": "To remove the last array item, use…",
+        "choices": [
+          "array.pop()",
+          "array.shift()",
+          "array.clear()",
+          "array.last()"
+        ],
+        "correct": 0,
+        "explain": "pop removes the last element."
+      },
+      {
+        "q": "To loop through an array of todos use…",
+        "choices": [
+          "forEach or for",
+          "while only",
+          "switch",
+          "if-else only"
+        ],
+        "correct": 0,
+        "explain": "forEach is concise; for offers more control."
+      },
+      {
+        "q": "To select all elements with class .todo use…",
+        "choices": [
+          "document.querySelectorAll('.todo')",
+          "document.find('.todo')",
+          "document.getId('.todo')",
+          "document.use('.todo')"
+        ],
+        "correct": 0,
+        "explain": "querySelectorAll returns all matches."
+      },
+      {
+        "q": "To create a new HTML element use…",
+        "choices": [
+          "document.createElement('li')",
+          "document.makeElement('li')",
+          "new Element('li')",
+          "document.add('li')"
+        ],
+        "correct": 0,
+        "explain": "createElement makes a new node."
+      },
+      {
+        "q": "To set the text inside an element use…",
+        "choices": [
+          "el.textContent = 'hi'",
+          "el.innerText('hi')",
+          "el.text = 'hi'",
+          "el.set('hi')"
+        ],
+        "correct": 0,
+        "explain": "textContent sets plain text safely."
+      },
+      {
+        "q": "To respond to checking off a todo, listen for…",
+        "choices": [
+          "A 'change' or 'click' event",
+          "No event",
+          "'load' only",
+          "'reset' only"
+        ],
+        "correct": 0,
+        "explain": "Checkbox toggles fire change/click events."
+      },
+      {
+        "q": "Using JSON makes saving complex data…",
+        "choices": [
+          "Possible in localStorage",
+          "Slower",
+          "Wrong",
+          "Impossible"
+        ],
+        "correct": 0,
+        "explain": "JSON converts objects/arrays to a string for storage."
       }
     ],
     "flashcards": [

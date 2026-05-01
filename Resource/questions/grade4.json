@@ -67,6 +67,160 @@
         ],
         "correct": 1,
         "explain": "Recording allows scientists to share findings and for others to repeat the experiment."
+      },
+      {
+        "q": "What does an experiment help a scientist to do?",
+        "choices": [
+          "Test a prediction",
+          "Win a prize",
+          "Build a house",
+          "Tell a story"
+        ],
+        "correct": 0,
+        "explain": "An experiment is a fair test designed to check whether a prediction is correct."
+      },
+      {
+        "q": "Which sense would help you observe the colour of a leaf?",
+        "choices": [
+          "Hearing",
+          "Smell",
+          "Sight",
+          "Taste"
+        ],
+        "correct": 2,
+        "explain": "Colour is observed using sight — your eyes."
+      },
+      {
+        "q": "Which tool measures length in centimetres?",
+        "choices": [
+          "Balance",
+          "Ruler",
+          "Beaker",
+          "Magnet"
+        ],
+        "correct": 1,
+        "explain": "A ruler is marked in centimetres and millimetres for measuring length."
+      },
+      {
+        "q": "A balance is a tool used to measure…",
+        "choices": [
+          "Time",
+          "Mass",
+          "Sound",
+          "Light"
+        ],
+        "correct": 1,
+        "explain": "A balance compares masses, telling you how heavy an object is."
+      },
+      {
+        "q": "What unit do scientists usually use for liquid volume?",
+        "choices": [
+          "Millilitres",
+          "Metres",
+          "Grams",
+          "Seconds"
+        ],
+        "correct": 0,
+        "explain": "Volume of liquid is measured in millilitres (mL) or litres (L)."
+      },
+      {
+        "q": "Which is a 'fair test'?",
+        "choices": [
+          "Changing many things at once",
+          "Changing one thing and keeping others the same",
+          "Guessing the answer",
+          "Skipping the steps"
+        ],
+        "correct": 1,
+        "explain": "In a fair test, only one variable is changed so you know what caused the result."
+      },
+      {
+        "q": "What is a hypothesis?",
+        "choices": [
+          "A finished answer",
+          "An educated guess to be tested",
+          "A scientist's pet name",
+          "A type of microscope"
+        ],
+        "correct": 1,
+        "explain": "A hypothesis is a careful, testable prediction made before an experiment."
+      },
+      {
+        "q": "Which person studies living things?",
+        "choices": [
+          "Astronomer",
+          "Biologist",
+          "Geologist",
+          "Chef"
+        ],
+        "correct": 1,
+        "explain": "A biologist studies plants, animals and other living things."
+      },
+      {
+        "q": "Why do we wear safety goggles in the lab?",
+        "choices": [
+          "To look cool",
+          "To keep eyes safe",
+          "To see in the dark",
+          "To hear better"
+        ],
+        "correct": 1,
+        "explain": "Goggles protect your eyes from splashes and flying bits."
+      },
+      {
+        "q": "Which step comes after 'do the experiment'?",
+        "choices": [
+          "Make a prediction",
+          "Record the results",
+          "Pack up and go home",
+          "Forget what happened"
+        ],
+        "correct": 1,
+        "explain": "After doing the experiment, scientists record the results so they can study them."
+      },
+      {
+        "q": "Why do scientists repeat experiments?",
+        "choices": [
+          "To get bored",
+          "To check the results are reliable",
+          "To use up materials",
+          "To make the room dirty"
+        ],
+        "correct": 1,
+        "explain": "Repeating an experiment shows whether the result happens every time, not just by luck."
+      },
+      {
+        "q": "A diagram of a result helps a scientist to…",
+        "choices": [
+          "Hide the data",
+          "Show others what happened",
+          "Forget the steps",
+          "Run faster"
+        ],
+        "correct": 1,
+        "explain": "Charts and diagrams make it easy to see and share patterns in the data."
+      },
+      {
+        "q": "Classifying means…",
+        "choices": [
+          "Throwing away",
+          "Grouping things by features",
+          "Making things heavy",
+          "Painting things"
+        ],
+        "correct": 1,
+        "explain": "Classifying is sorting things into groups by what they have in common."
+      },
+      {
+        "q": "If a prediction is wrong, a scientist should…",
+        "choices": [
+          "Pretend it was right",
+          "Learn from it and try again",
+          "Cry",
+          "Quit science"
+        ],
+        "correct": 1,
+        "explain": "Wrong predictions are useful — they teach scientists something new and lead to better tests."
       }
     ],
     "flashcards": [
@@ -254,6 +408,160 @@
         ],
         "correct": 1,
         "explain": "Reptiles like crocodiles are cold-blooded — their body temperature changes with the environment."
+      },
+      {
+        "q": "Which is a living thing?",
+        "choices": [
+          "Stone",
+          "Cloud",
+          "Iguana",
+          "Spoon"
+        ],
+        "correct": 2,
+        "explain": "An iguana grows, breathes and reproduces, so it is alive."
+      },
+      {
+        "q": "What do we call a baby plant growing from a seed?",
+        "choices": [
+          "Cub",
+          "Sprout",
+          "Pup",
+          "Calf"
+        ],
+        "correct": 1,
+        "explain": "A young plant pushing out of a seed is called a sprout or seedling."
+      },
+      {
+        "q": "Reproduction means…",
+        "choices": [
+          "Eating food",
+          "Making more of the same kind",
+          "Sleeping",
+          "Growing tall"
+        ],
+        "correct": 1,
+        "explain": "Reproduction is how living things make new young of their own kind."
+      },
+      {
+        "q": "Which is a non-living thing?",
+        "choices": [
+          "Mango tree",
+          "Goat",
+          "Sand",
+          "Crab"
+        ],
+        "correct": 2,
+        "explain": "Sand does not grow, breathe or reproduce, so it is non-living."
+      },
+      {
+        "q": "All animals need air for…",
+        "choices": [
+          "Decoration",
+          "Breathing",
+          "Painting",
+          "Singing only"
+        ],
+        "correct": 1,
+        "explain": "Animals breathe in oxygen from the air to stay alive."
+      },
+      {
+        "q": "Which group does a fish belong to?",
+        "choices": [
+          "Mammals",
+          "Reptiles",
+          "Fish",
+          "Birds"
+        ],
+        "correct": 2,
+        "explain": "Fish live in water and breathe through gills — they are their own group."
+      },
+      {
+        "q": "A mammal is an animal that…",
+        "choices": [
+          "Lays many eggs in water",
+          "Has fur or hair and feeds milk to its young",
+          "Grows from a seed",
+          "Has scales and gills"
+        ],
+        "correct": 1,
+        "explain": "Mammals have hair or fur and feed their babies on milk."
+      },
+      {
+        "q": "Which Jamaican animal is a bird?",
+        "choices": [
+          "Doctor bird",
+          "Mongoose",
+          "Crocodile",
+          "Crab"
+        ],
+        "correct": 0,
+        "explain": "The doctor bird is Jamaica's national bird, a hummingbird."
+      },
+      {
+        "q": "Plants belong to which group of living things?",
+        "choices": [
+          "Animals",
+          "Plants",
+          "Rocks",
+          "Stars"
+        ],
+        "correct": 1,
+        "explain": "Plants are their own kingdom of living things — they make their own food."
+      },
+      {
+        "q": "Which living thing is too small to see without a microscope?",
+        "choices": [
+          "Cow",
+          "Bacteria",
+          "Banana tree",
+          "Donkey"
+        ],
+        "correct": 1,
+        "explain": "Bacteria are tiny one-celled living things, only visible through a microscope."
+      },
+      {
+        "q": "Animals that eat only plants are called…",
+        "choices": [
+          "Carnivores",
+          "Herbivores",
+          "Omnivores",
+          "Decomposers"
+        ],
+        "correct": 1,
+        "explain": "Herbivores feed only on plants — like cows and goats."
+      },
+      {
+        "q": "Why do living things need water?",
+        "choices": [
+          "For decoration",
+          "For their cells to work",
+          "To make noise",
+          "To be heavy"
+        ],
+        "correct": 1,
+        "explain": "Water is needed for the chemical reactions inside the cells of every living thing."
+      },
+      {
+        "q": "Which is a sign that something is alive?",
+        "choices": [
+          "It grows",
+          "It is shiny",
+          "It is square",
+          "It is cold"
+        ],
+        "correct": 0,
+        "explain": "Growth is one of the main signs of life."
+      },
+      {
+        "q": "A frog starts life as a…",
+        "choices": [
+          "Pup",
+          "Tadpole",
+          "Chick",
+          "Calf"
+        ],
+        "correct": 1,
+        "explain": "Frogs hatch from eggs as tadpoles, then change into frogs — that's metamorphosis."
       }
     ],
     "flashcards": [
@@ -441,6 +749,160 @@
         ],
         "correct": 1,
         "explain": "Bees carry pollen from flower to flower, helping plants make seeds."
+      },
+      {
+        "q": "Which part of a plant takes in water from the soil?",
+        "choices": [
+          "Leaf",
+          "Flower",
+          "Roots",
+          "Fruit"
+        ],
+        "correct": 2,
+        "explain": "Roots soak up water and minerals from the soil."
+      },
+      {
+        "q": "The stem of a plant carries…",
+        "choices": [
+          "Water and food up and down the plant",
+          "Only sunlight",
+          "Only air",
+          "Only seeds"
+        ],
+        "correct": 0,
+        "explain": "The stem is like a pipe, moving water up and food down."
+      },
+      {
+        "q": "What process do plants use to make food?",
+        "choices": [
+          "Digestion",
+          "Photosynthesis",
+          "Respiration only",
+          "Evaporation"
+        ],
+        "correct": 1,
+        "explain": "Photosynthesis uses sunlight, water and carbon dioxide to make food in the leaves."
+      },
+      {
+        "q": "Which animal is a herbivore?",
+        "choices": [
+          "Lion",
+          "Cow",
+          "Shark",
+          "Hawk"
+        ],
+        "correct": 1,
+        "explain": "A cow eats only plants, so it is a herbivore."
+      },
+      {
+        "q": "An omnivore is an animal that eats…",
+        "choices": [
+          "Only plants",
+          "Only meat",
+          "Both plants and meat",
+          "Only insects"
+        ],
+        "correct": 2,
+        "explain": "Omnivores like humans eat both plants and animals."
+      },
+      {
+        "q": "Which of these animals is a reptile?",
+        "choices": [
+          "Iguana",
+          "Goat",
+          "Parrot",
+          "Trout"
+        ],
+        "correct": 0,
+        "explain": "Iguanas are reptiles — cold-blooded animals with scales."
+      },
+      {
+        "q": "What do flowers help plants to do?",
+        "choices": [
+          "Make seeds",
+          "Grow taller",
+          "Get heavy",
+          "Hide from the sun"
+        ],
+        "correct": 0,
+        "explain": "Flowers contain the parts that make seeds for new plants."
+      },
+      {
+        "q": "Animals that eat only meat are called…",
+        "choices": [
+          "Herbivores",
+          "Producers",
+          "Carnivores",
+          "Decomposers"
+        ],
+        "correct": 2,
+        "explain": "Carnivores eat only other animals."
+      },
+      {
+        "q": "Which is the food-making part of a leaf?",
+        "choices": [
+          "Chlorophyll",
+          "Petal",
+          "Bark",
+          "Seed"
+        ],
+        "correct": 0,
+        "explain": "Chlorophyll is the green pigment in leaves that traps sunlight to make food."
+      },
+      {
+        "q": "Why are plants called producers?",
+        "choices": [
+          "They make their own food",
+          "They produce noise",
+          "They eat other plants",
+          "They run fast"
+        ],
+        "correct": 0,
+        "explain": "Plants produce their own food using sunlight, so they are called producers."
+      },
+      {
+        "q": "Which part of the plant grows into a fruit?",
+        "choices": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "correct": 2,
+        "explain": "After a flower is pollinated, parts of it grow into the fruit."
+      },
+      {
+        "q": "A food chain usually starts with a…",
+        "choices": [
+          "Carnivore",
+          "Plant",
+          "Decomposer",
+          "Rock"
+        ],
+        "correct": 1,
+        "explain": "Plants are at the start of a food chain because they make their own food."
+      },
+      {
+        "q": "Which animal lays eggs?",
+        "choices": [
+          "Cow",
+          "Dog",
+          "Hen",
+          "Cat"
+        ],
+        "correct": 2,
+        "explain": "Hens lay eggs from which chicks hatch."
+      },
+      {
+        "q": "Why do plants need sunlight?",
+        "choices": [
+          "For warmth only",
+          "To make food in their leaves",
+          "To smell nice",
+          "To grow flowers in the dark"
+        ],
+        "correct": 1,
+        "explain": "Sunlight is the energy plants use during photosynthesis to make food."
       }
     ],
     "flashcards": [
@@ -634,6 +1096,160 @@
         ],
         "correct": 0,
         "explain": "The sun's light is so bright it can permanently damage the eyes."
+      },
+      {
+        "q": "Which sense organ is the ear?",
+        "choices": [
+          "Smell",
+          "Sight",
+          "Hearing",
+          "Taste"
+        ],
+        "correct": 2,
+        "explain": "Ears collect sound waves so we can hear."
+      },
+      {
+        "q": "Which part of the eye lets light enter?",
+        "choices": [
+          "Pupil",
+          "Eyebrow",
+          "Eyelash",
+          "Cheek"
+        ],
+        "correct": 0,
+        "explain": "The pupil is the dark hole in the centre of the eye that lets light in."
+      },
+      {
+        "q": "You can tell a flower smells sweet using your…",
+        "choices": [
+          "Eyes",
+          "Skin",
+          "Nose",
+          "Tongue"
+        ],
+        "correct": 2,
+        "explain": "The nose is the sense organ for smell."
+      },
+      {
+        "q": "Tiny bumps on the tongue that taste food are called…",
+        "choices": [
+          "Pupils",
+          "Taste buds",
+          "Gills",
+          "Veins"
+        ],
+        "correct": 1,
+        "explain": "Taste buds on your tongue help you sense sweet, sour, salty and bitter flavours."
+      },
+      {
+        "q": "Which sense helps you feel that ice is cold?",
+        "choices": [
+          "Sight",
+          "Touch",
+          "Hearing",
+          "Smell"
+        ],
+        "correct": 1,
+        "explain": "Touch through your skin tells you about temperature and texture."
+      },
+      {
+        "q": "Loud noises can damage which sense organ?",
+        "choices": [
+          "Eyes",
+          "Nose",
+          "Skin",
+          "Ears"
+        ],
+        "correct": 3,
+        "explain": "Very loud sounds can hurt the delicate parts inside the ears."
+      },
+      {
+        "q": "Which sense would warn you that food is burning?",
+        "choices": [
+          "Hearing only",
+          "Touch only",
+          "Smell",
+          "Taste only"
+        ],
+        "correct": 2,
+        "explain": "Smelling smoke quickly warns you that food is burning."
+      },
+      {
+        "q": "To keep your eyes healthy you should…",
+        "choices": [
+          "Read in the dark",
+          "Rub them with dirty hands",
+          "Get enough light when reading",
+          "Look at the sun"
+        ],
+        "correct": 2,
+        "explain": "Reading in good light keeps your eyes from getting tired."
+      },
+      {
+        "q": "Which sense lets you tell sugar from salt?",
+        "choices": [
+          "Sight",
+          "Hearing",
+          "Smell only",
+          "Taste"
+        ],
+        "correct": 3,
+        "explain": "You taste sugar as sweet and salt as salty using your tongue."
+      },
+      {
+        "q": "Brushing your teeth helps which sense organ?",
+        "choices": [
+          "Ears",
+          "Eyes",
+          "Tongue",
+          "Skin"
+        ],
+        "correct": 2,
+        "explain": "Brushing keeps the tongue and mouth healthy so you can taste well."
+      },
+      {
+        "q": "Which sense is most important for a baker checking baked goods?",
+        "choices": [
+          "Hearing",
+          "Smell",
+          "Sight",
+          "Touch"
+        ],
+        "correct": 1,
+        "explain": "Smell helps a baker know when something is ready or burning."
+      },
+      {
+        "q": "Which body part protects the brain?",
+        "choices": [
+          "Skull",
+          "Ribs",
+          "Spine",
+          "Lungs"
+        ],
+        "correct": 0,
+        "explain": "The hard skull surrounds and protects the brain."
+      },
+      {
+        "q": "If your skin feels something hot, you should…",
+        "choices": [
+          "Touch it more",
+          "Move away quickly",
+          "Stare at it",
+          "Lick it"
+        ],
+        "correct": 1,
+        "explain": "Pulling away from a hot object stops you from getting burned."
+      },
+      {
+        "q": "Which sense helps a blind person read braille?",
+        "choices": [
+          "Sight",
+          "Touch",
+          "Smell",
+          "Hearing"
+        ],
+        "correct": 1,
+        "explain": "Braille uses raised dots that are read by touch with the fingertips."
       }
     ],
     "flashcards": [
@@ -819,6 +1435,160 @@
         ],
         "correct": 2,
         "explain": "Air is a gas — it spreads out to fill any space."
+      },
+      {
+        "q": "Wood comes from…",
+        "choices": [
+          "Plastic factories",
+          "Trees",
+          "Rocks",
+          "Oil"
+        ],
+        "correct": 1,
+        "explain": "Wood is a natural material taken from trees."
+      },
+      {
+        "q": "Which is a man-made material?",
+        "choices": [
+          "Cotton",
+          "Plastic",
+          "Wood",
+          "Wool"
+        ],
+        "correct": 1,
+        "explain": "Plastic is made by people in factories from chemicals."
+      },
+      {
+        "q": "A material that does not let light through is called…",
+        "choices": [
+          "Transparent",
+          "Opaque",
+          "Translucent",
+          "Magnetic"
+        ],
+        "correct": 1,
+        "explain": "Opaque materials block all light, like a wall or wooden door."
+      },
+      {
+        "q": "Which state of matter has a fixed shape?",
+        "choices": [
+          "Solid",
+          "Liquid",
+          "Gas",
+          "All of these"
+        ],
+        "correct": 0,
+        "explain": "Solids keep their shape unless something changes them."
+      },
+      {
+        "q": "Which material is best for making a raincoat?",
+        "choices": [
+          "Paper",
+          "Cotton",
+          "Plastic",
+          "Sponge"
+        ],
+        "correct": 2,
+        "explain": "Plastic is waterproof, so rain runs off without soaking through."
+      },
+      {
+        "q": "Which is a property of metal?",
+        "choices": [
+          "It is soft like a sponge",
+          "It conducts heat well",
+          "It always floats",
+          "It is see-through"
+        ],
+        "correct": 1,
+        "explain": "Most metals carry heat well, which is why pots are made from metal."
+      },
+      {
+        "q": "Why is rubber used to make tyres?",
+        "choices": [
+          "It tastes good",
+          "It bends and grips the road",
+          "It floats",
+          "It is see-through"
+        ],
+        "correct": 1,
+        "explain": "Rubber is flexible and gives good grip, perfect for tyres."
+      },
+      {
+        "q": "Which material is attracted by a magnet?",
+        "choices": [
+          "Wood",
+          "Plastic",
+          "Iron",
+          "Glass"
+        ],
+        "correct": 2,
+        "explain": "Iron and steel are magnetic — magnets pull them."
+      },
+      {
+        "q": "A liquid…",
+        "choices": [
+          "Has its own shape",
+          "Takes the shape of its container",
+          "Is always invisible",
+          "Is always solid"
+        ],
+        "correct": 1,
+        "explain": "Liquids flow and fill the bottom of whatever holds them."
+      },
+      {
+        "q": "Cotton comes from a…",
+        "choices": [
+          "Cow",
+          "Plant",
+          "Rock",
+          "Machine only"
+        ],
+        "correct": 1,
+        "explain": "Cotton fibres come from the cotton plant and are spun into thread."
+      },
+      {
+        "q": "Which material is best for keeping coffee hot?",
+        "choices": [
+          "A thin metal cup",
+          "A foam cup",
+          "A wet cloth",
+          "A piece of paper"
+        ],
+        "correct": 1,
+        "explain": "Foam is an insulator — it slows the heat from escaping."
+      },
+      {
+        "q": "What happens to chocolate when it gets very hot?",
+        "choices": [
+          "It stays solid",
+          "It melts into a liquid",
+          "It turns into a rock",
+          "It turns into glass"
+        ],
+        "correct": 1,
+        "explain": "Heat changes chocolate from a solid into a liquid — this is melting."
+      },
+      {
+        "q": "Which is an example of a solid?",
+        "choices": [
+          "Steam",
+          "Honey",
+          "Brick",
+          "Air"
+        ],
+        "correct": 2,
+        "explain": "A brick has a fixed shape, so it is a solid."
+      },
+      {
+        "q": "Which property makes glass useful for windows?",
+        "choices": [
+          "It is heavy",
+          "It is transparent",
+          "It is rough",
+          "It bends easily"
+        ],
+        "correct": 1,
+        "explain": "Glass is transparent — light passes through it so you can see outside."
       }
     ],
     "flashcards": [
@@ -1006,6 +1776,160 @@
         ],
         "correct": 1,
         "explain": "All living things need clean water to survive."
+      },
+      {
+        "q": "Which gas in the air do living things breathe in?",
+        "choices": [
+          "Carbon dioxide",
+          "Oxygen",
+          "Helium",
+          "Nitrogen only"
+        ],
+        "correct": 1,
+        "explain": "Living things breathe in oxygen to release energy from food."
+      },
+      {
+        "q": "Water that we can drink is called…",
+        "choices": [
+          "Salt water",
+          "Potable water",
+          "Polluted water",
+          "Sea water"
+        ],
+        "correct": 1,
+        "explain": "Potable water is clean and safe to drink."
+      },
+      {
+        "q": "Which is a state of water?",
+        "choices": [
+          "Ice",
+          "Steam",
+          "Liquid water",
+          "All of these"
+        ],
+        "correct": 3,
+        "explain": "Water exists as solid ice, liquid water, and steam (gas)."
+      },
+      {
+        "q": "What do we call rain, snow, and hail together?",
+        "choices": [
+          "Evaporation",
+          "Precipitation",
+          "Condensation",
+          "Convection"
+        ],
+        "correct": 1,
+        "explain": "Precipitation is any form of water that falls from the sky."
+      },
+      {
+        "q": "When water vapour cools and turns back into a liquid, this is called…",
+        "choices": [
+          "Evaporation",
+          "Condensation",
+          "Boiling",
+          "Freezing"
+        ],
+        "correct": 1,
+        "explain": "Condensation is when gas cools to a liquid, like dew on a glass."
+      },
+      {
+        "q": "What temperature does pure water freeze at?",
+        "choices": [
+          "0°C",
+          "100°C",
+          "37°C",
+          "50°C"
+        ],
+        "correct": 0,
+        "explain": "Pure water freezes into ice at 0°C."
+      },
+      {
+        "q": "Which body of water is salty?",
+        "choices": [
+          "River",
+          "Pond",
+          "Sea",
+          "Lake"
+        ],
+        "correct": 2,
+        "explain": "Seas and oceans are salty because of the dissolved minerals."
+      },
+      {
+        "q": "Wind is moving…",
+        "choices": [
+          "Water",
+          "Sand",
+          "Air",
+          "Rocks"
+        ],
+        "correct": 2,
+        "explain": "Wind is just air on the move."
+      },
+      {
+        "q": "Plants take in which gas during photosynthesis?",
+        "choices": [
+          "Oxygen",
+          "Carbon dioxide",
+          "Helium",
+          "Hydrogen"
+        ],
+        "correct": 1,
+        "explain": "Plants use carbon dioxide together with water and sunlight to make food."
+      },
+      {
+        "q": "To save water at home, you should…",
+        "choices": [
+          "Leave the tap running",
+          "Take shorter showers",
+          "Use a hose for hours",
+          "Throw water away"
+        ],
+        "correct": 1,
+        "explain": "Shorter showers use much less water than long ones."
+      },
+      {
+        "q": "What do we call dirty water that has things harmful to health?",
+        "choices": [
+          "Pure water",
+          "Polluted water",
+          "Distilled water",
+          "Mineral water"
+        ],
+        "correct": 1,
+        "explain": "Polluted water has been mixed with harmful substances."
+      },
+      {
+        "q": "Which is the lightest of these?",
+        "choices": [
+          "Stone",
+          "Air",
+          "Water",
+          "Iron"
+        ],
+        "correct": 1,
+        "explain": "Air is much lighter than the other things, but it still has weight."
+      },
+      {
+        "q": "What makes a kite fly?",
+        "choices": [
+          "Cold water",
+          "Wind",
+          "Heavy rain",
+          "Magnets"
+        ],
+        "correct": 1,
+        "explain": "Wind pushes against a kite and lifts it into the air."
+      },
+      {
+        "q": "Boiling water at sea level happens at…",
+        "choices": [
+          "50°C",
+          "100°C",
+          "0°C",
+          "200°C"
+        ],
+        "correct": 1,
+        "explain": "At sea level, water boils at 100°C and changes to steam."
       }
     ],
     "flashcards": [
@@ -1199,6 +2123,160 @@
         ],
         "correct": 0,
         "explain": "Balanced meals, exercise, rest, and clean water are key to health."
+      },
+      {
+        "q": "Which body system breaks down food?",
+        "choices": [
+          "Nervous system",
+          "Digestive system",
+          "Circulatory system",
+          "Muscular system"
+        ],
+        "correct": 1,
+        "explain": "The digestive system breaks food into small pieces the body can use."
+      },
+      {
+        "q": "Which organ controls your thoughts and movements?",
+        "choices": [
+          "Heart",
+          "Liver",
+          "Brain",
+          "Kidney"
+        ],
+        "correct": 2,
+        "explain": "The brain is the control centre of the body."
+      },
+      {
+        "q": "Blood travels around the body inside…",
+        "choices": [
+          "Bones",
+          "Blood vessels",
+          "Nerves",
+          "Muscles"
+        ],
+        "correct": 1,
+        "explain": "Blood flows in tubes called blood vessels — arteries and veins."
+      },
+      {
+        "q": "Which food is a good source of protein?",
+        "choices": [
+          "Sugar cane",
+          "Fish",
+          "Plain bread",
+          "Sweets"
+        ],
+        "correct": 1,
+        "explain": "Fish, chicken, beans and eggs are all rich in protein for body building."
+      },
+      {
+        "q": "Why is exercise good for you?",
+        "choices": [
+          "It makes you weaker",
+          "It keeps your heart and muscles strong",
+          "It wastes time",
+          "It hurts your bones"
+        ],
+        "correct": 1,
+        "explain": "Regular exercise builds strong muscles and a healthy heart."
+      },
+      {
+        "q": "Which part of your body lets you bend your arm?",
+        "choices": [
+          "Skin",
+          "Joint",
+          "Hair",
+          "Nail"
+        ],
+        "correct": 1,
+        "explain": "Joints, like the elbow, are places where bones meet and move."
+      },
+      {
+        "q": "What gas do your lungs breathe out?",
+        "choices": [
+          "Oxygen",
+          "Carbon dioxide",
+          "Helium",
+          "Hydrogen"
+        ],
+        "correct": 1,
+        "explain": "You breathe out carbon dioxide, a waste gas your body makes."
+      },
+      {
+        "q": "Why should you wash your hands before eating?",
+        "choices": [
+          "So they smell nice",
+          "To remove germs",
+          "To dry the soap",
+          "To make them softer"
+        ],
+        "correct": 1,
+        "explain": "Washing removes germs that could make you sick."
+      },
+      {
+        "q": "Which food group helps you grow strong bones?",
+        "choices": [
+          "Sweets",
+          "Dairy",
+          "Fried snacks",
+          "Fizzy drinks"
+        ],
+        "correct": 1,
+        "explain": "Dairy foods like milk are rich in calcium for strong bones."
+      },
+      {
+        "q": "Which organ removes waste from the blood?",
+        "choices": [
+          "Lung",
+          "Kidney",
+          "Brain",
+          "Stomach"
+        ],
+        "correct": 1,
+        "explain": "Kidneys filter blood and make urine, which carries waste out of the body."
+      },
+      {
+        "q": "How many times a day should most children brush their teeth?",
+        "choices": [
+          "Once",
+          "Twice",
+          "Five times",
+          "Never"
+        ],
+        "correct": 1,
+        "explain": "Brushing twice a day, morning and night, keeps teeth clean and strong."
+      },
+      {
+        "q": "Sleep is important because it…",
+        "choices": [
+          "Wastes time",
+          "Helps the body rest and grow",
+          "Makes you tired",
+          "Stops the brain from working"
+        ],
+        "correct": 1,
+        "explain": "During sleep your body repairs itself and your brain stores what you learned."
+      },
+      {
+        "q": "Which part of the body sends messages from the brain?",
+        "choices": [
+          "Bones",
+          "Nerves",
+          "Skin",
+          "Hair"
+        ],
+        "correct": 1,
+        "explain": "Nerves are like wires that carry signals between the brain and the body."
+      },
+      {
+        "q": "Which is the largest organ of the body?",
+        "choices": [
+          "Heart",
+          "Brain",
+          "Skin",
+          "Liver"
+        ],
+        "correct": 2,
+        "explain": "The skin covers your whole body and is your largest organ."
       }
     ],
     "flashcards": [
@@ -1392,6 +2470,160 @@
         ],
         "correct": 0,
         "explain": "Batteries store chemical energy, which is changed into electrical energy."
+      },
+      {
+        "q": "Which force keeps a ball rolling down a hill?",
+        "choices": [
+          "Friction only",
+          "Gravity",
+          "Magnetism",
+          "Sound"
+        ],
+        "correct": 1,
+        "explain": "Gravity pulls the ball down the slope of the hill."
+      },
+      {
+        "q": "Friction is greater on a…",
+        "choices": [
+          "Smooth, wet floor",
+          "Rough, dry floor",
+          "Mirror",
+          "Sheet of ice"
+        ],
+        "correct": 1,
+        "explain": "Rough, dry surfaces grip more, so they have more friction."
+      },
+      {
+        "q": "Energy from the sun is called…",
+        "choices": [
+          "Solar energy",
+          "Electrical energy only",
+          "Heat from a stove",
+          "Sound energy"
+        ],
+        "correct": 0,
+        "explain": "Solar energy is the light and heat that come from the Sun."
+      },
+      {
+        "q": "A magnet attracts things made of…",
+        "choices": [
+          "Plastic",
+          "Iron",
+          "Wood",
+          "Glass"
+        ],
+        "correct": 1,
+        "explain": "Magnets pull on iron and steel objects."
+      },
+      {
+        "q": "Which is a source of light energy?",
+        "choices": [
+          "A torch",
+          "A pillow",
+          "A book",
+          "A spoon"
+        ],
+        "correct": 0,
+        "explain": "A torch produces light when it is turned on."
+      },
+      {
+        "q": "What kind of energy does a moving cyclist have?",
+        "choices": [
+          "Sound only",
+          "Kinetic",
+          "Heat only",
+          "Magnetic"
+        ],
+        "correct": 1,
+        "explain": "Anything that is moving has kinetic energy — energy of motion."
+      },
+      {
+        "q": "What does a switch do in a circuit?",
+        "choices": [
+          "Adds water",
+          "Turns the current on or off",
+          "Makes light bulbs heavier",
+          "Stores food"
+        ],
+        "correct": 1,
+        "explain": "A switch closes or opens the circuit so electricity flows or stops."
+      },
+      {
+        "q": "Sound is a kind of…",
+        "choices": [
+          "Light",
+          "Energy",
+          "Magnet",
+          "Liquid"
+        ],
+        "correct": 1,
+        "explain": "Sound is energy that travels in waves through air, water or solids."
+      },
+      {
+        "q": "Two ends of a magnet are called…",
+        "choices": [
+          "Heads",
+          "Poles",
+          "Tails",
+          "Arms"
+        ],
+        "correct": 1,
+        "explain": "Magnets have a north pole and a south pole."
+      },
+      {
+        "q": "Same poles of two magnets…",
+        "choices": [
+          "Attract",
+          "Repel",
+          "Stick together",
+          "Disappear"
+        ],
+        "correct": 1,
+        "explain": "Like poles push each other away — they repel."
+      },
+      {
+        "q": "What happens if you pull a rubber band, then let go?",
+        "choices": [
+          "It stays stretched",
+          "It snaps back to its old shape",
+          "It melts",
+          "It turns to dust"
+        ],
+        "correct": 1,
+        "explain": "A rubber band has stored elastic energy that pulls it back."
+      },
+      {
+        "q": "Which appliance uses electrical energy to make heat?",
+        "choices": [
+          "Iron",
+          "Magnet",
+          "Pencil",
+          "Mirror"
+        ],
+        "correct": 0,
+        "explain": "An electric iron uses electricity to heat its plate to press clothes."
+      },
+      {
+        "q": "A push or pull that changes the speed of an object is a…",
+        "choices": [
+          "Force",
+          "Sound",
+          "Light",
+          "Crystal"
+        ],
+        "correct": 0,
+        "explain": "A force can speed up, slow down, or change the direction of an object."
+      },
+      {
+        "q": "Why do we need oil on machine parts?",
+        "choices": [
+          "To make them noisy",
+          "To reduce friction",
+          "To break them",
+          "To make them rusty"
+        ],
+        "correct": 1,
+        "explain": "Oil makes surfaces slide more easily, which reduces friction and wear."
       }
     ],
     "flashcards": [
@@ -1579,6 +2811,160 @@
         ],
         "correct": 1,
         "explain": "Earth's rotation causes the side facing the Sun to have day."
+      },
+      {
+        "q": "How many planets are in our Solar System?",
+        "choices": [
+          "Six",
+          "Seven",
+          "Eight",
+          "Twelve"
+        ],
+        "correct": 2,
+        "explain": "There are 8 planets in our Solar System: Mercury through Neptune."
+      },
+      {
+        "q": "The Sun is a…",
+        "choices": [
+          "Planet",
+          "Star",
+          "Moon",
+          "Comet"
+        ],
+        "correct": 1,
+        "explain": "The Sun is a giant ball of hot gas — a star."
+      },
+      {
+        "q": "Which planet do we live on?",
+        "choices": [
+          "Mars",
+          "Earth",
+          "Venus",
+          "Saturn"
+        ],
+        "correct": 1,
+        "explain": "We live on the third planet from the Sun, Earth."
+      },
+      {
+        "q": "How long does Earth take to go around the Sun once?",
+        "choices": [
+          "1 day",
+          "1 month",
+          "1 year",
+          "10 years"
+        ],
+        "correct": 2,
+        "explain": "One full orbit around the Sun is one year — about 365 days."
+      },
+      {
+        "q": "Which planet is known as the Red Planet?",
+        "choices": [
+          "Venus",
+          "Mars",
+          "Jupiter",
+          "Mercury"
+        ],
+        "correct": 1,
+        "explain": "Mars looks reddish because of iron-rich rust on its surface."
+      },
+      {
+        "q": "The Moon goes around the…",
+        "choices": [
+          "Sun",
+          "Earth",
+          "Mars",
+          "Saturn"
+        ],
+        "correct": 1,
+        "explain": "The Moon is Earth's natural satellite — it orbits the Earth."
+      },
+      {
+        "q": "What causes the seasons?",
+        "choices": [
+          "The Earth's tilt",
+          "Lots of clouds",
+          "Magnets",
+          "The size of the Moon"
+        ],
+        "correct": 0,
+        "explain": "The Earth is tilted, so different parts get more sunlight at different times of the year."
+      },
+      {
+        "q": "Which planet has visible rings?",
+        "choices": [
+          "Earth",
+          "Saturn",
+          "Mars",
+          "Mercury"
+        ],
+        "correct": 1,
+        "explain": "Saturn is famous for its bright system of rings made of ice and rock."
+      },
+      {
+        "q": "What is a constellation?",
+        "choices": [
+          "A pattern of stars in the sky",
+          "A type of food",
+          "A planet",
+          "A moon of Mars"
+        ],
+        "correct": 0,
+        "explain": "A constellation is a group of stars that people see as a picture or pattern."
+      },
+      {
+        "q": "Which is the biggest planet in our Solar System?",
+        "choices": [
+          "Earth",
+          "Saturn",
+          "Jupiter",
+          "Mars"
+        ],
+        "correct": 2,
+        "explain": "Jupiter is the largest planet — bigger than all the others put together."
+      },
+      {
+        "q": "Astronauts travel into space using…",
+        "choices": [
+          "Buses",
+          "Rockets",
+          "Bicycles",
+          "Submarines"
+        ],
+        "correct": 1,
+        "explain": "Rockets are powerful enough to escape Earth's gravity."
+      },
+      {
+        "q": "What do we call a piece of rock that falls from space and burns in the sky?",
+        "choices": [
+          "Star",
+          "Meteor",
+          "Cloud",
+          "Moon"
+        ],
+        "correct": 1,
+        "explain": "A meteor (shooting star) is a small piece of space rock burning in the atmosphere."
+      },
+      {
+        "q": "Day happens on the side of Earth that…",
+        "choices": [
+          "Faces away from the Sun",
+          "Faces the Sun",
+          "Is upside down",
+          "Is closest to the Moon"
+        ],
+        "correct": 1,
+        "explain": "As Earth spins, the side facing the Sun has daylight."
+      },
+      {
+        "q": "Which has its own light?",
+        "choices": [
+          "Sun",
+          "Moon",
+          "Earth",
+          "Mars"
+        ],
+        "correct": 0,
+        "explain": "The Sun makes its own light. The Moon only reflects the Sun's light."
       }
     ],
     "flashcards": [
@@ -1766,6 +3152,160 @@
         ],
         "correct": 2,
         "explain": "Sunlight is renewable — it doesn't run out. Coal and oil will eventually run out."
+      },
+      {
+        "q": "Which is a renewable energy source?",
+        "choices": [
+          "Coal",
+          "Wind",
+          "Petrol",
+          "Diesel"
+        ],
+        "correct": 1,
+        "explain": "Wind keeps blowing — it doesn't run out, so it is renewable."
+      },
+      {
+        "q": "Which action helps the environment?",
+        "choices": [
+          "Throwing rubbish in the river",
+          "Planting trees",
+          "Wasting water",
+          "Cutting down all the trees"
+        ],
+        "correct": 1,
+        "explain": "Trees clean the air and provide homes for animals."
+      },
+      {
+        "q": "Burning rubbish causes…",
+        "choices": [
+          "Clean air",
+          "Air pollution",
+          "More trees",
+          "More water"
+        ],
+        "correct": 1,
+        "explain": "Smoke from burning rubbish pollutes the air."
+      },
+      {
+        "q": "Which is a fossil fuel?",
+        "choices": [
+          "Wind",
+          "Sun",
+          "Petroleum",
+          "Water power"
+        ],
+        "correct": 2,
+        "explain": "Petroleum (oil), coal and natural gas are fossil fuels formed long ago."
+      },
+      {
+        "q": "Which technology helps doctors see inside the body?",
+        "choices": [
+          "X-ray machine",
+          "Hammer",
+          "Bicycle",
+          "Saw"
+        ],
+        "correct": 0,
+        "explain": "X-ray machines take pictures through skin to show bones and other parts."
+      },
+      {
+        "q": "Reduce, reuse, recycle helps to…",
+        "choices": [
+          "Make more rubbish",
+          "Save resources",
+          "Cut down trees",
+          "Pollute water"
+        ],
+        "correct": 1,
+        "explain": "These three Rs lower waste and keep our resources from being used up."
+      },
+      {
+        "q": "Which is harmful to the environment?",
+        "choices": [
+          "Using a refillable bottle",
+          "Plastic bag in the sea",
+          "Using public transport",
+          "Composting food scraps"
+        ],
+        "correct": 1,
+        "explain": "Plastic bags hurt sea animals and last for hundreds of years."
+      },
+      {
+        "q": "Solar panels turn sunlight into…",
+        "choices": [
+          "Sound",
+          "Electricity",
+          "Petrol",
+          "Magnetism"
+        ],
+        "correct": 1,
+        "explain": "Solar panels capture sunlight and convert it into electrical energy."
+      },
+      {
+        "q": "The internet is mainly used for…",
+        "choices": [
+          "Cooking food",
+          "Sharing information",
+          "Lifting heavy boxes",
+          "Watering plants"
+        ],
+        "correct": 1,
+        "explain": "The internet connects computers so people can share information and messages."
+      },
+      {
+        "q": "Which technology helps fishermen find fish?",
+        "choices": [
+          "Sonar",
+          "Hammer",
+          "Telescope only",
+          "Saw"
+        ],
+        "correct": 0,
+        "explain": "Sonar uses sound waves under water to locate schools of fish."
+      },
+      {
+        "q": "Cutting down too many trees is called…",
+        "choices": [
+          "Deforestation",
+          "Reforestation",
+          "Pollination",
+          "Hibernation"
+        ],
+        "correct": 0,
+        "explain": "Deforestation removes trees that protect soil and clean the air."
+      },
+      {
+        "q": "Why should plastic be sorted from other rubbish?",
+        "choices": [
+          "So it can be recycled",
+          "So it gets heavier",
+          "So it shines",
+          "So it disappears"
+        ],
+        "correct": 0,
+        "explain": "Sorting lets plastic be sent for recycling into new items."
+      },
+      {
+        "q": "Composting is good because it…",
+        "choices": [
+          "Turns food scraps into fertiliser for soil",
+          "Pollutes the air",
+          "Makes water unsafe",
+          "Wastes energy"
+        ],
+        "correct": 0,
+        "explain": "Composting recycles plant scraps into rich soil for gardens."
+      },
+      {
+        "q": "Which is a healthy environment for fish?",
+        "choices": [
+          "A clean coral reef",
+          "A polluted river",
+          "A dry desert",
+          "A garbage dump"
+        ],
+        "correct": 0,
+        "explain": "Clean reefs are full of life and food, perfect for many fish."
       }
     ],
     "flashcards": [
@@ -1953,6 +3493,160 @@
         ],
         "correct": 1,
         "explain": "A screw is an inclined plane wrapped around a rod."
+      },
+      {
+        "q": "A wheel and axle helps things to…",
+        "choices": [
+          "Stay still",
+          "Roll easily",
+          "Float on water",
+          "Fly"
+        ],
+        "correct": 1,
+        "explain": "A wheel turns on its axle so loads can be moved with less effort."
+      },
+      {
+        "q": "Which simple machine is a knife?",
+        "choices": [
+          "Pulley",
+          "Wedge",
+          "Lever",
+          "Wheel"
+        ],
+        "correct": 1,
+        "explain": "A knife's sharp edge is a wedge that splits things apart."
+      },
+      {
+        "q": "A see-saw is an example of a…",
+        "choices": [
+          "Wedge",
+          "Lever",
+          "Pulley",
+          "Inclined plane"
+        ],
+        "correct": 1,
+        "explain": "A see-saw turns on a pivot, which makes it a lever."
+      },
+      {
+        "q": "A staircase is like which simple machine?",
+        "choices": [
+          "Inclined plane",
+          "Magnet",
+          "Wheel only",
+          "Pulley"
+        ],
+        "correct": 0,
+        "explain": "A staircase lets you reach a high place with less effort, like a ramp (inclined plane)."
+      },
+      {
+        "q": "A pulley is useful for…",
+        "choices": [
+          "Lifting things up",
+          "Cutting wood",
+          "Holding water",
+          "Making fire"
+        ],
+        "correct": 0,
+        "explain": "A pulley uses a rope and wheel to lift loads more easily."
+      },
+      {
+        "q": "Which simple machine is in a flag pole?",
+        "choices": [
+          "Pulley",
+          "Wedge",
+          "Wheel only",
+          "Screw only"
+        ],
+        "correct": 0,
+        "explain": "A pulley at the top lets you raise the flag by pulling down on the rope."
+      },
+      {
+        "q": "A bicycle is a complex machine because it uses…",
+        "choices": [
+          "Only one simple machine",
+          "Many simple machines together",
+          "No machines",
+          "Only fuel"
+        ],
+        "correct": 1,
+        "explain": "A bicycle uses wheels, levers (pedals) and gears all working together."
+      },
+      {
+        "q": "A doorknob uses which simple machine?",
+        "choices": [
+          "Wheel and axle",
+          "Wedge",
+          "Pulley only",
+          "Inclined plane"
+        ],
+        "correct": 0,
+        "explain": "Turning the round knob (a wheel) twists the axle to open the latch."
+      },
+      {
+        "q": "Why use a wheelbarrow?",
+        "choices": [
+          "To carry heavy loads with less effort",
+          "To make loads heavier",
+          "To go slower",
+          "To lose load"
+        ],
+        "correct": 0,
+        "explain": "A wheelbarrow combines a lever and a wheel to make heavy loads easier to move."
+      },
+      {
+        "q": "Which is NOT a simple machine?",
+        "choices": [
+          "Lever",
+          "Pulley",
+          "Computer",
+          "Wedge"
+        ],
+        "correct": 2,
+        "explain": "A computer is a complex machine made of many simpler parts."
+      },
+      {
+        "q": "A nail being hammered into wood acts as a…",
+        "choices": [
+          "Wedge",
+          "Pulley",
+          "Wheel",
+          "Lever only"
+        ],
+        "correct": 0,
+        "explain": "A nail's sharp point splits wood apart like a wedge."
+      },
+      {
+        "q": "A jar lid uses which simple machine?",
+        "choices": [
+          "Screw",
+          "Pulley",
+          "Wedge",
+          "Lever"
+        ],
+        "correct": 0,
+        "explain": "The threads on a jar and lid are screws — they hold things tightly."
+      },
+      {
+        "q": "Scissors are made from two…",
+        "choices": [
+          "Wedges and a lever",
+          "Screws",
+          "Pulleys",
+          "Springs"
+        ],
+        "correct": 0,
+        "explain": "Each blade is a wedge, and the handles work as levers around the pivot."
+      },
+      {
+        "q": "Which machine helps a builder lift bricks to a high floor?",
+        "choices": [
+          "Crane (uses pulleys)",
+          "Spoon",
+          "Toothbrush",
+          "Shoe"
+        ],
+        "correct": 0,
+        "explain": "A crane uses pulleys and motors to lift heavy loads safely."
       }
     ],
     "flashcards": [
@@ -2140,6 +3834,160 @@
         ],
         "correct": 0,
         "explain": "Weathering is the slow breaking down of rock by water, wind, and ice."
+      },
+      {
+        "q": "Which rock forms from layers of sand and shell at the sea bottom?",
+        "choices": [
+          "Limestone",
+          "Granite",
+          "Marble",
+          "Obsidian"
+        ],
+        "correct": 0,
+        "explain": "Limestone forms from layers of shells and sand pressed together — Jamaica has lots of it."
+      },
+      {
+        "q": "A rock formed when other rocks change under heat and pressure is called…",
+        "choices": [
+          "Sedimentary",
+          "Igneous",
+          "Metamorphic",
+          "Wooden"
+        ],
+        "correct": 2,
+        "explain": "Metamorphic rocks like marble form when other rocks are heated and squeezed."
+      },
+      {
+        "q": "Which is NOT a type of soil?",
+        "choices": [
+          "Clay",
+          "Sandy",
+          "Loam",
+          "Plastic"
+        ],
+        "correct": 3,
+        "explain": "Plastic is not soil — it is a man-made material."
+      },
+      {
+        "q": "Loam soil is good for plants because it…",
+        "choices": [
+          "Holds some water and air",
+          "Has no nutrients",
+          "Is always dry",
+          "Is made of plastic"
+        ],
+        "correct": 0,
+        "explain": "Loam holds the right balance of water, air and nutrients for healthy plants."
+      },
+      {
+        "q": "Sandy soil drains water…",
+        "choices": [
+          "Quickly",
+          "Very slowly",
+          "Never",
+          "Only on Sundays"
+        ],
+        "correct": 0,
+        "explain": "Sand has big spaces between its grains, so water passes through easily."
+      },
+      {
+        "q": "Which mineral is mined a lot in Jamaica for making aluminium?",
+        "choices": [
+          "Coal",
+          "Bauxite",
+          "Salt",
+          "Diamond"
+        ],
+        "correct": 1,
+        "explain": "Bauxite is the main ore for aluminium and Jamaica is a big producer."
+      },
+      {
+        "q": "Erosion means…",
+        "choices": [
+          "Soil and rock being worn away by water or wind",
+          "Building new mountains",
+          "Planting trees",
+          "Cooking food"
+        ],
+        "correct": 0,
+        "explain": "Erosion is when natural forces wear away land and carry pieces away."
+      },
+      {
+        "q": "What helps to stop soil from being washed away?",
+        "choices": [
+          "Cutting down trees",
+          "Plant roots holding the soil",
+          "Concrete only",
+          "Plastic bags"
+        ],
+        "correct": 1,
+        "explain": "Roots hold soil in place so rain can't wash it away."
+      },
+      {
+        "q": "Which is a clue that a rock is sedimentary?",
+        "choices": [
+          "It has visible layers",
+          "It glows in the dark",
+          "It is always magnetic",
+          "It bends like rubber"
+        ],
+        "correct": 0,
+        "explain": "Sedimentary rocks often have flat layers from being built up over time."
+      },
+      {
+        "q": "Which is a use of clay?",
+        "choices": [
+          "Making pots",
+          "Powering cars",
+          "Making glass windows",
+          "Making electricity"
+        ],
+        "correct": 0,
+        "explain": "Clay is shaped and baked to make pottery and bricks."
+      },
+      {
+        "q": "What do worms do for soil?",
+        "choices": [
+          "Mix it and add air",
+          "Make it harder",
+          "Make it less fertile",
+          "Eat plants only"
+        ],
+        "correct": 0,
+        "explain": "Worms tunnel through soil, mixing it and helping air and water reach plant roots."
+      },
+      {
+        "q": "A cave in a limestone area is often formed by…",
+        "choices": [
+          "Water dissolving the rock",
+          "Magnets",
+          "Wind only",
+          "Lightning"
+        ],
+        "correct": 0,
+        "explain": "Slightly acidic rainwater slowly dissolves limestone, carving out caves."
+      },
+      {
+        "q": "Topsoil is important because it…",
+        "choices": [
+          "Has the most nutrients for plants",
+          "Is always dry",
+          "Is hard rock",
+          "Is made of metal"
+        ],
+        "correct": 0,
+        "explain": "Topsoil contains the most decayed plant matter, full of nutrients for crops."
+      },
+      {
+        "q": "Which mineral is used to flavour and preserve food?",
+        "choices": [
+          "Salt",
+          "Bauxite",
+          "Iron",
+          "Gold"
+        ],
+        "correct": 0,
+        "explain": "Salt (sodium chloride) is mined from rocks or evaporated from sea water."
       }
     ],
     "flashcards": [
@@ -2327,6 +4175,160 @@
         ],
         "correct": 1,
         "explain": "The Doctor Bird (Red-billed Streamertail) is Jamaica's national bird."
+      },
+      {
+        "q": "The Tainos came to Jamaica from…",
+        "choices": [
+          "Europe",
+          "South America",
+          "Africa",
+          "Asia"
+        ],
+        "correct": 1,
+        "explain": "The Tainos travelled by canoe from South America to the Caribbean."
+      },
+      {
+        "q": "Which group of Africans were brought to Jamaica against their will?",
+        "choices": [
+          "Tourists",
+          "Enslaved Africans",
+          "Pirates",
+          "Sailors"
+        ],
+        "correct": 1,
+        "explain": "Many Africans were brought to Jamaica as enslaved people during slavery."
+      },
+      {
+        "q": "The Maroons were…",
+        "choices": [
+          "A type of fruit",
+          "Africans who escaped slavery and lived free",
+          "Spanish soldiers",
+          "Boats"
+        ],
+        "correct": 1,
+        "explain": "Maroons formed free communities after escaping plantations."
+      },
+      {
+        "q": "Slavery was abolished in Jamaica in…",
+        "choices": [
+          "1834",
+          "1962",
+          "1494",
+          "1900"
+        ],
+        "correct": 0,
+        "explain": "Slavery ended in 1834 with the Emancipation Act, full freedom in 1838."
+      },
+      {
+        "q": "Independence Day in Jamaica is on…",
+        "choices": [
+          "1 January",
+          "6 August",
+          "25 December",
+          "23 October"
+        ],
+        "correct": 1,
+        "explain": "Jamaica became independent on 6 August 1962."
+      },
+      {
+        "q": "Jamaica's national flag is…",
+        "choices": [
+          "Red, white and blue",
+          "Black, green and gold",
+          "Green and yellow",
+          "Red and white"
+        ],
+        "correct": 1,
+        "explain": "The flag has black, green and gold."
+      },
+      {
+        "q": "Heritage includes…",
+        "choices": [
+          "Things passed from past generations",
+          "Only modern things",
+          "Foreign things only",
+          "TV shows"
+        ],
+        "correct": 0,
+        "explain": "Heritage is the customs, music, food and history passed down to us."
+      },
+      {
+        "q": "The British took Jamaica from the Spanish in…",
+        "choices": [
+          "1492",
+          "1655",
+          "1834",
+          "1962"
+        ],
+        "correct": 1,
+        "explain": "In 1655 the British captured Jamaica from Spain."
+      },
+      {
+        "q": "Jamaica's national flower is the…",
+        "choices": [
+          "Hibiscus",
+          "Lignum Vitae",
+          "Rose",
+          "Lily"
+        ],
+        "correct": 1,
+        "explain": "The Lignum Vitae is Jamaica's national flower."
+      },
+      {
+        "q": "The national tree of Jamaica is the…",
+        "choices": [
+          "Palm",
+          "Blue Mahoe",
+          "Mango",
+          "Cedar"
+        ],
+        "correct": 1,
+        "explain": "The Blue Mahoe is the national tree of Jamaica."
+      },
+      {
+        "q": "The national fruit of Jamaica is…",
+        "choices": [
+          "Mango",
+          "Banana",
+          "Ackee",
+          "Pineapple"
+        ],
+        "correct": 2,
+        "explain": "Ackee is the national fruit and part of the national dish."
+      },
+      {
+        "q": "Sam Sharpe is famous as…",
+        "choices": [
+          "A national hero",
+          "A musician only",
+          "A footballer",
+          "A pirate"
+        ],
+        "correct": 0,
+        "explain": "Sam Sharpe is one of Jamaica's National Heroes — he led the 1831 rebellion."
+      },
+      {
+        "q": "Marcus Garvey is best known as…",
+        "choices": [
+          "A Pan-African leader and National Hero",
+          "A pirate",
+          "A king",
+          "A scientist"
+        ],
+        "correct": 0,
+        "explain": "Marcus Garvey was a great leader who promoted African pride."
+      },
+      {
+        "q": "Nanny of the Maroons is honoured because she…",
+        "choices": [
+          "Was a Maroon leader who fought for freedom",
+          "Painted maps",
+          "Built a railway",
+          "Composed reggae"
+        ],
+        "correct": 0,
+        "explain": "Nanny led the Windward Maroons against the British and is a National Hero."
       }
     ],
     "flashcards": [
@@ -2514,6 +4516,160 @@
         ],
         "correct": 1,
         "explain": "Always tell a trusted adult (teacher, parent) so they can help stop bullying."
+      },
+      {
+        "q": "A neighbour is…",
+        "choices": [
+          "Someone who lives near you",
+          "A foreign visitor",
+          "A teacher only",
+          "A doctor only"
+        ],
+        "correct": 0,
+        "explain": "Neighbours live close by in your community."
+      },
+      {
+        "q": "Which is a community helper?",
+        "choices": [
+          "A nurse",
+          "A robber",
+          "A bully",
+          "A stranger"
+        ],
+        "correct": 0,
+        "explain": "Nurses serve the community by caring for the sick."
+      },
+      {
+        "q": "A police officer's job is to…",
+        "choices": [
+          "Keep the community safe",
+          "Bake bread",
+          "Fix cars",
+          "Build houses"
+        ],
+        "correct": 0,
+        "explain": "Police officers protect citizens and keep order."
+      },
+      {
+        "q": "Cooperation means…",
+        "choices": [
+          "Working alone",
+          "Working together",
+          "Refusing to share",
+          "Fighting"
+        ],
+        "correct": 1,
+        "explain": "Cooperation is people working together towards a goal."
+      },
+      {
+        "q": "Why are rules important?",
+        "choices": [
+          "To make us unhappy",
+          "To keep us safe and fair",
+          "To waste time",
+          "To stop fun"
+        ],
+        "correct": 1,
+        "explain": "Rules protect everyone and make sure things are fair."
+      },
+      {
+        "q": "A 'family' usually includes…",
+        "choices": [
+          "Just the parents",
+          "People related by blood, marriage or adoption",
+          "Only one parent",
+          "No one"
+        ],
+        "correct": 1,
+        "explain": "Families come in many forms — parents, children, grandparents and others."
+      },
+      {
+        "q": "The school principal is responsible for…",
+        "choices": [
+          "Driving the bus",
+          "Leading the school",
+          "Selling lunch",
+          "Cleaning only"
+        ],
+        "correct": 1,
+        "explain": "A principal leads and manages the school."
+      },
+      {
+        "q": "What should you do if you see bullying?",
+        "choices": [
+          "Join in",
+          "Tell a trusted adult",
+          "Ignore it forever",
+          "Laugh at the victim"
+        ],
+        "correct": 1,
+        "explain": "Telling an adult is the best way to stop bullying safely."
+      },
+      {
+        "q": "Conflict can be solved best by…",
+        "choices": [
+          "Shouting",
+          "Talking calmly and listening",
+          "Hitting",
+          "Running away always"
+        ],
+        "correct": 1,
+        "explain": "Speaking and listening helps people understand each other."
+      },
+      {
+        "q": "A leader in the community could be a…",
+        "choices": [
+          "Pastor",
+          "Robber",
+          "Stranger",
+          "Bully"
+        ],
+        "correct": 0,
+        "explain": "Pastors, councillors and elders often lead communities."
+      },
+      {
+        "q": "Sharing with others shows…",
+        "choices": [
+          "Kindness",
+          "Greed",
+          "Anger",
+          "Selfishness"
+        ],
+        "correct": 0,
+        "explain": "Sharing is a kind action that helps others."
+      },
+      {
+        "q": "A fire-fighter helps the community by…",
+        "choices": [
+          "Putting out fires and rescuing people",
+          "Selling shoes",
+          "Painting houses",
+          "Cooking food"
+        ],
+        "correct": 0,
+        "explain": "Fire-fighters protect lives and property from fire."
+      },
+      {
+        "q": "Which is a citizen's responsibility?",
+        "choices": [
+          "Obeying the law",
+          "Throwing rubbish anywhere",
+          "Bullying others",
+          "Skipping school often"
+        ],
+        "correct": 0,
+        "explain": "Following the law keeps the community safe."
+      },
+      {
+        "q": "Tolerance means…",
+        "choices": [
+          "Refusing to listen",
+          "Accepting differences in others",
+          "Hating people who differ",
+          "Being mean"
+        ],
+        "correct": 1,
+        "explain": "Tolerance is respecting people who are different from you."
       }
     ],
     "flashcards": [
@@ -2701,6 +4857,160 @@
         ],
         "correct": 1,
         "explain": "Oceans are the biggest bodies of salt water on Earth."
+      },
+      {
+        "q": "A river usually starts in the…",
+        "choices": [
+          "Sea",
+          "Mountains",
+          "Desert",
+          "Ocean only"
+        ],
+        "correct": 1,
+        "explain": "Rivers usually begin high up in mountains and flow downhill."
+      },
+      {
+        "q": "A valley is…",
+        "choices": [
+          "A high peak",
+          "A low area between hills or mountains",
+          "An island",
+          "A type of tree"
+        ],
+        "correct": 1,
+        "explain": "Valleys are the low land between higher land."
+      },
+      {
+        "q": "A peninsula is…",
+        "choices": [
+          "Land surrounded by water on three sides",
+          "A round island",
+          "A river",
+          "A type of rock"
+        ],
+        "correct": 0,
+        "explain": "A peninsula is land that sticks out into water with water on three sides."
+      },
+      {
+        "q": "Jamaica is a/n…",
+        "choices": [
+          "Continent",
+          "Island",
+          "Peninsula",
+          "Lake"
+        ],
+        "correct": 1,
+        "explain": "Jamaica is an island country in the Caribbean Sea."
+      },
+      {
+        "q": "The Blue Mountains are famous for…",
+        "choices": [
+          "Coffee",
+          "Apples",
+          "Snow",
+          "Salt"
+        ],
+        "correct": 0,
+        "explain": "Blue Mountain coffee is grown there and is famous worldwide."
+      },
+      {
+        "q": "A delta forms where a river…",
+        "choices": [
+          "Starts",
+          "Meets the sea",
+          "Crosses a city",
+          "Goes underground"
+        ],
+        "correct": 1,
+        "explain": "Deltas are flat lands made of sand and silt where rivers enter the sea."
+      },
+      {
+        "q": "Climate of Jamaica is mostly…",
+        "choices": [
+          "Cold",
+          "Tropical",
+          "Polar",
+          "Desert"
+        ],
+        "correct": 1,
+        "explain": "Jamaica has warm temperatures and rainy seasons — a tropical climate."
+      },
+      {
+        "q": "Which is a coastal feature?",
+        "choices": [
+          "Beach",
+          "Hill",
+          "Cave",
+          "Field"
+        ],
+        "correct": 0,
+        "explain": "Beaches are sandy areas along the coast where land meets sea."
+      },
+      {
+        "q": "The opposite of a hill is a…",
+        "choices": [
+          "Mountain",
+          "Valley",
+          "River",
+          "Coast"
+        ],
+        "correct": 1,
+        "explain": "A valley is a low area between higher land."
+      },
+      {
+        "q": "A plateau is…",
+        "choices": [
+          "A flat area of high land",
+          "A deep valley",
+          "A waterfall",
+          "A river bend"
+        ],
+        "correct": 0,
+        "explain": "A plateau is land that is high and flat on top."
+      },
+      {
+        "q": "The Rio Grande is a famous Jamaican…",
+        "choices": [
+          "River",
+          "Mountain",
+          "Beach",
+          "City"
+        ],
+        "correct": 0,
+        "explain": "The Rio Grande river is in Portland, Jamaica."
+      },
+      {
+        "q": "Caves are formed mostly by…",
+        "choices": [
+          "Water dissolving rock over time",
+          "Wind suddenly",
+          "Volcanoes always",
+          "Earthquakes only"
+        ],
+        "correct": 0,
+        "explain": "Slightly acidic water slowly carves out caves in limestone."
+      },
+      {
+        "q": "A bay is…",
+        "choices": [
+          "A wide curve in a coastline",
+          "A type of car",
+          "A dry desert",
+          "A mountain peak"
+        ],
+        "correct": 0,
+        "explain": "A bay is where the coast curves inward, sheltering boats."
+      },
+      {
+        "q": "Jamaica's coastline is washed by which sea?",
+        "choices": [
+          "Pacific",
+          "Caribbean",
+          "Atlantic only",
+          "Mediterranean"
+        ],
+        "correct": 1,
+        "explain": "Jamaica is in the Caribbean Sea."
       }
     ],
     "flashcards": [
@@ -2888,6 +5198,160 @@
         ],
         "correct": 0,
         "explain": "Renewable resources are replaced by nature."
+      },
+      {
+        "q": "Diversity in Jamaica means…",
+        "choices": [
+          "People of many backgrounds living together",
+          "Only one group of people",
+          "No mixing",
+          "Empty land"
+        ],
+        "correct": 0,
+        "explain": "Jamaicans have African, European, Indian, Chinese and other roots."
+      },
+      {
+        "q": "Sustainability is about…",
+        "choices": [
+          "Using resources so future generations can also use them",
+          "Wasting things",
+          "Buying new toys",
+          "Polluting"
+        ],
+        "correct": 0,
+        "explain": "Sustainability protects our environment for the future."
+      },
+      {
+        "q": "Which is NOT a renewable resource?",
+        "choices": [
+          "Oil",
+          "Wind",
+          "Sunlight",
+          "Trees"
+        ],
+        "correct": 0,
+        "explain": "Oil takes millions of years to form and will run out — it is non-renewable."
+      },
+      {
+        "q": "To save energy at home you can…",
+        "choices": [
+          "Switch off lights when leaving the room",
+          "Leave all appliances on",
+          "Turn the AC very cold",
+          "Open the fridge for fun"
+        ],
+        "correct": 0,
+        "explain": "Switching off saves electricity and money."
+      },
+      {
+        "q": "Recycling means…",
+        "choices": [
+          "Throwing rubbish away",
+          "Turning waste into new useful things",
+          "Burning everything",
+          "Hiding rubbish"
+        ],
+        "correct": 1,
+        "explain": "Recycling reuses materials so we waste less."
+      },
+      {
+        "q": "Composting is good for…",
+        "choices": [
+          "The garden",
+          "Air pollution",
+          "Wasting water",
+          "Making fires"
+        ],
+        "correct": 0,
+        "explain": "Compost feeds the soil and reduces rubbish."
+      },
+      {
+        "q": "Which uses less energy?",
+        "choices": [
+          "LED bulbs",
+          "Old incandescent bulbs",
+          "Open fires",
+          "Lit candles all day"
+        ],
+        "correct": 0,
+        "explain": "LED bulbs use far less electricity for the same brightness."
+      },
+      {
+        "q": "Walking or cycling instead of driving…",
+        "choices": [
+          "Reduces pollution and saves fuel",
+          "Uses more fuel",
+          "Makes more smoke",
+          "Adds noise"
+        ],
+        "correct": 0,
+        "explain": "Walking and cycling produce no fumes."
+      },
+      {
+        "q": "Jamaica's diversity is celebrated in…",
+        "choices": [
+          "The motto 'Out of Many, One People'",
+          "Only history books",
+          "Foreign movies",
+          "Sports"
+        ],
+        "correct": 0,
+        "explain": "Jamaica's motto highlights its many peoples becoming one nation."
+      },
+      {
+        "q": "Which sea creature is harmed most by plastic in the sea?",
+        "choices": [
+          "Turtles",
+          "Mermaids",
+          "Robots",
+          "Stars"
+        ],
+        "correct": 0,
+        "explain": "Sea turtles eat plastic bags by mistake, thinking they are jellyfish."
+      },
+      {
+        "q": "Cultural diversity means…",
+        "choices": [
+          "Different cultures in one place",
+          "One culture only",
+          "No celebrations",
+          "Only Jamaican music"
+        ],
+        "correct": 0,
+        "explain": "Different traditions, languages and foods make up cultural diversity."
+      },
+      {
+        "q": "Conserving water at home includes…",
+        "choices": [
+          "Fixing leaks and shorter showers",
+          "Leaving the tap running",
+          "Using a hose for hours",
+          "Wasting water"
+        ],
+        "correct": 0,
+        "explain": "Small fixes save lots of water over time."
+      },
+      {
+        "q": "Solar energy comes from the…",
+        "choices": [
+          "Sun",
+          "Wind",
+          "Rivers",
+          "Oil wells"
+        ],
+        "correct": 0,
+        "explain": "Solar energy is captured from sunlight."
+      },
+      {
+        "q": "Reforestation is…",
+        "choices": [
+          "Cutting down trees",
+          "Planting new trees",
+          "Burning forests",
+          "Watering the sea"
+        ],
+        "correct": 1,
+        "explain": "Reforestation puts trees back to restore forests."
       }
     ],
     "flashcards": [
@@ -3075,6 +5539,160 @@
         ],
         "correct": 0,
         "explain": "Manchester is famous for bauxite mining."
+      },
+      {
+        "q": "Jamaica has how many parishes?",
+        "choices": [
+          "10",
+          "12",
+          "14",
+          "16"
+        ],
+        "correct": 2,
+        "explain": "Jamaica has 14 parishes."
+      },
+      {
+        "q": "The capital of Jamaica is…",
+        "choices": [
+          "Montego Bay",
+          "Kingston",
+          "Spanish Town",
+          "Ocho Rios"
+        ],
+        "correct": 1,
+        "explain": "Kingston is the capital city of Jamaica."
+      },
+      {
+        "q": "Which parish includes Kingston?",
+        "choices": [
+          "Kingston Parish",
+          "St. Andrew",
+          "Both Kingston and St. Andrew",
+          "St. Catherine"
+        ],
+        "correct": 2,
+        "explain": "Kingston city is shared by Kingston parish and St. Andrew."
+      },
+      {
+        "q": "Montego Bay is in which parish?",
+        "choices": [
+          "St. James",
+          "St. Ann",
+          "Westmoreland",
+          "Hanover"
+        ],
+        "correct": 0,
+        "explain": "Montego Bay is the capital of St. James."
+      },
+      {
+        "q": "Which parish is famous for Dunn's River Falls?",
+        "choices": [
+          "St. Ann",
+          "St. Mary",
+          "Portland",
+          "St. Thomas"
+        ],
+        "correct": 0,
+        "explain": "Dunn's River Falls is near Ocho Rios in St. Ann."
+      },
+      {
+        "q": "Which parish is the largest by area?",
+        "choices": [
+          "St. Ann",
+          "St. Andrew",
+          "Hanover",
+          "Kingston"
+        ],
+        "correct": 0,
+        "explain": "St. Ann is the largest parish in Jamaica."
+      },
+      {
+        "q": "Which parish is the smallest?",
+        "choices": [
+          "Kingston",
+          "St. Catherine",
+          "Hanover",
+          "Trelawny"
+        ],
+        "correct": 0,
+        "explain": "Kingston is the smallest parish."
+      },
+      {
+        "q": "Which parish has Negril?",
+        "choices": [
+          "Westmoreland",
+          "Hanover",
+          "Trelawny",
+          "St. James"
+        ],
+        "correct": 0,
+        "explain": "Negril is mostly in Westmoreland."
+      },
+      {
+        "q": "A 'parish capital' is…",
+        "choices": [
+          "The main town of a parish",
+          "A small village",
+          "A foreign city",
+          "An island"
+        ],
+        "correct": 0,
+        "explain": "Each parish has a main town that serves as its capital."
+      },
+      {
+        "q": "Spanish Town is the capital of which parish?",
+        "choices": [
+          "St. Catherine",
+          "St. Mary",
+          "St. Ann",
+          "Manchester"
+        ],
+        "correct": 0,
+        "explain": "Spanish Town is the capital of St. Catherine."
+      },
+      {
+        "q": "Mandeville is in which parish?",
+        "choices": [
+          "Manchester",
+          "St. Elizabeth",
+          "Clarendon",
+          "St. Ann"
+        ],
+        "correct": 0,
+        "explain": "Mandeville is the capital of Manchester parish."
+      },
+      {
+        "q": "The 'Cockpit Country' is mostly in which parish?",
+        "choices": [
+          "Trelawny",
+          "St. James",
+          "Manchester",
+          "Portland"
+        ],
+        "correct": 0,
+        "explain": "Trelawny is famous for the Cockpit Country."
+      },
+      {
+        "q": "Which parish is in the east of Jamaica?",
+        "choices": [
+          "Portland",
+          "Westmoreland",
+          "Hanover",
+          "Manchester"
+        ],
+        "correct": 0,
+        "explain": "Portland is in the east, with Port Antonio as its capital."
+      },
+      {
+        "q": "Which parish lies furthest west?",
+        "choices": [
+          "Hanover",
+          "St. Ann",
+          "Portland",
+          "St. Thomas"
+        ],
+        "correct": 0,
+        "explain": "Hanover is at the western tip of Jamaica."
       }
     ],
     "flashcards": [
@@ -3243,6 +5861,160 @@
         ],
         "correct": 0,
         "explain": "Quadrille is a traditional Jamaican folk dance with European roots."
+      },
+      {
+        "q": "Reggae music originated in…",
+        "choices": [
+          "England",
+          "Jamaica",
+          "Spain",
+          "France"
+        ],
+        "correct": 1,
+        "explain": "Reggae was born in Jamaica in the 1960s."
+      },
+      {
+        "q": "Bob Marley is famous for…",
+        "choices": [
+          "Playing football",
+          "Reggae music",
+          "Painting",
+          "Cooking"
+        ],
+        "correct": 1,
+        "explain": "Bob Marley made reggae popular around the world."
+      },
+      {
+        "q": "Ackee and saltfish is the…",
+        "choices": [
+          "National dish of Jamaica",
+          "School lunch only",
+          "Fruit",
+          "Drink"
+        ],
+        "correct": 0,
+        "explain": "Ackee and saltfish is Jamaica's national dish."
+      },
+      {
+        "q": "Anansi stories began in…",
+        "choices": [
+          "West Africa",
+          "Europe",
+          "Asia",
+          "North America"
+        ],
+        "correct": 0,
+        "explain": "Anansi the spider is a trickster from West African folklore."
+      },
+      {
+        "q": "Mento music is…",
+        "choices": [
+          "A traditional Jamaican music style",
+          "A modern dance only",
+          "A type of food",
+          "A river"
+        ],
+        "correct": 0,
+        "explain": "Mento is one of Jamaica's earliest folk music forms."
+      },
+      {
+        "q": "Bun and cheese is often eaten at…",
+        "choices": [
+          "Easter",
+          "Christmas Day only",
+          "July",
+          "September"
+        ],
+        "correct": 0,
+        "explain": "Bun and cheese is a traditional Easter treat in Jamaica."
+      },
+      {
+        "q": "Junkanoo is a kind of…",
+        "choices": [
+          "Festival/parade with masks and music",
+          "Cooking pot",
+          "Fishing tool",
+          "Bus"
+        ],
+        "correct": 0,
+        "explain": "Junkanoo features masquerade dancers and lively music."
+      },
+      {
+        "q": "Jamaican Patois is a…",
+        "choices": [
+          "Real Creole language with African influences",
+          "Wrong English",
+          "Foreign tongue",
+          "Sign language"
+        ],
+        "correct": 0,
+        "explain": "Patois is a unique language with deep African roots."
+      },
+      {
+        "q": "Which cultural group brought roti to Jamaica?",
+        "choices": [
+          "Indians",
+          "Spanish",
+          "English",
+          "Tainos"
+        ],
+        "correct": 0,
+        "explain": "Indian indentured labourers brought roti and curry traditions."
+      },
+      {
+        "q": "Quadrille is a folk…",
+        "choices": [
+          "Dance",
+          "Drink",
+          "Game",
+          "Animal"
+        ],
+        "correct": 0,
+        "explain": "Quadrille is a traditional Jamaican folk dance."
+      },
+      {
+        "q": "The national pledge begins with…",
+        "choices": [
+          "'Before God and all mankind…'",
+          "'God save the Queen'",
+          "'I love Jamaica'",
+          "'Reggae forever'"
+        ],
+        "correct": 0,
+        "explain": "The pledge starts: 'Before God and all mankind, I pledge…'"
+      },
+      {
+        "q": "Festival songs are usually heard around…",
+        "choices": [
+          "Independence",
+          "Christmas Day only",
+          "New Year only",
+          "Valentine's"
+        ],
+        "correct": 0,
+        "explain": "Festival songs are sung most during Independence celebrations."
+      },
+      {
+        "q": "Curry goat is enjoyed at…",
+        "choices": [
+          "Many family events",
+          "Only on Mondays",
+          "Only at school",
+          "Only at church"
+        ],
+        "correct": 0,
+        "explain": "Curry goat is a popular dish at celebrations and gatherings."
+      },
+      {
+        "q": "Jerk seasoning is famous for being…",
+        "choices": [
+          "Spicy and smoky",
+          "Sweet only",
+          "Bland",
+          "Cold"
+        ],
+        "correct": 0,
+        "explain": "Jerk uses pepper and pimento to give bold spicy flavour."
       }
     ],
     "flashcards": [
@@ -3430,6 +6202,160 @@
         ],
         "correct": 0,
         "explain": "Laws are rules passed by Parliament that everyone must follow."
+      },
+      {
+        "q": "The Prime Minister of Jamaica leads…",
+        "choices": [
+          "The Government",
+          "A football team",
+          "A school",
+          "A shop"
+        ],
+        "correct": 0,
+        "explain": "The Prime Minister is the head of the Jamaican Government."
+      },
+      {
+        "q": "The two houses of Parliament in Jamaica are…",
+        "choices": [
+          "The Senate and House of Representatives",
+          "Senate and Office",
+          "House and Court",
+          "Council and Cabinet"
+        ],
+        "correct": 0,
+        "explain": "Parliament has the Senate and the House of Representatives."
+      },
+      {
+        "q": "Citizens vote in Jamaica from age…",
+        "choices": [
+          "15",
+          "16",
+          "18",
+          "21"
+        ],
+        "correct": 2,
+        "explain": "You must be 18 to vote in Jamaica."
+      },
+      {
+        "q": "A right is…",
+        "choices": [
+          "Something you should be able to have or do",
+          "A duty only",
+          "A punishment",
+          "A test"
+        ],
+        "correct": 0,
+        "explain": "Rights are protections or freedoms everyone should have."
+      },
+      {
+        "q": "A responsibility is…",
+        "choices": [
+          "Something you should do",
+          "A toy",
+          "A chore only",
+          "A food"
+        ],
+        "correct": 0,
+        "explain": "Responsibilities are duties — things we should do."
+      },
+      {
+        "q": "The Jamaican Constitution is…",
+        "choices": [
+          "Our country's main set of rules",
+          "A storybook",
+          "A song",
+          "A type of car"
+        ],
+        "correct": 0,
+        "explain": "The Constitution is the highest law of the land."
+      },
+      {
+        "q": "Which is a child's right?",
+        "choices": [
+          "Education",
+          "Smoking",
+          "Driving any age",
+          "Skipping vaccines"
+        ],
+        "correct": 0,
+        "explain": "Every child has the right to attend school and learn."
+      },
+      {
+        "q": "Which is a citizen's responsibility?",
+        "choices": [
+          "Following laws",
+          "Skipping school",
+          "Bullying",
+          "Lying"
+        ],
+        "correct": 0,
+        "explain": "Following laws is part of being a good citizen."
+      },
+      {
+        "q": "A leader chosen by the people is…",
+        "choices": [
+          "Elected",
+          "Appointed",
+          "Inherited",
+          "Random"
+        ],
+        "correct": 0,
+        "explain": "Elections let citizens choose leaders by voting."
+      },
+      {
+        "q": "The Governor-General represents…",
+        "choices": [
+          "The British Monarch in Jamaica",
+          "The Prime Minister",
+          "The Mayor",
+          "The school"
+        ],
+        "correct": 0,
+        "explain": "The Governor-General is the King's or Queen's representative in Jamaica."
+      },
+      {
+        "q": "Local government in a parish is led by the…",
+        "choices": [
+          "Mayor",
+          "Pope",
+          "Captain",
+          "Driver"
+        ],
+        "correct": 0,
+        "explain": "A Mayor leads a parish council."
+      },
+      {
+        "q": "The court system…",
+        "choices": [
+          "Decides if a law has been broken",
+          "Builds roads",
+          "Sells land",
+          "Cooks food"
+        ],
+        "correct": 0,
+        "explain": "Courts hear cases and apply the law."
+      },
+      {
+        "q": "A democracy is a country where…",
+        "choices": [
+          "People choose leaders by voting",
+          "One person decides everything",
+          "Children rule",
+          "Foreigners rule"
+        ],
+        "correct": 0,
+        "explain": "In a democracy citizens have a say through voting."
+      },
+      {
+        "q": "Jamaica's Independence anthem is…",
+        "choices": [
+          "Jamaica, Land We Love",
+          "God Save the King",
+          "Dixieland",
+          "Yellowbird"
+        ],
+        "correct": 0,
+        "explain": "'Jamaica, Land We Love' is the national anthem."
       }
     ],
     "flashcards": [
@@ -3617,6 +6543,160 @@
         ],
         "correct": 0,
         "explain": "Our currency is the Jamaican dollar (J$)."
+      },
+      {
+        "q": "Which is a primary economic activity?",
+        "choices": [
+          "Farming",
+          "Banking",
+          "Acting",
+          "Web design"
+        ],
+        "correct": 0,
+        "explain": "Primary activities take resources from nature, like farming and mining."
+      },
+      {
+        "q": "Tourism brings…",
+        "choices": [
+          "Visitors and money to Jamaica",
+          "Pollution only",
+          "Fewer jobs",
+          "No benefit"
+        ],
+        "correct": 0,
+        "explain": "Tourists spend money in hotels, restaurants and shops, creating jobs."
+      },
+      {
+        "q": "Bauxite is mined to make…",
+        "choices": [
+          "Aluminium",
+          "Steel",
+          "Glass only",
+          "Rubber"
+        ],
+        "correct": 0,
+        "explain": "Bauxite is the main ore used to make aluminium."
+      },
+      {
+        "q": "A 'service' is…",
+        "choices": [
+          "Work done for someone",
+          "A thing made in a factory",
+          "A type of fruit",
+          "A school subject"
+        ],
+        "correct": 0,
+        "explain": "Services include teaching, hairdressing, and banking."
+      },
+      {
+        "q": "A 'good' is…",
+        "choices": [
+          "A product you can hold",
+          "Help given to others",
+          "A piece of music",
+          "An idea only"
+        ],
+        "correct": 0,
+        "explain": "Goods are physical items you can buy."
+      },
+      {
+        "q": "Which is an export of Jamaica?",
+        "choices": [
+          "Bananas",
+          "Snowmobiles",
+          "Skis",
+          "Camels"
+        ],
+        "correct": 0,
+        "explain": "Jamaica exports bananas, sugar, coffee and bauxite among others."
+      },
+      {
+        "q": "The Jamaican currency is the…",
+        "choices": [
+          "Jamaican dollar",
+          "Pound",
+          "Euro",
+          "Yen"
+        ],
+        "correct": 0,
+        "explain": "Jamaica uses the Jamaican dollar (J$)."
+      },
+      {
+        "q": "A market is where…",
+        "choices": [
+          "People buy and sell goods",
+          "People only sleep",
+          "Cars are stored",
+          "Schools meet"
+        ],
+        "correct": 0,
+        "explain": "Markets are places of buying and selling."
+      },
+      {
+        "q": "Manufacturing is…",
+        "choices": [
+          "Making products in a factory",
+          "Mining gold",
+          "Catching fish",
+          "Tour-guiding"
+        ],
+        "correct": 0,
+        "explain": "Manufacturing turns raw materials into finished goods."
+      },
+      {
+        "q": "A farmer who grows crops to sell is doing…",
+        "choices": [
+          "Commercial farming",
+          "Subsistence farming",
+          "Banking",
+          "Engineering"
+        ],
+        "correct": 0,
+        "explain": "Commercial farming produces goods for sale."
+      },
+      {
+        "q": "Jamaica's main agricultural exports include…",
+        "choices": [
+          "Sugar and bananas",
+          "Snow and ice",
+          "Wool",
+          "Diamonds"
+        ],
+        "correct": 0,
+        "explain": "Sugar, bananas, coffee and citrus are key Jamaican exports."
+      },
+      {
+        "q": "Importing means…",
+        "choices": [
+          "Bringing goods into the country",
+          "Sending goods out",
+          "Building factories",
+          "Banking"
+        ],
+        "correct": 0,
+        "explain": "Imports come into the country from elsewhere."
+      },
+      {
+        "q": "A bank's main job is to…",
+        "choices": [
+          "Keep money safe and give loans",
+          "Sell groceries",
+          "Make clothes",
+          "Mine bauxite"
+        ],
+        "correct": 0,
+        "explain": "Banks store money and lend it to people and businesses."
+      },
+      {
+        "q": "Which job is in the tourism industry?",
+        "choices": [
+          "Tour guide",
+          "Bauxite miner",
+          "Schoolteacher",
+          "Banker"
+        ],
+        "correct": 0,
+        "explain": "Tour guides directly help tourists, so they work in tourism."
       }
     ],
     "flashcards": [
@@ -3804,6 +6884,160 @@
         ],
         "correct": 0,
         "explain": "CARICOM was established in 1973 by the Treaty of Chaguaramas."
+      },
+      {
+        "q": "CARICOM stands for…",
+        "choices": [
+          "Caribbean Community",
+          "Caribbean Council",
+          "Caribbean Cooperation",
+          "Central Caribbean"
+        ],
+        "correct": 0,
+        "explain": "CARICOM = Caribbean Community."
+      },
+      {
+        "q": "Which is a CARICOM country?",
+        "choices": [
+          "Trinidad and Tobago",
+          "Brazil",
+          "Mexico",
+          "France"
+        ],
+        "correct": 0,
+        "explain": "Trinidad and Tobago is a CARICOM member."
+      },
+      {
+        "q": "The headquarters of CARICOM is in…",
+        "choices": [
+          "Guyana",
+          "Jamaica",
+          "Barbados",
+          "Cuba"
+        ],
+        "correct": 0,
+        "explain": "The CARICOM Secretariat is in Georgetown, Guyana."
+      },
+      {
+        "q": "The largest Caribbean country by population is…",
+        "choices": [
+          "Cuba",
+          "Jamaica",
+          "Haiti",
+          "Dominica"
+        ],
+        "correct": 0,
+        "explain": "Cuba has the largest population in the Caribbean."
+      },
+      {
+        "q": "Which language is widely spoken in Haiti?",
+        "choices": [
+          "French",
+          "Spanish",
+          "Portuguese",
+          "English"
+        ],
+        "correct": 0,
+        "explain": "Haiti's main languages are French and Haitian Creole."
+      },
+      {
+        "q": "Which country shares an island with Haiti?",
+        "choices": [
+          "Dominican Republic",
+          "Cuba",
+          "Jamaica",
+          "Trinidad"
+        ],
+        "correct": 0,
+        "explain": "Haiti and the Dominican Republic share the island of Hispaniola."
+      },
+      {
+        "q": "Caribbean countries mostly trade with…",
+        "choices": [
+          "Each other and the wider world",
+          "No one",
+          "Only Africa",
+          "Only Asia"
+        ],
+        "correct": 0,
+        "explain": "They trade among themselves and with countries outside the region."
+      },
+      {
+        "q": "The Caribbean Sea is part of which ocean?",
+        "choices": [
+          "Atlantic Ocean",
+          "Pacific Ocean",
+          "Indian Ocean",
+          "Arctic Ocean"
+        ],
+        "correct": 0,
+        "explain": "The Caribbean Sea connects to the Atlantic Ocean."
+      },
+      {
+        "q": "CARICOM helps members by…",
+        "choices": [
+          "Cooperating in trade and disasters",
+          "Selling them off",
+          "Hiding food",
+          "Banning music"
+        ],
+        "correct": 0,
+        "explain": "CARICOM coordinates trade, response to disasters, and more."
+      },
+      {
+        "q": "The CARICOM Single Market and Economy (CSME) helps…",
+        "choices": [
+          "Goods and people move easily between members",
+          "Block trade",
+          "Stop tourism",
+          "Close borders"
+        ],
+        "correct": 0,
+        "explain": "CSME aims to make a single market for member states."
+      },
+      {
+        "q": "The University of the West Indies has campuses in…",
+        "choices": [
+          "Jamaica, Trinidad and Barbados",
+          "Brazil",
+          "USA",
+          "Africa"
+        ],
+        "correct": 0,
+        "explain": "UWI's main campuses are in Jamaica (Mona), Trinidad (St. Augustine) and Barbados (Cave Hill)."
+      },
+      {
+        "q": "Cricket is popular in many Caribbean countries because…",
+        "choices": [
+          "It is a shared regional sport",
+          "It is new",
+          "Only Jamaica plays",
+          "It is forbidden"
+        ],
+        "correct": 0,
+        "explain": "Cricket is widely loved across the Caribbean."
+      },
+      {
+        "q": "Carnival is a famous celebration in…",
+        "choices": [
+          "Trinidad and Tobago",
+          "Greenland",
+          "Sahara",
+          "Antarctica"
+        ],
+        "correct": 0,
+        "explain": "Trinidad's Carnival is world-famous."
+      },
+      {
+        "q": "Which Caribbean island is shaped like a 'pearl'?",
+        "choices": [
+          "Cuba",
+          "Jamaica",
+          "Trinidad",
+          "Saba"
+        ],
+        "correct": 0,
+        "explain": "Cuba is sometimes called the 'Pearl of the Antilles'."
       }
     ],
     "flashcards": [
@@ -3997,6 +7231,160 @@
         ],
         "correct": 0,
         "explain": "North is usually shown at the top of a map."
+      },
+      {
+        "q": "A 'compass rose' on a map shows…",
+        "choices": [
+          "Directions",
+          "Time",
+          "Population",
+          "Weather"
+        ],
+        "correct": 0,
+        "explain": "A compass rose shows north, south, east and west."
+      },
+      {
+        "q": "The line that goes around the middle of the Earth is the…",
+        "choices": [
+          "Equator",
+          "Prime Meridian",
+          "Tropic of Cancer",
+          "International Date Line"
+        ],
+        "correct": 0,
+        "explain": "The equator divides Earth into Northern and Southern hemispheres."
+      },
+      {
+        "q": "Latitude lines run…",
+        "choices": [
+          "East to west",
+          "North to south",
+          "Up to down only",
+          "Diagonally"
+        ],
+        "correct": 0,
+        "explain": "Lines of latitude run east-to-west, parallel to the equator."
+      },
+      {
+        "q": "Longitude lines run…",
+        "choices": [
+          "North to south",
+          "East to west",
+          "In circles",
+          "Randomly"
+        ],
+        "correct": 0,
+        "explain": "Lines of longitude run from pole to pole."
+      },
+      {
+        "q": "The 'key' or 'legend' on a map…",
+        "choices": [
+          "Explains the symbols used",
+          "Shows the title",
+          "Lists prices",
+          "Is decoration"
+        ],
+        "correct": 0,
+        "explain": "A legend tells you what each symbol means."
+      },
+      {
+        "q": "Which is between north and east?",
+        "choices": [
+          "Northeast",
+          "Southwest",
+          "Northwest",
+          "Southeast"
+        ],
+        "correct": 0,
+        "explain": "Northeast is the direction between north and east."
+      },
+      {
+        "q": "A globe is a model of the…",
+        "choices": [
+          "Earth",
+          "Sun",
+          "Moon",
+          "City"
+        ],
+        "correct": 0,
+        "explain": "A globe is a 3-D model of the Earth."
+      },
+      {
+        "q": "Maps are usually drawn to…",
+        "choices": [
+          "Scale",
+          "Random size",
+          "One-to-one with the land",
+          "Be larger than the land"
+        ],
+        "correct": 0,
+        "explain": "Map scale shrinks distances so a city or country fits on paper."
+      },
+      {
+        "q": "Which map shows the height of the land?",
+        "choices": [
+          "Physical/relief map",
+          "Political map",
+          "Road map",
+          "Weather map"
+        ],
+        "correct": 0,
+        "explain": "Physical maps show mountains, rivers and other land features."
+      },
+      {
+        "q": "A political map shows…",
+        "choices": [
+          "Country and parish boundaries",
+          "Only mountains",
+          "Only oceans",
+          "Animals"
+        ],
+        "correct": 0,
+        "explain": "Political maps focus on borders and capitals."
+      },
+      {
+        "q": "Which symbol is often used for capital cities on a map?",
+        "choices": [
+          "A star",
+          "A square",
+          "A drop of water",
+          "A leaf"
+        ],
+        "correct": 0,
+        "explain": "A star or special dot is commonly used for capital cities."
+      },
+      {
+        "q": "On most maps the colour blue stands for…",
+        "choices": [
+          "Water",
+          "Roads",
+          "Mountains",
+          "Forests"
+        ],
+        "correct": 0,
+        "explain": "Blue typically shows rivers, lakes and seas."
+      },
+      {
+        "q": "Latitude 0° is called the…",
+        "choices": [
+          "Equator",
+          "Prime Meridian",
+          "North Pole",
+          "South Pole"
+        ],
+        "correct": 0,
+        "explain": "Latitude 0° is the equator."
+      },
+      {
+        "q": "A grid on a map helps you to…",
+        "choices": [
+          "Find a place quickly",
+          "Decorate",
+          "Hide places",
+          "Measure time"
+        ],
+        "correct": 0,
+        "explain": "Grids label squares so places are easy to find."
       }
     ],
     "flashcards": [
@@ -4190,6 +7578,160 @@
         ],
         "correct": 2,
         "explain": "In 2,365 the 3 is in the hundreds place, so it has value 300."
+      },
+      {
+        "q": "What is 312 + 459?",
+        "choices": [
+          "771",
+          "761",
+          "871",
+          "751"
+        ],
+        "correct": 0,
+        "explain": "312 + 459 = 771."
+      },
+      {
+        "q": "What is 800 − 365?",
+        "choices": [
+          "435",
+          "445",
+          "435",
+          "465"
+        ],
+        "correct": 0,
+        "explain": "800 − 365 = 435."
+      },
+      {
+        "q": "What is 25 × 4?",
+        "choices": [
+          "100",
+          "90",
+          "85",
+          "105"
+        ],
+        "correct": 0,
+        "explain": "25 × 4 = 100."
+      },
+      {
+        "q": "What is 96 ÷ 8?",
+        "choices": [
+          "12",
+          "11",
+          "13",
+          "10"
+        ],
+        "correct": 0,
+        "explain": "96 ÷ 8 = 12 because 8 × 12 = 96."
+      },
+      {
+        "q": "Round 256 to the nearest ten.",
+        "choices": [
+          "260",
+          "250",
+          "200",
+          "270"
+        ],
+        "correct": 0,
+        "explain": "6 in the ones place rounds 256 up to 260."
+      },
+      {
+        "q": "The place value of 7 in 5,743 is…",
+        "choices": [
+          "Hundreds",
+          "Tens",
+          "Ones",
+          "Thousands"
+        ],
+        "correct": 0,
+        "explain": "In 5,743, the 7 is in the hundreds place — it stands for 700."
+      },
+      {
+        "q": "Which number is even?",
+        "choices": [
+          "13",
+          "27",
+          "42",
+          "9"
+        ],
+        "correct": 2,
+        "explain": "Even numbers end in 0, 2, 4, 6 or 8 — like 42."
+      },
+      {
+        "q": "Which number is odd?",
+        "choices": [
+          "20",
+          "36",
+          "48",
+          "57"
+        ],
+        "correct": 3,
+        "explain": "Odd numbers end in 1, 3, 5, 7 or 9 — like 57."
+      },
+      {
+        "q": "Which is the smallest?",
+        "choices": [
+          "345",
+          "543",
+          "354",
+          "435"
+        ],
+        "correct": 0,
+        "explain": "345 is the smallest of the four numbers."
+      },
+      {
+        "q": "What is 6 × 9?",
+        "choices": [
+          "54",
+          "56",
+          "49",
+          "63"
+        ],
+        "correct": 0,
+        "explain": "6 × 9 = 54."
+      },
+      {
+        "q": "What is 144 ÷ 12?",
+        "choices": [
+          "12",
+          "13",
+          "11",
+          "14"
+        ],
+        "correct": 0,
+        "explain": "144 ÷ 12 = 12 because 12 × 12 = 144."
+      },
+      {
+        "q": "How do you write 'four thousand and twenty-six' in numerals?",
+        "choices": [
+          "4,206",
+          "4,026",
+          "426",
+          "40,026"
+        ],
+        "correct": 1,
+        "explain": "Four thousand = 4,000; twenty-six = 26; together 4,026."
+      },
+      {
+        "q": "Which number comes just before 1,000?",
+        "choices": [
+          "999",
+          "99",
+          "1,001",
+          "990"
+        ],
+        "correct": 0,
+        "explain": "The number before 1,000 is 999."
+      },
+      {
+        "q": "What is 70 + 80?",
+        "choices": [
+          "140",
+          "150",
+          "160",
+          "130"
+        ],
+        "correct": 1,
+        "explain": "70 + 80 = 150."
       }
     ],
     "flashcards": [
@@ -4361,6 +7903,160 @@
         ],
         "correct": 2,
         "explain": "Hot soup is about 70 °C; water boils at 100 °C."
+      },
+      {
+        "q": "How many millimetres are in 1 centimetre?",
+        "choices": [
+          "10",
+          "100",
+          "1000",
+          "5"
+        ],
+        "correct": 0,
+        "explain": "1 cm = 10 mm."
+      },
+      {
+        "q": "How many grams are in 1 kilogram?",
+        "choices": [
+          "10",
+          "100",
+          "1000",
+          "10000"
+        ],
+        "correct": 2,
+        "explain": "1 kg = 1,000 g."
+      },
+      {
+        "q": "How many millilitres are in 1 litre?",
+        "choices": [
+          "10",
+          "100",
+          "1000",
+          "500"
+        ],
+        "correct": 2,
+        "explain": "1 L = 1,000 mL."
+      },
+      {
+        "q": "Which unit is best for measuring the length of a pencil?",
+        "choices": [
+          "Kilometres",
+          "Centimetres",
+          "Litres",
+          "Hours"
+        ],
+        "correct": 1,
+        "explain": "A pencil is small, so centimetres are the best unit."
+      },
+      {
+        "q": "How many seconds are in 1 minute?",
+        "choices": [
+          "30",
+          "60",
+          "100",
+          "24"
+        ],
+        "correct": 1,
+        "explain": "1 minute = 60 seconds."
+      },
+      {
+        "q": "How many hours are in 1 day?",
+        "choices": [
+          "12",
+          "24",
+          "60",
+          "100"
+        ],
+        "correct": 1,
+        "explain": "A full day has 24 hours."
+      },
+      {
+        "q": "Which is colder?",
+        "choices": [
+          "50°C",
+          "30°C",
+          "10°C",
+          "20°C"
+        ],
+        "correct": 2,
+        "explain": "10°C is the lowest of the four temperatures."
+      },
+      {
+        "q": "Which unit measures mass?",
+        "choices": [
+          "Litre",
+          "Kilogram",
+          "Metre",
+          "Second"
+        ],
+        "correct": 1,
+        "explain": "Mass is measured in grams and kilograms."
+      },
+      {
+        "q": "A tall door is about how high?",
+        "choices": [
+          "2 metres",
+          "2 centimetres",
+          "2 kilometres",
+          "20 metres"
+        ],
+        "correct": 0,
+        "explain": "A tall door is roughly 2 metres high."
+      },
+      {
+        "q": "How long does it take a clock's minute hand to go all the way around?",
+        "choices": [
+          "10 minutes",
+          "60 minutes",
+          "30 minutes",
+          "1 hour and 30 minutes"
+        ],
+        "correct": 1,
+        "explain": "The minute hand takes 60 minutes (1 hour) to make a full circle."
+      },
+      {
+        "q": "Which would you weigh in grams?",
+        "choices": [
+          "A car",
+          "A book",
+          "A truck",
+          "A house"
+        ],
+        "correct": 1,
+        "explain": "A book is light, so it is best measured in grams."
+      },
+      {
+        "q": "How many millilitres are in half a litre?",
+        "choices": [
+          "50",
+          "250",
+          "500",
+          "1000"
+        ],
+        "correct": 2,
+        "explain": "Half of 1,000 mL is 500 mL."
+      },
+      {
+        "q": "What does a thermometer measure?",
+        "choices": [
+          "Length",
+          "Temperature",
+          "Mass",
+          "Time"
+        ],
+        "correct": 1,
+        "explain": "A thermometer measures temperature in degrees."
+      },
+      {
+        "q": "How many days are in 2 weeks?",
+        "choices": [
+          "7",
+          "14",
+          "21",
+          "30"
+        ],
+        "correct": 1,
+        "explain": "1 week = 7 days, so 2 weeks = 14 days."
       }
     ],
     "flashcards": [
@@ -4532,6 +8228,160 @@
         ],
         "correct": 2,
         "explain": "A right angle is 90°, like the corner of a book."
+      },
+      {
+        "q": "A shape with 5 sides is a…",
+        "choices": [
+          "Square",
+          "Pentagon",
+          "Hexagon",
+          "Triangle"
+        ],
+        "correct": 1,
+        "explain": "A pentagon has 5 sides."
+      },
+      {
+        "q": "A shape with 6 sides is a…",
+        "choices": [
+          "Pentagon",
+          "Hexagon",
+          "Octagon",
+          "Triangle"
+        ],
+        "correct": 1,
+        "explain": "A hexagon has 6 sides — like a honeycomb cell."
+      },
+      {
+        "q": "A shape with 8 sides is a…",
+        "choices": [
+          "Hexagon",
+          "Pentagon",
+          "Octagon",
+          "Square"
+        ],
+        "correct": 2,
+        "explain": "An octagon has 8 sides — like a stop sign."
+      },
+      {
+        "q": "How many faces does a cube have?",
+        "choices": [
+          "4",
+          "6",
+          "8",
+          "12"
+        ],
+        "correct": 1,
+        "explain": "A cube has 6 square faces."
+      },
+      {
+        "q": "How many edges does a cube have?",
+        "choices": [
+          "6",
+          "8",
+          "12",
+          "4"
+        ],
+        "correct": 2,
+        "explain": "A cube has 12 edges where its faces meet."
+      },
+      {
+        "q": "How many vertices (corners) does a cube have?",
+        "choices": [
+          "6",
+          "8",
+          "4",
+          "12"
+        ],
+        "correct": 1,
+        "explain": "A cube has 8 corners (vertices)."
+      },
+      {
+        "q": "Which 3-D shape is a ball-like?",
+        "choices": [
+          "Cube",
+          "Sphere",
+          "Cone",
+          "Cylinder"
+        ],
+        "correct": 1,
+        "explain": "A sphere is a perfectly round 3-D shape, like a ball."
+      },
+      {
+        "q": "Which 3-D shape has a circular base and a point at the top?",
+        "choices": [
+          "Cylinder",
+          "Cube",
+          "Cone",
+          "Sphere"
+        ],
+        "correct": 2,
+        "explain": "A cone has one circular base and tapers to a point — like an ice-cream cone."
+      },
+      {
+        "q": "How many sides does an equilateral triangle have that are equal?",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct": 2,
+        "explain": "All 3 sides of an equilateral triangle are equal."
+      },
+      {
+        "q": "An angle smaller than a right angle is called…",
+        "choices": [
+          "Acute",
+          "Obtuse",
+          "Straight",
+          "Reflex"
+        ],
+        "correct": 0,
+        "explain": "Acute angles are less than 90°."
+      },
+      {
+        "q": "An angle larger than a right angle but less than 180° is called…",
+        "choices": [
+          "Acute",
+          "Obtuse",
+          "Straight",
+          "Right"
+        ],
+        "correct": 1,
+        "explain": "Obtuse angles are more than 90° but less than 180°."
+      },
+      {
+        "q": "How many degrees are in a straight angle?",
+        "choices": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "correct": 1,
+        "explain": "A straight line forms a 180° angle."
+      },
+      {
+        "q": "A rectangle has how many right angles?",
+        "choices": [
+          "2",
+          "3",
+          "4",
+          "0"
+        ],
+        "correct": 2,
+        "explain": "All 4 corners of a rectangle are right angles."
+      },
+      {
+        "q": "Which shape can roll?",
+        "choices": [
+          "Cube",
+          "Sphere",
+          "Cube and prism",
+          "Pyramid"
+        ],
+        "correct": 1,
+        "explain": "A sphere has no flat faces, so it can roll in any direction."
       }
     ],
     "flashcards": [
@@ -4705,6 +8555,160 @@
         ],
         "correct": 1,
         "explain": "The pattern alternates ▲ and ●, so next is ●."
+      },
+      {
+        "q": "What comes next? 3, 6, 9, 12, ?",
+        "choices": [
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "correct": 2,
+        "explain": "The pattern adds 3 each time, so next is 15."
+      },
+      {
+        "q": "What comes next? 100, 90, 80, 70, ?",
+        "choices": [
+          "50",
+          "60",
+          "65",
+          "75"
+        ],
+        "correct": 1,
+        "explain": "The pattern subtracts 10, so next is 60."
+      },
+      {
+        "q": "If 5 + n = 12, then n = ?",
+        "choices": [
+          "6",
+          "7",
+          "8",
+          "5"
+        ],
+        "correct": 1,
+        "explain": "12 − 5 = 7, so n = 7."
+      },
+      {
+        "q": "If n − 4 = 9, then n = ?",
+        "choices": [
+          "5",
+          "13",
+          "12",
+          "14"
+        ],
+        "correct": 1,
+        "explain": "9 + 4 = 13, so n = 13."
+      },
+      {
+        "q": "If 4 × n = 24, then n = ?",
+        "choices": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "correct": 1,
+        "explain": "24 ÷ 4 = 6, so n = 6."
+      },
+      {
+        "q": "What comes next? 1, 4, 9, 16, ?",
+        "choices": [
+          "20",
+          "23",
+          "25",
+          "27"
+        ],
+        "correct": 2,
+        "explain": "These are square numbers (1, 4, 9, 16, 25)."
+      },
+      {
+        "q": "Which shape completes the pattern? ★ ◆ ★ ◆ ★ ?",
+        "choices": [
+          "★",
+          "◆",
+          "■",
+          "●"
+        ],
+        "correct": 1,
+        "explain": "The pattern alternates star and diamond, so next is ◆."
+      },
+      {
+        "q": "What comes next? 2, 5, 8, 11, ?",
+        "choices": [
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "correct": 2,
+        "explain": "Add 3 each time: 11 + 3 = 14."
+      },
+      {
+        "q": "If n ÷ 3 = 6, then n = ?",
+        "choices": [
+          "2",
+          "9",
+          "18",
+          "21"
+        ],
+        "correct": 2,
+        "explain": "3 × 6 = 18, so n = 18."
+      },
+      {
+        "q": "What comes next? Z, Y, X, W, ?",
+        "choices": [
+          "U",
+          "V",
+          "T",
+          "S"
+        ],
+        "correct": 1,
+        "explain": "The letters go backwards through the alphabet, so V comes next."
+      },
+      {
+        "q": "Which is a multiple of 5?",
+        "choices": [
+          "12",
+          "17",
+          "25",
+          "31"
+        ],
+        "correct": 2,
+        "explain": "25 = 5 × 5."
+      },
+      {
+        "q": "What comes next? 1, 2, 4, 8, ?",
+        "choices": [
+          "10",
+          "12",
+          "14",
+          "16"
+        ],
+        "correct": 3,
+        "explain": "Each number doubles: 8 × 2 = 16."
+      },
+      {
+        "q": "If x + x = 10, then x = ?",
+        "choices": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correct": 2,
+        "explain": "5 + 5 = 10, so x = 5."
+      },
+      {
+        "q": "Find the missing number: 7, 14, ?, 28",
+        "choices": [
+          "20",
+          "21",
+          "22",
+          "24"
+        ],
+        "correct": 1,
+        "explain": "Add 7 each time: 14 + 7 = 21."
       }
     ],
     "flashcards": [
@@ -4878,6 +8882,160 @@
         ],
         "correct": 1,
         "explain": "A 6-sided die only has 1–6, so 7 is impossible."
+      },
+      {
+        "q": "The mode of 3, 7, 7, 9, 9, 9, 12 is…",
+        "choices": [
+          "7",
+          "9",
+          "12",
+          "3"
+        ],
+        "correct": 1,
+        "explain": "9 appears most often (three times), so it is the mode."
+      },
+      {
+        "q": "The mean of 4, 6, 8 is…",
+        "choices": [
+          "6",
+          "7",
+          "18",
+          "4"
+        ],
+        "correct": 0,
+        "explain": "(4 + 6 + 8) ÷ 3 = 18 ÷ 3 = 6."
+      },
+      {
+        "q": "The range of 5, 9, 12, 18 is…",
+        "choices": [
+          "12",
+          "13",
+          "18",
+          "23"
+        ],
+        "correct": 1,
+        "explain": "Range = highest − lowest = 18 − 5 = 13."
+      },
+      {
+        "q": "What is the chance of an event that is certain?",
+        "choices": [
+          "0",
+          "1/2",
+          "1",
+          "2"
+        ],
+        "correct": 2,
+        "explain": "A certain event has probability 1 (or 100%)."
+      },
+      {
+        "q": "The chance of an impossible event is…",
+        "choices": [
+          "0",
+          "1/2",
+          "1",
+          "10"
+        ],
+        "correct": 0,
+        "explain": "An impossible event has probability 0."
+      },
+      {
+        "q": "You roll a fair die. What is the chance of rolling an even number?",
+        "choices": [
+          "1/6",
+          "1/2",
+          "1/3",
+          "2/3"
+        ],
+        "correct": 1,
+        "explain": "3 of 6 sides are even (2, 4, 6) — that's 3/6 = 1/2."
+      },
+      {
+        "q": "The median of 1, 3, 5 is…",
+        "choices": [
+          "1",
+          "3",
+          "5",
+          "9"
+        ],
+        "correct": 1,
+        "explain": "The middle number when sorted is 3."
+      },
+      {
+        "q": "The median of 2, 4, 6, 8 is…",
+        "choices": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "correct": 1,
+        "explain": "With an even count, the median is the average of the two middle numbers: (4 + 6)/2 = 5."
+      },
+      {
+        "q": "What does 'most likely' mean?",
+        "choices": [
+          "Will not happen",
+          "Has the highest chance",
+          "Is impossible",
+          "Is certain"
+        ],
+        "correct": 1,
+        "explain": "'Most likely' means highest chance among the options, but not certain."
+      },
+      {
+        "q": "A bag has 4 red marbles and 1 blue. What is most likely if you pick one without looking?",
+        "choices": [
+          "A red marble",
+          "A blue marble",
+          "A green marble",
+          "A yellow marble"
+        ],
+        "correct": 0,
+        "explain": "There are far more red marbles, so red is most likely."
+      },
+      {
+        "q": "The mean of 10, 20, 30, 40 is…",
+        "choices": [
+          "20",
+          "25",
+          "30",
+          "100"
+        ],
+        "correct": 1,
+        "explain": "(10 + 20 + 30 + 40) ÷ 4 = 100 ÷ 4 = 25."
+      },
+      {
+        "q": "In a survey, 20 students chose mango and 5 chose orange. The mode is…",
+        "choices": [
+          "Mango",
+          "Orange",
+          "Both",
+          "Neither"
+        ],
+        "correct": 0,
+        "explain": "Mango has more votes, so it's the mode (most chosen)."
+      },
+      {
+        "q": "The chance of pulling a king from a fair pack of 52 cards is…",
+        "choices": [
+          "4/52",
+          "1/52",
+          "13/52",
+          "12/52"
+        ],
+        "correct": 0,
+        "explain": "There are 4 kings in 52 cards, so 4/52."
+      },
+      {
+        "q": "Which is the mode of 6, 6, 7, 8, 8, 8, 9?",
+        "choices": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "correct": 2,
+        "explain": "8 appears the most (three times), so it is the mode."
       }
     ],
     "flashcards": [
@@ -5049,6 +9207,160 @@
         ],
         "correct": 1,
         "explain": "Saving is putting money aside for the future."
+      },
+      {
+        "q": "How many J$10 coins make J$100?",
+        "choices": [
+          "5",
+          "10",
+          "20",
+          "100"
+        ],
+        "correct": 1,
+        "explain": "100 ÷ 10 = 10 coins."
+      },
+      {
+        "q": "You have J$2,000 and spend J$1,250. What is left?",
+        "choices": [
+          "J$650",
+          "J$750",
+          "J$850",
+          "J$1,000"
+        ],
+        "correct": 1,
+        "explain": "2,000 − 1,250 = 750."
+      },
+      {
+        "q": "5 patties cost J$1,250. What is the cost of 1?",
+        "choices": [
+          "J$200",
+          "J$220",
+          "J$250",
+          "J$300"
+        ],
+        "correct": 2,
+        "explain": "1,250 ÷ 5 = 250."
+      },
+      {
+        "q": "A pencil costs J$60. The cost of 4 pencils is…",
+        "choices": [
+          "J$200",
+          "J$240",
+          "J$260",
+          "J$300"
+        ],
+        "correct": 1,
+        "explain": "4 × 60 = 240."
+      },
+      {
+        "q": "You pay with J$1,000 for an item costing J$685. How much change?",
+        "choices": [
+          "J$305",
+          "J$315",
+          "J$325",
+          "J$415"
+        ],
+        "correct": 1,
+        "explain": "1,000 − 685 = 315."
+      },
+      {
+        "q": "Which is more money?",
+        "choices": [
+          "J$500",
+          "J$1000",
+          "J$750",
+          "J$250"
+        ],
+        "correct": 1,
+        "explain": "J$1,000 is the largest."
+      },
+      {
+        "q": "Saving J$50 every day, after 7 days you have…",
+        "choices": [
+          "J$300",
+          "J$350",
+          "J$400",
+          "J$700"
+        ],
+        "correct": 1,
+        "explain": "50 × 7 = 350."
+      },
+      {
+        "q": "A budget helps you to…",
+        "choices": [
+          "Spend more than you have",
+          "Plan your spending",
+          "Forget about money",
+          "Lose money"
+        ],
+        "correct": 1,
+        "explain": "A budget plans how to spend and save your money."
+      },
+      {
+        "q": "Income is money you…",
+        "choices": [
+          "Spend",
+          "Receive",
+          "Lose",
+          "Throw away"
+        ],
+        "correct": 1,
+        "explain": "Income is money coming in (e.g., wages or pocket money)."
+      },
+      {
+        "q": "Expense is money you…",
+        "choices": [
+          "Receive",
+          "Spend",
+          "Save",
+          "Print"
+        ],
+        "correct": 1,
+        "explain": "Expenses are money you pay out for things."
+      },
+      {
+        "q": "3 bags of bread at J$220 each cost…",
+        "choices": [
+          "J$220",
+          "J$440",
+          "J$660",
+          "J$880"
+        ],
+        "correct": 2,
+        "explain": "3 × 220 = 660."
+      },
+      {
+        "q": "A book is on sale: J$300 instead of J$500. You save…",
+        "choices": [
+          "J$100",
+          "J$150",
+          "J$200",
+          "J$300"
+        ],
+        "correct": 2,
+        "explain": "500 − 300 = 200."
+      },
+      {
+        "q": "You earn J$100 per chore and do 6 chores. Total?",
+        "choices": [
+          "J$500",
+          "J$600",
+          "J$700",
+          "J$1000"
+        ],
+        "correct": 1,
+        "explain": "100 × 6 = 600."
+      },
+      {
+        "q": "Which is a need, not a want?",
+        "choices": [
+          "Toys",
+          "Food",
+          "A new game",
+          "Sweets"
+        ],
+        "correct": 1,
+        "explain": "Food is a need to live; the others are wants."
       }
     ],
     "flashcards": [
@@ -5220,6 +9532,160 @@
         ],
         "correct": 1,
         "explain": "1 whole − 1/4 = 3/4 left."
+      },
+      {
+        "q": "Which fraction is bigger: 2/3 or 1/3?",
+        "choices": [
+          "2/3",
+          "1/3",
+          "Equal",
+          "Cannot tell"
+        ],
+        "correct": 0,
+        "explain": "2/3 means more parts than 1/3, so it is bigger."
+      },
+      {
+        "q": "What is 1/4 + 1/4?",
+        "choices": [
+          "1/2",
+          "1/8",
+          "2/8",
+          "3/4"
+        ],
+        "correct": 0,
+        "explain": "1/4 + 1/4 = 2/4 = 1/2."
+      },
+      {
+        "q": "What is 3/4 − 1/4?",
+        "choices": [
+          "1/2",
+          "1/4",
+          "2/4",
+          "1"
+        ],
+        "correct": 0,
+        "explain": "3/4 − 1/4 = 2/4 = 1/2."
+      },
+      {
+        "q": "Half of 30 is…",
+        "choices": [
+          "15",
+          "10",
+          "20",
+          "25"
+        ],
+        "correct": 0,
+        "explain": "30 ÷ 2 = 15."
+      },
+      {
+        "q": "Quarter of 20 is…",
+        "choices": [
+          "4",
+          "5",
+          "10",
+          "15"
+        ],
+        "correct": 1,
+        "explain": "20 ÷ 4 = 5."
+      },
+      {
+        "q": "Which fraction is equal to 1/2?",
+        "choices": [
+          "2/4",
+          "2/3",
+          "3/8",
+          "1/3"
+        ],
+        "correct": 0,
+        "explain": "2/4 = 1/2 because both halves are equal."
+      },
+      {
+        "q": "In 5/8, the numerator is…",
+        "choices": [
+          "5",
+          "8",
+          "13",
+          "3"
+        ],
+        "correct": 0,
+        "explain": "The top number of a fraction is the numerator."
+      },
+      {
+        "q": "Three-quarters of an hour is how many minutes?",
+        "choices": [
+          "15",
+          "30",
+          "45",
+          "60"
+        ],
+        "correct": 2,
+        "explain": "3/4 × 60 = 45 minutes."
+      },
+      {
+        "q": "Which is the largest fraction?",
+        "choices": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "1/5"
+        ],
+        "correct": 0,
+        "explain": "With the same numerator, the smaller the denominator, the larger the fraction."
+      },
+      {
+        "q": "If you eat 2/8 of a pizza, that is the same as…",
+        "choices": [
+          "1/4",
+          "1/2",
+          "2/4",
+          "3/4"
+        ],
+        "correct": 0,
+        "explain": "2/8 = 1/4 (divide both by 2)."
+      },
+      {
+        "q": "What is 1/3 of 12?",
+        "choices": [
+          "3",
+          "4",
+          "6",
+          "8"
+        ],
+        "correct": 1,
+        "explain": "12 ÷ 3 = 4."
+      },
+      {
+        "q": "Which is closest to 1?",
+        "choices": [
+          "1/2",
+          "3/4",
+          "1/4",
+          "1/8"
+        ],
+        "correct": 1,
+        "explain": "3/4 is closest to a whole."
+      },
+      {
+        "q": "A whole pizza divided into 8 equal slices: 4 slices = ?",
+        "choices": [
+          "1/4",
+          "1/2",
+          "3/4",
+          "1"
+        ],
+        "correct": 1,
+        "explain": "4/8 = 1/2 of the pizza."
+      },
+      {
+        "q": "Which fraction is bigger: 3/5 or 2/5?",
+        "choices": [
+          "3/5",
+          "2/5",
+          "Equal",
+          "Cannot say"
+        ],
+        "correct": 0,
+        "explain": "With the same denominator, 3/5 > 2/5."
       }
     ],
     "flashcards": [
@@ -5399,6 +9865,160 @@
         ],
         "correct": 2,
         "explain": "The first digit after a decimal point is the tenths place (3 tenths)."
+      },
+      {
+        "q": "Which is larger, 0.7 or 0.07?",
+        "choices": [
+          "0.7",
+          "0.07",
+          "Equal",
+          "Cannot tell"
+        ],
+        "correct": 0,
+        "explain": "0.7 is seven tenths; 0.07 is just seven hundredths — much smaller."
+      },
+      {
+        "q": "0.25 + 0.25 = ?",
+        "choices": [
+          "0.5",
+          "0.4",
+          "0.50",
+          "Both A and C"
+        ],
+        "correct": 3,
+        "explain": "0.25 + 0.25 = 0.50, which is the same as 0.5."
+      },
+      {
+        "q": "1/4 as a decimal is…",
+        "choices": [
+          "0.25",
+          "0.4",
+          "0.04",
+          "0.5"
+        ],
+        "correct": 0,
+        "explain": "1 ÷ 4 = 0.25."
+      },
+      {
+        "q": "What is 0.6 + 0.3?",
+        "choices": [
+          "0.3",
+          "0.6",
+          "0.9",
+          "1.2"
+        ],
+        "correct": 2,
+        "explain": "0.6 + 0.3 = 0.9."
+      },
+      {
+        "q": "Round 4.62 to the nearest whole number.",
+        "choices": [
+          "4",
+          "5",
+          "46",
+          "6"
+        ],
+        "correct": 1,
+        "explain": "0.62 is more than 0.5, so round up to 5."
+      },
+      {
+        "q": "Which decimal equals 1/2?",
+        "choices": [
+          "0.2",
+          "0.5",
+          "0.05",
+          "0.25"
+        ],
+        "correct": 1,
+        "explain": "1 ÷ 2 = 0.5."
+      },
+      {
+        "q": "The digit 4 in 0.74 is in the…",
+        "choices": [
+          "Tens",
+          "Tenths",
+          "Hundredths",
+          "Ones"
+        ],
+        "correct": 2,
+        "explain": "After the decimal: tenths, then hundredths."
+      },
+      {
+        "q": "Which is the smallest?",
+        "choices": [
+          "0.5",
+          "0.05",
+          "0.55",
+          "0.50"
+        ],
+        "correct": 1,
+        "explain": "0.05 is just five hundredths — smaller than the others."
+      },
+      {
+        "q": "0.3 written as a fraction is…",
+        "choices": [
+          "3/100",
+          "3/10",
+          "30/100",
+          "Both B and C"
+        ],
+        "correct": 3,
+        "explain": "0.3 = 3/10 = 30/100."
+      },
+      {
+        "q": "What is 1.5 + 2.5?",
+        "choices": [
+          "3",
+          "3.5",
+          "4",
+          "4.5"
+        ],
+        "correct": 2,
+        "explain": "1.5 + 2.5 = 4."
+      },
+      {
+        "q": "Which decimal is the same as 7/10?",
+        "choices": [
+          "0.07",
+          "0.7",
+          "7.0",
+          "70"
+        ],
+        "correct": 1,
+        "explain": "7/10 = 0.7."
+      },
+      {
+        "q": "How many tenths in 0.6?",
+        "choices": [
+          "1",
+          "6",
+          "10",
+          "60"
+        ],
+        "correct": 1,
+        "explain": "0.6 means six tenths."
+      },
+      {
+        "q": "Round 12.4 to the nearest whole number.",
+        "choices": [
+          "12",
+          "13",
+          "11",
+          "10"
+        ],
+        "correct": 0,
+        "explain": "0.4 is less than 0.5, so round down to 12."
+      },
+      {
+        "q": "What is 5.0 − 2.5?",
+        "choices": [
+          "2.5",
+          "3.5",
+          "2.0",
+          "3.0"
+        ],
+        "correct": 0,
+        "explain": "5.0 − 2.5 = 2.5."
       }
     ],
     "flashcards": [
@@ -5570,6 +10190,160 @@
         ],
         "correct": 2,
         "explain": "100% − 80% = 20%."
+      },
+      {
+        "q": "50% means…",
+        "choices": [
+          "1/2",
+          "1/4",
+          "2/3",
+          "3/4"
+        ],
+        "correct": 0,
+        "explain": "50% = 50/100 = 1/2."
+      },
+      {
+        "q": "100% of 50 is…",
+        "choices": [
+          "5",
+          "50",
+          "100",
+          "500"
+        ],
+        "correct": 1,
+        "explain": "100% means the whole, so 100% of 50 = 50."
+      },
+      {
+        "q": "25% of 80 is…",
+        "choices": [
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "correct": 2,
+        "explain": "25% = 1/4, and 80 ÷ 4 = 20."
+      },
+      {
+        "q": "10% of 200 is…",
+        "choices": [
+          "10",
+          "20",
+          "30",
+          "40"
+        ],
+        "correct": 1,
+        "explain": "10% = 1/10, and 200 ÷ 10 = 20."
+      },
+      {
+        "q": "75% as a fraction is…",
+        "choices": [
+          "1/4",
+          "1/2",
+          "3/4",
+          "2/3"
+        ],
+        "correct": 2,
+        "explain": "75/100 = 3/4."
+      },
+      {
+        "q": "50% of 90 is…",
+        "choices": [
+          "40",
+          "45",
+          "50",
+          "60"
+        ],
+        "correct": 1,
+        "explain": "Half of 90 is 45."
+      },
+      {
+        "q": "If 30% of children walk to school, what percent do not?",
+        "choices": [
+          "30%",
+          "60%",
+          "70%",
+          "100%"
+        ],
+        "correct": 2,
+        "explain": "100% − 30% = 70%."
+      },
+      {
+        "q": "20% of 50 is…",
+        "choices": [
+          "5",
+          "10",
+          "15",
+          "20"
+        ],
+        "correct": 1,
+        "explain": "20% = 1/5, and 50 ÷ 5 = 10."
+      },
+      {
+        "q": "Which is greater: 25% or 0.5?",
+        "choices": [
+          "25%",
+          "0.5",
+          "Equal",
+          "Cannot tell"
+        ],
+        "correct": 1,
+        "explain": "0.5 = 50%, which is more than 25%."
+      },
+      {
+        "q": "60 out of 100 as a percentage is…",
+        "choices": [
+          "6%",
+          "60%",
+          "100%",
+          "16%"
+        ],
+        "correct": 1,
+        "explain": "60/100 = 60%."
+      },
+      {
+        "q": "A discount of 10% on a J$1,000 item saves you…",
+        "choices": [
+          "J$10",
+          "J$100",
+          "J$200",
+          "J$900"
+        ],
+        "correct": 1,
+        "explain": "10% of 1,000 = 100."
+      },
+      {
+        "q": "75% of 40 is…",
+        "choices": [
+          "10",
+          "20",
+          "30",
+          "35"
+        ],
+        "correct": 2,
+        "explain": "75% = 3/4, and 3/4 × 40 = 30."
+      },
+      {
+        "q": "What percent is 1/2?",
+        "choices": [
+          "25%",
+          "50%",
+          "75%",
+          "100%"
+        ],
+        "correct": 1,
+        "explain": "1/2 = 50%."
+      },
+      {
+        "q": "What percent is 1/4?",
+        "choices": [
+          "10%",
+          "20%",
+          "25%",
+          "50%"
+        ],
+        "correct": 2,
+        "explain": "1/4 = 25%."
       }
     ],
     "flashcards": [
@@ -5742,6 +10516,160 @@
         ],
         "correct": 1,
         "explain": "Tally marks group in 5s (IIII with a line through)."
+      },
+      {
+        "q": "What is the title of a graph for?",
+        "choices": [
+          "To decorate",
+          "To explain what the graph is about",
+          "To make it longer",
+          "To hide the data"
+        ],
+        "correct": 1,
+        "explain": "The title tells the reader what the graph is showing."
+      },
+      {
+        "q": "On a bar graph the bars can be drawn…",
+        "choices": [
+          "Vertically or horizontally",
+          "Only sideways",
+          "Only upside down",
+          "In a circle"
+        ],
+        "correct": 0,
+        "explain": "Bars in a bar graph can be vertical or horizontal."
+      },
+      {
+        "q": "Which graph is good for showing parts of a whole?",
+        "choices": [
+          "Line graph",
+          "Pie chart",
+          "Bar graph",
+          "Pictograph"
+        ],
+        "correct": 1,
+        "explain": "A pie chart shows how parts make up a whole."
+      },
+      {
+        "q": "A pictograph uses…",
+        "choices": [
+          "Numbers only",
+          "Pictures to stand for amounts",
+          "Long sentences",
+          "Shapes only"
+        ],
+        "correct": 1,
+        "explain": "In a pictograph, each picture stands for a quantity."
+      },
+      {
+        "q": "If 5 students like ackee and 3 like callaloo, how many more like ackee?",
+        "choices": [
+          "2",
+          "3",
+          "5",
+          "8"
+        ],
+        "correct": 0,
+        "explain": "5 − 3 = 2 more."
+      },
+      {
+        "q": "In a tally, |||| (4 lines) plus a slash means…",
+        "choices": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correct": 2,
+        "explain": "A slash through 4 marks counts as 5."
+      },
+      {
+        "q": "Which axis of a graph usually shows numbers?",
+        "choices": [
+          "The vertical axis",
+          "Neither",
+          "Just the title",
+          "The page edge"
+        ],
+        "correct": 0,
+        "explain": "The vertical (y) axis usually shows numerical values."
+      },
+      {
+        "q": "In a survey, mango: 12, banana: 8, apple: 4. The mode is…",
+        "choices": [
+          "Mango",
+          "Banana",
+          "Apple",
+          "No mode"
+        ],
+        "correct": 0,
+        "explain": "Mango has the most votes (12), so it is the mode."
+      },
+      {
+        "q": "To compare how many of each, the best graph is a…",
+        "choices": [
+          "Bar graph",
+          "Story",
+          "Photo",
+          "Map"
+        ],
+        "correct": 0,
+        "explain": "A bar graph makes it easy to compare amounts."
+      },
+      {
+        "q": "Tally count for 8 is…",
+        "choices": [
+          "||||",
+          "|||| |||",
+          "|||| ||",
+          "|||| ||||"
+        ],
+        "correct": 1,
+        "explain": "5 (with slash) + 3 = 8."
+      },
+      {
+        "q": "A line graph is best for showing…",
+        "choices": [
+          "Categories",
+          "Change over time",
+          "Parts of a whole",
+          "Pictures"
+        ],
+        "correct": 1,
+        "explain": "Line graphs show how a value changes through time."
+      },
+      {
+        "q": "On a graph, the label on the side tells you…",
+        "choices": [
+          "What the bars stand for",
+          "Decoration only",
+          "Nothing",
+          "The page number"
+        ],
+        "correct": 0,
+        "explain": "Axis labels explain what is being measured."
+      },
+      {
+        "q": "If 2 children chose apple and 5 chose mango, total surveyed?",
+        "choices": [
+          "3",
+          "5",
+          "7",
+          "10"
+        ],
+        "correct": 2,
+        "explain": "2 + 5 = 7 children."
+      },
+      {
+        "q": "Which graph is best for showing the number of patties sold each day of the week?",
+        "choices": [
+          "Pie chart",
+          "Bar graph",
+          "Map",
+          "Calendar"
+        ],
+        "correct": 1,
+        "explain": "A bar graph compares amounts across categories like days."
       }
     ],
     "flashcards": [
@@ -5913,6 +10841,160 @@
         ],
         "correct": 2,
         "explain": "6 × 7 = 42."
+      },
+      {
+        "q": "There are 8 boxes with 6 mangoes each. How many mangoes in all?",
+        "choices": [
+          "14",
+          "42",
+          "48",
+          "56"
+        ],
+        "correct": 2,
+        "explain": "8 × 6 = 48 mangoes."
+      },
+      {
+        "q": "A class has 28 students. 4 are absent. How many present?",
+        "choices": [
+          "22",
+          "23",
+          "24",
+          "26"
+        ],
+        "correct": 2,
+        "explain": "28 − 4 = 24."
+      },
+      {
+        "q": "Sara reads 15 pages a day. How many pages in 5 days?",
+        "choices": [
+          "20",
+          "45",
+          "65",
+          "75"
+        ],
+        "correct": 3,
+        "explain": "15 × 5 = 75 pages."
+      },
+      {
+        "q": "A water tank has 100 L. 35 L is used. How much is left?",
+        "choices": [
+          "55 L",
+          "65 L",
+          "75 L",
+          "85 L"
+        ],
+        "correct": 1,
+        "explain": "100 − 35 = 65 L."
+      },
+      {
+        "q": "A pen costs J$60. How many can you buy with J$300?",
+        "choices": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correct": 2,
+        "explain": "300 ÷ 60 = 5 pens."
+      },
+      {
+        "q": "6 friends share 24 sweets equally. Each gets…",
+        "choices": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correct": 1,
+        "explain": "24 ÷ 6 = 4 sweets each."
+      },
+      {
+        "q": "A train leaves at 9:00 and arrives at 11:30. The trip takes…",
+        "choices": [
+          "1 hour 30 min",
+          "2 hours",
+          "2 hours 30 min",
+          "3 hours"
+        ],
+        "correct": 2,
+        "explain": "From 9:00 to 11:30 is 2 hours 30 minutes."
+      },
+      {
+        "q": "A rectangle is 6 cm long and 4 cm wide. Its perimeter is…",
+        "choices": [
+          "10 cm",
+          "20 cm",
+          "24 cm",
+          "48 cm"
+        ],
+        "correct": 1,
+        "explain": "Perimeter = 2(L + W) = 2(6 + 4) = 20 cm."
+      },
+      {
+        "q": "A square has sides of 5 cm. Its area is…",
+        "choices": [
+          "10 cm²",
+          "15 cm²",
+          "20 cm²",
+          "25 cm²"
+        ],
+        "correct": 3,
+        "explain": "Area of a square = side × side = 5 × 5 = 25 cm²."
+      },
+      {
+        "q": "You have J$2,000 and a toy costs J$1,750. Can you afford it?",
+        "choices": [
+          "Yes",
+          "No",
+          "Maybe",
+          "Only on Sunday"
+        ],
+        "correct": 0,
+        "explain": "2,000 is more than 1,750, so yes."
+      },
+      {
+        "q": "A book has 200 pages. You read 1/4. How many pages did you read?",
+        "choices": [
+          "25",
+          "40",
+          "50",
+          "100"
+        ],
+        "correct": 2,
+        "explain": "1/4 of 200 = 50 pages."
+      },
+      {
+        "q": "A jar holds 500 mL. You pour 250 mL into a glass. How much remains in the jar?",
+        "choices": [
+          "100 mL",
+          "150 mL",
+          "200 mL",
+          "250 mL"
+        ],
+        "correct": 3,
+        "explain": "500 − 250 = 250 mL."
+      },
+      {
+        "q": "Daddy buys 12 bananas. The family eats 7. How many are left?",
+        "choices": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correct": 2,
+        "explain": "12 − 7 = 5 bananas."
+      },
+      {
+        "q": "A tank fills 5 L every minute. After 4 minutes the tank has…",
+        "choices": [
+          "9 L",
+          "10 L",
+          "15 L",
+          "20 L"
+        ],
+        "correct": 3,
+        "explain": "5 × 4 = 20 L."
       }
     ],
     "flashcards": [
@@ -6084,6 +11166,160 @@
         ],
         "correct": 0,
         "explain": "Your tone expresses how you feel — happy, angry, excited."
+      },
+      {
+        "q": "To listen well you should…",
+        "choices": [
+          "Look at the speaker",
+          "Talk over them",
+          "Look at your phone",
+          "Cover your ears"
+        ],
+        "correct": 0,
+        "explain": "Eye contact shows the speaker you are paying attention."
+      },
+      {
+        "q": "When you are not sure what someone said you can ask…",
+        "choices": [
+          "Could you please repeat that?",
+          "Why are you talking?",
+          "Be quiet!",
+          "Nothing"
+        ],
+        "correct": 0,
+        "explain": "Asking politely for a repeat is a good listening habit."
+      },
+      {
+        "q": "Speaking clearly means…",
+        "choices": [
+          "Mumbling",
+          "Saying each word so it can be heard",
+          "Shouting always",
+          "Whispering"
+        ],
+        "correct": 1,
+        "explain": "Clear speech helps your listener understand you."
+      },
+      {
+        "q": "A good speaker uses…",
+        "choices": [
+          "A bored face",
+          "Eye contact and a friendly tone",
+          "No expression",
+          "Their back to the audience"
+        ],
+        "correct": 1,
+        "explain": "Eye contact and a friendly tone keep listeners engaged."
+      },
+      {
+        "q": "When someone is speaking, you should NOT…",
+        "choices": [
+          "Pay attention",
+          "Interrupt them",
+          "Listen quietly",
+          "Think about what they say"
+        ],
+        "correct": 1,
+        "explain": "Interrupting is rude and breaks the speaker's thought."
+      },
+      {
+        "q": "To stay on topic in a conversation means…",
+        "choices": [
+          "Talk about random things",
+          "Stick to what is being discussed",
+          "Change subject often",
+          "Stop talking"
+        ],
+        "correct": 1,
+        "explain": "Keeping to the topic helps everyone follow the discussion."
+      },
+      {
+        "q": "In a debate, both sides should…",
+        "choices": [
+          "Shout each other down",
+          "Take turns to speak",
+          "Refuse to listen",
+          "Walk out"
+        ],
+        "correct": 1,
+        "explain": "Taking turns lets both sides be heard properly."
+      },
+      {
+        "q": "A 'turn-taking' rule helps a class because…",
+        "choices": [
+          "No one gets a chance",
+          "Everyone is heard",
+          "It wastes time",
+          "It is noisy"
+        ],
+        "correct": 1,
+        "explain": "Taking turns gives everyone a chance to speak."
+      },
+      {
+        "q": "Body language includes…",
+        "choices": [
+          "Words you write",
+          "Facial expressions and gestures",
+          "Punctuation",
+          "Maths symbols"
+        ],
+        "correct": 1,
+        "explain": "Body language is what your face and body show without words."
+      },
+      {
+        "q": "When giving directions, use…",
+        "choices": [
+          "Long stories",
+          "Clear, short steps",
+          "Many big words",
+          "Whisper voice"
+        ],
+        "correct": 1,
+        "explain": "Short clear steps make directions easy to follow."
+      },
+      {
+        "q": "A polite way to disagree is to say…",
+        "choices": [
+          "You're wrong!",
+          "I see your point, but I think…",
+          "Be quiet!",
+          "Whatever."
+        ],
+        "correct": 1,
+        "explain": "Polite phrases let you share a different view without upsetting people."
+      },
+      {
+        "q": "Speaking too quickly often makes you…",
+        "choices": [
+          "Easier to understand",
+          "Harder to understand",
+          "More polite",
+          "More clear"
+        ],
+        "correct": 1,
+        "explain": "Going too fast makes words run together so listeners can't follow."
+      },
+      {
+        "q": "Audience means…",
+        "choices": [
+          "The people listening",
+          "The book",
+          "The pen",
+          "The wall"
+        ],
+        "correct": 0,
+        "explain": "An audience is the group listening to a speaker or performer."
+      },
+      {
+        "q": "Active listening includes…",
+        "choices": [
+          "Daydreaming",
+          "Nodding and asking questions",
+          "Sleeping",
+          "Singing"
+        ],
+        "correct": 1,
+        "explain": "Active listeners show they are paying attention by responding."
       }
     ],
     "flashcards": [
@@ -6271,6 +11507,160 @@
         ],
         "correct": 0,
         "explain": "Inferring is reading between the lines using clues in the text."
+      },
+      {
+        "q": "A summary is…",
+        "choices": [
+          "A short retelling of the main points",
+          "A long copy of the story",
+          "Only the title",
+          "A list of mistakes"
+        ],
+        "correct": 0,
+        "explain": "A summary captures the main ideas in a few sentences."
+      },
+      {
+        "q": "To 'predict' in reading means…",
+        "choices": [
+          "Repeat what the author said",
+          "Guess what will happen next",
+          "Translate to French",
+          "Skip the page"
+        ],
+        "correct": 1,
+        "explain": "Readers predict by using clues to guess what comes next."
+      },
+      {
+        "q": "A 'plot' is…",
+        "choices": [
+          "The cover of a book",
+          "The events in the story",
+          "The author's name",
+          "The pictures"
+        ],
+        "correct": 1,
+        "explain": "The plot is the sequence of events in the story."
+      },
+      {
+        "q": "The 'point of view' tells us…",
+        "choices": [
+          "Who is telling the story",
+          "Where to buy the book",
+          "The price",
+          "The illustrator"
+        ],
+        "correct": 0,
+        "explain": "Point of view is the perspective from which the story is told."
+      },
+      {
+        "q": "A 'fact' can be…",
+        "choices": [
+          "Felt as a feeling",
+          "Proven true",
+          "Always made up",
+          "An opinion"
+        ],
+        "correct": 1,
+        "explain": "Facts can be checked and proven true."
+      },
+      {
+        "q": "An 'opinion' is…",
+        "choices": [
+          "A proven truth",
+          "Someone's belief or feeling",
+          "A measurement",
+          "A capital city"
+        ],
+        "correct": 1,
+        "explain": "An opinion is what someone thinks or believes."
+      },
+      {
+        "q": "To skim a text means to…",
+        "choices": [
+          "Read every word slowly",
+          "Read quickly to get the main idea",
+          "Memorise the page",
+          "Read backwards"
+        ],
+        "correct": 1,
+        "explain": "Skimming is reading fast to get the gist."
+      },
+      {
+        "q": "A glossary in a book…",
+        "choices": [
+          "Shows page numbers",
+          "Defines important words",
+          "Lists chapters",
+          "Shows pictures"
+        ],
+        "correct": 1,
+        "explain": "A glossary is a small dictionary in the back of the book."
+      },
+      {
+        "q": "Context clues are…",
+        "choices": [
+          "Words around an unknown word that help guess its meaning",
+          "Pictures only",
+          "Page numbers",
+          "Author's signature"
+        ],
+        "correct": 0,
+        "explain": "Words and sentences nearby give clues about the meaning of new words."
+      },
+      {
+        "q": "Re-reading a part of the text helps you…",
+        "choices": [
+          "Forget the story",
+          "Understand it better",
+          "Get bored",
+          "Skip to the end"
+        ],
+        "correct": 1,
+        "explain": "Re-reading helps you catch details you may have missed."
+      },
+      {
+        "q": "Cause and effect means…",
+        "choices": [
+          "A cause makes something happen and the effect is the result",
+          "Two unrelated events",
+          "Always the same word",
+          "Any two sentences"
+        ],
+        "correct": 0,
+        "explain": "Cause is what made it happen; effect is what happened."
+      },
+      {
+        "q": "A nonfiction text is…",
+        "choices": [
+          "About real things",
+          "Made-up stories",
+          "Only poems",
+          "About cartoons"
+        ],
+        "correct": 0,
+        "explain": "Nonfiction gives true information about real people, places or events."
+      },
+      {
+        "q": "Fiction is…",
+        "choices": [
+          "Real news",
+          "Made-up stories",
+          "A type of dictionary",
+          "A school subject"
+        ],
+        "correct": 1,
+        "explain": "Fiction is imagined or invented by the author."
+      },
+      {
+        "q": "To compare means to…",
+        "choices": [
+          "Find what is different only",
+          "Find what is the same and different",
+          "Translate",
+          "Spell"
+        ],
+        "correct": 1,
+        "explain": "Comparing looks at both similarities and differences."
       }
     ],
     "flashcards": [
@@ -6458,6 +11848,160 @@
         ],
         "correct": 2,
         "explain": "A command tells someone to do something."
+      },
+      {
+        "q": "A noun phrase always has a…",
+        "choices": [
+          "Verb",
+          "Noun",
+          "Conjunction",
+          "Preposition"
+        ],
+        "correct": 1,
+        "explain": "A noun phrase is a noun and the words around it."
+      },
+      {
+        "q": "Which is a question?",
+        "choices": [
+          "What is your name",
+          "Stop the noise",
+          "I like mango",
+          "Sit down"
+        ],
+        "correct": 0,
+        "explain": "A question asks for information; it would end with '?'."
+      },
+      {
+        "q": "A command (imperative) tells someone to…",
+        "choices": [
+          "Do something",
+          "Eat anything",
+          "Smile",
+          "Sing"
+        ],
+        "correct": 0,
+        "explain": "Commands give an instruction, like 'Close the door.'"
+      },
+      {
+        "q": "A sentence that shows strong feeling ends with a…",
+        "choices": [
+          "Period",
+          "Question mark",
+          "Exclamation mark",
+          "Comma"
+        ],
+        "correct": 2,
+        "explain": "Exclamation marks (!) show strong feeling."
+      },
+      {
+        "q": "Which is the subject in: 'Maya kicked the ball.'?",
+        "choices": [
+          "Maya",
+          "kicked",
+          "the",
+          "ball"
+        ],
+        "correct": 0,
+        "explain": "The subject is who or what does the action — Maya."
+      },
+      {
+        "q": "Which is the verb in: 'The dog barked loudly.'?",
+        "choices": [
+          "The",
+          "dog",
+          "barked",
+          "loudly"
+        ],
+        "correct": 2,
+        "explain": "'Barked' is the action — the verb."
+      },
+      {
+        "q": "Which is NOT a sentence?",
+        "choices": [
+          "Birds fly.",
+          "Running fast.",
+          "She sings.",
+          "I am tired."
+        ],
+        "correct": 1,
+        "explain": "'Running fast.' has no subject, so it's a fragment."
+      },
+      {
+        "q": "A run-on sentence is…",
+        "choices": [
+          "A sentence that runs out of paper",
+          "Two sentences joined without proper punctuation",
+          "A correct sentence",
+          "A short sentence"
+        ],
+        "correct": 1,
+        "explain": "Run-ons join ideas wrongly and need punctuation or a conjunction."
+      },
+      {
+        "q": "Which conjunction joins two ideas?",
+        "choices": [
+          "But",
+          "Quickly",
+          "Tall",
+          "Banana"
+        ],
+        "correct": 0,
+        "explain": "'But' joins two clauses or ideas."
+      },
+      {
+        "q": "Which is the predicate in: 'My sister sings every morning.'?",
+        "choices": [
+          "My sister",
+          "sings every morning",
+          "every",
+          "morning"
+        ],
+        "correct": 1,
+        "explain": "The predicate tells what the subject does — 'sings every morning'."
+      },
+      {
+        "q": "Which sentence has a compound subject?",
+        "choices": [
+          "John runs.",
+          "John and Mary run.",
+          "John ran.",
+          "John was running."
+        ],
+        "correct": 1,
+        "explain": "A compound subject has two or more subjects joined by 'and'."
+      },
+      {
+        "q": "In 'She is reading a book', 'is reading' is the…",
+        "choices": [
+          "Noun",
+          "Verb phrase",
+          "Adjective",
+          "Adverb"
+        ],
+        "correct": 1,
+        "explain": "'Is reading' is a verb made of more than one word — a verb phrase."
+      },
+      {
+        "q": "Which type of sentence is: 'The sea is blue.'?",
+        "choices": [
+          "Statement",
+          "Question",
+          "Command",
+          "Exclamation"
+        ],
+        "correct": 0,
+        "explain": "It states a fact, so it's a statement."
+      },
+      {
+        "q": "Which type of sentence is: 'How beautiful the sunset is!'?",
+        "choices": [
+          "Statement",
+          "Question",
+          "Command",
+          "Exclamation"
+        ],
+        "correct": 3,
+        "explain": "Strong feeling and an exclamation mark make it an exclamation."
       }
     ],
     "flashcards": [
@@ -6631,6 +12175,160 @@
         ],
         "correct": 0,
         "explain": "Descriptive writing paints pictures using sensory language."
+      },
+      {
+        "q": "A draft is…",
+        "choices": [
+          "A finished piece",
+          "A first attempt at writing",
+          "A spelling list",
+          "A printed book"
+        ],
+        "correct": 1,
+        "explain": "A draft is your first try; you can improve it later."
+      },
+      {
+        "q": "Brainstorming means…",
+        "choices": [
+          "Drawing your brain",
+          "Listing many ideas before writing",
+          "Reading old work",
+          "Counting words"
+        ],
+        "correct": 1,
+        "explain": "Brainstorming gathers ideas before you start writing."
+      },
+      {
+        "q": "A good story has a beginning, middle, and…",
+        "choices": [
+          "End",
+          "Cover",
+          "Picture",
+          "Author"
+        ],
+        "correct": 0,
+        "explain": "Stories follow a beginning–middle–end structure."
+      },
+      {
+        "q": "Proofreading is checking for…",
+        "choices": [
+          "Mistakes in spelling and punctuation",
+          "Pictures",
+          "Page numbers only",
+          "Smell"
+        ],
+        "correct": 0,
+        "explain": "Proofreading catches errors before publishing."
+      },
+      {
+        "q": "A topic sentence usually comes…",
+        "choices": [
+          "At the start of a paragraph",
+          "At the end",
+          "In the middle",
+          "On a different page"
+        ],
+        "correct": 0,
+        "explain": "The topic sentence introduces the paragraph's main idea."
+      },
+      {
+        "q": "A paragraph should be about…",
+        "choices": [
+          "Many different topics",
+          "One main idea",
+          "Only one word",
+          "Random sentences"
+        ],
+        "correct": 1,
+        "explain": "All sentences in a paragraph should support the same idea."
+      },
+      {
+        "q": "Which describes 'descriptive' writing?",
+        "choices": [
+          "Tells a list",
+          "Paints a picture with details",
+          "Has only numbers",
+          "Has no adjectives"
+        ],
+        "correct": 1,
+        "explain": "Descriptive writing uses words that help readers see and feel."
+      },
+      {
+        "q": "Which describes 'persuasive' writing?",
+        "choices": [
+          "Tries to convince the reader",
+          "Just tells a story",
+          "Lists facts only",
+          "Asks the reader to be quiet"
+        ],
+        "correct": 0,
+        "explain": "Persuasive writing argues for a point of view."
+      },
+      {
+        "q": "A friendly letter usually starts with…",
+        "choices": [
+          "Dear …",
+          "Sincerely",
+          "Once upon a time",
+          "Page 1"
+        ],
+        "correct": 0,
+        "explain": "Friendly letters open with 'Dear' and the person's name."
+      },
+      {
+        "q": "In a letter, the closing is…",
+        "choices": [
+          "The greeting",
+          "The body",
+          "The signing-off, like 'Yours truly,'",
+          "The address"
+        ],
+        "correct": 2,
+        "explain": "The closing is your sign-off before your name."
+      },
+      {
+        "q": "To organise ideas you can use a…",
+        "choices": [
+          "Calculator",
+          "Graphic organiser",
+          "Map of Jamaica",
+          "Stopwatch"
+        ],
+        "correct": 1,
+        "explain": "A graphic organiser, like a web or chart, helps plan your writing."
+      },
+      {
+        "q": "Editing means…",
+        "choices": [
+          "Improving wording and fixing mistakes",
+          "Drawing pictures",
+          "Counting pages",
+          "Reading aloud only"
+        ],
+        "correct": 0,
+        "explain": "Editing makes the writing clearer and more correct."
+      },
+      {
+        "q": "A conclusion should…",
+        "choices": [
+          "Wrap up the writing",
+          "Start a new topic",
+          "Be empty",
+          "List the cast"
+        ],
+        "correct": 0,
+        "explain": "A conclusion ends the piece and ties ideas together."
+      },
+      {
+        "q": "Why use paragraphs?",
+        "choices": [
+          "To organise ideas and make reading easier",
+          "To use more paper",
+          "To hide ideas",
+          "Just for decoration"
+        ],
+        "correct": 0,
+        "explain": "Paragraphs separate ideas so the reader can follow."
       }
     ],
     "flashcards": [
@@ -6818,6 +12516,160 @@
         ],
         "correct": 1,
         "explain": "Friend: 'i' before 'e'."
+      },
+      {
+        "q": "A synonym for 'big' is…",
+        "choices": [
+          "Tiny",
+          "Large",
+          "Small",
+          "Short"
+        ],
+        "correct": 1,
+        "explain": "'Large' has a similar meaning to 'big'."
+      },
+      {
+        "q": "An antonym for 'happy' is…",
+        "choices": [
+          "Glad",
+          "Cheerful",
+          "Sad",
+          "Joyful"
+        ],
+        "correct": 2,
+        "explain": "'Sad' is the opposite of 'happy'."
+      },
+      {
+        "q": "Which is spelled correctly?",
+        "choices": [
+          "Recieve",
+          "Receive",
+          "Receeve",
+          "Receeve"
+        ],
+        "correct": 1,
+        "explain": "The rule is 'i before e except after c' — receive."
+      },
+      {
+        "q": "Which pair are homophones?",
+        "choices": [
+          "Sea, see",
+          "Cat, dog",
+          "Run, walk",
+          "Big, large"
+        ],
+        "correct": 0,
+        "explain": "Homophones sound the same but mean different things, like 'sea' and 'see'."
+      },
+      {
+        "q": "What does 'gigantic' mean?",
+        "choices": [
+          "Very small",
+          "Very large",
+          "Very fast",
+          "Very loud"
+        ],
+        "correct": 1,
+        "explain": "'Gigantic' means extremely big."
+      },
+      {
+        "q": "Which is spelled correctly?",
+        "choices": [
+          "Necessary",
+          "Neccessary",
+          "Necesary",
+          "Nessecary"
+        ],
+        "correct": 0,
+        "explain": "The correct spelling is necessary."
+      },
+      {
+        "q": "A synonym for 'fast' is…",
+        "choices": [
+          "Slow",
+          "Quick",
+          "Late",
+          "Tired"
+        ],
+        "correct": 1,
+        "explain": "'Quick' means the same as 'fast'."
+      },
+      {
+        "q": "An antonym for 'hot' is…",
+        "choices": [
+          "Warm",
+          "Boiling",
+          "Cold",
+          "Sunny"
+        ],
+        "correct": 2,
+        "explain": "'Cold' is the opposite of 'hot'."
+      },
+      {
+        "q": "Which word is spelled correctly?",
+        "choices": [
+          "Beautyful",
+          "Beautiful",
+          "Beautifull",
+          "Beautifel"
+        ],
+        "correct": 1,
+        "explain": "The correct spelling is beautiful."
+      },
+      {
+        "q": "What does 'mend' mean?",
+        "choices": [
+          "Break",
+          "Repair",
+          "Lose",
+          "Hide"
+        ],
+        "correct": 1,
+        "explain": "To mend is to fix or repair something."
+      },
+      {
+        "q": "A synonym for 'angry' is…",
+        "choices": [
+          "Calm",
+          "Happy",
+          "Furious",
+          "Tired"
+        ],
+        "correct": 2,
+        "explain": "'Furious' means very angry."
+      },
+      {
+        "q": "Which homophone fits? 'I have a new ___ of shoes.'",
+        "choices": [
+          "pear",
+          "peace",
+          "pair",
+          "pail"
+        ],
+        "correct": 2,
+        "explain": "'Pair' means two of something — and is a homophone of 'pear'."
+      },
+      {
+        "q": "Which is spelled correctly?",
+        "choices": [
+          "Friendly",
+          "Frendly",
+          "Frindly",
+          "Friendlie"
+        ],
+        "correct": 0,
+        "explain": "The correct spelling is friendly."
+      },
+      {
+        "q": "What is the meaning of 'rare'?",
+        "choices": [
+          "Common",
+          "Not often seen",
+          "Plenty",
+          "Heavy"
+        ],
+        "correct": 1,
+        "explain": "'Rare' means not common — hardly ever found."
       }
     ],
     "flashcards": [
@@ -6980,6 +12832,160 @@
         ],
         "correct": 2,
         "explain": "Exclamation marks show strong feeling or excitement."
+      },
+      {
+        "q": "Which word should be capitalised? 'we visited paris.'",
+        "choices": [
+          "we",
+          "visited",
+          "paris",
+          "both we and paris"
+        ],
+        "correct": 3,
+        "explain": "'We' starts the sentence and 'Paris' is a proper noun — both need capitals."
+      },
+      {
+        "q": "A comma can be used to…",
+        "choices": [
+          "End a sentence",
+          "Separate items in a list",
+          "Show questions",
+          "Show shouting"
+        ],
+        "correct": 1,
+        "explain": "Commas separate items: apples, oranges, and bananas."
+      },
+      {
+        "q": "Quotation marks show…",
+        "choices": [
+          "Where the speaker stands",
+          "The exact words someone said",
+          "Numbers",
+          "Time"
+        ],
+        "correct": 1,
+        "explain": "\"\" goes around the words a person speaks."
+      },
+      {
+        "q": "Which uses an apostrophe correctly?",
+        "choices": [
+          "The dog's bone",
+          "The dogs bone",
+          "Dogs's bone",
+          "Dog,s bone"
+        ],
+        "correct": 0,
+        "explain": "'Dog's' shows the bone belongs to the dog."
+      },
+      {
+        "q": "Which sentence is correctly capitalised?",
+        "choices": [
+          "my friend ann lives in kingston.",
+          "My friend Ann lives in Kingston.",
+          "My friend ann lives in Kingston.",
+          "my friend Ann lives in kingston."
+        ],
+        "correct": 1,
+        "explain": "Sentences and proper nouns (Ann, Kingston) need capitals."
+      },
+      {
+        "q": "Which mark ends a question?",
+        "choices": [
+          "?",
+          "!",
+          ".",
+          ","
+        ],
+        "correct": 0,
+        "explain": "A question mark ends a question."
+      },
+      {
+        "q": "Which mark ends an exciting sentence?",
+        "choices": [
+          "?",
+          "!",
+          ".",
+          ":"
+        ],
+        "correct": 1,
+        "explain": "Exclamation marks show strong feeling."
+      },
+      {
+        "q": "Which is correct?",
+        "choices": [
+          "Mr Brown is here",
+          "Mr. Brown is here.",
+          "mr brown is here",
+          "mr. brown is here"
+        ],
+        "correct": 1,
+        "explain": "Capitals for the title and name; full stop ends the sentence."
+      },
+      {
+        "q": "In a list, commas go…",
+        "choices": [
+          "After every word",
+          "Between items",
+          "Only at the start",
+          "Only at the end"
+        ],
+        "correct": 1,
+        "explain": "Commas go between items in a list."
+      },
+      {
+        "q": "A colon (:) can be used to…",
+        "choices": [
+          "End a question",
+          "Introduce a list or quote",
+          "Show a question",
+          "Show shouting"
+        ],
+        "correct": 1,
+        "explain": "A colon often introduces a list or example."
+      },
+      {
+        "q": "Which day name is capitalised correctly?",
+        "choices": [
+          "monday",
+          "Monday",
+          "MONDAY",
+          "mOnday"
+        ],
+        "correct": 1,
+        "explain": "Days of the week start with a capital letter."
+      },
+      {
+        "q": "In 'I'm happy', the apostrophe stands for…",
+        "choices": [
+          "s",
+          "an",
+          "a",
+          "the missing 'a' in 'I am'"
+        ],
+        "correct": 3,
+        "explain": "I'm is a contraction of 'I am' — the apostrophe replaces 'a'."
+      },
+      {
+        "q": "Which is a proper noun?",
+        "choices": [
+          "river",
+          "Jamaica",
+          "city",
+          "mountain"
+        ],
+        "correct": 1,
+        "explain": "Names of specific places, like Jamaica, are proper nouns."
+      },
+      {
+        "q": "Which sentence uses commas correctly?",
+        "choices": [
+          "I bought rice beans and yams.",
+          "I bought rice, beans, and yams.",
+          "I, bought, rice beans yams.",
+          "I bought, rice and beans, and yams,"
+        ],
+        "correct": 1,
+        "explain": "Commas separate the items in the list."
       }
     ],
     "flashcards": [
@@ -7167,6 +13173,160 @@
         ],
         "correct": 0,
         "explain": "The climax is the turning point — the most exciting part."
+      },
+      {
+        "q": "A simile compares two things using…",
+        "choices": [
+          "like or as",
+          "is",
+          "are",
+          "was"
+        ],
+        "correct": 0,
+        "explain": "A simile uses 'like' or 'as' (e.g., 'as fast as a cheetah')."
+      },
+      {
+        "q": "A metaphor compares by…",
+        "choices": [
+          "Saying one thing is another",
+          "Using 'like'",
+          "Asking a question",
+          "Counting"
+        ],
+        "correct": 0,
+        "explain": "A metaphor says one thing is another (e.g., 'time is money')."
+      },
+      {
+        "q": "The protagonist is the…",
+        "choices": [
+          "Hero/main character",
+          "Villain",
+          "Setting",
+          "Title"
+        ],
+        "correct": 0,
+        "explain": "The protagonist is the main character of the story."
+      },
+      {
+        "q": "Personification is when…",
+        "choices": [
+          "A person becomes a hero",
+          "Things are given human qualities",
+          "Two characters fight",
+          "Words rhyme"
+        ],
+        "correct": 1,
+        "explain": "Personification gives human traits to non-human things, like 'the wind whispered'."
+      },
+      {
+        "q": "Setting tells you…",
+        "choices": [
+          "Who is in the story",
+          "When and where the story happens",
+          "The author's name",
+          "How long the book is"
+        ],
+        "correct": 1,
+        "explain": "Setting is the time and place."
+      },
+      {
+        "q": "Conflict in a story is…",
+        "choices": [
+          "A problem the characters face",
+          "The cover",
+          "The author",
+          "A song"
+        ],
+        "correct": 0,
+        "explain": "Conflict is the problem or struggle that drives the story."
+      },
+      {
+        "q": "The resolution is when…",
+        "choices": [
+          "A new problem starts",
+          "The problem is solved",
+          "The book begins",
+          "The setting changes"
+        ],
+        "correct": 1,
+        "explain": "Resolution is when the conflict is sorted out."
+      },
+      {
+        "q": "Onomatopoeia is when…",
+        "choices": [
+          "Words sound like what they mean",
+          "Words rhyme",
+          "Two words mean the same",
+          "A word is misspelled"
+        ],
+        "correct": 0,
+        "explain": "Examples: 'buzz', 'splash', 'crash'."
+      },
+      {
+        "q": "Mood is the…",
+        "choices": [
+          "Feeling the story gives the reader",
+          "Author's name",
+          "Number of pages",
+          "Year of publication"
+        ],
+        "correct": 0,
+        "explain": "Mood is the emotional atmosphere of the story."
+      },
+      {
+        "q": "In a fable, the moral is…",
+        "choices": [
+          "The lesson taught",
+          "A character",
+          "The setting",
+          "The title"
+        ],
+        "correct": 0,
+        "explain": "Fables end with a moral lesson, like 'slow and steady wins the race'."
+      },
+      {
+        "q": "A rhyme is when…",
+        "choices": [
+          "Words end with similar sounds",
+          "Words start the same",
+          "Words mean the same",
+          "Words are spelled the same"
+        ],
+        "correct": 0,
+        "explain": "Words like 'cat' and 'hat' rhyme."
+      },
+      {
+        "q": "Stanza is to poem as ___ is to story.",
+        "choices": [
+          "Letter",
+          "Paragraph",
+          "Page",
+          "Chapter"
+        ],
+        "correct": 1,
+        "explain": "A poem is divided into stanzas like a story is divided into paragraphs."
+      },
+      {
+        "q": "Alliteration is when…",
+        "choices": [
+          "Words start with the same sound",
+          "Words rhyme",
+          "Words mean opposites",
+          "Words sound silly"
+        ],
+        "correct": 0,
+        "explain": "Example: 'Sally sells seashells'."
+      },
+      {
+        "q": "A folktale is…",
+        "choices": [
+          "A story passed down through generations",
+          "A new movie",
+          "A spelling list",
+          "A type of poem"
+        ],
+        "correct": 0,
+        "explain": "Folktales are traditional stories of a culture, often with morals."
       }
     ],
     "flashcards": [
@@ -7354,6 +13514,160 @@
         ],
         "correct": 0,
         "explain": "Patois has its own grammar and patterns — it is a full language."
+      },
+      {
+        "q": "Standard English in Jamaica is used for…",
+        "choices": [
+          "School and formal writing",
+          "Joking with friends only",
+          "No one ever",
+          "Singing only"
+        ],
+        "correct": 0,
+        "explain": "Standard English is used in school, work and official settings."
+      },
+      {
+        "q": "Jamaican Creole (Patois) is…",
+        "choices": [
+          "Wrong English",
+          "A unique language with its own rules",
+          "Made of mistakes",
+          "Useless"
+        ],
+        "correct": 1,
+        "explain": "Patois is a real language with its own grammar — not bad English."
+      },
+      {
+        "q": "Standard English for 'Mi waan one patty' is…",
+        "choices": [
+          "I want a patty.",
+          "Me want one patty.",
+          "I want one patty.",
+          "Mi want one patty."
+        ],
+        "correct": 0,
+        "explain": "Standard English uses 'I' as the subject and 'a' before consonant sounds."
+      },
+      {
+        "q": "Code-switching means…",
+        "choices": [
+          "Changing computer code",
+          "Switching between Standard English and Creole",
+          "Speaking two foreign languages",
+          "Using only one language"
+        ],
+        "correct": 1,
+        "explain": "Code-switching lets you choose the right language for the situation."
+      },
+      {
+        "q": "Which is more formal?",
+        "choices": [
+          "What's up?",
+          "Good morning, how are you?",
+          "Wha gwaan?",
+          "Yo!"
+        ],
+        "correct": 1,
+        "explain": "'Good morning, how are you?' is the most formal greeting."
+      },
+      {
+        "q": "Patois is mostly used for…",
+        "choices": [
+          "Casual talk and culture",
+          "School essays only",
+          "Newspaper headlines",
+          "Bank statements"
+        ],
+        "correct": 0,
+        "explain": "Patois is most often heard in everyday talk and Jamaican culture."
+      },
+      {
+        "q": "Standard English for 'mi nuh know' is…",
+        "choices": [
+          "I don't know.",
+          "I no know.",
+          "I don knows.",
+          "Me don know."
+        ],
+        "correct": 0,
+        "explain": "Standard English uses 'I do not know' or its contraction 'I don't know'."
+      },
+      {
+        "q": "Which job uses Standard English most?",
+        "choices": [
+          "TV news anchor",
+          "Friend at recess",
+          "Family at dinner",
+          "Sports fan"
+        ],
+        "correct": 0,
+        "explain": "News broadcasts use Standard English so most listeners understand."
+      },
+      {
+        "q": "Standard English for 'Wi a go a beach' is…",
+        "choices": [
+          "We are going to the beach.",
+          "We a go beach.",
+          "We am going beach.",
+          "We are go beach."
+        ],
+        "correct": 0,
+        "explain": "Standard English uses 'are going' and 'to the' before the place."
+      },
+      {
+        "q": "Knowing both Patois and Standard English makes you…",
+        "choices": [
+          "Confused",
+          "Bilingual or bidialectal",
+          "Worse at English",
+          "Less smart"
+        ],
+        "correct": 1,
+        "explain": "Knowing both gives you more ways to communicate — a strength."
+      },
+      {
+        "q": "Which sentence is Standard English?",
+        "choices": [
+          "She gone home.",
+          "She has gone home.",
+          "She gawn home.",
+          "She a gone home."
+        ],
+        "correct": 1,
+        "explain": "Standard English uses the helper verb 'has gone'."
+      },
+      {
+        "q": "Patois greeting 'Wha gwaan?' means…",
+        "choices": [
+          "Goodbye",
+          "What's happening?",
+          "Sit down",
+          "See you later"
+        ],
+        "correct": 1,
+        "explain": "'Wha gwaan?' is a friendly 'What's happening?'"
+      },
+      {
+        "q": "Standard English for 'Mi belly full' is…",
+        "choices": [
+          "I am full.",
+          "Me belly full.",
+          "I belly is full.",
+          "I full belly."
+        ],
+        "correct": 0,
+        "explain": "In Standard English we say 'I am full.'"
+      },
+      {
+        "q": "In a school essay you should write in…",
+        "choices": [
+          "Patois",
+          "Standard English",
+          "Mixture",
+          "Spanish"
+        ],
+        "correct": 1,
+        "explain": "School essays are written in Standard English."
       }
     ],
     "flashcards": [
@@ -7541,6 +13855,160 @@
         ],
         "correct": 1,
         "explain": "Abstract nouns like love, happiness, or fear cannot be touched."
+      },
+      {
+        "q": "Which is a common noun?",
+        "choices": [
+          "Kingston",
+          "Boy",
+          "Sara",
+          "Friday"
+        ],
+        "correct": 1,
+        "explain": "'Boy' is a general name — a common noun."
+      },
+      {
+        "q": "Which is a proper noun?",
+        "choices": [
+          "river",
+          "Rio Grande",
+          "mountain",
+          "forest"
+        ],
+        "correct": 1,
+        "explain": "Specific names like 'Rio Grande' are proper nouns and start with capitals."
+      },
+      {
+        "q": "The plural of 'baby' is…",
+        "choices": [
+          "babys",
+          "babies",
+          "baby's",
+          "babes"
+        ],
+        "correct": 1,
+        "explain": "For words ending in y after a consonant, change y to i and add es."
+      },
+      {
+        "q": "The plural of 'foot' is…",
+        "choices": [
+          "foots",
+          "feets",
+          "feet",
+          "footses"
+        ],
+        "correct": 2,
+        "explain": "'Feet' is an irregular plural."
+      },
+      {
+        "q": "The pronoun for 'a group of girls' is…",
+        "choices": [
+          "he",
+          "she",
+          "they",
+          "it"
+        ],
+        "correct": 2,
+        "explain": "'They' is used for groups of people."
+      },
+      {
+        "q": "Which is a possessive pronoun?",
+        "choices": [
+          "Run",
+          "Mine",
+          "Quickly",
+          "Big"
+        ],
+        "correct": 1,
+        "explain": "'Mine' shows that something belongs to me."
+      },
+      {
+        "q": "In 'The cat caught the mouse', the noun(s) are…",
+        "choices": [
+          "caught",
+          "cat and mouse",
+          "the",
+          "catched"
+        ],
+        "correct": 1,
+        "explain": "'Cat' and 'mouse' are both nouns (things)."
+      },
+      {
+        "q": "Which is a collective noun?",
+        "choices": [
+          "Team",
+          "Run",
+          "Big",
+          "Quickly"
+        ],
+        "correct": 0,
+        "explain": "A collective noun names a group, like 'team'."
+      },
+      {
+        "q": "The plural of 'child' is…",
+        "choices": [
+          "childs",
+          "childrens",
+          "children",
+          "childes"
+        ],
+        "correct": 2,
+        "explain": "'Children' is the irregular plural of 'child'."
+      },
+      {
+        "q": "Which is an abstract noun?",
+        "choices": [
+          "Chair",
+          "Love",
+          "Dog",
+          "Apple"
+        ],
+        "correct": 1,
+        "explain": "Abstract nouns name things you cannot touch, like 'love'."
+      },
+      {
+        "q": "Which sentence uses 'their' correctly?",
+        "choices": [
+          "They lost their keys.",
+          "They lost there keys.",
+          "They lost they're keys.",
+          "They lost theyre keys."
+        ],
+        "correct": 0,
+        "explain": "'Their' shows possession — the keys belong to them."
+      },
+      {
+        "q": "What is the pronoun for 'Mr and Mrs Brown'?",
+        "choices": [
+          "He",
+          "She",
+          "They",
+          "It"
+        ],
+        "correct": 2,
+        "explain": "Two people together are 'they'."
+      },
+      {
+        "q": "Which is a singular noun?",
+        "choices": [
+          "Books",
+          "Child",
+          "Children",
+          "Boys"
+        ],
+        "correct": 1,
+        "explain": "'Child' is singular; 'children' is the plural."
+      },
+      {
+        "q": "Replace the underlined nouns with a pronoun: 'Tomi and I went home.'",
+        "choices": [
+          "I",
+          "She",
+          "We",
+          "They"
+        ],
+        "correct": 2,
+        "explain": "Tomi and I together is 'we'."
       }
     ],
     "flashcards": [
@@ -7714,6 +14182,160 @@
         ],
         "correct": 1,
         "explain": "'Wrote' is the irregular past tense of write."
+      },
+      {
+        "q": "A verb is a word that shows…",
+        "choices": [
+          "A thing",
+          "An action or state",
+          "A place",
+          "A feeling only"
+        ],
+        "correct": 1,
+        "explain": "Verbs show what someone or something does or is."
+      },
+      {
+        "q": "Past tense of 'go' is…",
+        "choices": [
+          "Goes",
+          "Gone",
+          "Went",
+          "Going"
+        ],
+        "correct": 2,
+        "explain": "'Went' is the past tense of 'go'."
+      },
+      {
+        "q": "Past tense of 'see' is…",
+        "choices": [
+          "Saw",
+          "Seen",
+          "Seeing",
+          "Sees"
+        ],
+        "correct": 0,
+        "explain": "'Saw' is the simple past tense of 'see'."
+      },
+      {
+        "q": "Which sentence is in present tense?",
+        "choices": [
+          "She walks home.",
+          "She walked home.",
+          "She will walk home.",
+          "She has walked home."
+        ],
+        "correct": 0,
+        "explain": "'Walks' is the present-tense verb."
+      },
+      {
+        "q": "Which sentence is in future tense?",
+        "choices": [
+          "He plays.",
+          "He played.",
+          "He will play.",
+          "He is playing."
+        ],
+        "correct": 2,
+        "explain": "'Will play' is the future tense."
+      },
+      {
+        "q": "The past tense of 'eat' is…",
+        "choices": [
+          "Eaten",
+          "Eat",
+          "Ate",
+          "Eats"
+        ],
+        "correct": 2,
+        "explain": "'Ate' is the simple past tense of 'eat'."
+      },
+      {
+        "q": "Choose the correct verb: 'They ___ in the park yesterday.'",
+        "choices": [
+          "plays",
+          "played",
+          "play",
+          "playing"
+        ],
+        "correct": 1,
+        "explain": "'Yesterday' shows past tense — 'played'."
+      },
+      {
+        "q": "Choose the correct verb: 'She ___ to school every day.'",
+        "choices": [
+          "go",
+          "goes",
+          "gone",
+          "going"
+        ],
+        "correct": 1,
+        "explain": "With 'she' (singular), the present tense is 'goes'."
+      },
+      {
+        "q": "The past tense of 'run' is…",
+        "choices": [
+          "Runned",
+          "Ran",
+          "Running",
+          "Runs"
+        ],
+        "correct": 1,
+        "explain": "'Ran' is the simple past tense of 'run'."
+      },
+      {
+        "q": "Which is a helping verb?",
+        "choices": [
+          "Is",
+          "Tree",
+          "Quickly",
+          "Loud"
+        ],
+        "correct": 0,
+        "explain": "'Is' helps the main verb (e.g., 'is running')."
+      },
+      {
+        "q": "The verb in 'The bird sings sweetly' is…",
+        "choices": [
+          "bird",
+          "sings",
+          "sweetly",
+          "the"
+        ],
+        "correct": 1,
+        "explain": "'Sings' is the action verb."
+      },
+      {
+        "q": "The past tense of 'write' is…",
+        "choices": [
+          "Writed",
+          "Writ",
+          "Wrote",
+          "Writing"
+        ],
+        "correct": 2,
+        "explain": "'Wrote' is the past tense of 'write'."
+      },
+      {
+        "q": "Choose the correct verb: 'The dog ___ loudly.'",
+        "choices": [
+          "bark",
+          "barks",
+          "barking",
+          "barked yesterday"
+        ],
+        "correct": 1,
+        "explain": "With 'dog' (singular, present), use 'barks'."
+      },
+      {
+        "q": "Which form of the verb is 'eating'?",
+        "choices": [
+          "Past",
+          "Present participle",
+          "Future",
+          "Past participle"
+        ],
+        "correct": 1,
+        "explain": "Verbs ending in -ing are present participles."
       }
     ],
     "flashcards": [
@@ -7887,6 +14509,160 @@
         ],
         "correct": 0,
         "explain": "Happy describes a noun (a happy child)."
+      },
+      {
+        "q": "In 'a sweet mango', the adjective is…",
+        "choices": [
+          "a",
+          "sweet",
+          "mango",
+          "none"
+        ],
+        "correct": 1,
+        "explain": "'Sweet' describes the mango — it's the adjective."
+      },
+      {
+        "q": "In 'she sings beautifully', the adverb is…",
+        "choices": [
+          "she",
+          "sings",
+          "beautifully",
+          "none"
+        ],
+        "correct": 2,
+        "explain": "'Beautifully' describes how she sings — it's an adverb."
+      },
+      {
+        "q": "Which is an adverb?",
+        "choices": [
+          "Quickly",
+          "Quick",
+          "Quickness",
+          "Quicker"
+        ],
+        "correct": 0,
+        "explain": "Most adverbs end in -ly, like 'quickly'."
+      },
+      {
+        "q": "Which is an adjective?",
+        "choices": [
+          "Run",
+          "Brave",
+          "Slowly",
+          "Sing"
+        ],
+        "correct": 1,
+        "explain": "'Brave' describes a noun, so it's an adjective."
+      },
+      {
+        "q": "Adjectives describe…",
+        "choices": [
+          "Verbs",
+          "Nouns",
+          "Adverbs",
+          "Sentences"
+        ],
+        "correct": 1,
+        "explain": "Adjectives describe nouns (things, people, places)."
+      },
+      {
+        "q": "Adverbs often describe…",
+        "choices": [
+          "Nouns",
+          "Verbs",
+          "Pronouns",
+          "Conjunctions"
+        ],
+        "correct": 1,
+        "explain": "Adverbs describe verbs — telling how, when or where."
+      },
+      {
+        "q": "Choose the adjective: 'The angry dog barked.'",
+        "choices": [
+          "The",
+          "angry",
+          "dog",
+          "barked"
+        ],
+        "correct": 1,
+        "explain": "'Angry' describes the dog."
+      },
+      {
+        "q": "Choose the adverb: 'He laughed loudly.'",
+        "choices": [
+          "He",
+          "laughed",
+          "loudly",
+          "none"
+        ],
+        "correct": 2,
+        "explain": "'Loudly' describes how he laughed."
+      },
+      {
+        "q": "Which adjective tells how many?",
+        "choices": [
+          "Tall",
+          "Three",
+          "Red",
+          "Soft"
+        ],
+        "correct": 1,
+        "explain": "Numbers like 'three' tell how many."
+      },
+      {
+        "q": "Which adverb tells when?",
+        "choices": [
+          "Today",
+          "Quietly",
+          "Gently",
+          "Bravely"
+        ],
+        "correct": 0,
+        "explain": "'Today' tells when something happens."
+      },
+      {
+        "q": "Which adverb tells where?",
+        "choices": [
+          "Slowly",
+          "Outside",
+          "Now",
+          "Always"
+        ],
+        "correct": 1,
+        "explain": "'Outside' tells where something happens."
+      },
+      {
+        "q": "In 'a tall, kind teacher', how many adjectives?",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "0"
+        ],
+        "correct": 1,
+        "explain": "'Tall' and 'kind' both describe teacher — 2 adjectives."
+      },
+      {
+        "q": "Comparative adjective for 'big' is…",
+        "choices": [
+          "Bigger",
+          "Biggest",
+          "Bigly",
+          "Biggish"
+        ],
+        "correct": 0,
+        "explain": "Add -er for the comparative form."
+      },
+      {
+        "q": "Superlative adjective for 'small' is…",
+        "choices": [
+          "Smaller",
+          "Smallest",
+          "Smally",
+          "Small"
+        ],
+        "correct": 1,
+        "explain": "Add -est for the superlative form."
       }
     ],
     "flashcards": [
@@ -8060,6 +14836,160 @@
         ],
         "correct": 0,
         "explain": "'Re-' means again (rewrite = write again)."
+      },
+      {
+        "q": "The prefix 're-' usually means…",
+        "choices": [
+          "Not",
+          "Again",
+          "Before",
+          "Inside"
+        ],
+        "correct": 1,
+        "explain": "'Re-' often means again, as in 'rewrite'."
+      },
+      {
+        "q": "The prefix 'un-' usually means…",
+        "choices": [
+          "Not",
+          "Big",
+          "Again",
+          "Many"
+        ],
+        "correct": 0,
+        "explain": "'Un-' means not, as in 'unhappy'."
+      },
+      {
+        "q": "The suffix '-ful' often means…",
+        "choices": [
+          "Without",
+          "Full of",
+          "Before",
+          "Small"
+        ],
+        "correct": 1,
+        "explain": "'-ful' means full of, as in 'helpful'."
+      },
+      {
+        "q": "The suffix '-less' often means…",
+        "choices": [
+          "Without",
+          "Full of",
+          "More than",
+          "Less than zero"
+        ],
+        "correct": 0,
+        "explain": "'-less' means without, as in 'careless'."
+      },
+      {
+        "q": "In 'preview', the prefix 'pre-' means…",
+        "choices": [
+          "After",
+          "Before",
+          "Again",
+          "Not"
+        ],
+        "correct": 1,
+        "explain": "'Pre-' means before, like a 'preview' before the show."
+      },
+      {
+        "q": "The root word in 'unkindly' is…",
+        "choices": [
+          "un",
+          "kind",
+          "ly",
+          "unkind"
+        ],
+        "correct": 1,
+        "explain": "'Kind' is the root; 'un-' and '-ly' are added."
+      },
+      {
+        "q": "What does 'colourful' mean?",
+        "choices": [
+          "Without colour",
+          "Full of colour",
+          "Lost colour",
+          "Tiny colour"
+        ],
+        "correct": 1,
+        "explain": "-ful means full of, so colourful = full of colour."
+      },
+      {
+        "q": "What does 'fearless' mean?",
+        "choices": [
+          "Full of fear",
+          "Without fear",
+          "Less afraid only sometimes",
+          "Very afraid"
+        ],
+        "correct": 1,
+        "explain": "-less means without, so fearless = without fear."
+      },
+      {
+        "q": "The suffix in 'painter' is…",
+        "choices": [
+          "-er",
+          "-int",
+          "-pa",
+          "-pan"
+        ],
+        "correct": 0,
+        "explain": "'-er' often makes a noun for someone who does something."
+      },
+      {
+        "q": "What does 'rebuild' mean?",
+        "choices": [
+          "Build for the first time",
+          "Build again",
+          "Stop building",
+          "Take down"
+        ],
+        "correct": 1,
+        "explain": "'Re-' means again, so rebuild = build again."
+      },
+      {
+        "q": "The root in 'happiness' is…",
+        "choices": [
+          "happi",
+          "happy",
+          "ness",
+          "piness"
+        ],
+        "correct": 1,
+        "explain": "'Happy' is the root; '-ness' is added (the y becomes i)."
+      },
+      {
+        "q": "The prefix 'mis-' often means…",
+        "choices": [
+          "Wrong",
+          "Big",
+          "Again",
+          "Full"
+        ],
+        "correct": 0,
+        "explain": "'Mis-' means wrong or badly, as in 'misunderstand'."
+      },
+      {
+        "q": "What does 'unfair' mean?",
+        "choices": [
+          "Fair",
+          "Not fair",
+          "Very fair",
+          "Sometimes fair"
+        ],
+        "correct": 1,
+        "explain": "'Un-' means not, so unfair = not fair."
+      },
+      {
+        "q": "The suffix '-able' often means…",
+        "choices": [
+          "Without",
+          "Full of",
+          "Can be",
+          "Before"
+        ],
+        "correct": 2,
+        "explain": "'-able' means can be, as in 'readable' = can be read."
       }
     ],
     "flashcards": [

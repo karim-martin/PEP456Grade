@@ -131,6 +131,45 @@
             background: linear-gradient(90deg, #48bb78, #38b2ac);
             transition: width 0.6s;
         }
+        .pep-island__grade-row {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin: 6px 8px 12px;
+        }
+        .pep-island__grade-pill {
+            display: grid;
+            grid-template-columns: 28px 1fr 38px;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.78em;
+            font-weight: 800;
+            color: #2d3748;
+        }
+        .pep-island__grade-pill__lbl { text-align: left; letter-spacing: 0.4px; }
+        .pep-island__grade-pill__bar {
+            height: 8px;
+            background: rgba(0,0,0,0.10);
+            border-radius: 999px;
+            overflow: hidden;
+        }
+        .pep-island__grade-pill__fill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, #48bb78, #38b2ac);
+            transition: width 0.6s;
+        }
+        .pep-island__grade-pill__pct {
+            text-align: right;
+            font-variant-numeric: tabular-nums;
+            color: #2d3748;
+        }
+        .pep-island__grade-pill.is-done .pep-island__grade-pill__fill {
+            background: linear-gradient(90deg, #f6ad55, #ed8936);
+        }
+        .pep-island__grade-pill.is-done .pep-island__grade-pill__pct::after {
+            content: ' 🌟';
+        }
         .pep-island__cta {
             display: inline-block;
             background: rgba(255,255,255,0.6);
@@ -292,28 +331,44 @@
                 <span class="pep-island__icon">🔢</span>
                 <div class="pep-island__name">Math Island</div>
                 <div class="pep-island__tag">Numbers, fractions, geometry</div>
-                <div class="pep-island__progress"><div class="pep-island__progress-fill" data-bar="mat"></div></div>
+                <div class="pep-island__grade-row">
+                    <div class="pep-island__grade-pill" data-grade-pill="g4-mat"><span class="pep-island__grade-pill__lbl">G4</span><div class="pep-island__grade-pill__bar"><div class="pep-island__grade-pill__fill" data-grade-bar="g4-mat"></div></div><span class="pep-island__grade-pill__pct" data-grade-pct="g4-mat">0%</span></div>
+                    <div class="pep-island__grade-pill" data-grade-pill="g5-mat"><span class="pep-island__grade-pill__lbl">G5</span><div class="pep-island__grade-pill__bar"><div class="pep-island__grade-pill__fill" data-grade-bar="g5-mat"></div></div><span class="pep-island__grade-pill__pct" data-grade-pct="g5-mat">0%</span></div>
+                    <div class="pep-island__grade-pill" data-grade-pill="g6-mat"><span class="pep-island__grade-pill__lbl">G6</span><div class="pep-island__grade-pill__bar"><div class="pep-island__grade-pill__fill" data-grade-bar="g6-mat"></div></div><span class="pep-island__grade-pill__pct" data-grade-pct="g6-mat">0%</span></div>
+                </div>
                 <span class="pep-island__cta">Sail in →</span>
             </a>
             <a href="#" class="pep-island island-science" data-grade-prefix="sci">
                 <span class="pep-island__icon">🔬</span>
                 <div class="pep-island__name">Science Lagoon</div>
                 <div class="pep-island__tag">Plants, weather, energy</div>
-                <div class="pep-island__progress"><div class="pep-island__progress-fill" data-bar="sci"></div></div>
+                <div class="pep-island__grade-row">
+                    <div class="pep-island__grade-pill" data-grade-pill="g4-sci"><span class="pep-island__grade-pill__lbl">G4</span><div class="pep-island__grade-pill__bar"><div class="pep-island__grade-pill__fill" data-grade-bar="g4-sci"></div></div><span class="pep-island__grade-pill__pct" data-grade-pct="g4-sci">0%</span></div>
+                    <div class="pep-island__grade-pill" data-grade-pill="g5-sci"><span class="pep-island__grade-pill__lbl">G5</span><div class="pep-island__grade-pill__bar"><div class="pep-island__grade-pill__fill" data-grade-bar="g5-sci"></div></div><span class="pep-island__grade-pill__pct" data-grade-pct="g5-sci">0%</span></div>
+                    <div class="pep-island__grade-pill" data-grade-pill="g6-sci"><span class="pep-island__grade-pill__lbl">G6</span><div class="pep-island__grade-pill__bar"><div class="pep-island__grade-pill__fill" data-grade-bar="g6-sci"></div></div><span class="pep-island__grade-pill__pct" data-grade-pct="g6-sci">0%</span></div>
+                </div>
                 <span class="pep-island__cta">Dive in →</span>
             </a>
             <a href="#" class="pep-island island-social" data-grade-prefix="soc">
                 <span class="pep-island__icon">🗺️</span>
                 <div class="pep-island__name">Heritage Highlands</div>
                 <div class="pep-island__tag">Jamaica, Caribbean, history</div>
-                <div class="pep-island__progress"><div class="pep-island__progress-fill" data-bar="soc"></div></div>
+                <div class="pep-island__grade-row">
+                    <div class="pep-island__grade-pill" data-grade-pill="g4-soc"><span class="pep-island__grade-pill__lbl">G4</span><div class="pep-island__grade-pill__bar"><div class="pep-island__grade-pill__fill" data-grade-bar="g4-soc"></div></div><span class="pep-island__grade-pill__pct" data-grade-pct="g4-soc">0%</span></div>
+                    <div class="pep-island__grade-pill" data-grade-pill="g5-soc"><span class="pep-island__grade-pill__lbl">G5</span><div class="pep-island__grade-pill__bar"><div class="pep-island__grade-pill__fill" data-grade-bar="g5-soc"></div></div><span class="pep-island__grade-pill__pct" data-grade-pct="g5-soc">0%</span></div>
+                    <div class="pep-island__grade-pill" data-grade-pill="g6-soc"><span class="pep-island__grade-pill__lbl">G6</span><div class="pep-island__grade-pill__bar"><div class="pep-island__grade-pill__fill" data-grade-bar="g6-soc"></div></div><span class="pep-island__grade-pill__pct" data-grade-pct="g6-soc">0%</span></div>
+                </div>
                 <span class="pep-island__cta">Explore →</span>
             </a>
             <a href="#" class="pep-island island-language" data-grade-prefix="lan">
                 <span class="pep-island__icon">📚</span>
                 <div class="pep-island__name">Story Bay</div>
                 <div class="pep-island__tag">Words, grammar, reading</div>
-                <div class="pep-island__progress"><div class="pep-island__progress-fill" data-bar="lan"></div></div>
+                <div class="pep-island__grade-row">
+                    <div class="pep-island__grade-pill" data-grade-pill="g4-lan"><span class="pep-island__grade-pill__lbl">G4</span><div class="pep-island__grade-pill__bar"><div class="pep-island__grade-pill__fill" data-grade-bar="g4-lan"></div></div><span class="pep-island__grade-pill__pct" data-grade-pct="g4-lan">0%</span></div>
+                    <div class="pep-island__grade-pill" data-grade-pill="g5-lan"><span class="pep-island__grade-pill__lbl">G5</span><div class="pep-island__grade-pill__bar"><div class="pep-island__grade-pill__fill" data-grade-bar="g5-lan"></div></div><span class="pep-island__grade-pill__pct" data-grade-pct="g5-lan">0%</span></div>
+                    <div class="pep-island__grade-pill" data-grade-pill="g6-lan"><span class="pep-island__grade-pill__lbl">G6</span><div class="pep-island__grade-pill__bar"><div class="pep-island__grade-pill__fill" data-grade-bar="g6-lan"></div></div><span class="pep-island__grade-pill__pct" data-grade-pct="g6-lan">0%</span></div>
+                </div>
                 <span class="pep-island__cta">Read on →</span>
             </a>
             <a href="technology.html" class="pep-island island-tech">
@@ -375,24 +430,24 @@
         }
 
         function setBars() {
-            const s = loadProgress();
-            const completed = s.completed || {};
-            const totals = {
-                mat: 11 + 13 + 10,   // g4 + g5 + g6 math
-                sci: 12 + 8  + 8,
-                soc: 10 + 12 + 4,
-                lan: 12 + 10 + 8,
-                tech: 12
-            };
-            const counts = { mat:0, sci:0, soc:0, lan:0, tech:0 };
-            Object.keys(completed).forEach(k => {
-                const subj = k.split('-')[1];
-                if (counts[subj] !== undefined) counts[subj]++;
+            if (!window.PEP || !PEP.getSubjectProgress) return;
+            const subjects = ['mat','sci','soc','lan'];
+            const grades = ['g4','g5','g6'];
+            subjects.forEach(sub => {
+                grades.forEach(g => {
+                    const prog = PEP.getSubjectProgress(g, sub);
+                    const key = `${g}-${sub}`;
+                    const fill = document.querySelector(`[data-grade-bar="${key}"]`);
+                    const pct  = document.querySelector(`[data-grade-pct="${key}"]`);
+                    const pill = document.querySelector(`[data-grade-pill="${key}"]`);
+                    if (fill) fill.style.width = prog.pct + '%';
+                    if (pct)  pct.textContent  = prog.pct + '%';
+                    if (pill) pill.classList.toggle('is-done', prog.pct === 100);
+                });
             });
-            Object.keys(counts).forEach(k => {
-                const bar = document.querySelector(`[data-bar="${k}"]`);
-                if (bar) bar.style.width = Math.round((counts[k] / totals[k]) * 100) + '%';
-            });
+            const tech = PEP.getSubjectProgress('tech', 'tech');
+            const techBar = document.querySelector('[data-bar="tech"]');
+            if (techBar) techBar.style.width = tech.pct + '%';
         }
 
         function setMission() {

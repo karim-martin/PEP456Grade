@@ -81,7 +81,7 @@
   }
 
   function renderQuiz(host, chapterId, data) {
-    const questions = (data && data.mcq) ? shuffle(data.mcq).slice(0, Math.min(8, data.mcq.length)) : [];
+    const questions = (data && data.mcq) ? shuffle(data.mcq).slice(0, Math.min(20, data.mcq.length)) : [];
     if (questions.length === 0) {
       host.innerHTML = `<div class="pep-quiz">
         <div class="pep-quiz__title">🎯 Quick Quiz</div>
