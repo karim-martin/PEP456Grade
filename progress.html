@@ -41,10 +41,41 @@
       .reset-btn:hover { background:#c53030; }
       /* Growing trees */
       .tree-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-top: 12px; }
-      .tree-card { background: linear-gradient(180deg, #d6efff 0%, #a8d8a8 70%); border-radius: 14px; padding: 14px; text-align: center; box-shadow: var(--pep-shadow); }
+      .tree-card { background: linear-gradient(180deg, #d6efff 0%, #a8d8a8 70%); border-radius: 14px; padding: 14px; text-align: center; box-shadow: var(--pep-shadow); cursor: pointer; transition: transform 0.18s ease, box-shadow 0.18s ease; border: 2px solid transparent; }
+      .tree-card:hover { transform: translateY(-3px); box-shadow: 0 12px 24px rgba(0,0,0,0.15); border-color: #48bb78; }
+      .tree-card:focus-visible { outline: 3px solid #ed8936; outline-offset: 3px; }
       .tree-card__svg { width: 110px; height: 110px; }
       .tree-card__title { font-weight: 800; color: #1f7a3f; margin-top: 6px; }
       .tree-card__pct { font-weight: 700; color: #2d3748; }
+      .tree-card__hint { font-size: 0.75em; color: #2d3748; opacity: 0.7; margin-top: 4px; font-weight: 600; }
+
+      /* Chapter drill-down modal */
+      .chap-modal { position: fixed; inset: 0; background: rgba(15,23,42,0.55); display: none; align-items: flex-start; justify-content: center; padding: 40px 16px; z-index: 1000; overflow-y: auto; }
+      .chap-modal.is-open { display: flex; animation: chap-fade 0.18s ease-out; }
+      @keyframes chap-fade { from { opacity: 0; } to { opacity: 1; } }
+      .chap-modal__box { background: #fff; border-radius: 18px; max-width: 720px; width: 100%; padding: 28px 24px; position: relative; box-shadow: 0 20px 60px rgba(0,0,0,0.35); animation: chap-pop 0.24s cubic-bezier(0.34,1.56,0.64,1); }
+      @keyframes chap-pop { from { transform: scale(0.92); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+      .chap-modal__close { position: absolute; top: 12px; right: 14px; width: 38px; height: 38px; border: 0; border-radius: 50%; background: rgba(0,0,0,0.06); font-size: 1.05em; font-weight: 800; cursor: pointer; line-height: 1; }
+      .chap-modal__close:hover { background: rgba(0,0,0,0.14); }
+      .chap-modal__head { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
+      .chap-modal__head h3 { margin: 0; color: var(--pep-text); font-size: 1.4em; }
+      .chap-modal__sub { color: var(--pep-text-muted); font-size: 0.95em; margin-bottom: 16px; }
+      .chap-modal__list { display: grid; gap: 10px; max-height: 60vh; overflow-y: auto; padding-right: 4px; }
+      .chap-row { display: grid; grid-template-columns: 28px 1fr auto; gap: 12px; align-items: center; padding: 12px 14px; border-radius: 10px; background: var(--pep-surface-muted, #f7fafc); border-left: 4px solid #e2e8f0; }
+      .chap-row.is-done { border-left-color: #48bb78; background: linear-gradient(90deg, rgba(72,187,120,0.10), var(--pep-surface-muted, #f7fafc) 60%); }
+      .chap-row__num { font-weight: 800; color: var(--pep-text-muted); font-size: 0.9em; text-align: right; }
+      .chap-row__title { font-weight: 700; color: var(--pep-text); }
+      .chap-row__meta { font-size: 0.82em; color: var(--pep-text-muted); margin-top: 2px; }
+      .chap-row__score { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; font-weight: 800; font-size: 0.85em; background: #e2e8f0; color: #4a5568; }
+      .chap-row__score.tier-perfect { background: linear-gradient(135deg,#fbd38d,#ed8936); color: #fff; }
+      .chap-row__score.tier-good { background: linear-gradient(135deg,#48bb78,#2f9e60); color: #fff; }
+      .chap-row__score.tier-mid { background: linear-gradient(135deg,#90cdf4,#4299e1); color: #fff; }
+      .chap-row__score.tier-low { background: linear-gradient(135deg,#fed7d7,#fc8181); color: #fff; }
+      .chap-row__score.tier-none { background: #edf2f7; color: #4a5568; }
+      .chap-modal__footer { display: flex; gap: 10px; justify-content: space-between; flex-wrap: wrap; margin-top: 18px; padding-top: 14px; border-top: 1px solid #e2e8f0; color: var(--pep-text-muted); font-size: 0.9em; }
+      .chap-modal__open { display: inline-block; padding: 8px 16px; border-radius: 999px; background: linear-gradient(135deg,#667eea,#764ba2); color: #fff; font-weight: 700; text-decoration: none; }
+      .chap-modal__open:hover { transform: translateY(-1px); }
+      @media (max-width: 600px) { .chap-modal__box { padding: 22px 16px; } .chap-row { grid-template-columns: 24px 1fr; } .chap-row__score { grid-column: 2; justify-self: start; margin-top: 4px; } }
     </style>
 </head>
 <body>
@@ -84,6 +115,23 @@
             <p style="color:var(--pep-text-muted); margin-bottom:10px;">This clears ALL XP, badges, streak and chapter progress. Only a parent should do this.</p>
             <button class="reset-btn" id="reset-btn">Reset Everything</button>
         </div>
+    </div>
+
+    <!-- Chapter drill-down modal: opens when a knowledge tree is clicked -->
+    <div class="chap-modal" id="chap-modal" role="dialog" aria-modal="true" aria-labelledby="chap-modal-title" aria-hidden="true">
+      <div class="chap-modal__box" role="document">
+        <button class="chap-modal__close" id="chap-modal-close" aria-label="Close chapter breakdown">✕</button>
+        <div class="chap-modal__head">
+          <span id="chap-modal-icon" style="font-size:2em" aria-hidden="true">🌳</span>
+          <h3 id="chap-modal-title">Chapters</h3>
+        </div>
+        <p id="chap-modal-sub" class="chap-modal__sub"></p>
+        <div id="chap-modal-list" class="chap-modal__list"></div>
+        <div class="chap-modal__footer">
+          <span id="chap-modal-summary"></span>
+          <a id="chap-modal-open" class="chap-modal__open" href="#">Open in study guide →</a>
+        </div>
+      </div>
     </div>
 
     <script>
@@ -130,7 +178,7 @@
               const prog = PEP.getSubjectProgress(grade, sub);
               const leaves = Math.min(8, Math.round(prog.pct/12.5));
               const titleLabel = grade === 'tech' ? subjLabelsTree[sub] : `${gradeShort[grade]} · ${subjLabelsTree[sub]}`;
-              treesHtml += `<div class="tree-card">
+              treesHtml += `<div class="tree-card" role="button" tabindex="0" data-grade="${grade}" data-sub="${sub}" data-label="${titleLabel.replace(/"/g,'&quot;')}" aria-label="${titleLabel}: ${prog.done} of ${prog.total} chapters complete (${prog.pct}%). Click to see chapter breakdown.">
                 <svg class="tree-card__svg" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
                   <rect x="55" y="80" width="10" height="35" fill="#7a4400" rx="2"/>
                   <circle cx="60" cy="78" r="${30 + leaves*2}" fill="${leaves > 0 ? '#48bb78' : '#cbd5e0'}" opacity="${0.5 + leaves*0.06}"/>
@@ -144,6 +192,7 @@
                 </svg>
                 <div class="tree-card__title">${titleLabel}</div>
                 <div class="tree-card__pct">${prog.done} / ${prog.total} chapters · ${prog.pct}%</div>
+                <div class="tree-card__hint">Tap to see chapters</div>
               </div>`;
             });
           });
@@ -192,6 +241,136 @@
             render();
           }
         });
+
+        // ----- Chapter drill-down modal -----
+        const BANK_FOR_GRADE = {
+          g4: { file: 'Resource/questions/grade4.json', page: 'grade4.html' },
+          g5: { file: 'Resource/questions/grade5.json', page: 'grade5.html' },
+          g6: { file: 'Resource/questions/grade6.json', page: 'grade6.html' },
+          tech: { file: 'Resource/questions/technology.json', page: 'technology.html' }
+        };
+        const SUBJECT_LABEL = { sci:'🔬 Science', soc:'🏛️ Social Studies', mat:'🧮 Math', lan:'📚 Language Arts', tech:'💻 Technology' };
+        const SUBJECT_ICON  = { sci:'🔬', soc:'🏛️', mat:'🧮', lan:'📚', tech:'💻' };
+        const SUBJECT_PAGE_NAME = { sci:'science', soc:'social', mat:'math', lan:'language', tech:'technology' };
+        const bankCache = {};
+        async function loadBank(grade) {
+          if (bankCache[grade]) return bankCache[grade];
+          const meta = BANK_FOR_GRADE[grade];
+          if (!meta) return {};
+          try {
+            const res = await fetch(meta.file, { cache: 'no-cache' });
+            if (!res.ok) throw new Error('http ' + res.status);
+            bankCache[grade] = await res.json();
+            return bankCache[grade];
+          } catch (e) {
+            console.warn('progress: failed to load bank', meta.file, e);
+            bankCache[grade] = {};
+            return bankCache[grade];
+          }
+        }
+
+        function tierFor(score) {
+          if (score === 100) return 'tier-perfect';
+          if (score >= 80)   return 'tier-good';
+          if (score >= 60)   return 'tier-mid';
+          return 'tier-low';
+        }
+        function escapeAttr(s) {
+          return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+        }
+
+        const modal       = document.getElementById('chap-modal');
+        const modalTitle  = document.getElementById('chap-modal-title');
+        const modalSub    = document.getElementById('chap-modal-sub');
+        const modalIcon   = document.getElementById('chap-modal-icon');
+        const modalList   = document.getElementById('chap-modal-list');
+        const modalClose  = document.getElementById('chap-modal-close');
+        const modalOpen   = document.getElementById('chap-modal-open');
+        const modalSummary= document.getElementById('chap-modal-summary');
+
+        let lastTrigger = null;
+        function openModalForTree(grade, sub, label) {
+          if (!grade || !sub) return;
+          lastTrigger = document.activeElement;
+          const bankMeta = BANK_FOR_GRADE[grade];
+          const subjectPage = SUBJECT_PAGE_NAME[sub] || sub;
+          const total = (PEP.CHAPTER_COUNTS[grade] || {})[sub] || 0;
+          const labelText = label || (SUBJECT_LABEL[sub] || sub);
+
+          modalTitle.textContent = labelText;
+          modalIcon.textContent = SUBJECT_ICON[sub] || '🌳';
+          modalSub.textContent = `Best score and attempts saved per chapter.`;
+          modalList.innerHTML = '<p style="color:var(--pep-text-muted);">Loading chapters…</p>';
+          modalOpen.href = bankMeta ? `${bankMeta.page}?s=${encodeURIComponent(subjectPage)}` : '#';
+          if (grade === 'tech') modalOpen.textContent = 'Open Technology page →';
+          else modalOpen.textContent = `Open ${labelText.split('·').slice(-1)[0].trim()} →`;
+          modalSummary.textContent = '';
+
+          modal.classList.add('is-open');
+          modal.setAttribute('aria-hidden', 'false');
+          setTimeout(() => modalClose.focus(), 0);
+
+          loadBank(grade).then(bank => {
+            const state = PEP.getState();
+            const completed = state.completed || {};
+            let doneCount = 0, scoreSum = 0;
+            const rows = [];
+            for (let n = 1; n <= total; n++) {
+              const id = `${grade}-${sub}-${n}`;
+              const meta = bank[id] || {};
+              const title = meta.title || `Chapter ${n}`;
+              const prog = completed[id];
+              let scoreClass = 'tier-none', scoreText = 'Not started', metaText = '';
+              if (prog) {
+                doneCount++;
+                const best = typeof prog.best === 'number' ? prog.best : 0;
+                scoreSum += best;
+                scoreClass = tierFor(best);
+                scoreText = best + '%';
+                const attempts = prog.attempts || 1;
+                metaText = `Best ${best}% · ${attempts} ${attempts === 1 ? 'attempt' : 'attempts'}`;
+              }
+              rows.push(`<div class="chap-row${prog ? ' is-done' : ''}">
+                <div class="chap-row__num">${n}.</div>
+                <div>
+                  <div class="chap-row__title">${escapeAttr(title)}</div>
+                  ${metaText ? `<div class="chap-row__meta">${metaText}</div>` : '<div class="chap-row__meta">Not yet attempted</div>'}
+                </div>
+                <span class="chap-row__score ${scoreClass}">${scoreText}</span>
+              </div>`);
+            }
+            modalList.innerHTML = rows.join('') || '<p>No chapters listed for this subject yet.</p>';
+            const avg = doneCount ? Math.round(scoreSum / doneCount) : 0;
+            modalSummary.textContent = doneCount
+              ? `${doneCount} / ${total} attempted · average best score ${avg}%`
+              : `0 / ${total} attempted yet`;
+          });
+        }
+
+        function closeModal() {
+          if (!modal.classList.contains('is-open')) return;
+          modal.classList.remove('is-open');
+          modal.setAttribute('aria-hidden', 'true');
+          if (lastTrigger && typeof lastTrigger.focus === 'function') lastTrigger.focus();
+        }
+
+        // Tree clicks (delegated, since render() rebuilds them on every state change)
+        document.getElementById('trees').addEventListener('click', (e) => {
+          const card = e.target.closest('.tree-card[data-grade]');
+          if (!card) return;
+          openModalForTree(card.dataset.grade, card.dataset.sub, card.dataset.label);
+        });
+        document.getElementById('trees').addEventListener('keydown', (e) => {
+          if (e.key !== 'Enter' && e.key !== ' ') return;
+          const card = e.target.closest('.tree-card[data-grade]');
+          if (!card) return;
+          e.preventDefault();
+          openModalForTree(card.dataset.grade, card.dataset.sub, card.dataset.label);
+        });
+
+        modalClose.addEventListener('click', closeModal);
+        modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
       });
     </script>
 </body>
