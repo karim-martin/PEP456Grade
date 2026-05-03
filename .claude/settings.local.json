@@ -29,7 +29,10 @@
       "Bash(curl -s --connect-timeout 3 http://127.0.0.1:8770/grade5.html)",
       "Bash(sed 's/[0-9]//g')",
       "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('c:/Users/Marathon/Downloads/PEP456Grade/Resource/questions/grade4.json'\\)\\)\")",
-      "Bash(node Resource/tools/_apply-mcq-additions.js)"
+      "Bash(node Resource/tools/_apply-mcq-additions.js)",
+      "Bash(node --check Resource/script.js)",
+      "Bash(node --check Resource/lesson-player.js)",
+      "Bash(node --check Resource/gamification.js)"
     ]
   }
 }

@@ -60,9 +60,31 @@ function showChapter(subject, chapterNum) {
         buttons[chapterNum - 1].classList.add('active');
     }
 
+    // Refresh completion ticks (a child may have just finished a chapter this session)
+    refreshChapterMenuState();
+
     // Close hamburger menu after selection (mobile)
     closeAllMenus();
 }
+
+// Mark sidebar buttons whose chapter the learner has finished. Called on load,
+// when navigating chapters, and after the boss quiz finishes (lesson-player.js).
+function refreshChapterMenuState() {
+    if (!window.PEP || typeof PEP.getProgress !== 'function') return;
+    document.querySelectorAll('.chapter-btn[data-chapter-id]').forEach(btn => {
+        const id = btn.dataset.chapterId;
+        const prog = PEP.getProgress(id);
+        const done = !!prog;
+        btn.classList.toggle('is-done', done);
+        if (done) {
+            const baseLabel = (btn.dataset.baseLabel ||= btn.textContent.trim());
+            btn.setAttribute('aria-label', `${baseLabel} (completed)`);
+        } else {
+            btn.removeAttribute('aria-label');
+        }
+    });
+}
+window.refreshChapterMenuState = refreshChapterMenuState;
 
 function toggleChapterMenu(subject) {
     const wrapper = document.getElementById(`${subject}-menu`);
@@ -109,6 +131,12 @@ document.addEventListener('DOMContentLoaded', function() {
     if (activeArea && SUBJECT_META[activeArea.id]) {
         updateSubjectBadge(activeArea.id);
     }
+
+    // Mark already-completed chapters in the sidebar. PEP loads with `defer` too,
+    // so it should be ready by DOMContentLoaded — but guard with a microtask in
+    // case load order ever changes.
+    if (window.PEP) refreshChapterMenuState();
+    else setTimeout(refreshChapterMenuState, 0);
 
     // Make YouTube Video Search Terms clickable
     document.querySelectorAll('.video-search ul li').forEach(li => {

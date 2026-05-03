@@ -277,7 +277,7 @@
 
       save(s);
       document.dispatchEvent(new CustomEvent('pep:state-changed', {
-        detail: { xp: s.xp, leveledUp, newBadges }
+        detail: { xp: s.xp, leveledUp, newBadges, chapterId: opts.chapterId || null }
       }));
 
       if (!opts.silent) {

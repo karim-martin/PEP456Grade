@@ -155,9 +155,27 @@
   // ----------------------------------------------------------------
   // Player UI
   // ----------------------------------------------------------------
+  function completedBannerHTML(chapterId) {
+    const prog = (chapterId && global.PEP && typeof global.PEP.getProgress === 'function')
+      ? global.PEP.getProgress(chapterId) : null;
+    if (!prog) return '';
+    const best = typeof prog.best === 'number' ? prog.best : 0;
+    return `<span class="pep-lesson__completed-banner" title="Best score: ${best}%">Chapter completed</span>`;
+  }
+
+  function refreshCompletedBanner(host, chapterId) {
+    const titleEl = host.querySelector('.pep-lesson__title');
+    if (!titleEl) return;
+    const existing = titleEl.querySelector('.pep-lesson__completed-banner');
+    if (existing) existing.remove();
+    const html = completedBannerHTML(chapterId);
+    if (html) titleEl.insertAdjacentHTML('beforeend', html);
+  }
+
   function buildShell(host, lessons, ctx) {
     host.innerHTML = '';
     host.classList.add('pep-lesson');
+    if (ctx.chapterId) host.dataset.chapterId = ctx.chapterId;
 
     const header = document.createElement('div');
     header.className = 'pep-lesson__header';
@@ -165,6 +183,7 @@
       <div class="pep-lesson__title">
         <span class="pep-lesson__icon">${ctx.icon || '🎮'}</span>
         <span class="pep-lesson__title-text">${escapeHTML(ctx.title || 'Adventure Time!')}</span>
+        ${completedBannerHTML(ctx.chapterId)}
       </div>
       <div class="pep-lesson__rail">
         ${lessons.map((_, i) => `<span class="pep-lesson__dot" data-step="${i}"></span>`).join('')}
@@ -194,6 +213,7 @@
       : defaultLessons(chapterId, data);
 
     const ctx = {
+      chapterId,
       title: chapterTitle(chapterId, data),
       icon:  data?.meta?.icon || '🎮',
       mascot: data?.meta?.mascot || '🦜'
@@ -431,5 +451,16 @@
   // The quiz-engine now skips chapters containing .pep-lesson, so the order avoids duplication.
   document.addEventListener('DOMContentLoaded', () => {
     setTimeout(autoInject, 60);
+  });
+
+  // When PEP records a chapter completion (or any state change), refresh every
+  // mounted lesson's "Chapter completed" banner and re-tick the sidebar.
+  document.addEventListener('pep:state-changed', () => {
+    document.querySelectorAll('.pep-lesson[data-chapter-id]').forEach(host => {
+      refreshCompletedBanner(host, host.dataset.chapterId);
+    });
+    if (typeof global.refreshChapterMenuState === 'function') {
+      global.refreshChapterMenuState();
+    }
   });
 })(window);
