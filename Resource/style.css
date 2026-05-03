@@ -934,8 +934,11 @@ html.pep-dark .pep-modal__box { background: var(--pep-surface); color: var(--pep
 }
 .pep-lesson__title {
     display: flex; align-items: center; gap: 10px;
+    flex-wrap: wrap;
+    min-width: 0;
     font-size: 1.35em; font-weight: 800; color: var(--pep-primary-dark);
 }
+.pep-lesson__title-text { min-width: 0; word-break: break-word; }
 .pep-lesson__icon { font-size: 1.5em; }
 
 .pep-lesson__completed-banner {
@@ -956,7 +959,12 @@ html.pep-dark .pep-modal__box { background: var(--pep-surface); color: var(--pep
 }
 .pep-lesson__completed-banner::before { content: '✓'; font-weight: 900; }
 @media (max-width: 600px) {
-    .pep-lesson__completed-banner { display: inline-flex; margin: 6px 0 0; }
+    .pep-lesson__completed-banner {
+        display: inline-flex;
+        margin: 6px 0 0;
+        flex-basis: 100%;
+        align-self: flex-start;
+    }
 }
 .pep-lesson__rail {
     display: flex; align-items: center; gap: 6px;

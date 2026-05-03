@@ -7595,7 +7595,7 @@
         "choices": [
           "435",
           "445",
-          "435",
+          "535",
           "465"
         ],
         "correct": 0,
@@ -12545,7 +12545,7 @@
           "Recieve",
           "Receive",
           "Receeve",
-          "Receeve"
+          "Receve"
         ],
         "correct": 1,
         "explain": "The rule is 'i before e except after c' — receive."

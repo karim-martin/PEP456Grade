@@ -10831,7 +10831,7 @@
         "choices": [
           "1838",
           "1834",
-          "1834",
+          "1840",
           "1962"
         ],
         "correct": 0,
@@ -14176,7 +14176,7 @@
         "explain": "15 − 8 = 7, so n = 7."
       },
       {
-        "q": "If a patty costs J and you buy 5, what is the total cost?",
+        "q": "If a patty costs J$p and you buy 5, what is the total cost?",
         "choices": [
           "p + 5",
           "p − 5",
@@ -14184,7 +14184,7 @@
           "p ÷ 5"
         ],
         "correct": 2,
-        "explain": "5 patties at J each means 5 × p = 5p."
+        "explain": "5 patties at J$p each means 5 × p = 5p."
       },
       {
         "q": "Which is true?",

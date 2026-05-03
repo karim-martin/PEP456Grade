@@ -850,10 +850,10 @@
           "<strong>",
           "<bold>",
           "<b1>",
-          "<bold>"
+          "<b>"
         ],
         "correct": 0,
-        "explain": "<strong> indicates strong importance and shows bold."
+        "explain": "<strong> indicates strong importance and shows bold (the non-semantic <b> only changes appearance)."
       },
       {
         "q": "To make text italic semantically use…",
@@ -3501,7 +3501,7 @@
         "choices": [
           "*",
           "x",
-          "X",
+          "%",
           "times"
         ],
         "correct": 0,

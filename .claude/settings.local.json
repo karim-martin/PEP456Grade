@@ -32,7 +32,10 @@
       "Bash(node Resource/tools/_apply-mcq-additions.js)",
       "Bash(node --check Resource/script.js)",
       "Bash(node --check Resource/lesson-player.js)",
-      "Bash(node --check Resource/gamification.js)"
+      "Bash(node --check Resource/gamification.js)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Marathon\\\\Downloads\\\\PEP456Grade\" -Recurse -Directory)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(Sort-Object)"
     ]
   }
 }
