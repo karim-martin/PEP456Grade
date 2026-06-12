@@ -35,7 +35,16 @@
       "Bash(node --check Resource/gamification.js)",
       "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Marathon\\\\Downloads\\\\PEP456Grade\" -Recurse -Directory)",
       "Bash(Select-Object -ExpandProperty FullName)",
-      "Bash(Sort-Object)"
+      "Bash(Sort-Object)",
+      "Bash(git -C /workspaces/PEP456Grade log --oneline --all)",
+      "Bash(git -C /workspaces/PEP456Grade show 0401a91 --stat)",
+      "Bash(sed '1d;$d')",
+      "Bash(node --check /tmp/games-inline.js)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8753/games.html)",
+      "Bash(timeout 4 python3 -c 'import socket; s=socket.socket\\(\\); *)",
+      "Bash(python3 -m http.server 8755)",
+      "Bash(curl -s -o /dev/null -w \"games.html after edit: %{http_code}\\\\n\" http://localhost:8755/games.html)",
+      "Bash(pkill -f \"http.server 8755\")"
     ]
   }
 }

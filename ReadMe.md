@@ -1,5 +1,9 @@
 # Jamaica NSC Learning Objectives for GRADE 4
 
+Run a local server
+cd /workspaces/PEP456Grade
+python3 -m http.server 8000
+
 ## Mathematics - Grade 4
 **Total Objectives: 124 | Major Objectives: 49**
 

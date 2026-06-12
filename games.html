@@ -44,20 +44,95 @@
       .games-hero p { color:var(--pep-text-muted); font-size:1.25em; }
       .back-link { display:inline-block; margin:0 0 16px; padding:10px 20px; background:#edf2f7; border-radius:22px; color:var(--pep-text); text-decoration:none; box-shadow:var(--pep-shadow); font-weight:600; font-size:1.05em; }
       .back-link:hover { background:var(--pep-accent); color:#fff; }
-      #game-host { margin-top:28px; }
-      #game-host:empty { display:none; }
-      .choose-label { margin-top:28px; color:var(--pep-text); font-weight:700; font-size:1.5em; }
-      .games-wrap .pep-games-grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:24px; }
-      .games-wrap .pep-game-tile { padding:32px 24px; }
-      .games-wrap .pep-game-tile__icon { font-size:3.6em; }
-      .games-wrap .pep-game-tile__title { font-size:1.5em; }
-      .games-wrap .pep-game-tile__desc { font-size:1.05em; }
-      .games-wrap .pep-arcade-picker { display:flex; flex-wrap:wrap; gap:16px 20px; align-items:flex-end; padding:24px; background:#f7fafc; border-radius:14px; margin-top:16px; font-size:1.1em; }
-      .games-wrap .pep-arcade-picker label { display:flex; flex-direction:column; gap:6px; flex:1 1 220px; min-width:220px; font-weight:700; color:var(--pep-text); }
-      .games-wrap .pep-arcade-picker select { width:100%; padding:12px 14px; font-size:1em; border:2px solid #cbd5e0; border-radius:10px; background:#fff; color:var(--pep-text); cursor:pointer; min-height:48px; }
-      .games-wrap .pep-arcade-picker select:hover, .games-wrap .pep-arcade-picker select:focus { border-color:var(--pep-accent); outline:none; }
-      .games-wrap .pep-arcade-picker .pep-btn-primary { flex:1 1 200px; min-height:52px; padding:12px 20px; font-size:1.05em; font-weight:700; border:none; border-radius:10px; background:linear-gradient(135deg,#667eea,#764ba2); color:#fff; cursor:pointer; box-shadow:0 4px 12px rgba(102,126,234,0.3); }
-      .games-wrap .pep-arcade-picker .pep-btn-primary:hover { transform:translateY(-2px); box-shadow:0 6px 16px rgba(102,126,234,0.4); }
+
+      /* ---------- Activity map ---------- */
+      .games-map { display:flex; flex-direction:column; gap:30px; margin-top:24px; }
+      .zone {
+        position:relative;
+        border-radius:22px;
+        padding:24px 26px 28px;
+        background:linear-gradient(135deg, var(--zone-c1,#f7fafc), var(--zone-c2,#edf2f7));
+        box-shadow:0 8px 22px rgba(0,0,0,0.08);
+        border:2px solid rgba(255,255,255,0.6);
+      }
+      /* dashed "path" connecting zones down the map */
+      .zone:not(:last-of-type)::after {
+        content:""; position:absolute; left:50%; bottom:-30px; width:0; height:30px;
+        border-left:4px dashed rgba(255,255,255,0.85); transform:translateX(-50%);
+      }
+      .zone__head { display:flex; align-items:center; gap:12px; margin-bottom:6px; }
+      .zone__head h2 { margin:0; border:none; font-size:1.7em; color:var(--pep-text); }
+      .zone__sub { margin:0 0 16px; color:var(--pep-text); opacity:0.75; font-weight:600; }
+
+      .zone--daily    { --zone-c1:#fffaf0; --zone-c2:#fefcbf; }
+      .zone--speedway { --zone-c1:#fff5f5; --zone-c2:#fed7d7; }
+      .zone--forest   { --zone-c1:#f0fff4; --zone-c2:#c6f6d5; }
+      .zone--lake     { --zone-c1:#ebf8ff; --zone-c2:#bee3f8; }
+
+      .map-pins { display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:16px; }
+      .map-pin {
+        display:flex; flex-direction:column; align-items:center; gap:8px;
+        text-align:center; cursor:pointer;
+        background:#fff; border:2px solid transparent; border-radius:16px;
+        padding:18px 14px; font-family:inherit;
+        box-shadow:0 4px 12px rgba(0,0,0,0.08);
+        transition:transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+      }
+      .map-pin:hover, .map-pin:focus-visible {
+        transform:translateY(-6px);
+        border-color:var(--pep-primary);
+        box-shadow:0 16px 30px rgba(0,0,0,0.16);
+        outline:none;
+      }
+      .map-pin:focus-visible { outline:3px solid var(--pep-primary); outline-offset:3px; }
+      .map-pin__icon { font-size:2.8em; line-height:1; }
+      .map-pin__title { font-weight:800; font-size:1.08em; color:var(--pep-text); }
+      html.pep-dark .map-pin { background:var(--pep-surface); }
+      html.pep-dark .map-pin__title { color:var(--pep-text); }
+
+      /* Daily Challenge feature pin */
+      .zone--daily .map-pins { grid-template-columns:1fr; }
+      .map-pin--daily {
+        flex-direction:row; gap:16px; text-align:left; align-items:center;
+        background:linear-gradient(135deg,#f6ad55,#ed8936); color:#fff;
+        box-shadow:0 8px 22px rgba(237,137,54,0.4);
+      }
+      .map-pin--daily:hover, .map-pin--daily:focus-visible { border-color:#fff; }
+      .map-pin--daily .map-pin__icon { font-size:3em; }
+      .map-pin--daily .map-pin__title { color:#fff; font-size:1.3em; }
+      .map-pin--daily .map-pin__desc { color:#fff; font-weight:600; opacity:0.95; }
+      .map-pin--daily .map-pin__body { flex:1; min-width:200px; }
+
+      /* ---------- Wide game modal ---------- */
+      .pep-modal--game .pep-modal__box {
+        max-width:760px; width:100%; text-align:left;
+        max-height:90vh; padding:0; overflow:hidden;
+        display:flex; flex-direction:column;
+      }
+      .game-modal__bar {
+        display:flex; align-items:center; justify-content:space-between; gap:12px;
+        padding:18px 22px; border-bottom:1px solid var(--pep-border);
+        background:var(--pep-surface); position:sticky; top:0; z-index:1;
+      }
+      .game-modal__bar h2 { margin:0; border:none; font-size:1.4em; color:var(--pep-text); }
+      .game-modal__close {
+        flex:0 0 auto; width:40px; height:40px; border-radius:50%;
+        border:none; cursor:pointer; font-size:1.2em; line-height:1;
+        background:rgba(0,0,0,0.06); color:var(--pep-text);
+      }
+      .game-modal__close:hover { background:rgba(0,0,0,0.12); }
+      .game-modal__close:focus-visible { outline:3px solid var(--pep-primary); outline-offset:2px; }
+      #game-host { padding:22px; overflow:auto; flex:1 1 auto; min-height:0; }
+
+      /* Study picker (rendered inside the modal) */
+      .study-picker { display:flex; flex-wrap:wrap; gap:16px 20px; align-items:flex-end; }
+      .study-picker label { display:flex; flex-direction:column; gap:6px; flex:1 1 200px; min-width:180px; font-weight:700; color:var(--pep-text); }
+      .study-picker select { width:100%; padding:12px 14px; font-size:1em; border:2px solid #cbd5e0; border-radius:10px; background:#fff; color:var(--pep-text); cursor:pointer; min-height:48px; }
+      .study-picker select:hover, .study-picker select:focus { border-color:var(--pep-accent); outline:none; }
+      .study-picker__actions { display:flex; flex-wrap:wrap; gap:12px; width:100%; margin-top:4px; }
+      .study-picker__actions .pep-btn-primary { flex:1 1 160px; min-height:52px; border:none; }
+      .study-back { display:inline-block; margin-bottom:14px; background:none; border:none; color:var(--pep-primary); font-weight:700; font-size:1em; cursor:pointer; padding:4px 0; }
+      .study-back:hover { text-decoration:underline; }
     </style>
 </head>
 <body>
@@ -65,150 +140,158 @@
         <a href="index.html" class="back-link">← Home</a>
         <div class="games-hero">
             <h1>🎮 Games Arcade</h1>
-            <p>Pick a game — earn XP, stars, and badges while you learn!</p>
+            <p>Travel the map and tap an activity — each one pops up to play!</p>
         </div>
 
-        <!-- Daily Challenge -->
-        <div id="dailyChallenge" style="background:linear-gradient(135deg,#f6ad55,#ed8936); color:#fff; padding:18px 22px; border-radius:14px; margin:14px 0; display:flex; gap:14px; align-items:center; flex-wrap:wrap; box-shadow:0 8px 22px rgba(237,137,54,0.35);">
-          <div style="font-size:2.6em;">🌟</div>
-          <div style="flex:1;min-width:220px;">
-            <div style="font-weight:900; font-size:1.15em">Daily Challenge</div>
-            <div id="dailyChallengeDesc" style="font-weight:600">Loading…</div>
-          </div>
-          <button id="dailyChallengeStart" style="padding:12px 22px;background:#fff;color:#ed8936;border:0;border-radius:999px;font-weight:800;cursor:pointer;min-height:48px;">Play! ✨</button>
-        </div>
+        <div class="games-map">
+            <!-- 🌟 Daily Challenge -->
+            <section class="zone zone--daily" aria-labelledby="zone-daily-h">
+                <div class="zone__head"><span aria-hidden="true" style="font-size:1.6em">🌟</span><h2 id="zone-daily-h">Daily Challenge</h2></div>
+                <p class="zone__sub">A fresh game every day — earn bonus XP!</p>
+                <div class="map-pins">
+                    <button type="button" class="map-pin map-pin--daily" id="dailyChallengeStart">
+                        <span class="map-pin__icon" aria-hidden="true">🌟</span>
+                        <span class="map-pin__body">
+                            <span class="map-pin__title">Today's Challenge</span>
+                            <span class="map-pin__desc" id="dailyChallengeDesc">Loading…</span>
+                        </span>
+                    </button>
+                </div>
+            </section>
 
-        <div class="choose-label">🏎️ Timed Drills (60 seconds each)</div>
-        <div class="pep-games-grid">
-            <div class="pep-game-tile" data-game="math-add">
-                <span class="pep-game-tile__icon">➕</span>
-                <div class="pep-game-tile__title">Addition Attack</div>
-                <div class="pep-game-tile__desc">Solve as many addition problems as you can in 60 seconds.</div>
-            </div>
-            <div class="pep-game-tile" data-game="math-mul">
-                <span class="pep-game-tile__icon">✖️</span>
-                <div class="pep-game-tile__title">Multiplication Mayhem</div>
-                <div class="pep-game-tile__desc">Times-table fury — chain combos for huge scores!</div>
-            </div>
-            <div class="pep-game-tile" data-game="math-mixed">
-                <span class="pep-game-tile__icon">🧮</span>
-                <div class="pep-game-tile__title">Math Mixer</div>
-                <div class="pep-game-tile__desc">Add, subtract, multiply — mix it up in rapid fire.</div>
-            </div>
-            <div class="pep-game-tile" data-game="spelling">
-                <span class="pep-game-tile__icon">✏️</span>
-                <div class="pep-game-tile__title">Spelling Showdown</div>
-                <div class="pep-game-tile__desc">Pick the correctly-spelled word before time runs out.</div>
-            </div>
-            <div class="pep-game-tile" data-game="capitals">
-                <span class="pep-game-tile__icon">🌍</span>
-                <div class="pep-game-tile__title">Capital Cities</div>
-                <div class="pep-game-tile__desc">Name the capital from the Caribbean and beyond.</div>
-            </div>
-            <div class="pep-game-tile" data-game="memory">
-                <span class="pep-game-tile__icon">🧠</span>
-                <div class="pep-game-tile__title">Memory Match</div>
-                <div class="pep-game-tile__desc">Flip cards and find matching pairs. How few moves can you do it in?</div>
-            </div>
-        </div>
+            <!-- 🏁 Drill Speedway -->
+            <section class="zone zone--speedway" aria-labelledby="zone-speedway-h">
+                <div class="zone__head"><span aria-hidden="true" style="font-size:1.6em">🏁</span><h2 id="zone-speedway-h">Drill Speedway</h2></div>
+                <p class="zone__sub">60-second speed rounds — beat the clock!</p>
+                <div class="map-pins">
+                    <button type="button" class="map-pin" data-game="math-add" title="Solve as many addition problems as you can in 60 seconds.">
+                        <span class="map-pin__icon" aria-hidden="true">➕</span><span class="map-pin__title">Addition Attack</span>
+                    </button>
+                    <button type="button" class="map-pin" data-game="math-mul" title="Times-table fury — chain combos for huge scores!">
+                        <span class="map-pin__icon" aria-hidden="true">✖️</span><span class="map-pin__title">Multiplication Mayhem</span>
+                    </button>
+                    <button type="button" class="map-pin" data-game="math-mixed" title="Add, subtract, multiply — mix it up in rapid fire.">
+                        <span class="map-pin__icon" aria-hidden="true">🧮</span><span class="map-pin__title">Math Mixer</span>
+                    </button>
+                    <button type="button" class="map-pin" data-game="spelling" title="Pick the correctly-spelled word before time runs out.">
+                        <span class="map-pin__icon" aria-hidden="true">✏️</span><span class="map-pin__title">Spelling Showdown</span>
+                    </button>
+                    <button type="button" class="map-pin" data-game="capitals" title="Name the capital from the Caribbean and beyond.">
+                        <span class="map-pin__icon" aria-hidden="true">🌍</span><span class="map-pin__title">Capital Cities</span>
+                    </button>
+                    <button type="button" class="map-pin" data-game="memory" title="Flip cards and find matching pairs in as few moves as you can.">
+                        <span class="map-pin__icon" aria-hidden="true">🧠</span><span class="map-pin__title">Memory Match</span>
+                    </button>
+                </div>
+            </section>
 
-        <div class="choose-label">🧩 Mini-Games Library</div>
-        <p style="color:var(--pep-text-muted); margin-bottom:14px;">Topic-specific games — try them with sample data!</p>
-        <div class="pep-games-grid">
-            <div class="pep-game-tile" data-mini="place-value-slot">
-                <span class="pep-game-tile__icon">🎰</span>
-                <div class="pep-game-tile__title">Place Value Slot</div>
-                <div class="pep-game-tile__desc">Drag digits into the correct columns to build big numbers!</div>
-            </div>
-            <div class="pep-game-tile" data-mini="fraction-builder">
-                <span class="pep-game-tile__icon">🍕</span>
-                <div class="pep-game-tile__title">Fraction Builder</div>
-                <div class="pep-game-tile__desc">Tap pizza slices to make the target fraction.</div>
-            </div>
-            <div class="pep-game-tile" data-mini="factor-tree">
-                <span class="pep-game-tile__icon">🌳</span>
-                <div class="pep-game-tile__title">Factor Tree</div>
-                <div class="pep-game-tile__desc">Split a number into prime factors.</div>
-            </div>
-            <div class="pep-game-tile" data-mini="long-division-walker">
-                <span class="pep-game-tile__icon">📏</span>
-                <div class="pep-game-tile__title">Long Division</div>
-                <div class="pep-game-tile__desc">Walk through long division step by step.</div>
-            </div>
-            <div class="pep-game-tile" data-mini="equation-balancer">
-                <span class="pep-game-tile__icon">⚖️</span>
-                <div class="pep-game-tile__title">Equation Balancer</div>
-                <div class="pep-game-tile__desc">Solve x by balancing the seesaw.</div>
-            </div>
-            <div class="pep-game-tile" data-mini="area-grid-builder">
-                <span class="pep-game-tile__icon">📐</span>
-                <div class="pep-game-tile__title">Area Builder</div>
-                <div class="pep-game-tile__desc">Build a rectangle with the target area.</div>
-            </div>
-            <div class="pep-game-tile" data-mini="click-the-region">
-                <span class="pep-game-tile__icon">🗺️</span>
-                <div class="pep-game-tile__title">Find the Parish</div>
-                <div class="pep-game-tile__desc">Click the right parish on the Jamaica map.</div>
-            </div>
-            <div class="pep-game-tile" data-mini="hangman">
-                <span class="pep-game-tile__icon">🪢</span>
-                <div class="pep-game-tile__title">Hangman</div>
-                <div class="pep-game-tile__desc">Guess the word letter by letter.</div>
-            </div>
-            <div class="pep-game-tile" data-mini="drag-to-order">
-                <span class="pep-game-tile__icon">🪜</span>
-                <div class="pep-game-tile__title">Order It!</div>
-                <div class="pep-game-tile__desc">Drag numbers, events, or steps into order.</div>
-            </div>
-            <div class="pep-game-tile" data-mini="syntax-builder">
-                <span class="pep-game-tile__icon">🧩</span>
-                <div class="pep-game-tile__title">Sentence Builder</div>
-                <div class="pep-game-tile__desc">Drag words into the right slots.</div>
-            </div>
-            <div class="pep-game-tile" data-mini="timeline-builder">
-                <span class="pep-game-tile__icon">🕰️</span>
-                <div class="pep-game-tile__title">Timeline</div>
-                <div class="pep-game-tile__desc">Put Jamaican history events in order.</div>
-            </div>
-            <div class="pep-game-tile" data-mini="choice-adventure">
-                <span class="pep-game-tile__icon">📖</span>
-                <div class="pep-game-tile__title">Choice Adventure</div>
-                <div class="pep-game-tile__desc">Make decisions in a branching story.</div>
-            </div>
-        </div>
+            <!-- 🌳 Mini-Game Forest -->
+            <section class="zone zone--forest" aria-labelledby="zone-forest-h">
+                <div class="zone__head"><span aria-hidden="true" style="font-size:1.6em">🌳</span><h2 id="zone-forest-h">Mini-Game Forest</h2></div>
+                <p class="zone__sub">Topic-specific games — try them with sample data!</p>
+                <div class="map-pins">
+                    <button type="button" class="map-pin" data-mini="place-value-slot" title="Drag digits into the correct columns to build big numbers!">
+                        <span class="map-pin__icon" aria-hidden="true">🎰</span><span class="map-pin__title">Place Value Slot</span>
+                    </button>
+                    <button type="button" class="map-pin" data-mini="fraction-builder" title="Tap pizza slices to make the target fraction.">
+                        <span class="map-pin__icon" aria-hidden="true">🍕</span><span class="map-pin__title">Fraction Builder</span>
+                    </button>
+                    <button type="button" class="map-pin" data-mini="factor-tree" title="Split a number into prime factors.">
+                        <span class="map-pin__icon" aria-hidden="true">🌳</span><span class="map-pin__title">Factor Tree</span>
+                    </button>
+                    <button type="button" class="map-pin" data-mini="long-division-walker" title="Walk through long division step by step.">
+                        <span class="map-pin__icon" aria-hidden="true">📏</span><span class="map-pin__title">Long Division</span>
+                    </button>
+                    <button type="button" class="map-pin" data-mini="equation-balancer" title="Solve x by balancing the seesaw.">
+                        <span class="map-pin__icon" aria-hidden="true">⚖️</span><span class="map-pin__title">Equation Balancer</span>
+                    </button>
+                    <button type="button" class="map-pin" data-mini="area-grid-builder" title="Build a rectangle with the target area.">
+                        <span class="map-pin__icon" aria-hidden="true">📐</span><span class="map-pin__title">Area Builder</span>
+                    </button>
+                    <button type="button" class="map-pin" data-mini="click-the-region" title="Click the right parish on the Jamaica map.">
+                        <span class="map-pin__icon" aria-hidden="true">🗺️</span><span class="map-pin__title">Find the Parish</span>
+                    </button>
+                    <button type="button" class="map-pin" data-mini="hangman" title="Guess the word letter by letter.">
+                        <span class="map-pin__icon" aria-hidden="true">🪢</span><span class="map-pin__title">Hangman</span>
+                    </button>
+                    <button type="button" class="map-pin" data-mini="drag-to-order" title="Drag numbers, events, or steps into order.">
+                        <span class="map-pin__icon" aria-hidden="true">🪜</span><span class="map-pin__title">Order It!</span>
+                    </button>
+                    <button type="button" class="map-pin" data-mini="syntax-builder" title="Drag words into the right slots.">
+                        <span class="map-pin__icon" aria-hidden="true">🧩</span><span class="map-pin__title">Sentence Builder</span>
+                    </button>
+                    <button type="button" class="map-pin" data-mini="timeline-builder" title="Put Jamaican history events in order.">
+                        <span class="map-pin__icon" aria-hidden="true">🕰️</span><span class="map-pin__title">Timeline</span>
+                    </button>
+                    <button type="button" class="map-pin" data-mini="choice-adventure" title="Make decisions in a branching story.">
+                        <span class="map-pin__icon" aria-hidden="true">📖</span><span class="map-pin__title">Choice Adventure</span>
+                    </button>
+                </div>
+            </section>
 
-        <div class="choose-label">🎓 Study Games by Grade</div>
-        <div class="pep-arcade-picker">
-            <label>Grade:
-                <select id="arcade-grade">
-                    <option value="grade4">Grade 4</option>
-                    <option value="grade5">Grade 5</option>
-                    <option value="grade6">Grade 6</option>
-                    <option value="technology">Technology</option>
-                </select>
-            </label>
-            <label>Subject:
-                <select id="arcade-subject">
-                    <option value="sci">Science</option>
-                    <option value="soc">Social Studies</option>
-                    <option value="mat">Math</option>
-                    <option value="lan">Language Arts</option>
-                    <option value="tech">Technology</option>
-                </select>
-            </label>
-            <label>Chapter: <select id="arcade-chapter"></select></label>
-            <button type="button" class="pep-btn-primary" id="arcade-flash">🗂️ Flashcards</button>
-            <button type="button" class="pep-btn-primary" id="arcade-match">🔗 Matching</button>
-            <button type="button" class="pep-btn-primary" id="arcade-memory-ch">🧠 Memory (from chapter)</button>
+            <!-- 🏞️ Study Lake -->
+            <section class="zone zone--lake" aria-labelledby="zone-lake-h">
+                <div class="zone__head"><span aria-hidden="true" style="font-size:1.6em">🏞️</span><h2 id="zone-lake-h">Study Lake</h2></div>
+                <p class="zone__sub">Flashcards, matching &amp; memory built from your chapters.</p>
+                <div class="map-pins">
+                    <button type="button" class="map-pin" data-study="1" title="Pick a grade, subject and chapter, then study.">
+                        <span class="map-pin__icon" aria-hidden="true">🎓</span><span class="map-pin__title">Study Games by Grade</span>
+                    </button>
+                </div>
+            </section>
         </div>
+    </div>
 
-        <div id="game-host"></div>
+    <!-- Reusable game modal -->
+    <div id="game-modal" class="pep-modal pep-modal--game" role="dialog" aria-modal="true"
+         aria-labelledby="game-modal-title" aria-hidden="true" style="display:none;">
+        <div class="pep-modal__box" tabindex="-1">
+            <div class="game-modal__bar">
+                <h2 id="game-modal-title">Game</h2>
+                <button type="button" id="game-modal-close" class="game-modal__close" aria-label="Close game">✕</button>
+            </div>
+            <div id="game-host"></div>
+        </div>
     </div>
 
     <script>
       (function () {
         const host = document.getElementById('game-host');
+        const modal = document.getElementById('game-modal');
+        const modalBox = modal.querySelector('.pep-modal__box');
+        const titleEl = document.getElementById('game-modal-title');
+        let lastFocused = null;
         const bankCache = {};
+
+        /* ---------- Modal controller ---------- */
+        function openGameModal(title) {
+          lastFocused = document.activeElement;
+          titleEl.textContent = title || 'Game';
+          host.innerHTML = '';
+          modal.style.display = 'flex';
+          modal.setAttribute('aria-hidden', 'false');
+          try { window.PEPAudio?.sfx('pop'); } catch (_) {}
+          setTimeout(() => modalBox.focus(), 0);
+        }
+        function closeGameModal() {
+          modal.style.display = 'none';
+          modal.setAttribute('aria-hidden', 'true');
+          host.innerHTML = '';
+          if (lastFocused && typeof lastFocused.focus === 'function') lastFocused.focus();
+        }
+        document.getElementById('game-modal-close').addEventListener('click', closeGameModal);
+        modal.addEventListener('mousedown', (e) => { if (e.target === modal) closeGameModal(); });
+        document.addEventListener('keydown', (e) => {
+          if (modal.style.display !== 'flex') return;
+          if (e.key === 'Escape') { closeGameModal(); return; }
+          if (e.key === 'Tab') {
+            const f = modal.querySelectorAll('a[href], button:not([disabled]), select, input, [tabindex]:not([tabindex="-1"])');
+            if (!f.length) return;
+            const first = f[0], last = f[f.length - 1];
+            if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+            else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+          }
+        });
 
         async function getBank(gradeFile) {
           if (bankCache[gradeFile]) return bankCache[gradeFile];
@@ -219,12 +302,15 @@
           return bankCache[gradeFile];
         }
 
-        // Timed drills + memory game tiles
-        document.querySelectorAll('.pep-game-tile[data-game]').forEach(tile => {
-          tile.addEventListener('click', () => {
-            const g = tile.dataset.game;
-            host.innerHTML = '';
-            host.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        function pinTitle(pin) {
+          return pin.querySelector('.map-pin__title')?.textContent?.trim() || 'Game';
+        }
+
+        /* ---------- Timed drills + memory pins ---------- */
+        document.querySelectorAll('.map-pin[data-game]').forEach(pin => {
+          pin.addEventListener('click', () => {
+            const g = pin.dataset.game;
+            openGameModal(pinTitle(pin));
             if (g === 'memory') {
               if (window.PEPMemory) PEPMemory.render(host, { pairs: 8 });
             } else {
@@ -233,7 +319,7 @@
           });
         });
 
-        // Mini-game tiles — use the registry
+        /* ---------- Mini-game pins (registry) ---------- */
         const MINI_DATA = {
           'place-value-slot':       { digits: '7459203' },
           'fraction-builder':       { target: '3/4', maxDen: 8 },
@@ -278,18 +364,17 @@
           };
         }
 
-        document.querySelectorAll('.pep-game-tile[data-mini]').forEach(tile => {
-          tile.addEventListener('click', () => {
-            const name = tile.dataset.mini;
+        document.querySelectorAll('.map-pin[data-mini]').forEach(pin => {
+          pin.addEventListener('click', () => {
+            const name = pin.dataset.mini;
             const mod = window.PEP?.getGame?.(name);
             if (!mod) return;
-            host.innerHTML = '';
-            host.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            openGameModal(pinTitle(pin));
             mod.mount(host, MINI_DATA[name] || {}, ctxFor(name));
           });
         });
 
-        // Daily challenge — pick a game based on the day so it changes daily
+        /* ---------- Daily challenge ---------- */
         const DAILY_OPTIONS = ['place-value-slot','fraction-builder','factor-tree','long-division-walker','equation-balancer','hangman','drag-to-order','definition-match-speed'];
         const day = new Date();
         const dayKey = day.getFullYear()+'-'+(day.getMonth()+1)+'-'+day.getDate();
@@ -302,75 +387,101 @@
             : {});
           const mod = window.PEP?.getGame?.(todayGame);
           if (!mod) return;
-          host.innerHTML = '';
-          host.scrollIntoView({ behavior:'smooth', block:'start' });
+          openGameModal('Daily Challenge');
           mod.mount(host, data, ctxFor(todayGame));
         });
 
-        // Chapter picker
-        const gradeSel = document.getElementById('arcade-grade');
-        const subjSel = document.getElementById('arcade-subject');
-        const chSel = document.getElementById('arcade-chapter');
-
-        function subjPrefix() {
-          // grade value -> chapter id prefix; tech only has 'tech'
-          const grade = gradeSel.value;
-          const subj = subjSel.value;
+        /* ---------- Study Lake: picker lives inside the modal ---------- */
+        function subjPrefix(grade, subj) {
           if (grade === 'technology') return 'tech-tech';
           return `g${grade.slice(-1)}-${subj}`;
         }
 
-        async function refreshChapters() {
-          const bank = await getBank(gradeSel.value);
-          const prefix = subjPrefix();
-          const ids = Object.keys(bank).filter(id => id.startsWith(prefix));
-          ids.sort((a, b) => parseInt(a.split('-').pop()) - parseInt(b.split('-').pop()));
-          chSel.innerHTML = ids.map(id => `<option value="${id}">${id.split('-').pop()}. ${bank[id].title || id}</option>`).join('')
-              || '<option value="">(no chapters)</option>';
-        }
+        function renderStudyPicker() {
+          host.innerHTML = `
+            <div class="study-picker">
+              <label>Grade:
+                <select id="arcade-grade">
+                  <option value="grade4">Grade 4</option>
+                  <option value="grade5">Grade 5</option>
+                  <option value="grade6">Grade 6</option>
+                  <option value="technology">Technology</option>
+                </select>
+              </label>
+              <label>Subject:
+                <select id="arcade-subject">
+                  <option value="sci">Science</option>
+                  <option value="soc">Social Studies</option>
+                  <option value="mat">Math</option>
+                  <option value="lan">Language Arts</option>
+                  <option value="tech">Technology</option>
+                </select>
+              </label>
+              <label>Chapter: <select id="arcade-chapter"></select></label>
+              <div class="study-picker__actions">
+                <button type="button" class="pep-btn-primary" id="arcade-flash">🗂️ Flashcards</button>
+                <button type="button" class="pep-btn-primary" id="arcade-match">🔗 Matching</button>
+                <button type="button" class="pep-btn-primary" id="arcade-memory-ch">🧠 Memory</button>
+              </div>
+            </div>`;
 
-        gradeSel.addEventListener('change', () => {
-          if (gradeSel.value === 'technology') {
-            subjSel.value = 'tech';
-            subjSel.disabled = true;
-          } else {
-            subjSel.disabled = false;
-            if (subjSel.value === 'tech') subjSel.value = 'sci';
+          const gradeSel = host.querySelector('#arcade-grade');
+          const subjSel = host.querySelector('#arcade-subject');
+          const chSel = host.querySelector('#arcade-chapter');
+
+          async function refreshChapters() {
+            const bank = await getBank(gradeSel.value);
+            const prefix = subjPrefix(gradeSel.value, subjSel.value);
+            const ids = Object.keys(bank).filter(id => id.startsWith(prefix));
+            ids.sort((a, b) => parseInt(a.split('-').pop()) - parseInt(b.split('-').pop()));
+            chSel.innerHTML = ids.map(id => `<option value="${id}">${id.split('-').pop()}. ${bank[id].title || id}</option>`).join('')
+                || '<option value="">(no chapters)</option>';
           }
+
+          gradeSel.addEventListener('change', () => {
+            if (gradeSel.value === 'technology') {
+              subjSel.value = 'tech';
+              subjSel.disabled = true;
+            } else {
+              subjSel.disabled = false;
+              if (subjSel.value === 'tech') subjSel.value = 'sci';
+            }
+            refreshChapters();
+          });
+          subjSel.addEventListener('change', refreshChapters);
+
+          // Render a game into the modal, with a "back to picker" link above it.
+          async function runStudy(kind) {
+            const bank = await getBank(gradeSel.value);
+            const id = chSel.value;
+            if (!id || !bank[id]) return;
+            host.innerHTML = '';
+            const back = document.createElement('button');
+            back.type = 'button';
+            back.className = 'study-back';
+            back.textContent = '← Pick another';
+            back.addEventListener('click', renderStudyPicker);
+            host.appendChild(back);
+            const mount = document.createElement('div');
+            host.appendChild(mount);
+            if (kind === 'flash' && window.PEPFlashcards) PEPFlashcards.render(mount, id, bank[id]);
+            else if (kind === 'match' && window.PEPMatching) PEPMatching.render(mount, id, bank[id]);
+            else if (kind === 'memory' && window.PEPMemory) PEPMemory.render(mount, { pairs: 6, chapterData: bank[id] });
+          }
+
+          host.querySelector('#arcade-flash').addEventListener('click', () => runStudy('flash'));
+          host.querySelector('#arcade-match').addEventListener('click', () => runStudy('match'));
+          host.querySelector('#arcade-memory-ch').addEventListener('click', () => runStudy('memory'));
+
           refreshChapters();
+        }
+
+        document.querySelectorAll('.map-pin[data-study]').forEach(pin => {
+          pin.addEventListener('click', () => {
+            openGameModal('Study Games');
+            renderStudyPicker();
+          });
         });
-        subjSel.addEventListener('change', refreshChapters);
-
-        async function runFlashcards() {
-          const bank = await getBank(gradeSel.value);
-          const id = chSel.value;
-          if (!id || !bank[id]) return;
-          host.innerHTML = '';
-          host.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          if (window.PEPFlashcards) PEPFlashcards.render(host, id, bank[id]);
-        }
-        async function runMatching() {
-          const bank = await getBank(gradeSel.value);
-          const id = chSel.value;
-          if (!id || !bank[id]) return;
-          host.innerHTML = '';
-          host.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          if (window.PEPMatching) PEPMatching.render(host, id, bank[id]);
-        }
-        async function runMemory() {
-          const bank = await getBank(gradeSel.value);
-          const id = chSel.value;
-          if (!id || !bank[id]) return;
-          host.innerHTML = '';
-          host.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          if (window.PEPMemory) PEPMemory.render(host, { pairs: 6, chapterData: bank[id] });
-        }
-
-        document.getElementById('arcade-flash').addEventListener('click', runFlashcards);
-        document.getElementById('arcade-match').addEventListener('click', runMatching);
-        document.getElementById('arcade-memory-ch').addEventListener('click', runMemory);
-
-        refreshChapters();
       })();
     </script>
 </body>
